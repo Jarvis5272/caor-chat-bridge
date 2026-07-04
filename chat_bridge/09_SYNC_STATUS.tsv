@@ -15,7 +15,7 @@ latest result detected	pass	results/baepc_bounded_event_identity_refinement_2026
 files copied	pass	0 source artifact files copied; bridge files generated only
 files skipped	pass	0
 large files skipped	pass	0
-missing expected files	warn	FINAL*_REPORT_CN.md, final_decision_matrix.tsv, final_artifact_manifest.tsv, no_protected_files_modified.tsv, original_bbs_unchanged_audit.tsv, leakage_audit.tsv, commands_run.sh, environment_summary.txt
+missing expected files	warn	FINAL*_REPORT_CN.md, leakage_audit.tsv
 required bridge files present	pass	14/14
 package path	pass	chat_bridge_feedback_package.zip
 git branch	pass	release/earlystop-v0.4
@@ -37,9 +37,9 @@ git status summary	pass	"M AGENTS.md
 ?? experiments/bbs_baseline_eval.py
 ?? experiments/candidate_pool_selector_eval.py
 ?? experiments"
-timestamp	pass	2026-07-04T19:46:51+08:00
-protected files modified	warn	unknown
-original BBS source modified	warn	unknown
+timestamp	pass	2026-07-04T19:48:42+08:00
+protected files modified	pass	no
+original BBS source modified	pass	no
 generated bridge files	pass	14
 read_skipped	pass	[]
 scan_skipped	pass	[]

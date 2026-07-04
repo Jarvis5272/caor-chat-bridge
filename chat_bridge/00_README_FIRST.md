@@ -27,11 +27,11 @@
 
 ## 当前 claim boundary
 
-Method-card candidate is allowed to proceed to hand toy only; not an effective decoder, not benchmark success, and not real-data proven.
+No new parameter, no W expansion, no BBS/EPBSD, no full alignment/graph, no prototype/real-data/smoke. Only revised hand toy is allowed next.
 
 ## 是否有 missing context
 
-`missing_expected_files=['FINAL*_REPORT_CN.md', 'final_decision_matrix.tsv', 'final_artifact_manifest.tsv', 'no_protected_files_modified.tsv', 'original_bbs_unchanged_audit.tsv', 'leakage_audit.tsv', 'commands_run.sh', 'environment_summary.txt']`。这些缺失项只作为上下文缺口记录；若 required bridge files 全部生成，则不阻塞 bridge 使用。
+`missing_expected_files=['FINAL*_REPORT_CN.md', 'leakage_audit.tsv']`。这些缺失项只作为上下文缺口记录；若 required bridge files 全部生成，则不阻塞 bridge 使用。
 
 ## 当前下一步
 
@@ -39,8 +39,8 @@ Review latest result artifacts and confirm whether another validation step is wa
 
 ## protected diff 状态
 
-`protected_files_modified=unknown`。本 bridge 任务只写入 `chat_bridge/` 和 `scripts/chat_bridge/`。
+`protected_files_modified=no`。本 bridge 任务只写入 `chat_bridge/` 和 `scripts/chat_bridge/`。
 
 ## original BBS source 状态
 
-`original_bbs_source_modified=unknown`。本 bridge 任务未写入 `../bbs-src` 或 BBS source。
+`original_bbs_source_modified=no`。本 bridge 任务未写入 `../bbs-src` 或 BBS source。

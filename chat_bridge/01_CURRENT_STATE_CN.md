@@ -10,11 +10,11 @@
 
 ## EPBSD / BBS acceleration 状态
 
-当前 bridge 只同步状态，不新增 EPBSD/BBS acceleration 实验。latest audit: protected=`unknown`, original_bbs=`unknown`。
+当前 bridge 只同步状态，不新增 EPBSD/BBS acceleration 实验。latest audit: protected=`no`, original_bbs=`no`。
 
 ## baseline-aware / independent algorithm 状态
 
-当前 active track: `missing`。根据 latest gate，当前结论是 `BAEPC_EVENT_IDENTITY_REFINEMENT_GO_TO_HAND_TOY`。
+当前 active track: `missing`。根据 latest gate，当前结论是 `# Stage 0 gate PASS: proceed to theory-only bounded event identity review. No experiment/smoke/benchmark is allowed.`。
 
 ## 当前 active candidate
 
@@ -22,7 +22,7 @@
 
 ## 当前 gate
 
-BAEPC_EVENT_IDENTITY_REFINEMENT_GO_TO_HAND_TOY
+# Stage 0 gate PASS: proceed to theory-only bounded event identity review. No experiment/smoke/benchmark is allowed.
 
 ## 当前最大风险
 

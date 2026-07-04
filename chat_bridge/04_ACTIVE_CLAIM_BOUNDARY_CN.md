@@ -4,7 +4,7 @@
 
 - 当前结果是 metadata-only 同步快照，latest result 为 `results/baepc_bounded_event_identity_refinement_20260704`。
 - latest final label 是 `BAEPC_EVENT_IDENTITY_REFINEMENT_GO_TO_HAND_TOY`。
-- 当前 claim boundary 是：Method-card candidate is allowed to proceed to hand toy only; not an effective decoder, not benchmark success, and not real-data proven.
+- 当前 claim boundary 是：No new parameter, no W expansion, no BBS/EPBSD, no full alignment/graph, no prototype/real-data/smoke. Only revised hand toy is allowed next.
 
 ## 不能说
 

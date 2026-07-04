@@ -17,7 +17,7 @@ ChatGPT should first read:
 
 ## Claim Boundary
 
-Method-card candidate is allowed to proceed to hand toy only; not an effective decoder, not benchmark success, and not real-data proven.
+No new parameter, no W expansion, no BBS/EPBSD, no full alignment/graph, no prototype/real-data/smoke. Only revised hand toy is allowed next.
 
 ## Next Action
 
