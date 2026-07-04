@@ -36,6 +36,19 @@ python scripts/chat_bridge/refresh_bridge_export.py \
   if [[ ! -d .git ]]; then
     git init
   fi
+  push_status="not_attempted_no_remote"
+  push_remote=""
+  push_branch="$(git branch --show-current 2>/dev/null || true)"
+  if git remote get-url origin >/dev/null 2>&1; then
+    push_remote="$(git remote get-url origin)"
+    push_status="pending_push"
+  fi
+  {
+    printf 'item\tstatus\tdetails\n'
+    printf 'push_status\t%s\t%s\n' "$push_status" "$push_remote"
+    printf 'push_branch\t%s\t%s\n' "${push_branch:-none}" "${push_branch:-none}"
+    printf 'commit_hash\tpending\tupdated_after_commit\n'
+  } > PUSH_STATUS.tsv
   git add .
   if ! git diff --cached --quiet; then
     git commit -m "Update ChatGPT-Codex bridge snapshot" || (
@@ -47,27 +60,12 @@ python scripts/chat_bridge/refresh_bridge_export.py \
     echo "No export changes to commit."
   fi
 
-  push_status="not_attempted_no_remote"
-  push_remote=""
-  push_branch="$(git branch --show-current)"
   if git remote get-url origin >/dev/null 2>&1; then
-    push_remote="$(git remote get-url origin)"
     if git push -u origin HEAD; then
-      push_status="pushed"
+      echo "EXPORT_PUSH_STATUS=pushed"
     else
-      push_status="push_failed"
+      echo "EXPORT_PUSH_STATUS=push_failed"
     fi
-  fi
-
-  {
-    printf 'item\tstatus\tdetails\n'
-    printf 'push_status\t%s\t%s\n' "$push_status" "$push_remote"
-    printf 'push_branch\t%s\t%s\n' "${push_branch:-none}" "${push_branch:-none}"
-    printf 'commit_hash\tpass\t%s\n' "$(git rev-parse HEAD)"
-  } > PUSH_STATUS.tsv
-  git add PUSH_STATUS.tsv
-  if ! git diff --cached --quiet; then
-    git commit -m "Record bridge export push status" || true
   fi
 )
 

@@ -71,6 +71,9 @@ python scripts/chat_bridge/refresh_bridge_export.py \
       git commit -m "Finalize Codex bridge feedback"
     )
   fi
+  if git remote get-url origin >/dev/null 2>&1; then
+    git push -u origin HEAD || echo "EXPORT_PUSH_STATUS=push_failed"
+  fi
 )
 
 if [[ "$bridge_status" == "bridge_failed_blocking" ]]; then
