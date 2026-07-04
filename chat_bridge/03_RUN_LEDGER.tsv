@@ -1,5 +1,5 @@
 timestamp	final_label	output_dir	candidate_or_track	stage_reached	gate_decision	target_met	claim_boundary	protected_files_modified	original_bbs_source_modified	data_modified	notes
-2026-07-05T00:06:52+08:00	SPWIC_HAND_TOY_PASS_GO_TO_TOY_ONLY_PROTOTYPE	results/spwic_identity_certificate_hand_toy_20260704	SPWIC sparse paired-witness identity certificate hand toy	任务目的; 上游状态; SPWIC 规则; Main Toy; Constructive Hand Toys; Rejected / Low-Confidence Cases	# Stage 0 Gate Decision Decision: `PASS_TO_SPWIC_HAND_TOY_AUDIT` Evidence: - Latest upstream synthesis label is `IDENTITY_CERTIFICATE_READY_FOR_HAND_TOY`. - Selected primary certificate is SPWIC. - This task is hand toy only and does not pe	yes	"可以说：
+2026-07-05T00:07:37+08:00	SPWIC_HAND_TOY_PASS_GO_TO_TOY_ONLY_PROTOTYPE	results/spwic_identity_certificate_hand_toy_20260704	SPWIC sparse paired-witness identity certificate hand toy	任务目的; 上游状态; SPWIC 规则; Main Toy; Constructive Hand Toys; Rejected / Low-Confidence Cases	# Stage 0 Gate Decision Decision: `PASS_TO_SPWIC_HAND_TOY_AUDIT` Evidence: - Latest upstream synthesis label is `IDENTITY_CERTIFICATE_READY_FOR_HAND_TOY`. - Selected primary certificate is SPWIC. - This task is hand toy only and does not pe	yes	"可以说：
 
 - SPWIC hand toy 规则具体；
 - hand toy 上有 9 个 constructive recovery；
