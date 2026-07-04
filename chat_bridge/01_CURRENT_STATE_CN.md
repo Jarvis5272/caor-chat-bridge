@@ -2,11 +2,11 @@
 
 ## 实时故事状态
 
-最新结果目录 `results/tpc_ocwp_real_data_validation_20260704` 显示当前主线仍处在同步/拒绝/风险门控阶段；最新 label 是 `TPC_OCWP_REAL_SYNC_STOP_GLOBAL_SEARCH_REQUIRED`。
+最新结果目录 `results/algorithm_state_freeze_and_next_strategy_from_bridge_20260704` 显示当前主线仍处在同步/拒绝/风险门控阶段；最新 label 是 `missing`。
 
 ## clean IDS 数据状态
 
-最新结果记录的数据状态来自 `results/tpc_ocwp_real_data_validation_20260704`。若报告中的 input scope 不完整，以源 artifact 为准，不在 bridge 中编造。
+最新结果记录的数据状态来自 `results/algorithm_state_freeze_and_next_strategy_from_bridge_20260704`。若报告中的 input scope 不完整，以源 artifact 为准，不在 bridge 中编造。
 
 ## EPBSD / BBS acceleration 状态
 
@@ -14,15 +14,15 @@
 
 ## BBS-free independent algorithm 状态
 
-当前 active track: `TPC+OCWP real-data synchronization dry-run`。根据 latest gate，当前结论是 `SKIPPED: sync gate did not pass (TPC_OCWP_REAL_SYNC_STOP_GLOBAL_SEARCH_REQUIRED); small reconstruction smoke not allowed.`。
+当前 active track: `Freeze current algorithm state from ChatGPT bridge and prepare next strategy`。根据 latest gate，当前结论是 `missing`。
 
 ## 当前 active candidate
 
-`TPC+OCWP real-data synchronization dry-run`
+`Freeze current algorithm state from ChatGPT bridge and prepare next strategy`
 
 ## 当前 gate
 
-SKIPPED: sync gate did not pass (TPC_OCWP_REAL_SYNC_STOP_GLOBAL_SEARCH_REQUIRED); small reconstruction smoke not allowed.
+missing
 
 ## 当前最大风险
 

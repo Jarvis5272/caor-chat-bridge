@@ -1,7 +1,7 @@
 protected_path	modified	status	notes
-experiments/streaming_slim_generalization_eval.py	no	pass	not written
-src/pipeline/sparse_viterbi_dbg.py	no	pass	not written
-src/pipeline/	no	pass	not written
-baseline/	no	pass	not written
-external_baselines/	no	pass	not written
-frozen/	no	pass	not written
+experiments/streaming_slim_generalization_eval.py	no	pass	not written by this task
+src/pipeline/sparse_viterbi_dbg.py	no	pass	not written by this task
+src/pipeline/	no	pass	not written by this task
+baseline/	no	pass	not written by this task
+external_baselines/	no	pass	not written by this task
+frozen/	no	pass	not written by this task

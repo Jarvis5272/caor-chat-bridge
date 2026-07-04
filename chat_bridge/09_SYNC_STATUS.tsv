@@ -1,16 +1,16 @@
 item	status	details
-requested_latest_result	pass	results/tpc_ocwp_real_data_validation_20260704
-used_latest_result	pass	results/tpc_ocwp_real_data_validation_20260704
+requested_latest_result	pass	results/algorithm_state_freeze_and_next_strategy_from_bridge_20260704
+used_latest_result	pass	results/algorithm_state_freeze_and_next_strategy_from_bridge_20260704
 auto_detected	no	false
 reason	pass	requested latest result exists and was used
-latest result requested	pass	results/tpc_ocwp_real_data_validation_20260704
-latest result used	pass	results/tpc_ocwp_real_data_validation_20260704
+latest result requested	pass	results/algorithm_state_freeze_and_next_strategy_from_bridge_20260704
+latest result used	pass	results/algorithm_state_freeze_and_next_strategy_from_bridge_20260704
 latest result detection mode	explicit	False
-latest result detected	pass	results/tpc_ocwp_real_data_validation_20260704
+latest result detected	pass	results/algorithm_state_freeze_and_next_strategy_from_bridge_20260704
 files copied	pass	0 source artifact files copied; bridge files generated only
-files skipped	pass	6
-large files skipped	pass	6
-missing expected files	warn	FINAL*_REPORT_CN.md, final_decision_matrix.tsv
+files skipped	pass	0
+large files skipped	pass	0
+missing expected files	warn	leakage_audit.tsv
 required bridge files present	pass	14/14
 package path	pass	chat_bridge_feedback_package.zip
 git branch	pass	release/earlystop-v0.4
@@ -32,9 +32,9 @@ git status summary	pass	"M AGENTS.md
 ?? experiments/bbs_baseline_eval.py
 ?? experiments/candidate_pool_selector_eval.py
 ?? experiments"
-timestamp	pass	2026-07-04T14:28:29+08:00
+timestamp	pass	2026-07-04T14:37:56+08:00
 protected files modified	pass	no
 original BBS source modified	pass	no
 generated bridge files	pass	14
 read_skipped	pass	[]
-scan_skipped	pass	"[{""path"": ""results/tpc_ocwp_real_data_validation_20260704/real_sync_per_prefix_statistics.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 583743}, {""path"": ""results/tpc_ocwp_real_data_validation_20260704/real_ocwp_witness_trace_sample.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 112385}, {""path"": ""results/tpc_ocwp_real_data_validation_20260704/real_sync_selection.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 318278}, {""path"": ""results/tpc_ocwp_real_data_validation_20260704/tpc_ocwp_real_constructive_recovery_audit.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 389689}, {""path"": ""results/tpc_ocwp_real_data_validation_20260704/real_residual_trace_sample.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 77578}, {""path"": ""results/tpc_ocwp_real_data_validation_20260704/offline_silent_error_risk_audit.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 404768}]"
+scan_skipped	pass	[]

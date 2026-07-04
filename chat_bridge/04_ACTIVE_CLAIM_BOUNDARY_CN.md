@@ -2,8 +2,8 @@
 
 ## 可以说
 
-- 当前结果是 metadata-only 同步快照，latest result 为 `results/tpc_ocwp_real_data_validation_20260704`。
-- latest final label 是 `TPC_OCWP_REAL_SYNC_STOP_GLOBAL_SEARCH_REQUIRED`。
+- 当前结果是 metadata-only 同步快照，latest result 为 `results/algorithm_state_freeze_and_next_strategy_from_bridge_20260704`。
+- latest final label 是 `missing`。
 - 可以说这是 BBS-free sync dry-run 状态同步，不是新的实验或 benchmark。
 
 ## 不能说

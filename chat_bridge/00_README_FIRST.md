@@ -6,15 +6,15 @@
 
 ## 当前主线状态
 
-最新自动检测结果为 `results/tpc_ocwp_real_data_validation_20260704`；当前最新 Codex label 为 `TPC_OCWP_REAL_SYNC_STOP_GLOBAL_SEARCH_REQUIRED`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT`。
+最新自动检测结果为 `results/algorithm_state_freeze_and_next_strategy_from_bridge_20260704`；当前最新 Codex label 为 `missing`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT`。
 
 ## 最新 Codex final label
 
-`TPC_OCWP_REAL_SYNC_STOP_GLOBAL_SEARCH_REQUIRED`
+`missing`
 
 ## 最新输出目录
 
-`results/tpc_ocwp_real_data_validation_20260704`
+`results/algorithm_state_freeze_and_next_strategy_from_bridge_20260704`
 
 ## ChatGPT 应先读哪些文件
 
@@ -27,15 +27,15 @@
 
 ## 当前 claim boundary
 
-This is a BBS-free sync dry-run. It does not claim reconstruction benchmark quality. Low-confidence/refusal is not counted as decoder success.
+可以说当前有扎实的状态同步、数据/协议资产、工程加速和负结果证据。不能说已经找到 clean simple decoder、BBS-free decoder、TPC+OCWP success、BBS replacement 或 formal integration。
 
 ## 是否有 missing context
 
-`missing_expected_files=['FINAL*_REPORT_CN.md', 'final_decision_matrix.tsv']`。这些缺失项只作为上下文缺口记录；若 required bridge files 全部生成，则不阻塞 bridge 使用。
+`missing_expected_files=['leakage_audit.tsv']`。这些缺失项只作为上下文缺口记录；若 required bridge files 全部生成，则不阻塞 bridge 使用。
 
 ## 当前下一步
 
-Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.
+Review latest result artifacts and confirm whether another validation step is warranted.
 
 ## protected diff 状态
 
