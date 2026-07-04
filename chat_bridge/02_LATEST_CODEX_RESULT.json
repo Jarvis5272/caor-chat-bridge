@@ -3,7 +3,7 @@
   "auto_detected_latest_result": false,
   "blocking_missing": false,
   "bridge_workflow_final_label": "CHAT_BRIDGE_WORKFLOW_INITIALIZED",
-  "claim_boundary": "Online state machine 只读取 observed reads。Hidden target 只在 offline toy audit 中用于 ED/exact。没有 BBS output、BBS score/beam/pruning/path likelihood、EPBSD kernel、STWC/CAOR core、dataset/source route、full alignment、POA 或 graph。",
+  "claim_boundary": "BAEPC toy-only prototype passed on declared toy cases; not real-data proven, not smoke, not benchmark, and not decoder success on CleanIDS.",
   "completed_stages": [
     "本任务目的",
     "Toy-only Boundary",
@@ -41,10 +41,10 @@
   "latest_result_used": "results/baepc_toy_only_prototype_20260704",
   "main_metrics": {},
   "missing_expected_files": [],
-  "next_action": "Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.",
+  "next_action": "Real-data synchronization dry-run is allowed next with explicit user approval; no smoke, benchmark, or algorithm success claim.",
   "original_bbs_source_modified": "no",
   "output_dir": "results/baepc_toy_only_prototype_20260704",
   "protected_files_modified": "no",
   "selected_candidate": "BAEPC toy-only prototype",
-  "timestamp": "2026-07-04T18:15:53+08:00"
+  "timestamp": "2026-07-04T18:16:12+08:00"
 }

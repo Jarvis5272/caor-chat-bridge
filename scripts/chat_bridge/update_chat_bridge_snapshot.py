@@ -456,7 +456,12 @@ def build_snapshot(args: argparse.Namespace) -> dict[str, Any]:
     if candidate == "missing":
         candidate = "TPC+OCWP real-data synchronization dry-run" if "TPC+OCWP" in report_text else "missing"
     claim_boundary = extract_section(report_text, "Claim boundary") or extract_section(report_text, "Boundary")
-    if not claim_boundary:
+    if "BAEPC_TOY_PASS_GO_TO_REAL_DATA_SYNC_DRYRUN" in final_label:
+        claim_boundary = (
+            "BAEPC toy-only prototype passed on declared toy cases; not real-data proven, "
+            "not smoke, not benchmark, and not decoder success on CleanIDS."
+        )
+    elif not claim_boundary:
         if "HAND_TOY" in final_label:
             claim_boundary = (
                 "Method-card candidate is allowed to proceed to hand toy only; "
@@ -467,7 +472,12 @@ def build_snapshot(args: argparse.Namespace) -> dict[str, Any]:
                 "BBS-free sync dry-run only. No reconstruction benchmark-quality claim; "
                 "low-confidence/refusal is not decoder success."
             )
-    if "HAND_TOY_PASS_GO_TO_TOY_ONLY_PROTOTYPE" in final_label:
+    if "BAEPC_TOY_PASS_GO_TO_REAL_DATA_SYNC_DRYRUN" in final_label:
+        next_action = (
+            "Real-data synchronization dry-run is allowed next with explicit user approval; "
+            "no smoke, benchmark, or algorithm success claim."
+        )
+    elif "HAND_TOY_PASS_GO_TO_TOY_ONLY_PROTOTYPE" in final_label:
         next_action = (
             "Toy-only prototype is allowed next with explicit user approval; "
             "no real-data dry-run, smoke, or benchmark."

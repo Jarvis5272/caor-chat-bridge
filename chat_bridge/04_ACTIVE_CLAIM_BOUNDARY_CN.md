@@ -4,7 +4,7 @@
 
 - 当前结果是 metadata-only 同步快照，latest result 为 `results/baepc_toy_only_prototype_20260704`。
 - latest final label 是 `BAEPC_TOY_PASS_GO_TO_REAL_DATA_SYNC_DRYRUN`。
-- 当前 claim boundary 是：Online state machine 只读取 observed reads。Hidden target 只在 offline toy audit 中用于 ED/exact。没有 BBS output、BBS score/beam/pruning/path likelihood、EPBSD kernel、STWC/CAOR core、dataset/source route、full alignment、POA 或 graph。
+- 当前 claim boundary 是：BAEPC toy-only prototype passed on declared toy cases; not real-data proven, not smoke, not benchmark, and not decoder success on CleanIDS.
 
 ## 不能说
 

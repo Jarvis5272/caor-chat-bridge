@@ -27,7 +27,7 @@
 
 ## 当前 claim boundary
 
-Online state machine 只读取 observed reads。Hidden target 只在 offline toy audit 中用于 ED/exact。没有 BBS output、BBS score/beam/pruning/path likelihood、EPBSD kernel、STWC/CAOR core、dataset/source route、full alignment、POA 或 graph。
+BAEPC toy-only prototype passed on declared toy cases; not real-data proven, not smoke, not benchmark, and not decoder success on CleanIDS.
 
 ## 是否有 missing context
 
@@ -35,7 +35,7 @@ Online state machine 只读取 observed reads。Hidden target 只在 offline toy
 
 ## 当前下一步
 
-Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.
+Real-data synchronization dry-run is allowed next with explicit user approval; no smoke, benchmark, or algorithm success claim.
 
 ## protected diff 状态
 
