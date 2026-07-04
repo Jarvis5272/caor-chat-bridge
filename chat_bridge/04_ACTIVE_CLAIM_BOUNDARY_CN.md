@@ -2,9 +2,9 @@
 
 ## 可以说
 
-- 当前结果是 metadata-only 同步快照，latest result 为 `results/baepc_hand_toy_audit_20260704`。
-- latest final label 是 `BAEPC_HAND_TOY_PASS_GO_TO_TOY_ONLY_PROTOTYPE`。
-- 当前 claim boundary 是：Method-card candidate is allowed to proceed to hand toy only; not an effective decoder, not benchmark success, and not real-data proven.
+- 当前结果是 metadata-only 同步快照，latest result 为 `results/baepc_toy_only_prototype_20260704`。
+- latest final label 是 `BAEPC_TOY_PASS_GO_TO_REAL_DATA_SYNC_DRYRUN`。
+- 当前 claim boundary 是：Online state machine 只读取 observed reads。Hidden target 只在 offline toy audit 中用于 ED/exact。没有 BBS output、BBS score/beam/pruning/path likelihood、EPBSD kernel、STWC/CAOR core、dataset/source route、full alignment、POA 或 graph。
 
 ## 不能说
 

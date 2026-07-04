@@ -1,7 +1,7 @@
 protected_path	modified	status	notes
-experiments/streaming_slim_generalization_eval.py		not_modified_by_this_task	Git status may show pre-existing untracked path; this hand-toy audit did not edit it
-src/pipeline/sparse_viterbi_dbg.py		not_modified_by_this_task	Git status may show pre-existing untracked path; this hand-toy audit did not edit it
-src/pipeline/		not_modified_by_this_task	Git status may show pre-existing untracked files; this hand-toy audit did not edit them
-baseline/		not_modified_by_this_task	No baseline source edits made by this hand-toy audit
-external_baselines/		not_modified_by_this_task	Git status may show pre-existing untracked directory; this hand-toy audit did not edit it
-frozen/		not_modified_by_this_task	Git status may show pre-existing untracked directory; this hand-toy audit did not edit it
+experiments/streaming_slim_generalization_eval.py		not_modified_by_this_task	toy-only prototype wrote only isolated scripts/results
+src/pipeline/sparse_viterbi_dbg.py		not_modified_by_this_task	
+src/pipeline/		not_modified_by_this_task	pre-existing untracked files may exist; not edited here
+baseline/		not_modified_by_this_task	
+external_baselines/		not_modified_by_this_task	
+frozen/		not_modified_by_this_task	

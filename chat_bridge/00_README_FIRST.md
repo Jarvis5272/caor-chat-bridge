@@ -6,15 +6,15 @@
 
 ## 当前主线状态
 
-最新自动检测结果为 `results/baepc_hand_toy_audit_20260704`；当前最新 Codex label 为 `BAEPC_HAND_TOY_PASS_GO_TO_TOY_ONLY_PROTOTYPE`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED`。
+最新自动检测结果为 `results/baepc_toy_only_prototype_20260704`；当前最新 Codex label 为 `BAEPC_TOY_PASS_GO_TO_REAL_DATA_SYNC_DRYRUN`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED`。
 
 ## 最新 Codex final label
 
-`BAEPC_HAND_TOY_PASS_GO_TO_TOY_ONLY_PROTOTYPE`
+`BAEPC_TOY_PASS_GO_TO_REAL_DATA_SYNC_DRYRUN`
 
 ## 最新输出目录
 
-`results/baepc_hand_toy_audit_20260704`
+`results/baepc_toy_only_prototype_20260704`
 
 ## ChatGPT 应先读哪些文件
 
@@ -27,7 +27,7 @@
 
 ## 当前 claim boundary
 
-Method-card candidate is allowed to proceed to hand toy only; not an effective decoder, not benchmark success, and not real-data proven.
+Online state machine 只读取 observed reads。Hidden target 只在 offline toy audit 中用于 ED/exact。没有 BBS output、BBS score/beam/pruning/path likelihood、EPBSD kernel、STWC/CAOR core、dataset/source route、full alignment、POA 或 graph。
 
 ## 是否有 missing context
 
@@ -35,7 +35,7 @@ Method-card candidate is allowed to proceed to hand toy only; not an effective d
 
 ## 当前下一步
 
-Toy-only prototype is allowed next with explicit user approval; no real-data dry-run, smoke, or benchmark.
+Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.
 
 ## protected diff 状态
 

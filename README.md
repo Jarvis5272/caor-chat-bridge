@@ -12,16 +12,16 @@ ChatGPT should first read:
 
 ## Current Latest Result
 
-- latest result: `results/baepc_hand_toy_audit_20260704`
-- latest final label: `BAEPC_HAND_TOY_PASS_GO_TO_TOY_ONLY_PROTOTYPE`
+- latest result: `results/baepc_toy_only_prototype_20260704`
+- latest final label: `BAEPC_TOY_PASS_GO_TO_REAL_DATA_SYNC_DRYRUN`
 
 ## Claim Boundary
 
-Method-card candidate is allowed to proceed to hand toy only; not an effective decoder, not benchmark success, and not real-data proven.
+Online state machine 只读取 observed reads。Hidden target 只在 offline toy audit 中用于 ED/exact。没有 BBS output、BBS score/beam/pruning/path likelihood、EPBSD kernel、STWC/CAOR core、dataset/source route、full alignment、POA 或 graph。
 
 ## Next Action
 
-Toy-only prototype is allowed next with explicit user approval; no real-data dry-run, smoke, or benchmark.
+Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.
 
 ## If Linking From GitHub
 
