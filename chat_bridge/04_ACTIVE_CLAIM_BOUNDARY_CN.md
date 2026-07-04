@@ -2,9 +2,9 @@
 
 ## 可以说
 
-- 当前结果是 metadata-only 同步快照，latest result 为 `results/chat_bridge_transactional_finalize_hardened_20260704`。
-- latest final label 是 `CHAT_BRIDGE_TRANSACTIONAL_FINALIZE_HARDENED`。
-- 当前 claim boundary 是：BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
+- 当前结果是 metadata-only 同步快照，latest result 为 `results/baepc_real_data_sync_dryrun_20260704`。
+- latest final label 是 `BAEPC_REAL_SYNC_STOP_COMPLEXITY_TOO_HIGH`。
+- 当前 claim boundary 是：This is a dry-run synchronization/posterior audit only. It does not establish reconstruction quality success and does not modify protected/original BBS sources.
 
 ## 不能说
 

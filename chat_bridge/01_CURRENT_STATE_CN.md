@@ -2,11 +2,11 @@
 
 ## 实时故事状态
 
-最新结果目录 `results/chat_bridge_transactional_finalize_hardened_20260704` 是当前 latest result；最新 label 是 `CHAT_BRIDGE_TRANSACTIONAL_FINALIZE_HARDENED`。
+最新结果目录 `results/baepc_real_data_sync_dryrun_20260704` 是当前 latest result；最新 label 是 `BAEPC_REAL_SYNC_STOP_COMPLEXITY_TOO_HIGH`。
 
 ## clean IDS 数据状态
 
-最新结果记录的数据状态来自 `results/chat_bridge_transactional_finalize_hardened_20260704`。若报告中的 input scope 不完整，以源 artifact 为准，不在 bridge 中编造。
+最新结果记录的数据状态来自 `results/baepc_real_data_sync_dryrun_20260704`。若报告中的 input scope 不完整，以源 artifact 为准，不在 bridge 中编造。
 
 ## EPBSD / BBS acceleration 状态
 
@@ -14,15 +14,15 @@
 
 ## baseline-aware / independent algorithm 状态
 
-当前 active track: `Harden ChatGPT-Codex bridge into strict transactional finalize workflow`。根据 latest gate，当前结论是 `CHAT_BRIDGE_TRANSACTIONAL_FINALIZE_HARDENED`。
+当前 active track: `missing`。根据 latest gate，当前结论是 `# Stage 0 gate PASS: required BAEPC toy/method-card context readable; clean IDS data path uses recorded fallback where needed.`。
 
 ## 当前 active candidate
 
-`Harden ChatGPT-Codex bridge into strict transactional finalize workflow`
+`missing`
 
 ## 当前 gate
 
-CHAT_BRIDGE_TRANSACTIONAL_FINALIZE_HARDENED
+# Stage 0 gate PASS: required BAEPC toy/method-card context readable; clean IDS data path uses recorded fallback where needed.
 
 ## 当前最大风险
 

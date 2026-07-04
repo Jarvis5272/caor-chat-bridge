@@ -1,16 +1,12 @@
 {
-  "artifact_manifest_path": "results/chat_bridge_transactional_finalize_hardened_20260704/final_artifact_manifest.tsv",
+  "artifact_manifest_path": "results/baepc_real_data_sync_dryrun_20260704/final_artifact_manifest.tsv",
   "auto_detected_latest_result": false,
   "blocking_missing": false,
   "bridge_consistency_status": "generated_pending_validation",
-  "bridge_workflow_final_label": "CHAT_BRIDGE_WORKFLOW_INITIALIZED",
-  "claim_boundary": "BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.",
+  "bridge_workflow_final_label": "CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT",
+  "claim_boundary": "This is a dry-run synchronization/posterior audit only. It does not establish reconstruction quality success and does not modify protected/original BBS sources.",
   "completed_stages": [
-    "目的",
-    "已实现",
-    "测试",
-    "安全审计",
-    "以后必须使用"
+    "stage0_gate_decision"
   ],
   "data_modified": "no_by_bridge_task",
   "explicit_latest_result_used": true,
@@ -21,24 +17,41 @@
     "chat_bridge/04_ACTIVE_CLAIM_BOUNDARY_CN.md",
     "chat_bridge/05_NEXT_ACTION_CN.md",
     "chat_bridge/09_SYNC_STATUS.tsv",
-    "results/chat_bridge_transactional_finalize_hardened_20260704/FINAL_CHAT_BRIDGE_TRANSACTIONAL_FINALIZE_REPORT_CN.md",
-    "results/chat_bridge_transactional_finalize_hardened_20260704/CHAT_BRIDGE_TRANSACTIONAL_FINALIZE_REPORT_CN.md",
-    "results/chat_bridge_transactional_finalize_hardened_20260704/final_decision_matrix.tsv",
-    "results/chat_bridge_transactional_finalize_hardened_20260704/final_artifact_manifest.tsv",
-    "results/chat_bridge_transactional_finalize_hardened_20260704/no_protected_files_modified.tsv",
-    "results/chat_bridge_transactional_finalize_hardened_20260704/original_bbs_unchanged_audit.tsv"
+    "results/baepc_real_data_sync_dryrun_20260704/BAEPC_REAL_DATA_SYNC_DRYRUN_REPORT_CN.md",
+    "results/baepc_real_data_sync_dryrun_20260704/BAEPC_REAL_SYNC_GO_NO_GO_CN.md",
+    "results/baepc_real_data_sync_dryrun_20260704/baepc_real_sync_gate_matrix.tsv",
+    "results/baepc_real_data_sync_dryrun_20260704/stage0_gate_decision.md",
+    "results/baepc_real_data_sync_dryrun_20260704/final_decision_matrix.tsv",
+    "results/baepc_real_data_sync_dryrun_20260704/final_artifact_manifest.tsv"
   ],
-  "final_label": "CHAT_BRIDGE_TRANSACTIONAL_FINALIZE_HARDENED",
-  "gate_decision": "CHAT_BRIDGE_TRANSACTIONAL_FINALIZE_HARDENED",
-  "large_files_skipped_count": 0,
-  "latest_result_requested": "results/chat_bridge_transactional_finalize_hardened_20260704",
-  "latest_result_used": "results/chat_bridge_transactional_finalize_hardened_20260704",
-  "main_metrics": {},
-  "missing_expected_files": [],
-  "next_action": "Review latest result artifacts and confirm whether another validation step is warranted.",
+  "final_label": "BAEPC_REAL_SYNC_STOP_COMPLEXITY_TOO_HIGH",
+  "gate_decision": "# Stage 0 gate PASS: required BAEPC toy/method-card context readable; clean IDS data path uses recorded fallback where needed.",
+  "large_files_skipped_count": 11,
+  "latest_result_requested": "results/baepc_real_data_sync_dryrun_20260704",
+  "latest_result_used": "results/baepc_real_data_sync_dryrun_20260704",
+  "main_metrics": {
+    "aggregate_summary": {
+      "accepted_event_rows": "35",
+      "exact_rate": "0.305914972",
+      "full_alignment_risk_rate": "0.620147874",
+      "mean_ED": "6.581331",
+      "mean_accuracy": "0.948719093",
+      "mean_delta_ED_vs_medoid": "1.276340",
+      "mean_delta_ED_vs_scaffold": "-0.013401",
+      "num_prefix_rows": "2164",
+      "output_length_abnormal_rate": "0.003696858",
+      "scope": "all_rows",
+      "stable_or_recovery_or_low_confidence_rate": "0.346118299",
+      "status_counts_json": "{\"ambiguous_repeat\": 65, \"full_alignment_risk\": 1342, \"low_confidence_but_completed\": 176, \"output_length_abnormal\": 8, \"stable_posterior_consensus\": 134, \"stable_with_constructive_recovery\": 14, \"stable_with_low_confidence\": 425}"
+    }
+  },
+  "missing_expected_files": [
+    "FINAL*_REPORT_CN.md"
+  ],
+  "next_action": "Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.",
   "original_bbs_source_modified": "no",
-  "output_dir": "results/chat_bridge_transactional_finalize_hardened_20260704",
+  "output_dir": "results/baepc_real_data_sync_dryrun_20260704",
   "protected_files_modified": "no",
-  "selected_candidate": "Harden ChatGPT-Codex bridge into strict transactional finalize workflow",
-  "timestamp": "2026-07-04T18:37:12+08:00"
+  "selected_candidate": "missing",
+  "timestamp": "2026-07-04T19:06:02+08:00"
 }

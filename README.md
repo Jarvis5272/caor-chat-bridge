@@ -12,16 +12,16 @@ ChatGPT should first read:
 
 ## Current Latest Result
 
-- latest result: `results/chat_bridge_transactional_finalize_hardened_20260704`
-- latest final label: `CHAT_BRIDGE_TRANSACTIONAL_FINALIZE_HARDENED`
+- latest result: `results/baepc_real_data_sync_dryrun_20260704`
+- latest final label: `BAEPC_REAL_SYNC_STOP_COMPLEXITY_TOO_HIGH`
 
 ## Claim Boundary
 
-BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
+This is a dry-run synchronization/posterior audit only. It does not establish reconstruction quality success and does not modify protected/original BBS sources.
 
 ## Next Action
 
-Review latest result artifacts and confirm whether another validation step is warranted.
+Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.
 
 ## If Linking From GitHub
 

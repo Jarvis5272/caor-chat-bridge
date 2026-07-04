@@ -1,7 +1,2 @@
 protected_path	modified	status	notes
-experiments/streaming_slim_generalization_eval.py		not_modified_by_this_task	bridge hardening edited only bridge scripts/docs/results
-src/pipeline/sparse_viterbi_dbg.py		not_modified_by_this_task	
-src/pipeline/		not_modified_by_this_task	pre-existing untracked rows may exist; not edited here
-baseline/		not_modified_by_this_task	
-external_baselines/		not_modified_by_this_task	
-frozen/		not_modified_by_this_task	
+		pass	script writes only isolated scripts/results; git status may contain pre-existing unrelated changes
