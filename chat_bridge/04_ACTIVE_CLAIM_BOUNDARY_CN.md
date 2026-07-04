@@ -1,0 +1,28 @@
+# Active Claim Boundary
+
+## 可以说
+
+- 当前结果是 metadata-only 同步快照，latest result 为 `results/tpc_ocwp_real_data_validation_20260704`。
+- latest final label 是 `TPC_OCWP_REAL_SYNC_STOP_GLOBAL_SEARCH_REQUIRED`。
+- 可以说这是 BBS-free sync dry-run 状态同步，不是新的实验或 benchmark。
+
+## 不能说
+
+- 不能说当前结果证明 reconstruction benchmark 质量成功。
+- 不能把 low-confidence/refusal 计为 decoder success。
+- 不能声称 protected code、原始数据或 original BBS source 在本轮被修改。
+
+## 只能作为工程结果
+
+- `chat_bridge/` 是 ChatGPT-Codex 状态同步层。
+- 大文件、raw data、secret-like 文件不会被复制进 bridge。
+
+## 只能作为负证据
+
+- gate fail / stop label 只能作为当前路线需要修正的证据。
+- missing expected files 只能作为上下文缺失，不能补写结论。
+
+## 需要进一步验证
+
+- 若要继续实验、修改候选机制或进入 reconstruction smoke，需要另行批准并保留新的 result dir。
+- 对 latest result 的 claim 应由 ChatGPT 审查 `chat_bridge/06_FILES_FOR_REVIEW.tsv` 中列出的源文件。
