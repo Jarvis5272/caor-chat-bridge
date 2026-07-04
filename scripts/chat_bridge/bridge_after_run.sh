@@ -103,6 +103,11 @@ echo "Raw link after push: https://raw.githubusercontent.com/Jarvis5272/caor-cha
 echo
 echo "=== Recommended standalone bridge Git commands ==="
 echo 'cd chat_bridge_export'
-echo 'git remote add origin https://github.com/Jarvis5272/caor-chat-bridge.git'
-echo 'git branch -M main'
-echo 'git push -u origin main'
+if [[ -n "$bridge_remote_url" ]]; then
+  echo "git remote remove origin >/dev/null 2>&1 || true"
+  echo "git remote add origin $bridge_remote_url"
+else
+  echo 'git remote add origin <YOUR_PUBLIC_BRIDGE_REPO_URL>'
+fi
+echo "git branch -M $bridge_branch"
+echo "git push -u origin $bridge_branch"
