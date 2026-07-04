@@ -23,6 +23,7 @@ git status summary	pass	"M AGENTS.md
  M PROJECT_CONTEXT.md
  M TASK_STATE.md
 ?? chat_bridge/
+?? chat_bridge_export/
 ?? chat_bridge_feedback_package.zip
 ?? experiments/anchor_aware_dsbr_eval.py
 ?? experiments/anchor_pool_markov_selector_eval.py
@@ -30,8 +31,8 @@ git status summary	pass	"M AGENTS.md
 ?? experiments/auto_profile_realtime_eval.py
 ?? experiments/bbs_baseline_eval.py
 ?? experiments/candidate_pool_selector_eval.py
-?? experiments/composite_hedges_bbs_r"
-timestamp	pass	2026-07-04T13:27:29+08:00
+?? experiments"
+timestamp	pass	2026-07-04T13:42:29+08:00
 protected files modified	pass	no
 original BBS source modified	pass	no
 generated bridge files	pass	14
