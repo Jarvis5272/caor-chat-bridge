@@ -12,16 +12,18 @@ ChatGPT should first read:
 
 ## Current Latest Result
 
-- latest result: `results/baepc_feiw_revised_hand_toy_20260704`
-- latest final label: `BAEPC_FEIW_HAND_TOY_PASS_GO_TO_TOY_ONLY_PROTOTYPE`
+- latest result: `results/baepc_feiw_toy_only_prototype_20260704`
+- latest final label: `BAEPC_FEIW_TOY_PASS_GO_TO_REAL_DATA_SYNC_DRYRUN`
 
 ## Claim Boundary
 
-Method-card candidate is allowed to proceed to hand toy only; not an effective decoder, not benchmark success, and not real-data proven.
+可以说：BAEPC+FEIW toy-only prototype passed/failed the stated hand-toy gates according to this label.
+
+不能说：real-data quality success、benchmark success、BBS replacement、formal integration、or BBS-free decoder proven.
 
 ## Next Action
 
-Toy-only prototype is allowed next with explicit user approval; no real-data dry-run, smoke, or benchmark.
+Review latest result artifacts and confirm whether another validation step is warranted.
 
 ## If Linking From GitHub
 

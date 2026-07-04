@@ -1,11 +1,19 @@
 {
-  "artifact_manifest_path": "results/baepc_feiw_revised_hand_toy_20260704/final_artifact_manifest.tsv",
+  "artifact_manifest_path": "results/baepc_feiw_toy_only_prototype_20260704/final_artifact_manifest.tsv",
   "auto_detected_latest_result": false,
   "blocking_missing": false,
   "bridge_consistency_status": "generated_pending_validation",
   "bridge_workflow_final_label": "CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT",
-  "claim_boundary": "Method-card candidate is allowed to proceed to hand toy only; not an effective decoder, not benchmark success, and not real-data proven.",
+  "claim_boundary": "可以说：BAEPC+FEIW toy-only prototype passed/failed the stated hand-toy gates according to this label.\n\n不能说：real-data quality success、benchmark success、BBS replacement、formal integration、or BBS-free decoder proven.",
   "completed_stages": [
+    "Purpose",
+    "Method Boundary",
+    "Scope",
+    "Constructive Recovery",
+    "Safety",
+    "Go / Revise / Stop",
+    "Claim Boundary",
+    "Protected / Source Boundary",
     "stage0_gate_decision"
   ],
   "data_modified": "no_by_bridge_task",
@@ -17,27 +25,26 @@
     "chat_bridge/04_ACTIVE_CLAIM_BOUNDARY_CN.md",
     "chat_bridge/05_NEXT_ACTION_CN.md",
     "chat_bridge/09_SYNC_STATUS.tsv",
-    "results/baepc_feiw_revised_hand_toy_20260704/BAEPC_FEIW_REVISED_HAND_TOY_REPORT_CN.md",
-    "results/baepc_feiw_revised_hand_toy_20260704/BAEPC_FEIW_HAND_TOY_GO_NO_GO_CN.md",
-    "results/baepc_feiw_revised_hand_toy_20260704/stage0_gate_decision.md",
-    "results/baepc_feiw_revised_hand_toy_20260704/final_decision_matrix.tsv",
-    "results/baepc_feiw_revised_hand_toy_20260704/final_artifact_manifest.tsv",
-    "results/baepc_feiw_revised_hand_toy_20260704/no_protected_files_modified.tsv"
+    "results/baepc_feiw_toy_only_prototype_20260704/BAEPC_FEIW_TOY_ONLY_PROTOTYPE_REPORT_CN.md",
+    "results/baepc_feiw_toy_only_prototype_20260704/BAEPC_FEIW_TOY_GO_NO_GO_CN.md",
+    "results/baepc_feiw_toy_only_prototype_20260704/baepc_feiw_toy_gate_matrix.tsv",
+    "results/baepc_feiw_toy_only_prototype_20260704/stage0_gate_decision.md",
+    "results/baepc_feiw_toy_only_prototype_20260704/final_decision_matrix.tsv",
+    "results/baepc_feiw_toy_only_prototype_20260704/final_artifact_manifest.tsv"
   ],
-  "final_label": "BAEPC_FEIW_HAND_TOY_PASS_GO_TO_TOY_ONLY_PROTOTYPE",
-  "gate_decision": "# Stage 0 gate PASS: required upstream files are present and this task remains revised-hand-toy only. No prototype, real-data run, smoke, benchmark, or source modification is allowed.",
+  "final_label": "BAEPC_FEIW_TOY_PASS_GO_TO_REAL_DATA_SYNC_DRYRUN",
+  "gate_decision": "# Stage0 Gate PASS: input audit completed; missing files, if any, are recorded rather than inferred.",
   "large_files_skipped_count": 0,
-  "latest_result_requested": "results/baepc_feiw_revised_hand_toy_20260704",
-  "latest_result_used": "results/baepc_feiw_revised_hand_toy_20260704",
+  "latest_result_requested": "results/baepc_feiw_toy_only_prototype_20260704",
+  "latest_result_used": "results/baepc_feiw_toy_only_prototype_20260704",
   "main_metrics": {},
   "missing_expected_files": [
-    "FINAL*_REPORT_CN.md",
-    "leakage_audit.tsv"
+    "FINAL*_REPORT_CN.md"
   ],
-  "next_action": "Toy-only prototype is allowed next with explicit user approval; no real-data dry-run, smoke, or benchmark.",
+  "next_action": "Review latest result artifacts and confirm whether another validation step is warranted.",
   "original_bbs_source_modified": "no",
-  "output_dir": "results/baepc_feiw_revised_hand_toy_20260704",
-  "protected_files_modified": "no",
+  "output_dir": "results/baepc_feiw_toy_only_prototype_20260704",
+  "protected_files_modified": "unknown",
   "selected_candidate": "missing",
-  "timestamp": "2026-07-04T20:03:16+08:00"
+  "timestamp": "2026-07-04T21:09:30+08:00"
 }

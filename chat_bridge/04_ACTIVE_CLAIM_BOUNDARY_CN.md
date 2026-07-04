@@ -2,9 +2,11 @@
 
 ## 可以说
 
-- 当前结果是 metadata-only 同步快照，latest result 为 `results/baepc_feiw_revised_hand_toy_20260704`。
-- latest final label 是 `BAEPC_FEIW_HAND_TOY_PASS_GO_TO_TOY_ONLY_PROTOTYPE`。
-- 当前 claim boundary 是：Method-card candidate is allowed to proceed to hand toy only; not an effective decoder, not benchmark success, and not real-data proven.
+- 当前结果是 metadata-only 同步快照，latest result 为 `results/baepc_feiw_toy_only_prototype_20260704`。
+- latest final label 是 `BAEPC_FEIW_TOY_PASS_GO_TO_REAL_DATA_SYNC_DRYRUN`。
+- 当前 claim boundary 是：可以说：BAEPC+FEIW toy-only prototype passed/failed the stated hand-toy gates according to this label.
+
+不能说：real-data quality success、benchmark success、BBS replacement、formal integration、or BBS-free decoder proven.
 
 ## 不能说
 

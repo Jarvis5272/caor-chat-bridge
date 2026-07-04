@@ -6,15 +6,15 @@
 
 ## 当前主线状态
 
-最新自动检测结果为 `results/baepc_feiw_revised_hand_toy_20260704`；当前最新 Codex label 为 `BAEPC_FEIW_HAND_TOY_PASS_GO_TO_TOY_ONLY_PROTOTYPE`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT`。
+最新自动检测结果为 `results/baepc_feiw_toy_only_prototype_20260704`；当前最新 Codex label 为 `BAEPC_FEIW_TOY_PASS_GO_TO_REAL_DATA_SYNC_DRYRUN`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT`。
 
 ## 最新 Codex final label
 
-`BAEPC_FEIW_HAND_TOY_PASS_GO_TO_TOY_ONLY_PROTOTYPE`
+`BAEPC_FEIW_TOY_PASS_GO_TO_REAL_DATA_SYNC_DRYRUN`
 
 ## 最新输出目录
 
-`results/baepc_feiw_revised_hand_toy_20260704`
+`results/baepc_feiw_toy_only_prototype_20260704`
 
 ## ChatGPT 应先读哪些文件
 
@@ -27,19 +27,21 @@
 
 ## 当前 claim boundary
 
-Method-card candidate is allowed to proceed to hand toy only; not an effective decoder, not benchmark success, and not real-data proven.
+可以说：BAEPC+FEIW toy-only prototype passed/failed the stated hand-toy gates according to this label.
+
+不能说：real-data quality success、benchmark success、BBS replacement、formal integration、or BBS-free decoder proven.
 
 ## 是否有 missing context
 
-`missing_expected_files=['FINAL*_REPORT_CN.md', 'leakage_audit.tsv']`。这些缺失项只作为上下文缺口记录；若 required bridge files 全部生成，则不阻塞 bridge 使用。
+`missing_expected_files=['FINAL*_REPORT_CN.md']`。这些缺失项只作为上下文缺口记录；若 required bridge files 全部生成，则不阻塞 bridge 使用。
 
 ## 当前下一步
 
-Toy-only prototype is allowed next with explicit user approval; no real-data dry-run, smoke, or benchmark.
+Review latest result artifacts and confirm whether another validation step is warranted.
 
 ## protected diff 状态
 
-`protected_files_modified=no`。本 bridge 任务只写入 `chat_bridge/` 和 `scripts/chat_bridge/`。
+`protected_files_modified=unknown`。本 bridge 任务只写入 `chat_bridge/` 和 `scripts/chat_bridge/`。
 
 ## original BBS source 状态
 

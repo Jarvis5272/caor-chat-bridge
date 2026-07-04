@@ -1,21 +1,21 @@
 item	status	details
-requested_latest_result	pass	results/baepc_feiw_revised_hand_toy_20260704
-used_latest_result	pass	results/baepc_feiw_revised_hand_toy_20260704
+requested_latest_result	pass	results/baepc_feiw_toy_only_prototype_20260704
+used_latest_result	pass	results/baepc_feiw_toy_only_prototype_20260704
 explicit_latest_result_used	yes	true
 auto_detected	no	false
 auto_detected_latest_result	no	false
-latest_final_label	pass	BAEPC_FEIW_HAND_TOY_PASS_GO_TO_TOY_ONLY_PROTOTYPE
-latest_output_dir	pass	results/baepc_feiw_revised_hand_toy_20260704
+latest_final_label	pass	BAEPC_FEIW_TOY_PASS_GO_TO_REAL_DATA_SYNC_DRYRUN
+latest_output_dir	pass	results/baepc_feiw_toy_only_prototype_20260704
 bridge_consistency_status	pending_validation	generated_pending_validation
 reason	pass	requested latest result exists and was used
-latest result requested	pass	results/baepc_feiw_revised_hand_toy_20260704
-latest result used	pass	results/baepc_feiw_revised_hand_toy_20260704
+latest result requested	pass	results/baepc_feiw_toy_only_prototype_20260704
+latest result used	pass	results/baepc_feiw_toy_only_prototype_20260704
 latest result detection mode	explicit	False
-latest result detected	pass	results/baepc_feiw_revised_hand_toy_20260704
+latest result detected	pass	results/baepc_feiw_toy_only_prototype_20260704
 files copied	pass	0 source artifact files copied; bridge files generated only
 files skipped	pass	0
 large files skipped	pass	0
-missing expected files	warn	FINAL*_REPORT_CN.md, leakage_audit.tsv
+missing expected files	warn	FINAL*_REPORT_CN.md
 required bridge files present	pass	14/14
 package path	pass	chat_bridge_feedback_package.zip
 git branch	pass	release/earlystop-v0.4
@@ -37,8 +37,8 @@ git status summary	pass	"M AGENTS.md
 ?? experiments/bbs_baseline_eval.py
 ?? experiments/candidate_pool_selector_eval.py
 ?? experiments"
-timestamp	pass	2026-07-04T20:03:16+08:00
-protected files modified	pass	no
+timestamp	pass	2026-07-04T21:09:30+08:00
+protected files modified	warn	unknown
 original BBS source modified	pass	no
 generated bridge files	pass	14
 read_skipped	pass	[]

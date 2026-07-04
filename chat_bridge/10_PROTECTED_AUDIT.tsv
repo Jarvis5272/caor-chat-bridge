@@ -1,2 +1,7 @@
 protected_path	modified	status	notes
-		pass	only reports under result dir
+experiments/streaming_slim_generalization_eval.py	false	CAVEAT_PREEXISTING_OR_UNRELATED	this task wrote only isolated scripts/results
+src/pipeline/sparse_viterbi_dbg.py	false	CAVEAT_PREEXISTING_OR_UNRELATED	this task wrote only isolated scripts/results
+src/pipeline/	false	CAVEAT_PREEXISTING_OR_UNRELATED	this task wrote only isolated scripts/results
+baseline/	false	PASS	this task wrote only isolated scripts/results
+external_baselines/	false	CAVEAT_PREEXISTING_OR_UNRELATED	this task wrote only isolated scripts/results
+frozen/	false	CAVEAT_PREEXISTING_OR_UNRELATED	this task wrote only isolated scripts/results
