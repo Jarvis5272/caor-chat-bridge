@@ -21,7 +21,7 @@ Method-card candidate is allowed to proceed to hand toy only; not an effective d
 
 ## Next Action
 
-Only the approved hand toy is allowed next; no code, real-data dry-run, smoke, or benchmark.
+Toy-only prototype is allowed next with explicit user approval; no real-data dry-run, smoke, or benchmark.
 
 ## If Linking From GitHub
 

@@ -467,14 +467,22 @@ def build_snapshot(args: argparse.Namespace) -> dict[str, Any]:
                 "BBS-free sync dry-run only. No reconstruction benchmark-quality claim; "
                 "low-confidence/refusal is not decoder success."
             )
-    next_action = (
-        "Only the approved hand toy is allowed next; no code, real-data dry-run, smoke, or benchmark."
-        if "HAND_TOY" in final_label
-        else
-        "Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy."
-        if target_met(gate_decision, final_label) == "no"
-        else "Review latest result artifacts and confirm whether another validation step is warranted."
-    )
+    if "HAND_TOY_PASS_GO_TO_TOY_ONLY_PROTOTYPE" in final_label:
+        next_action = (
+            "Toy-only prototype is allowed next with explicit user approval; "
+            "no real-data dry-run, smoke, or benchmark."
+        )
+    elif "METHOD_CARD_GO_TO_HAND_TOY" in final_label:
+        next_action = (
+            "Only the approved hand toy is allowed next; no code, real-data dry-run, smoke, or benchmark."
+        )
+    elif target_met(gate_decision, final_label) == "no":
+        next_action = (
+            "Revise the sync/global-search mechanism before any small reconstruction smoke; "
+            "review gate matrix and failure taxonomy."
+        )
+    else:
+        next_action = "Review latest result artifacts and confirm whether another validation step is warranted."
     protected_modified = audit_status(protected_rows)
     original_modified = audit_status(original_rows)
     data_modified = "no_by_bridge_task"
