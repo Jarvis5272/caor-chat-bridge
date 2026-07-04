@@ -6,6 +6,4 @@ contains_secret_like_files	pass	false
 contains_raw_reads	pass	false
 contains_only_bridge	pass	CHATGPT_LINK_INSTRUCTIONS_CN.md,README.md,chat_bridge,chat_bridge_feedback_package.zip,scripts
 latest_result_final_label	pass	BAEPC_METHOD_CARD_GO_TO_HAND_TOY
-claim_boundary_present	pass	"可以说 BAEPC 是一个值得 hand toy 的 baseline-aware original method-card candidate。
-
-不能说 BAEPC 已经是有效 decoder、BBS replacement、benchmark success 或 real-data proven method。"
+claim_boundary_present	pass	BAEPC is a baseline-aware original method-card candidate for hand toy only; not an effective decoder, not BBS replacement, not benchmark success, not real-data proven.
