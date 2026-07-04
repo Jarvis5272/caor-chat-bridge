@@ -1,5 +1,5 @@
 timestamp	final_label	output_dir	candidate_or_track	stage_reached	gate_decision	target_met	claim_boundary	protected_files_modified	original_bbs_source_modified	data_modified	notes
-2026-07-04T22:30:06+08:00	BAEPC_FEIW_STOP_FULL_ALIGNMENT_REQUIRED	results/baepc_feiw_math_experiment_reconciliation_20260704	missing	任务目的; 输入状态; 数学假设与实验结果; 主实验矛盾; 为什么不是理论自嗨，也不是实验补丁泥沼; Failure interpretation	BAEPC_FEIW_STOP_FULL_ALIGNMENT_REQUIRED	no	"- 未运行新实验。
+2026-07-04T22:31:01+08:00	BAEPC_FEIW_STOP_FULL_ALIGNMENT_REQUIRED	results/baepc_feiw_math_experiment_reconciliation_20260704	missing	任务目的; 输入状态; 数学假设与实验结果; 主实验矛盾; 为什么不是理论自嗨，也不是实验补丁泥沼; Failure interpretation	BAEPC_FEIW_STOP_FULL_ALIGNMENT_REQUIRED	no	"- 未运行新实验。
 - 未运行 smoke。
 - 未运行 benchmark。
 - 未修改 protected code。

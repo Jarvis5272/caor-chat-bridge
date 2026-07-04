@@ -18,7 +18,7 @@
 Protected files modified: no_by_this_task.
 
 Original BBS source modified: no_by_this_task.
-7. next recommendation: Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.
+7. next recommendation: Freeze BAEPC+FEIW as a stopped line; no revise, smoke, or benchmark. Return to strategy review or open a new theory-only candidate only with explicit approval.
 8. protected files modified? `no`
 9. original BBS source modified? `no`
 10. files for review: `chat_bridge/06_FILES_FOR_REVIEW.tsv`

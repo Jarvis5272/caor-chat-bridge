@@ -44,10 +44,10 @@
     "FINAL*_REPORT_CN.md",
     "leakage_audit.tsv"
   ],
-  "next_action": "Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.",
+  "next_action": "Freeze BAEPC+FEIW as a stopped line; no revise, smoke, or benchmark. Return to strategy review or open a new theory-only candidate only with explicit approval.",
   "original_bbs_source_modified": "no",
   "output_dir": "results/baepc_feiw_math_experiment_reconciliation_20260704",
   "protected_files_modified": "no",
   "selected_candidate": "missing",
-  "timestamp": "2026-07-04T22:30:06+08:00"
+  "timestamp": "2026-07-04T22:31:01+08:00"
 }

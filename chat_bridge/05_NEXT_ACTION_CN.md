@@ -2,7 +2,7 @@
 
 ## 当前建议下一步
 
-Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.
+Freeze BAEPC+FEIW as a stopped line; no revise, smoke, or benchmark. Return to strategy review or open a new theory-only candidate only with explicit approval.
 
 ## 不建议做什么
 

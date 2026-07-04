@@ -497,6 +497,15 @@ def build_snapshot(args: argparse.Namespace) -> dict[str, Any]:
         next_action = (
             "Only the approved hand toy is allowed next; no code, real-data dry-run, smoke, or benchmark."
         )
+    elif (
+        "BAEPC_FEIW_STOP_FULL_ALIGNMENT_REQUIRED" in final_label
+        or "BAEPC_FEIW_STOP_BOUNDED_IDENTITY_INSUFFICIENT" in final_label
+        or "BAEPC_FEIW_STOP_RISK_CONTROL_ONLY" in final_label
+    ):
+        next_action = (
+            "Freeze BAEPC+FEIW as a stopped line; no revise, smoke, or benchmark. "
+            "Return to strategy review or open a new theory-only candidate only with explicit approval."
+        )
     elif target_met(gate_decision, final_label) == "no":
         next_action = (
             "Revise the sync/global-search mechanism before any small reconstruction smoke; "

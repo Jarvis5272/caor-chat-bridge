@@ -46,7 +46,7 @@ Original BBS source modified: no_by_this_task.
 
 ## 当前下一步
 
-Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.
+Freeze BAEPC+FEIW as a stopped line; no revise, smoke, or benchmark. Return to strategy review or open a new theory-only candidate only with explicit approval.
 
 ## protected diff 状态
 
