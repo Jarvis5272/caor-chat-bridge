@@ -13,7 +13,7 @@ ChatGPT should first read:
 ## Current Latest Result
 
 - latest result: `results/algorithm_state_freeze_and_next_strategy_from_bridge_20260704`
-- latest final label: `missing`
+- latest final label: `ALGORITHM_STATE_FREEZE_AND_STRATEGY_COMPLETED`
 
 ## Claim Boundary
 

@@ -10,7 +10,7 @@ latest result detected	pass	results/algorithm_state_freeze_and_next_strategy_fro
 files copied	pass	0 source artifact files copied; bridge files generated only
 files skipped	pass	0
 large files skipped	pass	0
-missing expected files	warn	leakage_audit.tsv
+missing expected files	pass	0
 required bridge files present	pass	14/14
 package path	pass	chat_bridge_feedback_package.zip
 git branch	pass	release/earlystop-v0.4
@@ -32,7 +32,7 @@ git status summary	pass	"M AGENTS.md
 ?? experiments/bbs_baseline_eval.py
 ?? experiments/candidate_pool_selector_eval.py
 ?? experiments"
-timestamp	pass	2026-07-04T14:37:56+08:00
+timestamp	pass	2026-07-04T14:39:21+08:00
 protected files modified	pass	no
 original BBS source modified	pass	no
 generated bridge files	pass	14
