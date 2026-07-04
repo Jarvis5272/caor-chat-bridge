@@ -52,6 +52,27 @@ feedback = f"""# Codex Final Feedback
 print(feedback)
 PY
 
+python scripts/chat_bridge/build_feedback_package.py \
+  --in chat_bridge \
+  --out chat_bridge_feedback_package.zip
+zip -T chat_bridge_feedback_package.zip
+python scripts/chat_bridge/refresh_bridge_export.py \
+  --bridge chat_bridge \
+  --package chat_bridge_feedback_package.zip \
+  --scripts scripts/chat_bridge \
+  --out chat_bridge_export
+(
+  cd chat_bridge_export
+  git add .
+  if ! git diff --cached --quiet; then
+    git commit -m "Finalize Codex bridge feedback" || (
+      git config user.name "chat-bridge-bot"
+      git config user.email "chat-bridge-bot@example.local"
+      git commit -m "Finalize Codex bridge feedback"
+    )
+  fi
+)
+
 if [[ "$bridge_status" == "bridge_failed_blocking" ]]; then
   exit 1
 fi
