@@ -14,11 +14,11 @@
 
 ## baseline-aware / independent algorithm 状态
 
-当前 active track: `TPC+OCWP real-data synchronization dry-run`。根据 latest gate，当前结论是 `# Stage 0 Gate Decision Decision: `PASS_TO_SPWIC_HAND_TOY_AUDIT` Evidence: - Latest upstream synthesis label is `IDENTITY_CERTIFICATE_READY_FOR_HAND_TOY`. - Selected primary certificate is SPWIC. - This task is hand toy only and does not pe`。
+当前 active track: `SPWIC sparse paired-witness identity certificate hand toy`。根据 latest gate，当前结论是 `# Stage 0 Gate Decision Decision: `PASS_TO_SPWIC_HAND_TOY_AUDIT` Evidence: - Latest upstream synthesis label is `IDENTITY_CERTIFICATE_READY_FOR_HAND_TOY`. - Selected primary certificate is SPWIC. - This task is hand toy only and does not pe`。
 
 ## 当前 active candidate
 
-`TPC+OCWP real-data synchronization dry-run`
+`SPWIC sparse paired-witness identity certificate hand toy`
 
 ## 当前 gate
 

@@ -464,7 +464,9 @@ def build_snapshot(args: argparse.Namespace) -> dict[str, Any]:
     completed = extract_completed_stages(report_text, latest)
     gate_decision = summarize_gate(gate_text, gate_rows, final_label)
     candidate = parse_environment_task(env_text)
-    if "IDENTITY_CERTIFICATE_READY_FOR_HAND_TOY" in final_label:
+    if "SPWIC_HAND_TOY" in final_label:
+        candidate = "SPWIC sparse paired-witness identity certificate hand toy"
+    elif "IDENTITY_CERTIFICATE_READY_FOR_HAND_TOY" in final_label:
         candidate = "SPWIC edit-event identity certificate synthesis"
     if candidate == "missing":
         candidate = "TPC+OCWP real-data synchronization dry-run" if "TPC+OCWP" in report_text else "missing"
