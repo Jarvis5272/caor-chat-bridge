@@ -1,6 +1,4 @@
 item	status	details
-push_status	push_failed	https://github.com/Jarvis5272/caor-chat-bridge.git
+push_status	pending_push	git@github-caor-chat-bridge:Jarvis5272/caor-chat-bridge.git
 push_branch	main	main
-commit_hash	pass	0033a14c6479763fc27a9761ea99a1888eb56ada
-latest_retry_status	push_failed_auth	fatal: could not read Username for 'https://github.com': No such device or address
-raw_link_status	not_verified_404	https://raw.githubusercontent.com/Jarvis5272/caor-chat-bridge/main/chat_bridge/00_README_FIRST.md returned HTTP 404 before a successful push
+commit_hash	pending	updated_after_commit
