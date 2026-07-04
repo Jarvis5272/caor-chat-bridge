@@ -6,15 +6,15 @@
 
 ## 当前主线状态
 
-最新自动检测结果为 `results/baepc_feiw_real_data_sync_dryrun_20260704`；当前最新 Codex label 为 `BAEPC_FEIW_REAL_SYNC_STOP_COMPLEXITY_TOO_HIGH`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT`。
+最新自动检测结果为 `results/baepc_feiw_math_experiment_reconciliation_20260704`；当前最新 Codex label 为 `BAEPC_FEIW_STOP_FULL_ALIGNMENT_REQUIRED`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT`。
 
 ## 最新 Codex final label
 
-`BAEPC_FEIW_REAL_SYNC_STOP_COMPLEXITY_TOO_HIGH`
+`BAEPC_FEIW_STOP_FULL_ALIGNMENT_REQUIRED`
 
 ## 最新输出目录
 
-`results/baepc_feiw_real_data_sync_dryrun_20260704`
+`results/baepc_feiw_math_experiment_reconciliation_20260704`
 
 ## ChatGPT 应先读哪些文件
 
@@ -27,11 +27,22 @@
 
 ## 当前 claim boundary
 
-This is a dry-run synchronization/posterior audit only. It does not establish reconstruction quality success and does not modify protected/original BBS sources.
+- 未运行新实验。
+- 未运行 smoke。
+- 未运行 benchmark。
+- 未修改 protected code。
+- 未修改 original BBS source。
+- 未修改原始数据。
+- 未 patch evaluator。
+- 未使用 BBS/EPBSD online semantics。
+
+Protected files modified: no_by_this_task.
+
+Original BBS source modified: no_by_this_task.
 
 ## 是否有 missing context
 
-`missing_expected_files=['FINAL*_REPORT_CN.md']`。这些缺失项只作为上下文缺口记录；若 required bridge files 全部生成，则不阻塞 bridge 使用。
+`missing_expected_files=['FINAL*_REPORT_CN.md', 'leakage_audit.tsv']`。这些缺失项只作为上下文缺口记录；若 required bridge files 全部生成，则不阻塞 bridge 使用。
 
 ## 当前下一步
 
