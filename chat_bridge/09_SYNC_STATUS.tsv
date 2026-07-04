@@ -1,20 +1,20 @@
 item	status	details
-requested_latest_result	pass	results/baepc_feiw_toy_only_prototype_20260704
-used_latest_result	pass	results/baepc_feiw_toy_only_prototype_20260704
+requested_latest_result	pass	results/baepc_feiw_real_data_sync_dryrun_20260704
+used_latest_result	pass	results/baepc_feiw_real_data_sync_dryrun_20260704
 explicit_latest_result_used	yes	true
 auto_detected	no	false
 auto_detected_latest_result	no	false
-latest_final_label	pass	BAEPC_FEIW_TOY_PASS_GO_TO_REAL_DATA_SYNC_DRYRUN
-latest_output_dir	pass	results/baepc_feiw_toy_only_prototype_20260704
+latest_final_label	pass	BAEPC_FEIW_REAL_SYNC_STOP_COMPLEXITY_TOO_HIGH
+latest_output_dir	pass	results/baepc_feiw_real_data_sync_dryrun_20260704
 bridge_consistency_status	pending_validation	generated_pending_validation
 reason	pass	requested latest result exists and was used
-latest result requested	pass	results/baepc_feiw_toy_only_prototype_20260704
-latest result used	pass	results/baepc_feiw_toy_only_prototype_20260704
+latest result requested	pass	results/baepc_feiw_real_data_sync_dryrun_20260704
+latest result used	pass	results/baepc_feiw_real_data_sync_dryrun_20260704
 latest result detection mode	explicit	False
-latest result detected	pass	results/baepc_feiw_toy_only_prototype_20260704
+latest result detected	pass	results/baepc_feiw_real_data_sync_dryrun_20260704
 files copied	pass	0 source artifact files copied; bridge files generated only
-files skipped	pass	0
-large files skipped	pass	0
+files skipped	pass	13
+large files skipped	pass	13
 missing expected files	warn	FINAL*_REPORT_CN.md
 required bridge files present	pass	14/14
 package path	pass	chat_bridge_feedback_package.zip
@@ -37,9 +37,9 @@ git status summary	pass	"M AGENTS.md
 ?? experiments/bbs_baseline_eval.py
 ?? experiments/candidate_pool_selector_eval.py
 ?? experiments"
-timestamp	pass	2026-07-04T21:21:02+08:00
+timestamp	pass	2026-07-04T21:55:06+08:00
 protected files modified	pass	no
 original BBS source modified	pass	no
 generated bridge files	pass	14
 read_skipped	pass	[]
-scan_skipped	pass	[]
+scan_skipped	pass	"[{""path"": ""results/baepc_feiw_real_data_sync_dryrun_20260704/real_sync_prefix_schedule.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 140182}, {""path"": ""results/baepc_feiw_real_data_sync_dryrun_20260704/real_sync_per_cluster_summary.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 96991}, {""path"": ""results/baepc_feiw_real_data_sync_dryrun_20260704/real_sync_per_prefix_statistics.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 758862}, {""path"": ""results/baepc_feiw_real_data_sync_dryrun_20260704/baepc_vs_baepc_feiw_comparison.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 472523}, {""path"": ""results/baepc_feiw_real_data_sync_dryrun_20260704/real_local_evidence_trace_sample.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 656660}, {""path"": ""results/baepc_feiw_real_data_sync_dryrun_20260704/baepc_feiw_sync_failure_taxonomy.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 334029}, {""path"": ""results/baepc_feiw_real_data_sync_dryrun_20260704/real_decode_trace_sample.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 1079966}, {""path"": ""results/baepc_feiw_real_data_sync_dryrun_20260704/baepc_feiw_real_constructive_recovery_audit.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 405675}, {""path"": ""results/baepc_feiw_real_data_sync_dryrun_20260704/offline_silent_error_risk_audit.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 347633}, {""path"": ""results/baepc_feiw_real_data_sync_dryrun_20260704/baepc_feiw_vs_scaffold_offline_audit.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 459701}, {""path"": ""results/baepc_feiw_real_data_sync_dryrun_20260704/real_scaffold_trace_sample.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 137055}, {""path"": ""results/baepc_feiw_real_data_sync_dryrun_20260704/real_feiw_identity_trace_sample.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 1285960}, {""path"": ""results/baepc_feiw_real_data_sync_dryrun_20260704/real_event_posterior_trace_sample.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 765718}]"

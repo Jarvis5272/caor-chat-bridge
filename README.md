@@ -12,18 +12,16 @@ ChatGPT should first read:
 
 ## Current Latest Result
 
-- latest result: `results/baepc_feiw_toy_only_prototype_20260704`
-- latest final label: `BAEPC_FEIW_TOY_PASS_GO_TO_REAL_DATA_SYNC_DRYRUN`
+- latest result: `results/baepc_feiw_real_data_sync_dryrun_20260704`
+- latest final label: `BAEPC_FEIW_REAL_SYNC_STOP_COMPLEXITY_TOO_HIGH`
 
 ## Claim Boundary
 
-可以说：BAEPC+FEIW toy-only prototype passed/failed the stated hand-toy gates according to this label.
-
-不能说：real-data quality success、benchmark success、BBS replacement、formal integration、or BBS-free decoder proven.
+This is a dry-run synchronization/posterior audit only. It does not establish reconstruction quality success and does not modify protected/original BBS sources.
 
 ## Next Action
 
-Review latest result artifacts and confirm whether another validation step is warranted.
+Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.
 
 ## If Linking From GitHub
 

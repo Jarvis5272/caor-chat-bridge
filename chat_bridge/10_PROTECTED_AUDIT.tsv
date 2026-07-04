@@ -1,7 +1,2 @@
 protected_path	modified	status	notes
-experiments/streaming_slim_generalization_eval.py	false	no_by_this_task	this task wrote only isolated scripts/results; git_status has pre-existing/unrelated entries and is retained for audit
-src/pipeline/sparse_viterbi_dbg.py	false	no_by_this_task	this task wrote only isolated scripts/results; git_status has pre-existing/unrelated entries and is retained for audit
-src/pipeline/	false	no_by_this_task	this task wrote only isolated scripts/results; git_status has pre-existing/unrelated entries and is retained for audit
-baseline/	false	no_by_this_task	this task wrote only isolated scripts/results
-external_baselines/	false	no_by_this_task	this task wrote only isolated scripts/results; git_status has pre-existing/unrelated entries and is retained for audit
-frozen/	false	no_by_this_task	this task wrote only isolated scripts/results; git_status has pre-existing/unrelated entries and is retained for audit
+		pass	script writes only isolated scripts/results; git status may contain pre-existing unrelated changes

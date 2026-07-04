@@ -6,15 +6,15 @@
 
 ## 当前主线状态
 
-最新自动检测结果为 `results/baepc_feiw_toy_only_prototype_20260704`；当前最新 Codex label 为 `BAEPC_FEIW_TOY_PASS_GO_TO_REAL_DATA_SYNC_DRYRUN`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT`。
+最新自动检测结果为 `results/baepc_feiw_real_data_sync_dryrun_20260704`；当前最新 Codex label 为 `BAEPC_FEIW_REAL_SYNC_STOP_COMPLEXITY_TOO_HIGH`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT`。
 
 ## 最新 Codex final label
 
-`BAEPC_FEIW_TOY_PASS_GO_TO_REAL_DATA_SYNC_DRYRUN`
+`BAEPC_FEIW_REAL_SYNC_STOP_COMPLEXITY_TOO_HIGH`
 
 ## 最新输出目录
 
-`results/baepc_feiw_toy_only_prototype_20260704`
+`results/baepc_feiw_real_data_sync_dryrun_20260704`
 
 ## ChatGPT 应先读哪些文件
 
@@ -27,9 +27,7 @@
 
 ## 当前 claim boundary
 
-可以说：BAEPC+FEIW toy-only prototype passed/failed the stated hand-toy gates according to this label.
-
-不能说：real-data quality success、benchmark success、BBS replacement、formal integration、or BBS-free decoder proven.
+This is a dry-run synchronization/posterior audit only. It does not establish reconstruction quality success and does not modify protected/original BBS sources.
 
 ## 是否有 missing context
 
@@ -37,7 +35,7 @@
 
 ## 当前下一步
 
-Review latest result artifacts and confirm whether another validation step is warranted.
+Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.
 
 ## protected diff 状态
 

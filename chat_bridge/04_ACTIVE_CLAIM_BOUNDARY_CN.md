@@ -2,11 +2,9 @@
 
 ## 可以说
 
-- 当前结果是 metadata-only 同步快照，latest result 为 `results/baepc_feiw_toy_only_prototype_20260704`。
-- latest final label 是 `BAEPC_FEIW_TOY_PASS_GO_TO_REAL_DATA_SYNC_DRYRUN`。
-- 当前 claim boundary 是：可以说：BAEPC+FEIW toy-only prototype passed/failed the stated hand-toy gates according to this label.
-
-不能说：real-data quality success、benchmark success、BBS replacement、formal integration、or BBS-free decoder proven.
+- 当前结果是 metadata-only 同步快照，latest result 为 `results/baepc_feiw_real_data_sync_dryrun_20260704`。
+- latest final label 是 `BAEPC_FEIW_REAL_SYNC_STOP_COMPLEXITY_TOO_HIGH`。
+- 当前 claim boundary 是：This is a dry-run synchronization/posterior audit only. It does not establish reconstruction quality success and does not modify protected/original BBS sources.
 
 ## 不能说
 
