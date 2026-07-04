@@ -6,7 +6,7 @@
 
 ## 当前主线状态
 
-最新自动检测结果为 `results/chat_bridge_transactional_finalize_hardened_20260704`；当前最新 Codex label 为 `CHAT_BRIDGE_TRANSACTIONAL_FINALIZE_HARDENED`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT`。
+最新自动检测结果为 `results/chat_bridge_transactional_finalize_hardened_20260704`；当前最新 Codex label 为 `CHAT_BRIDGE_TRANSACTIONAL_FINALIZE_HARDENED`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED`。
 
 ## 最新 Codex final label
 
@@ -31,7 +31,7 @@ BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confi
 
 ## 是否有 missing context
 
-`missing_expected_files=['FINAL*_REPORT_CN.md']`。这些缺失项只作为上下文缺口记录；若 required bridge files 全部生成，则不阻塞 bridge 使用。
+`missing_expected_files=[]`。这些缺失项只作为上下文缺口记录；若 required bridge files 全部生成，则不阻塞 bridge 使用。
 
 ## 当前下一步
 
