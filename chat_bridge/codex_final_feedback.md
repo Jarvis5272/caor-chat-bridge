@@ -6,7 +6,7 @@
 4. key metrics: `{}`
 5. gate decision: `BAEPC_HAND_TOY_PASS_GO_TO_TOY_ONLY_PROTOTYPE`
 6. claim boundary: `Method-card candidate is allowed to proceed to hand toy only; not an effective decoder, not benchmark success, and not real-data proven.`
-7. next recommendation: `Only the approved hand toy is allowed next; no code, real-data dry-run, smoke, or benchmark.`
+7. next recommendation: `Toy-only prototype is allowed next with explicit user approval; no real-data dry-run, smoke, or benchmark.`
 8. bridge status: `bridge_ok`
 9. chat_bridge_feedback_package path: `chat_bridge_feedback_package.zip`
 10. bridge raw link if pushed: `see chat_bridge_export/CHATGPT_LINK_INSTRUCTIONS_CN.md`
