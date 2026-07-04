@@ -1,12 +1,12 @@
 {
-  "artifact_manifest_path": "results/baepc_real_data_sync_dryrun_20260704/final_artifact_manifest.tsv",
+  "artifact_manifest_path": "missing",
   "auto_detected_latest_result": false,
   "blocking_missing": false,
   "bridge_consistency_status": "generated_pending_validation",
   "bridge_workflow_final_label": "CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT",
-  "claim_boundary": "This is a dry-run synchronization/posterior audit only. It does not establish reconstruction quality success and does not modify protected/original BBS sources.",
+  "claim_boundary": "Method-card candidate is allowed to proceed to hand toy only; not an effective decoder, not benchmark success, and not real-data proven.",
   "completed_stages": [
-    "stage0_gate_decision"
+    "missing"
   ],
   "data_modified": "no_by_bridge_task",
   "explicit_latest_result_used": true,
@@ -17,41 +17,33 @@
     "chat_bridge/04_ACTIVE_CLAIM_BOUNDARY_CN.md",
     "chat_bridge/05_NEXT_ACTION_CN.md",
     "chat_bridge/09_SYNC_STATUS.tsv",
-    "results/baepc_real_data_sync_dryrun_20260704/BAEPC_REAL_DATA_SYNC_DRYRUN_REPORT_CN.md",
-    "results/baepc_real_data_sync_dryrun_20260704/BAEPC_REAL_SYNC_GO_NO_GO_CN.md",
-    "results/baepc_real_data_sync_dryrun_20260704/baepc_real_sync_gate_matrix.tsv",
-    "results/baepc_real_data_sync_dryrun_20260704/stage0_gate_decision.md",
-    "results/baepc_real_data_sync_dryrun_20260704/final_decision_matrix.tsv",
-    "results/baepc_real_data_sync_dryrun_20260704/final_artifact_manifest.tsv"
+    "results/baepc_bounded_event_identity_refinement_20260704/FINAL*_REPORT_CN.md",
+    "results/baepc_bounded_event_identity_refinement_20260704/final_decision_matrix.tsv",
+    "results/baepc_bounded_event_identity_refinement_20260704/final_artifact_manifest.tsv",
+    "results/baepc_bounded_event_identity_refinement_20260704/no_protected_files_modified.tsv",
+    "results/baepc_bounded_event_identity_refinement_20260704/original_bbs_unchanged_audit.tsv",
+    "results/baepc_bounded_event_identity_refinement_20260704/leakage_audit.tsv"
   ],
-  "final_label": "BAEPC_REAL_SYNC_STOP_COMPLEXITY_TOO_HIGH",
-  "gate_decision": "# Stage 0 gate PASS: required BAEPC toy/method-card context readable; clean IDS data path uses recorded fallback where needed.",
-  "large_files_skipped_count": 11,
-  "latest_result_requested": "results/baepc_real_data_sync_dryrun_20260704",
-  "latest_result_used": "results/baepc_real_data_sync_dryrun_20260704",
-  "main_metrics": {
-    "aggregate_summary": {
-      "accepted_event_rows": "35",
-      "exact_rate": "0.305914972",
-      "full_alignment_risk_rate": "0.620147874",
-      "mean_ED": "6.581331",
-      "mean_accuracy": "0.948719093",
-      "mean_delta_ED_vs_medoid": "1.276340",
-      "mean_delta_ED_vs_scaffold": "-0.013401",
-      "num_prefix_rows": "2164",
-      "output_length_abnormal_rate": "0.003696858",
-      "scope": "all_rows",
-      "stable_or_recovery_or_low_confidence_rate": "0.346118299",
-      "status_counts_json": "{\"ambiguous_repeat\": 65, \"full_alignment_risk\": 1342, \"low_confidence_but_completed\": 176, \"output_length_abnormal\": 8, \"stable_posterior_consensus\": 134, \"stable_with_constructive_recovery\": 14, \"stable_with_low_confidence\": 425}"
-    }
-  },
+  "final_label": "BAEPC_EVENT_IDENTITY_REFINEMENT_GO_TO_HAND_TOY",
+  "gate_decision": "BAEPC_EVENT_IDENTITY_REFINEMENT_GO_TO_HAND_TOY",
+  "large_files_skipped_count": 0,
+  "latest_result_requested": "results/baepc_bounded_event_identity_refinement_20260704",
+  "latest_result_used": "results/baepc_bounded_event_identity_refinement_20260704",
+  "main_metrics": {},
   "missing_expected_files": [
-    "FINAL*_REPORT_CN.md"
+    "FINAL*_REPORT_CN.md",
+    "final_decision_matrix.tsv",
+    "final_artifact_manifest.tsv",
+    "no_protected_files_modified.tsv",
+    "original_bbs_unchanged_audit.tsv",
+    "leakage_audit.tsv",
+    "commands_run.sh",
+    "environment_summary.txt"
   ],
-  "next_action": "Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.",
-  "original_bbs_source_modified": "no",
-  "output_dir": "results/baepc_real_data_sync_dryrun_20260704",
-  "protected_files_modified": "no",
+  "next_action": "Review latest result artifacts and confirm whether another validation step is warranted.",
+  "original_bbs_source_modified": "unknown",
+  "output_dir": "results/baepc_bounded_event_identity_refinement_20260704",
+  "protected_files_modified": "unknown",
   "selected_candidate": "missing",
-  "timestamp": "2026-07-04T19:06:02+08:00"
+  "timestamp": "2026-07-04T19:46:51+08:00"
 }

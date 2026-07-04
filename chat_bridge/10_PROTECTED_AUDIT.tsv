@@ -1,2 +1,2 @@
 protected_path	modified	status	notes
-		pass	script writes only isolated scripts/results; git status may contain pre-existing unrelated changes
+missing	unknown	missing	no_protected_files_modified.tsv missing in latest result

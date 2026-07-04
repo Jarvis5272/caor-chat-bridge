@@ -2,9 +2,9 @@
 
 ## 可以说
 
-- 当前结果是 metadata-only 同步快照，latest result 为 `results/baepc_real_data_sync_dryrun_20260704`。
-- latest final label 是 `BAEPC_REAL_SYNC_STOP_COMPLEXITY_TOO_HIGH`。
-- 当前 claim boundary 是：This is a dry-run synchronization/posterior audit only. It does not establish reconstruction quality success and does not modify protected/original BBS sources.
+- 当前结果是 metadata-only 同步快照，latest result 为 `results/baepc_bounded_event_identity_refinement_20260704`。
+- latest final label 是 `BAEPC_EVENT_IDENTITY_REFINEMENT_GO_TO_HAND_TOY`。
+- 当前 claim boundary 是：Method-card candidate is allowed to proceed to hand toy only; not an effective decoder, not benchmark success, and not real-data proven.
 
 ## 不能说
 

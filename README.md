@@ -12,16 +12,16 @@ ChatGPT should first read:
 
 ## Current Latest Result
 
-- latest result: `results/baepc_real_data_sync_dryrun_20260704`
-- latest final label: `BAEPC_REAL_SYNC_STOP_COMPLEXITY_TOO_HIGH`
+- latest result: `results/baepc_bounded_event_identity_refinement_20260704`
+- latest final label: `BAEPC_EVENT_IDENTITY_REFINEMENT_GO_TO_HAND_TOY`
 
 ## Claim Boundary
 
-This is a dry-run synchronization/posterior audit only. It does not establish reconstruction quality success and does not modify protected/original BBS sources.
+Method-card candidate is allowed to proceed to hand toy only; not an effective decoder, not benchmark success, and not real-data proven.
 
 ## Next Action
 
-Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.
+Review latest result artifacts and confirm whether another validation step is warranted.
 
 ## If Linking From GitHub
 
