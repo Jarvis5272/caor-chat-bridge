@@ -1,4 +1,4 @@
 item	status	details
-push_status	pending_push	git@github-caor-chat-bridge:Jarvis5272/caor-chat-bridge.git
+push_status	push_failed	git@github-caor-chat-bridge:Jarvis5272/caor-chat-bridge.git
 push_branch	main	main
-commit_hash	pending	updated_after_commit
+commit_hash	pass	b9a58ef21648d5a06c6a031aee5f088cce0bd80e
