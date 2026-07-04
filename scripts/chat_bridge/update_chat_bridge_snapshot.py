@@ -440,7 +440,7 @@ def build_snapshot(args: argparse.Namespace) -> dict[str, Any]:
     original_rows = read_tsv(latest / "original_bbs_unchanged_audit.tsv", read_skipped)
 
     label_texts = [report_text, gate_text, expected_texts.get(rel(latest / "TPC_OCWP_REAL_SYNC_GO_NO_GO_CN.md", root), "")]
-    final_label = extract_label(label_texts, gate_rows)
+    final_label = args.final_label_override or extract_label(label_texts, gate_rows)
     metrics = extract_metrics(report_text, aggregate_rows)
     completed = extract_completed_stages(report_text, latest)
     gate_decision = summarize_gate(gate_text, gate_rows, final_label)
@@ -886,6 +886,7 @@ git push origin HEAD:chat-bridge
 def parse_args(argv: list[str]) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--latest-result", help="Path such as results/<run_dir>. If omitted, auto-detect newest results/ directory.")
+    parser.add_argument("--final-label-override", help="Force the latest-result final label when the result report is missing or parser-incomplete.")
     parser.add_argument("--prompt-file", help="Optional previous ChatGPT-to-Codex prompt file.")
     parser.add_argument("--auto-detect-latest", action="store_true", help="Auto-detect newest results/ directory, or fall back to it if --latest-result is missing.")
     parser.add_argument("--out", default="chat_bridge", help="Output directory for bridge files.")
