@@ -12,16 +12,18 @@ ChatGPT should first read:
 
 ## Current Latest Result
 
-- latest result: `results/originality_boundary_baseline_aware_update_20260704`
-- latest final label: `ORIGINALITY_BOUNDARY_BASELINE_AWARE_UPDATED`
+- latest result: `results/baepc_baseline_aware_method_card_20260704`
+- latest final label: `BAEPC_METHOD_CARD_GO_TO_HAND_TOY`
 
 ## Claim Boundary
 
-Current target is baseline-aware original CleanIDS algorithm; allow attribution-safe baseline module reuse, but require BBS-semantics-independent online core. EPBSD/BBS fork is not an independent decoder.
+可以说 BAEPC 是一个值得 hand toy 的 baseline-aware original method-card candidate。
+
+不能说 BAEPC 已经是有效 decoder、BBS replacement、benchmark success 或 real-data proven method。
 
 ## Next Action
 
-If continuing algorithm innovation, do a small number of deep theory method cards first; no candidate sea and no experiments now.
+Review latest result artifacts and confirm whether another validation step is warranted.
 
 ## If Linking From GitHub
 
