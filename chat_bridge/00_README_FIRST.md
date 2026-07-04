@@ -6,15 +6,15 @@
 
 ## 当前主线状态
 
-最新自动检测结果为 `results/baepc_feiw_math_experiment_reconciliation_20260704`；当前最新 Codex label 为 `BAEPC_FEIW_STOP_FULL_ALIGNMENT_REQUIRED`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT`。
+最新自动检测结果为 `results/controlled_baseline_aware_cleanids_long_goal_20260704`；当前最新 Codex label 为 `CONTROLLED_CLEANIDS_NO_SMOKE_SIGNAL_FREEZE_CANDIDATES`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT`。
 
 ## 最新 Codex final label
 
-`BAEPC_FEIW_STOP_FULL_ALIGNMENT_REQUIRED`
+`CONTROLLED_CLEANIDS_NO_SMOKE_SIGNAL_FREEZE_CANDIDATES`
 
 ## 最新输出目录
 
-`results/baepc_feiw_math_experiment_reconciliation_20260704`
+`results/controlled_baseline_aware_cleanids_long_goal_20260704`
 
 ## ChatGPT 应先读哪些文件
 
@@ -27,26 +27,29 @@
 
 ## 当前 claim boundary
 
-- 未运行新实验。
-- 未运行 smoke。
-- 未运行 benchmark。
-- 未修改 protected code。
-- 未修改 original BBS source。
-- 未修改原始数据。
-- 未 patch evaluator。
-- 未使用 BBS/EPBSD online semantics。
+可以说：
 
-Protected files modified: no_by_this_task.
+- SEIC 是一个 baseline-aware original framework attempt；
+- SEIC toy 和 real-sync dry-run 有部分正信号；
+- SEIC 未通过 smoke gate；
+- VEMC method-card 停止；
+- 当前仍没有 BBS-free independent decoder success。
 
-Original BBS source modified: no_by_this_task.
+不能说：
+
+- 不能说找到 clean IDS decoder；
+- 不能说 SEIC reconstruction quality success；
+- 不能说 smoke/bounded/benchmark pass；
+- 不能说 BBS 被替代；
+- 不能把 refusal/low-confidence 当 success。
 
 ## 是否有 missing context
 
-`missing_expected_files=['FINAL*_REPORT_CN.md', 'leakage_audit.tsv']`。这些缺失项只作为上下文缺口记录；若 required bridge files 全部生成，则不阻塞 bridge 使用。
+`missing_expected_files=['FINAL*_REPORT_CN.md']`。这些缺失项只作为上下文缺口记录；若 required bridge files 全部生成，则不阻塞 bridge 使用。
 
 ## 当前下一步
 
-Freeze BAEPC+FEIW as a stopped line; no revise, smoke, or benchmark. Return to strategy review or open a new theory-only candidate only with explicit approval.
+Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.
 
 ## protected diff 状态
 

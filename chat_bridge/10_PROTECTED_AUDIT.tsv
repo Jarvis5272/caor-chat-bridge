@@ -1,7 +1,7 @@
 protected_path	modified	status	notes
-experiments/streaming_slim_generalization_eval.py		no_by_this_task	Repository has broad pre-existing untracked files; no tracked protected diff was created in this task.
-src/pipeline/sparse_viterbi_dbg.py		no_by_this_task	No edit by this task.
-src/pipeline/		no_by_this_task	No edit by this task.
-baseline/		no_by_this_task	No edit by this task.
-external_baselines/		no_by_this_task	No edit by this task.
-frozen/		no_by_this_task	No edit by this task.
+experiments/streaming_slim_generalization_eval.py		no_by_this_task	no edit
+src/pipeline/sparse_viterbi_dbg.py		no_by_this_task	no edit
+src/pipeline/		no_by_this_task	no edit
+baseline/		no_by_this_task	no edit
+external_baselines/		no_by_this_task	no edit
+frozen/		no_by_this_task	no edit

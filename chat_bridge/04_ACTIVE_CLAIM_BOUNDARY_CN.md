@@ -2,20 +2,23 @@
 
 ## 可以说
 
-- 当前结果是 metadata-only 同步快照，latest result 为 `results/baepc_feiw_math_experiment_reconciliation_20260704`。
-- latest final label 是 `BAEPC_FEIW_STOP_FULL_ALIGNMENT_REQUIRED`。
-- 当前 claim boundary 是：- 未运行新实验。
-- 未运行 smoke。
-- 未运行 benchmark。
-- 未修改 protected code。
-- 未修改 original BBS source。
-- 未修改原始数据。
-- 未 patch evaluator。
-- 未使用 BBS/EPBSD online semantics。
+- 当前结果是 metadata-only 同步快照，latest result 为 `results/controlled_baseline_aware_cleanids_long_goal_20260704`。
+- latest final label 是 `CONTROLLED_CLEANIDS_NO_SMOKE_SIGNAL_FREEZE_CANDIDATES`。
+- 当前 claim boundary 是：可以说：
 
-Protected files modified: no_by_this_task.
+- SEIC 是一个 baseline-aware original framework attempt；
+- SEIC toy 和 real-sync dry-run 有部分正信号；
+- SEIC 未通过 smoke gate；
+- VEMC method-card 停止；
+- 当前仍没有 BBS-free independent decoder success。
 
-Original BBS source modified: no_by_this_task.
+不能说：
+
+- 不能说找到 clean IDS decoder；
+- 不能说 SEIC reconstruction quality success；
+- 不能说 smoke/bounded/benchmark pass；
+- 不能说 BBS 被替代；
+- 不能把 refusal/low-confidence 当 success。
 
 ## 不能说
 
