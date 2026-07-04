@@ -2,23 +2,22 @@
 
 ## 可以说
 
-- 当前结果是 metadata-only 同步快照，latest result 为 `results/controlled_baseline_aware_cleanids_long_goal_20260704`。
-- latest final label 是 `CONTROLLED_CLEANIDS_NO_SMOKE_SIGNAL_FREEZE_CANDIDATES`。
+- 当前结果是 metadata-only 同步快照，latest result 为 `results/edit_event_identity_certificate_synthesis_20260704`。
+- latest final label 是 `IDENTITY_CERTIFICATE_READY_FOR_HAND_TOY`。
 - 当前 claim boundary 是：可以说：
 
-- SEIC 是一个 baseline-aware original framework attempt；
-- SEIC toy 和 real-sync dry-run 有部分正信号；
-- SEIC 未通过 smoke gate；
-- VEMC method-card 停止；
-- 当前仍没有 BBS-free independent decoder success。
+- 当前 independent decoder 仍未找到；
+- SEIC/VEMC 冻结；
+- 当前核心数学问题是 event identity certificate；
+- SPWIC 是值得进入 hand toy 的 certificate 候选。
 
 不能说：
 
-- 不能说找到 clean IDS decoder；
-- 不能说 SEIC reconstruction quality success；
-- 不能说 smoke/bounded/benchmark pass；
-- 不能说 BBS 被替代；
-- 不能把 refusal/low-confidence 当 success。
+- 不能说 SPWIC 是算法成功；
+- 不能说可以进入 toy prototype / real-sync / smoke；
+- 不能说 BBS-free decoder found；
+- 不能说 SEIC/VEMC 可以继续 patch；
+- 不能把 refusal 当 success。
 
 ## 不能说
 

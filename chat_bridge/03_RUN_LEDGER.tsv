@@ -1,16 +1,15 @@
 timestamp	final_label	output_dir	candidate_or_track	stage_reached	gate_decision	target_met	claim_boundary	protected_files_modified	original_bbs_source_modified	data_modified	notes
-2026-07-04T23:30:52+08:00	CONTROLLED_CLEANIDS_NO_SMOKE_SIGNAL_FREEZE_CANDIDATES	results/controlled_baseline_aware_cleanids_long_goal_20260704	missing	任务目的; 候选; SEIC 结果; 为什么不 revise SEIC; VEMC 结果; 数学-实验结论	# Stage 0 Gate Decision Stage 0 status: PASS_TO_STAGE1. Rationale: - User explicitly approved continuing algorithm exploration under math-experiment coevolution. - Current work starts from prior failure evidence, not broad candidate generat	no	"可以说：
+2026-07-04T23:47:07+08:00	IDENTITY_CERTIFICATE_READY_FOR_HAND_TOY	results/edit_event_identity_certificate_synthesis_20260704	TPC+OCWP real-data synchronization dry-run	任务目的; 当前候选冻结; 共同数学障碍; Certificate 必要条件; 候选 certificate; Selection	IDENTITY_CERTIFICATE_READY_FOR_HAND_TOY	yes	"可以说：
 
-- SEIC 是一个 baseline-aware original framework attempt；
-- SEIC toy 和 real-sync dry-run 有部分正信号；
-- SEIC 未通过 smoke gate；
-- VEMC method-card 停止；
-- 当前仍没有 BBS-free independent decoder success。
+- 当前 independent decoder 仍未找到；
+- SEIC/VEMC 冻结；
+- 当前核心数学问题是 event identity certificate；
+- SPWIC 是值得进入 hand toy 的 certificate 候选。
 
 不能说：
 
-- 不能说找到 clean IDS decoder；
-- 不能说 SEIC reconstruction quality success；
-- 不能说 smoke/bounded/benchmark pass；
-- 不能说 BBS 被替代；
-- 不能把 refusal/low-confidence 当 success。"	no	no	no_by_bridge_task	bridge_label=CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT; auto_detected_latest_result=False
+- 不能说 SPWIC 是算法成功；
+- 不能说可以进入 toy prototype / real-sync / smoke；
+- 不能说 BBS-free decoder found；
+- 不能说 SEIC/VEMC 可以继续 patch；
+- 不能把 refusal 当 success。"	no	no	no_by_bridge_task	bridge_label=CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT; auto_detected_latest_result=False
