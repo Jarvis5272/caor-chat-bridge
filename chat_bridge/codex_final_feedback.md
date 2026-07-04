@@ -1,13 +1,13 @@
 # Codex Feedback To ChatGPT
 
-1. final label: `BAEPC_EVENT_IDENTITY_REFINEMENT_GO_TO_HAND_TOY`
-2. output dir: `results/baepc_bounded_event_identity_refinement_20260704`
+1. final label: `BAEPC_FEIW_HAND_TOY_PASS_GO_TO_TOY_ONLY_PROTOTYPE`
+2. output dir: `results/baepc_feiw_revised_hand_toy_20260704`
 3. completed stages: stage0_gate_decision
 4. key metrics:
 - missing
-5. gate decision: # Stage 0 gate PASS: proceed to theory-only bounded event identity review. No experiment/smoke/benchmark is allowed.
-6. claim boundary: No new parameter, no W expansion, no BBS/EPBSD, no full alignment/graph, no prototype/real-data/smoke. Only revised hand toy is allowed next.
-7. next recommendation: Review latest result artifacts and confirm whether another validation step is warranted.
+5. gate decision: # Stage 0 gate PASS: required upstream files are present and this task remains revised-hand-toy only. No prototype, real-data run, smoke, benchmark, or source modification is allowed.
+6. claim boundary: Method-card candidate is allowed to proceed to hand toy only; not an effective decoder, not benchmark success, and not real-data proven.
+7. next recommendation: Toy-only prototype is allowed next with explicit user approval; no real-data dry-run, smoke, or benchmark.
 8. protected files modified? `no`
 9. original BBS source modified? `no`
 10. files for review: `chat_bridge/06_FILES_FOR_REVIEW.tsv`

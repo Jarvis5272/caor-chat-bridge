@@ -12,16 +12,16 @@ ChatGPT should first read:
 
 ## Current Latest Result
 
-- latest result: `results/baepc_bounded_event_identity_refinement_20260704`
-- latest final label: `BAEPC_EVENT_IDENTITY_REFINEMENT_GO_TO_HAND_TOY`
+- latest result: `results/baepc_feiw_revised_hand_toy_20260704`
+- latest final label: `BAEPC_FEIW_HAND_TOY_PASS_GO_TO_TOY_ONLY_PROTOTYPE`
 
 ## Claim Boundary
 
-No new parameter, no W expansion, no BBS/EPBSD, no full alignment/graph, no prototype/real-data/smoke. Only revised hand toy is allowed next.
+Method-card candidate is allowed to proceed to hand toy only; not an effective decoder, not benchmark success, and not real-data proven.
 
 ## Next Action
 
-Review latest result artifacts and confirm whether another validation step is warranted.
+Toy-only prototype is allowed next with explicit user approval; no real-data dry-run, smoke, or benchmark.
 
 ## If Linking From GitHub
 

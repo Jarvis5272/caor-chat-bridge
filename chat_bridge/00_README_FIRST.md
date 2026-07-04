@@ -6,15 +6,15 @@
 
 ## 当前主线状态
 
-最新自动检测结果为 `results/baepc_bounded_event_identity_refinement_20260704`；当前最新 Codex label 为 `BAEPC_EVENT_IDENTITY_REFINEMENT_GO_TO_HAND_TOY`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT`。
+最新自动检测结果为 `results/baepc_feiw_revised_hand_toy_20260704`；当前最新 Codex label 为 `BAEPC_FEIW_HAND_TOY_PASS_GO_TO_TOY_ONLY_PROTOTYPE`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT`。
 
 ## 最新 Codex final label
 
-`BAEPC_EVENT_IDENTITY_REFINEMENT_GO_TO_HAND_TOY`
+`BAEPC_FEIW_HAND_TOY_PASS_GO_TO_TOY_ONLY_PROTOTYPE`
 
 ## 最新输出目录
 
-`results/baepc_bounded_event_identity_refinement_20260704`
+`results/baepc_feiw_revised_hand_toy_20260704`
 
 ## ChatGPT 应先读哪些文件
 
@@ -27,7 +27,7 @@
 
 ## 当前 claim boundary
 
-No new parameter, no W expansion, no BBS/EPBSD, no full alignment/graph, no prototype/real-data/smoke. Only revised hand toy is allowed next.
+Method-card candidate is allowed to proceed to hand toy only; not an effective decoder, not benchmark success, and not real-data proven.
 
 ## 是否有 missing context
 
@@ -35,7 +35,7 @@ No new parameter, no W expansion, no BBS/EPBSD, no full alignment/graph, no prot
 
 ## 当前下一步
 
-Review latest result artifacts and confirm whether another validation step is warranted.
+Toy-only prototype is allowed next with explicit user approval; no real-data dry-run, smoke, or benchmark.
 
 ## protected diff 状态
 

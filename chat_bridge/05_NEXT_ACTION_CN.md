@@ -2,7 +2,7 @@
 
 ## 当前建议下一步
 
-Review latest result artifacts and confirm whether another validation step is warranted.
+Toy-only prototype is allowed next with explicit user approval; no real-data dry-run, smoke, or benchmark.
 
 ## 不建议做什么
 

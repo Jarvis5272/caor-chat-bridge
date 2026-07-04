@@ -2,11 +2,11 @@
 
 ## 实时故事状态
 
-最新结果目录 `results/baepc_bounded_event_identity_refinement_20260704` 是当前 latest result；最新 label 是 `BAEPC_EVENT_IDENTITY_REFINEMENT_GO_TO_HAND_TOY`。
+最新结果目录 `results/baepc_feiw_revised_hand_toy_20260704` 是当前 latest result；最新 label 是 `BAEPC_FEIW_HAND_TOY_PASS_GO_TO_TOY_ONLY_PROTOTYPE`。
 
 ## clean IDS 数据状态
 
-最新结果记录的数据状态来自 `results/baepc_bounded_event_identity_refinement_20260704`。若报告中的 input scope 不完整，以源 artifact 为准，不在 bridge 中编造。
+最新结果记录的数据状态来自 `results/baepc_feiw_revised_hand_toy_20260704`。若报告中的 input scope 不完整，以源 artifact 为准，不在 bridge 中编造。
 
 ## EPBSD / BBS acceleration 状态
 
@@ -14,7 +14,7 @@
 
 ## baseline-aware / independent algorithm 状态
 
-当前 active track: `missing`。根据 latest gate，当前结论是 `# Stage 0 gate PASS: proceed to theory-only bounded event identity review. No experiment/smoke/benchmark is allowed.`。
+当前 active track: `missing`。根据 latest gate，当前结论是 `# Stage 0 gate PASS: required upstream files are present and this task remains revised-hand-toy only. No prototype, real-data run, smoke, benchmark, or source modification is allowed.`。
 
 ## 当前 active candidate
 
@@ -22,7 +22,7 @@
 
 ## 当前 gate
 
-# Stage 0 gate PASS: proceed to theory-only bounded event identity review. No experiment/smoke/benchmark is allowed.
+# Stage 0 gate PASS: required upstream files are present and this task remains revised-hand-toy only. No prototype, real-data run, smoke, benchmark, or source modification is allowed.
 
 ## 当前最大风险
 

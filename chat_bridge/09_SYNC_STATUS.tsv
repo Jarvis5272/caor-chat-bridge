@@ -1,17 +1,17 @@
 item	status	details
-requested_latest_result	pass	results/baepc_bounded_event_identity_refinement_20260704
-used_latest_result	pass	results/baepc_bounded_event_identity_refinement_20260704
+requested_latest_result	pass	results/baepc_feiw_revised_hand_toy_20260704
+used_latest_result	pass	results/baepc_feiw_revised_hand_toy_20260704
 explicit_latest_result_used	yes	true
 auto_detected	no	false
 auto_detected_latest_result	no	false
-latest_final_label	pass	BAEPC_EVENT_IDENTITY_REFINEMENT_GO_TO_HAND_TOY
-latest_output_dir	pass	results/baepc_bounded_event_identity_refinement_20260704
+latest_final_label	pass	BAEPC_FEIW_HAND_TOY_PASS_GO_TO_TOY_ONLY_PROTOTYPE
+latest_output_dir	pass	results/baepc_feiw_revised_hand_toy_20260704
 bridge_consistency_status	pending_validation	generated_pending_validation
 reason	pass	requested latest result exists and was used
-latest result requested	pass	results/baepc_bounded_event_identity_refinement_20260704
-latest result used	pass	results/baepc_bounded_event_identity_refinement_20260704
+latest result requested	pass	results/baepc_feiw_revised_hand_toy_20260704
+latest result used	pass	results/baepc_feiw_revised_hand_toy_20260704
 latest result detection mode	explicit	False
-latest result detected	pass	results/baepc_bounded_event_identity_refinement_20260704
+latest result detected	pass	results/baepc_feiw_revised_hand_toy_20260704
 files copied	pass	0 source artifact files copied; bridge files generated only
 files skipped	pass	0
 large files skipped	pass	0
@@ -37,7 +37,7 @@ git status summary	pass	"M AGENTS.md
 ?? experiments/bbs_baseline_eval.py
 ?? experiments/candidate_pool_selector_eval.py
 ?? experiments"
-timestamp	pass	2026-07-04T19:48:42+08:00
+timestamp	pass	2026-07-04T20:03:16+08:00
 protected files modified	pass	no
 original BBS source modified	pass	no
 generated bridge files	pass	14
