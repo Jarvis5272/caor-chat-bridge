@@ -6,15 +6,15 @@
 
 ## 当前主线状态
 
-最新自动检测结果为 `results/edit_event_identity_certificate_synthesis_20260704`；当前最新 Codex label 为 `IDENTITY_CERTIFICATE_READY_FOR_HAND_TOY`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT`。
+最新自动检测结果为 `results/spwic_identity_certificate_hand_toy_20260704`；当前最新 Codex label 为 `SPWIC_HAND_TOY_PASS_GO_TO_TOY_ONLY_PROTOTYPE`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT`。
 
 ## 最新 Codex final label
 
-`IDENTITY_CERTIFICATE_READY_FOR_HAND_TOY`
+`SPWIC_HAND_TOY_PASS_GO_TO_TOY_ONLY_PROTOTYPE`
 
 ## 最新输出目录
 
-`results/edit_event_identity_certificate_synthesis_20260704`
+`results/spwic_identity_certificate_hand_toy_20260704`
 
 ## ChatGPT 应先读哪些文件
 
@@ -29,18 +29,22 @@
 
 可以说：
 
-- 当前 independent decoder 仍未找到；
-- SEIC/VEMC 冻结；
-- 当前核心数学问题是 event identity certificate；
-- SPWIC 是值得进入 hand toy 的 certificate 候选。
+- SPWIC hand toy 规则具体；
+- hand toy 上有 9 个 constructive recovery；
+- S/I/D 都有；
+- harmful residual traps 被拒绝；
+- 非唯一 witness low-confidence；
+- no full alignment / graph / BBS / EPBSD semantics。
 
 不能说：
 
 - 不能说 SPWIC 是算法成功；
-- 不能说可以进入 toy prototype / real-sync / smoke；
-- 不能说 BBS-free decoder found；
-- 不能说 SEIC/VEMC 可以继续 patch；
-- 不能把 refusal 当 success。
+- 不能说 toy prototype 已通过；
+- 不能说 real-data 成功；
+- 不能说 smoke/benchmark 允许；
+- 不能把 low-confidence 当 success。
+
+下一步只允许 toy-only prototype，并且需要用户明确批准。
 
 ## 是否有 missing context
 
@@ -48,7 +52,7 @@
 
 ## 当前下一步
 
-Run SPWIC hand toy only with explicit approval; no code, toy prototype, real-data sync, smoke, benchmark, SEIC patching, or BBS/EPBSD semantics.
+Toy-only prototype is allowed next with explicit user approval; no real-data dry-run, smoke, or benchmark.
 
 ## protected diff 状态
 

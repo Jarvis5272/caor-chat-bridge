@@ -2,11 +2,11 @@
 
 ## 实时故事状态
 
-最新结果目录 `results/edit_event_identity_certificate_synthesis_20260704` 是当前 latest result；最新 label 是 `IDENTITY_CERTIFICATE_READY_FOR_HAND_TOY`。
+最新结果目录 `results/spwic_identity_certificate_hand_toy_20260704` 是当前 latest result；最新 label 是 `SPWIC_HAND_TOY_PASS_GO_TO_TOY_ONLY_PROTOTYPE`。
 
 ## clean IDS 数据状态
 
-最新结果记录的数据状态来自 `results/edit_event_identity_certificate_synthesis_20260704`。若报告中的 input scope 不完整，以源 artifact 为准，不在 bridge 中编造。
+最新结果记录的数据状态来自 `results/spwic_identity_certificate_hand_toy_20260704`。若报告中的 input scope 不完整，以源 artifact 为准，不在 bridge 中编造。
 
 ## EPBSD / BBS acceleration 状态
 
@@ -14,15 +14,15 @@
 
 ## baseline-aware / independent algorithm 状态
 
-当前 active track: `SPWIC edit-event identity certificate synthesis`。根据 latest gate，当前结论是 `IDENTITY_CERTIFICATE_READY_FOR_HAND_TOY`。
+当前 active track: `TPC+OCWP real-data synchronization dry-run`。根据 latest gate，当前结论是 `# Stage 0 Gate Decision Decision: `PASS_TO_SPWIC_HAND_TOY_AUDIT` Evidence: - Latest upstream synthesis label is `IDENTITY_CERTIFICATE_READY_FOR_HAND_TOY`. - Selected primary certificate is SPWIC. - This task is hand toy only and does not pe`。
 
 ## 当前 active candidate
 
-`SPWIC edit-event identity certificate synthesis`
+`TPC+OCWP real-data synchronization dry-run`
 
 ## 当前 gate
 
-IDENTITY_CERTIFICATE_READY_FOR_HAND_TOY
+# Stage 0 Gate Decision Decision: `PASS_TO_SPWIC_HAND_TOY_AUDIT` Evidence: - Latest upstream synthesis label is `IDENTITY_CERTIFICATE_READY_FOR_HAND_TOY`. - Selected primary certificate is SPWIC. - This task is hand toy only and does not pe
 
 ## 当前最大风险
 

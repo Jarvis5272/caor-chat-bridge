@@ -2,7 +2,7 @@
 
 ## 当前建议下一步
 
-Run SPWIC hand toy only with explicit approval; no code, toy prototype, real-data sync, smoke, benchmark, SEIC patching, or BBS/EPBSD semantics.
+Toy-only prototype is allowed next with explicit user approval; no real-data dry-run, smoke, or benchmark.
 
 ## 不建议做什么
 

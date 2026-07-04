@@ -5,11 +5,13 @@ priority	path	reason_to_review	expected_content	small_enough_for_git	exists	note
 4	chat_bridge/04_ACTIVE_CLAIM_BOUNDARY_CN.md	claim audit	allowed/disallowed claims	yes	yes	generated bridge file
 5	chat_bridge/05_NEXT_ACTION_CN.md	next step	recommended next action	yes	yes	generated bridge file
 6	chat_bridge/09_SYNC_STATUS.tsv	sync audit	detected/missing/skipped status	yes	yes	generated bridge file
-7	results/edit_event_identity_certificate_synthesis_20260704/EDIT_EVENT_IDENTITY_CERTIFICATE_SYNTHESIS_REPORT_CN.md	latest result source artifact	*REPORT_CN.md	yes	yes	3340 bytes
-8	results/edit_event_identity_certificate_synthesis_20260704/final_decision_matrix.tsv	latest result source artifact	final_decision_matrix.tsv	yes	yes	977 bytes
-9	results/edit_event_identity_certificate_synthesis_20260704/final_artifact_manifest.tsv	latest result source artifact	final_artifact_manifest.tsv	yes	yes	1466 bytes
-10	results/edit_event_identity_certificate_synthesis_20260704/no_protected_files_modified.tsv	latest result source artifact	no_protected_files_modified.tsv	yes	yes	536 bytes
-11	results/edit_event_identity_certificate_synthesis_20260704/original_bbs_unchanged_audit.tsv	latest result source artifact	original_bbs_unchanged_audit.tsv	yes	yes	140 bytes
-12	results/edit_event_identity_certificate_synthesis_20260704/environment_summary.txt	latest result source artifact	environment_summary.txt	yes	yes	308 bytes
-13	results/edit_event_identity_certificate_synthesis_20260704/FINAL*_REPORT_CN.md	missing expected context	FINAL*_REPORT_CN.md	unknown	no	missing; do not infer
-14	results/edit_event_identity_certificate_synthesis_20260704/leakage_audit.tsv	missing expected context	leakage_audit.tsv	unknown	no	missing; do not infer
+7	results/spwic_identity_certificate_hand_toy_20260704/SPWIC_IDENTITY_CERTIFICATE_HAND_TOY_REPORT_CN.md	latest result source artifact	*REPORT_CN.md	yes	yes	4382 bytes
+8	results/spwic_identity_certificate_hand_toy_20260704/SPWIC_HAND_TOY_GO_NO_GO_CN.md	latest result source artifact	*GO_NO_GO_CN.md	yes	yes	731 bytes
+9	results/spwic_identity_certificate_hand_toy_20260704/stage0_gate_decision.md	latest result source artifact	stage*_gate_decision.md	yes	yes	430 bytes
+10	results/spwic_identity_certificate_hand_toy_20260704/final_decision_matrix.tsv	latest result source artifact	final_decision_matrix.tsv	yes	yes	1016 bytes
+11	results/spwic_identity_certificate_hand_toy_20260704/final_artifact_manifest.tsv	latest result source artifact	final_artifact_manifest.tsv	yes	yes	1939 bytes
+12	results/spwic_identity_certificate_hand_toy_20260704/no_protected_files_modified.tsv	latest result source artifact	no_protected_files_modified.tsv	yes	yes	536 bytes
+13	results/spwic_identity_certificate_hand_toy_20260704/original_bbs_unchanged_audit.tsv	latest result source artifact	original_bbs_unchanged_audit.tsv	yes	yes	140 bytes
+14	results/spwic_identity_certificate_hand_toy_20260704/environment_summary.txt	latest result source artifact	environment_summary.txt	yes	yes	283 bytes
+15	results/spwic_identity_certificate_hand_toy_20260704/FINAL*_REPORT_CN.md	missing expected context	FINAL*_REPORT_CN.md	unknown	no	missing; do not infer
+16	results/spwic_identity_certificate_hand_toy_20260704/leakage_audit.tsv	missing expected context	leakage_audit.tsv	unknown	no	missing; do not infer

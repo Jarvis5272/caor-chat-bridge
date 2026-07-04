@@ -5,15 +5,14 @@ contains_large_files	pass	false
 contains_secret_like_files	pass	false
 contains_raw_reads	pass	false
 contains_only_bridge	pass	CHATGPT_LINK_INSTRUCTIONS_CN.md,README.md,chat_bridge,chat_bridge_feedback_package.zip,scripts
-latest_result_final_label	pass	IDENTITY_CERTIFICATE_READY_FOR_HAND_TOY
+latest_result_final_label	pass	SPWIC_HAND_TOY_PASS_GO_TO_TOY_ONLY_PROTOTYPE
 claim_boundary_present	pass	"可以说：
 
-- 当前 independent decoder 仍未找到；
-- SEIC/VEMC 冻结；
-- 当前核心数学问题是 event identity certificate；
-- SPWIC 是值得进入 hand toy 的 certificate 候选。
+- SPWIC hand toy 规则具体；
+- hand toy 上有 9 个 constructive recovery；
+- S/I/D 都有；
+- harmful residual traps 被拒绝；
+- 非唯一 witness low-confidence；
+- no full alignment / graph / BBS / EPBSD semantics。
 
-不能说：
-
-- 不能说 SPWIC 是算法成功；
-- 不能说可以进入 toy prototype / real-sync / sm"
+不能说："
