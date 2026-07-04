@@ -2,27 +2,27 @@
 
 ## 实时故事状态
 
-最新结果目录 `results/algorithm_state_freeze_and_next_strategy_from_bridge_20260704` 显示当前主线仍处在同步/拒绝/风险门控阶段；最新 label 是 `ALGORITHM_STATE_FREEZE_AND_STRATEGY_COMPLETED`。
+最新结果目录 `results/originality_boundary_baseline_aware_update_20260704` 显示当前主线仍处在同步/拒绝/风险门控阶段；最新 label 是 `missing`。
 
 ## clean IDS 数据状态
 
-最新结果记录的数据状态来自 `results/algorithm_state_freeze_and_next_strategy_from_bridge_20260704`。若报告中的 input scope 不完整，以源 artifact 为准，不在 bridge 中编造。
+最新结果记录的数据状态来自 `results/originality_boundary_baseline_aware_update_20260704`。若报告中的 input scope 不完整，以源 artifact 为准，不在 bridge 中编造。
 
 ## EPBSD / BBS acceleration 状态
 
-当前 bridge 只同步状态，不新增 EPBSD/BBS acceleration 实验。latest audit: protected=`no`, original_bbs=`no`。
+当前 bridge 只同步状态，不新增 EPBSD/BBS acceleration 实验。latest audit: protected=`unknown`, original_bbs=`unknown`。
 
 ## BBS-free independent algorithm 状态
 
-当前 active track: `Freeze current algorithm state from ChatGPT bridge and prepare next strategy`。根据 latest gate，当前结论是 `ALGORITHM_STATE_FREEZE_AND_STRATEGY_COMPLETED`。
+当前 active track: `baseline-aware originality boundary update`。根据 latest gate，当前结论是 `missing`。
 
 ## 当前 active candidate
 
-`Freeze current algorithm state from ChatGPT bridge and prepare next strategy`
+`baseline-aware originality boundary update`
 
 ## 当前 gate
 
-ALGORITHM_STATE_FREEZE_AND_STRATEGY_COMPLETED
+missing
 
 ## 当前最大风险
 

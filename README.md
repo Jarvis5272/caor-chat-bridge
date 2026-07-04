@@ -12,12 +12,14 @@ ChatGPT should first read:
 
 ## Current Latest Result
 
-- latest result: `results/algorithm_state_freeze_and_next_strategy_from_bridge_20260704`
-- latest final label: `ALGORITHM_STATE_FREEZE_AND_STRATEGY_COMPLETED`
+- latest result: `results/originality_boundary_baseline_aware_update_20260704`
+- latest final label: `missing`
 
 ## Claim Boundary
 
-可以说当前有扎实的状态同步、数据/协议资产、工程加速和负结果证据。不能说已经找到 clean simple decoder、BBS-free decoder、TPC+OCWP success、BBS replacement 或 formal integration。
+可以说：当前 originality boundary 已更新为 baseline-aware original CleanIDS algorithm。
+
+不能说：已经找到 BBS-semantics-independent decoder；不能把 EPBSD、BBS fork 或 baseline wrapper 写成独立算法。
 
 ## Next Action
 

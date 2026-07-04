@@ -1,2 +1,2 @@
 source_path	modified	status	notes
-../bbs-src	no	pass	no writes targeted original BBS source
+../bbs-src		unchanged	git -C ../bbs-src status --short returned no rows during this task
