@@ -1,16 +1,15 @@
-# Codex Final Feedback
+# Codex Feedback To ChatGPT
 
 1. final label: `ORIGINALITY_BOUNDARY_BASELINE_AWARE_UPDATED`
 2. output dir: `results/originality_boundary_baseline_aware_update_20260704`
-3. completed stages: `missing`
-4. key metrics: `{}`
-5. gate decision: `missing`
-6. claim boundary: `可以说：当前 originality boundary 已更新为 baseline-aware original CleanIDS algorithm。
-
-不能说：已经找到 BBS-semantics-independent decoder；不能把 EPBSD、BBS fork 或 baseline wrapper 写成独立算法。`
-7. next recommendation: `Review latest result artifacts and confirm whether another validation step is warranted.`
-8. bridge status: `bridge_ok_with_nonblocking_missing`
-9. chat_bridge_feedback_package path: `chat_bridge_feedback_package.zip`
-10. bridge raw link if pushed: `see chat_bridge_export/CHATGPT_LINK_INSTRUCTIONS_CN.md`
-11. protected files modified?: `unknown`
-12. original BBS source modified?: `unknown`
+3. completed stages: missing
+4. key metrics:
+- missing
+5. gate decision: ORIGINALITY_BOUNDARY_BASELINE_AWARE_UPDATED
+6. claim boundary: Current target is baseline-aware original CleanIDS algorithm; allow attribution-safe baseline module reuse, but require BBS-semantics-independent online core. EPBSD/BBS fork is not an independent decoder.
+7. next recommendation: If continuing algorithm innovation, do a small number of deep theory method cards first; no candidate sea and no experiments now.
+8. protected files modified? `no_by_this_task`
+9. original BBS source modified? `no_by_this_task`
+10. files for review: `chat_bridge/06_FILES_FOR_REVIEW.tsv`
+11. missing context: `['leakage_audit.tsv']`
+12. package expected: `chat_bridge_feedback_package.zip`

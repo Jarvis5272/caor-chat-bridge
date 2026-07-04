@@ -41,3 +41,30 @@ git push origin HEAD:chat-bridge
 ## 哪些文件不要同步
 
 不要同步 raw data、fastq/fasta/fa、gz/zip、大型 per-prefix/per-read 表、secret/token/ssh key/API key、原始 BBS source、protected code、formal evaluator 或旧 results。
+
+## 当前原创性边界
+
+当前目标短语：`baseline-aware original CleanIDS algorithm`。
+
+当前独立性边界：`BBS-semantics-independent`。允许借鉴通用 baseline 模块，但不允许复制 baseline 的完整 decoder 语义、输出决策或在线核心。
+
+允许借鉴的模块类别：
+
+- k-mer/minimizer features
+- bounded local DP/alignment
+- local POA-like micro-consensus
+- medoid scaffold
+- edit sketches
+- local posterior/edit-event posterior
+- run-length normalization
+- confidence/margin
+
+仍然禁止：
+
+- BBS output online
+- BBS full decoder wrapper
+- BBS path-likelihood / beam / pruning semantics as online core
+- reference/truth/ED/exact/accuracy online
+- dataset/source family route
+- refusal-only or fallback-only as reconstruction success
+- EPBSD as independent decoder

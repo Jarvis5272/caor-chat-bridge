@@ -5,7 +5,5 @@ contains_large_files	pass	false
 contains_secret_like_files	pass	false
 contains_raw_reads	pass	false
 contains_only_bridge	pass	CHATGPT_LINK_INSTRUCTIONS_CN.md,README.md,chat_bridge,chat_bridge_feedback_package.zip,scripts
-latest_result_final_label	pass	missing
-claim_boundary_present	pass	"可以说：当前 originality boundary 已更新为 baseline-aware original CleanIDS algorithm。
-
-不能说：已经找到 BBS-semantics-independent decoder；不能把 EPBSD、BBS fork 或 baseline wrapper 写成独立算法。"
+latest_result_final_label	pass	ORIGINALITY_BOUNDARY_BASELINE_AWARE_UPDATED
+claim_boundary_present	pass	Current target is baseline-aware original CleanIDS algorithm; allow attribution-safe baseline module reuse, but require BBS-semantics-independent online core. EPBSD/BBS fork is not an independent deco

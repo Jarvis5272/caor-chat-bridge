@@ -13,17 +13,15 @@ ChatGPT should first read:
 ## Current Latest Result
 
 - latest result: `results/originality_boundary_baseline_aware_update_20260704`
-- latest final label: `missing`
+- latest final label: `ORIGINALITY_BOUNDARY_BASELINE_AWARE_UPDATED`
 
 ## Claim Boundary
 
-可以说：当前 originality boundary 已更新为 baseline-aware original CleanIDS algorithm。
-
-不能说：已经找到 BBS-semantics-independent decoder；不能把 EPBSD、BBS fork 或 baseline wrapper 写成独立算法。
+Current target is baseline-aware original CleanIDS algorithm; allow attribution-safe baseline module reuse, but require BBS-semantics-independent online core. EPBSD/BBS fork is not an independent decoder.
 
 ## Next Action
 
-Review latest result artifacts and confirm whether another validation step is warranted.
+If continuing algorithm innovation, do a small number of deep theory method cards first; no candidate sea and no experiments now.
 
 ## If Linking From GitHub
 
