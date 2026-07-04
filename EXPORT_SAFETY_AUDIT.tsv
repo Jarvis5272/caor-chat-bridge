@@ -5,5 +5,5 @@ contains_large_files	pass	false
 contains_secret_like_files	pass	false
 contains_raw_reads	pass	false
 contains_only_bridge	pass	CHATGPT_LINK_INSTRUCTIONS_CN.md,README.md,chat_bridge,chat_bridge_feedback_package.zip,scripts
-latest_result_final_label	pass	BAEPC_METHOD_CARD_GO_TO_HAND_TOY
-claim_boundary_present	pass	不能说 BAEPC 已经有效、不能说 BBS replacement、不能说 benchmark success、不能说 real-data proven。下一步只允许 hand toy，不允许代码、真实数据、smoke 或 benchmark。
+latest_result_final_label	pass	BAEPC_HAND_TOY_PASS_GO_TO_TOY_ONLY_PROTOTYPE
+claim_boundary_present	pass	Method-card candidate is allowed to proceed to hand toy only; not an effective decoder, not benchmark success, and not real-data proven.

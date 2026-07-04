@@ -2,9 +2,9 @@
 
 ## 可以说
 
-- 当前结果是 metadata-only 同步快照，latest result 为 `results/baepc_baseline_aware_method_card_20260704`。
-- latest final label 是 `BAEPC_METHOD_CARD_GO_TO_HAND_TOY`。
-- 当前 claim boundary 是：不能说 BAEPC 已经有效、不能说 BBS replacement、不能说 benchmark success、不能说 real-data proven。下一步只允许 hand toy，不允许代码、真实数据、smoke 或 benchmark。
+- 当前结果是 metadata-only 同步快照，latest result 为 `results/baepc_hand_toy_audit_20260704`。
+- latest final label 是 `BAEPC_HAND_TOY_PASS_GO_TO_TOY_ONLY_PROTOTYPE`。
+- 当前 claim boundary 是：Method-card candidate is allowed to proceed to hand toy only; not an effective decoder, not benchmark success, and not real-data proven.
 
 ## 不能说
 

@@ -1,12 +1,12 @@
 item	status	details
-requested_latest_result	pass	results/baepc_baseline_aware_method_card_20260704
-used_latest_result	pass	results/baepc_baseline_aware_method_card_20260704
+requested_latest_result	pass	results/baepc_hand_toy_audit_20260704
+used_latest_result	pass	results/baepc_hand_toy_audit_20260704
 auto_detected	no	false
 reason	pass	requested latest result exists and was used
-latest result requested	pass	results/baepc_baseline_aware_method_card_20260704
-latest result used	pass	results/baepc_baseline_aware_method_card_20260704
+latest result requested	pass	results/baepc_hand_toy_audit_20260704
+latest result used	pass	results/baepc_hand_toy_audit_20260704
 latest result detection mode	explicit	False
-latest result detected	pass	results/baepc_baseline_aware_method_card_20260704
+latest result detected	pass	results/baepc_hand_toy_audit_20260704
 files copied	pass	0 source artifact files copied; bridge files generated only
 files skipped	pass	0
 large files skipped	pass	0
@@ -32,7 +32,7 @@ git status summary	pass	"M AGENTS.md
 ?? experiments/bbs_baseline_eval.py
 ?? experiments/candidate_pool_selector_eval.py
 ?? experiments"
-timestamp	pass	2026-07-04T17:54:20+08:00
+timestamp	pass	2026-07-04T17:59:25+08:00
 protected files modified	pass	no
 original BBS source modified	pass	no
 generated bridge files	pass	14

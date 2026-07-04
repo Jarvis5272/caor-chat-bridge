@@ -2,11 +2,11 @@
 
 ## 实时故事状态
 
-最新结果目录 `results/baepc_baseline_aware_method_card_20260704` 是当前 latest result；最新 label 是 `BAEPC_METHOD_CARD_GO_TO_HAND_TOY`。
+最新结果目录 `results/baepc_hand_toy_audit_20260704` 是当前 latest result；最新 label 是 `BAEPC_HAND_TOY_PASS_GO_TO_TOY_ONLY_PROTOTYPE`。
 
 ## clean IDS 数据状态
 
-最新结果记录的数据状态来自 `results/baepc_baseline_aware_method_card_20260704`。若报告中的 input scope 不完整，以源 artifact 为准，不在 bridge 中编造。
+最新结果记录的数据状态来自 `results/baepc_hand_toy_audit_20260704`。若报告中的 input scope 不完整，以源 artifact 为准，不在 bridge 中编造。
 
 ## EPBSD / BBS acceleration 状态
 
@@ -14,15 +14,15 @@
 
 ## baseline-aware / independent algorithm 状态
 
-当前 active track: `BAEPC baseline-aware original CleanIDS method card`。根据 latest gate，当前结论是 `BAEPC_METHOD_CARD_GO_TO_HAND_TOY`。
+当前 active track: `BAEPC hand toy audit`。根据 latest gate，当前结论是 `BAEPC_HAND_TOY_PASS_GO_TO_TOY_ONLY_PROTOTYPE`。
 
 ## 当前 active candidate
 
-`BAEPC baseline-aware original CleanIDS method card`
+`BAEPC hand toy audit`
 
 ## 当前 gate
 
-BAEPC_METHOD_CARD_GO_TO_HAND_TOY
+BAEPC_HAND_TOY_PASS_GO_TO_TOY_ONLY_PROTOTYPE
 
 ## 当前最大风险
 
