@@ -10,7 +10,7 @@ chat_bridge/04_ACTIVE_CLAIM_BOUNDARY_CN.md	1301	4d80c8733ece4339c63b5843c3ca5de9
 chat_bridge/05_NEXT_ACTION_CN.md	1749	1378deb4886724916c90e7647f98db6a18c2e50824792f6e242864bcc3367269	yes	allowed bridge mirror file	no raw/data/results full export; EXPORT_MANIFEST.tsv is not self-listed
 chat_bridge/06_FILES_FOR_REVIEW.tsv	1991	ba66cd4e30e206c28ec6837e01edbc08bc2996b617d1de988af3ff5e6b516703	yes	allowed bridge mirror file	no raw/data/results full export; EXPORT_MANIFEST.tsv is not self-listed
 chat_bridge/07_LAST_CHATGPT_PROMPT_TO_CODEX.md	8	6bbd052ab054ef222c1c87be60cd191addedd24cc882d1f5f7f7be61dc61bb3a	yes	allowed bridge mirror file	no raw/data/results full export; EXPORT_MANIFEST.tsv is not self-listed
-chat_bridge/08_CODEX_FEEDBACK_TO_CHATGPT.md	767	00da1c56ac41af4b24681fe5c81f7e1159371965542a878c83e6c48e1ea4c59a	yes	allowed bridge mirror file	no raw/data/results full export; EXPORT_MANIFEST.tsv is not self-listed
+chat_bridge/08_CODEX_FEEDBACK_TO_CHATGPT.md	817	de437ca0914f70219074c3bbb6bd5ef698630e16ed32a636f866627c7919a8dc	yes	allowed bridge mirror file	no raw/data/results full export; EXPORT_MANIFEST.tsv is not self-listed
 chat_bridge/09_SYNC_STATUS.tsv	1465	4943816ee284cd92e6a4d0c9deec48a68a2e53ecf880567abe9b36437feb5712	yes	allowed bridge mirror file	no raw/data/results full export; EXPORT_MANIFEST.tsv is not self-listed
 chat_bridge/10_PROTECTED_AUDIT.tsv	827	bd7539ccf5364db86eeaa11d5ea1800b119e2ffaaddfbfcc40ef9967be73afa0	yes	allowed bridge mirror file	no raw/data/results full export; EXPORT_MANIFEST.tsv is not self-listed
 chat_bridge/11_ORIGINAL_SOURCE_AUDIT.tsv	123	d7b23da238017c3656dc09c2016e3e64c2b345d8070b631de01714c904c1e98d	yes	allowed bridge mirror file	no raw/data/results full export; EXPORT_MANIFEST.tsv is not self-listed
@@ -18,7 +18,7 @@ chat_bridge/12_OPEN_QUESTIONS_CN.md	410	841f4fc1f314bc9ff0d6c9673cf5677454ac4731
 chat_bridge/13_BRIDGE_USAGE_CN.md	1371	bbcc792d0e5b5ba2b71ad3be749e73f296f3c437943ee1852159529d1f12246b	yes	allowed bridge mirror file	no raw/data/results full export; EXPORT_MANIFEST.tsv is not self-listed
 chat_bridge/bridge_remote.env	109	101b1b51290ef94cc6d6bce0cbd0dd22d12681daf80068862bba6fc99fe73db7	yes	allowed bridge mirror file	no raw/data/results full export; EXPORT_MANIFEST.tsv is not self-listed
 chat_bridge/codex_final_feedback.md	817	de437ca0914f70219074c3bbb6bd5ef698630e16ed32a636f866627c7919a8dc	yes	allowed bridge mirror file	no raw/data/results full export; EXPORT_MANIFEST.tsv is not self-listed
-chat_bridge_feedback_package.zip	10933	5c9b528d5f0772bbce00c2d386e857377d91352b97d4c597773dc065eed6ca1b	yes	allowed bridge mirror file	no raw/data/results full export; EXPORT_MANIFEST.tsv is not self-listed
+chat_bridge_feedback_package.zip	10948	7d6166042fe839335f80f0e1b8ecec5c8d8a47e97caee907b1a30d2fda71e17d	yes	allowed bridge mirror file	no raw/data/results full export; EXPORT_MANIFEST.tsv is not self-listed
 scripts/chat_bridge/CODEX_STANDARD_TASK_FOOTER.md	716	f62d4382bc9816aa64a2ec06af259e5f762a459882eab614e8b8eb1675f50c85	yes	allowed bridge mirror file	no raw/data/results full export; EXPORT_MANIFEST.tsv is not self-listed
 scripts/chat_bridge/bridge_after_run.sh	3793	b6a523acbafbd51d25391ce897636bc780bce2c1f5ba04798cecf03e78a6f5b8	yes	allowed bridge mirror file	no raw/data/results full export; EXPORT_MANIFEST.tsv is not self-listed
 scripts/chat_bridge/build_feedback_package.py	2520	cc49b2a2b261c8b336b40d56d71c21017e1815957f3ac1fa6357f02e58cf7bf7	yes	allowed bridge mirror file	no raw/data/results full export; EXPORT_MANIFEST.tsv is not self-listed
