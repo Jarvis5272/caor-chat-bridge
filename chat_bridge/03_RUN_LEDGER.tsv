@@ -1,5 +1,5 @@
 timestamp	final_label	output_dir	candidate_or_track	stage_reached	gate_decision	target_met	claim_boundary	protected_files_modified	original_bbs_source_modified	data_modified	notes
-2026-07-04T23:47:07+08:00	IDENTITY_CERTIFICATE_READY_FOR_HAND_TOY	results/edit_event_identity_certificate_synthesis_20260704	TPC+OCWP real-data synchronization dry-run	任务目的; 当前候选冻结; 共同数学障碍; Certificate 必要条件; 候选 certificate; Selection	IDENTITY_CERTIFICATE_READY_FOR_HAND_TOY	yes	"可以说：
+2026-07-04T23:47:34+08:00	IDENTITY_CERTIFICATE_READY_FOR_HAND_TOY	results/edit_event_identity_certificate_synthesis_20260704	SPWIC edit-event identity certificate synthesis	任务目的; 当前候选冻结; 共同数学障碍; Certificate 必要条件; 候选 certificate; Selection	IDENTITY_CERTIFICATE_READY_FOR_HAND_TOY	yes	"可以说：
 
 - 当前 independent decoder 仍未找到；
 - SEIC/VEMC 冻结；

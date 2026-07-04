@@ -34,7 +34,7 @@ ChatGPT should first read:
 
 ## Next Action
 
-Review latest result artifacts and confirm whether another validation step is warranted.
+Run SPWIC hand toy only with explicit approval; no code, toy prototype, real-data sync, smoke, benchmark, SEIC patching, or BBS/EPBSD semantics.
 
 ## If Linking From GitHub
 

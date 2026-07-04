@@ -42,10 +42,10 @@
     "FINAL*_REPORT_CN.md",
     "leakage_audit.tsv"
   ],
-  "next_action": "Review latest result artifacts and confirm whether another validation step is warranted.",
+  "next_action": "Run SPWIC hand toy only with explicit approval; no code, toy prototype, real-data sync, smoke, benchmark, SEIC patching, or BBS/EPBSD semantics.",
   "original_bbs_source_modified": "no",
   "output_dir": "results/edit_event_identity_certificate_synthesis_20260704",
   "protected_files_modified": "no",
-  "selected_candidate": "TPC+OCWP real-data synchronization dry-run",
-  "timestamp": "2026-07-04T23:47:07+08:00"
+  "selected_candidate": "SPWIC edit-event identity certificate synthesis",
+  "timestamp": "2026-07-04T23:47:34+08:00"
 }

@@ -14,11 +14,11 @@
 
 ## baseline-aware / independent algorithm 状态
 
-当前 active track: `TPC+OCWP real-data synchronization dry-run`。根据 latest gate，当前结论是 `IDENTITY_CERTIFICATE_READY_FOR_HAND_TOY`。
+当前 active track: `SPWIC edit-event identity certificate synthesis`。根据 latest gate，当前结论是 `IDENTITY_CERTIFICATE_READY_FOR_HAND_TOY`。
 
 ## 当前 active candidate
 
-`TPC+OCWP real-data synchronization dry-run`
+`SPWIC edit-event identity certificate synthesis`
 
 ## 当前 gate
 

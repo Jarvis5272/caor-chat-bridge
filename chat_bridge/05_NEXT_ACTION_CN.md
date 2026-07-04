@@ -2,7 +2,7 @@
 
 ## 当前建议下一步
 
-Review latest result artifacts and confirm whether another validation step is warranted.
+Run SPWIC hand toy only with explicit approval; no code, toy prototype, real-data sync, smoke, benchmark, SEIC patching, or BBS/EPBSD semantics.
 
 ## 不建议做什么
 

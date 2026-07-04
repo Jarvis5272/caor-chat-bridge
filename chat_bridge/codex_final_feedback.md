@@ -20,7 +20,7 @@
 - 不能说 BBS-free decoder found；
 - 不能说 SEIC/VEMC 可以继续 patch；
 - 不能把 refusal 当 success。
-7. next recommendation: Review latest result artifacts and confirm whether another validation step is warranted.
+7. next recommendation: Run SPWIC hand toy only with explicit approval; no code, toy prototype, real-data sync, smoke, benchmark, SEIC patching, or BBS/EPBSD semantics.
 8. protected files modified? `no`
 9. original BBS source modified? `no`
 10. files for review: `chat_bridge/06_FILES_FOR_REVIEW.tsv`

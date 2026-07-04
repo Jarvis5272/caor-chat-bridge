@@ -464,6 +464,8 @@ def build_snapshot(args: argparse.Namespace) -> dict[str, Any]:
     completed = extract_completed_stages(report_text, latest)
     gate_decision = summarize_gate(gate_text, gate_rows, final_label)
     candidate = parse_environment_task(env_text)
+    if "IDENTITY_CERTIFICATE_READY_FOR_HAND_TOY" in final_label:
+        candidate = "SPWIC edit-event identity certificate synthesis"
     if candidate == "missing":
         candidate = "TPC+OCWP real-data synchronization dry-run" if "TPC+OCWP" in report_text else "missing"
     claim_boundary = extract_section(report_text, "Claim boundary") or extract_section(report_text, "Boundary")
@@ -496,6 +498,11 @@ def build_snapshot(args: argparse.Namespace) -> dict[str, Any]:
     elif "METHOD_CARD_GO_TO_HAND_TOY" in final_label:
         next_action = (
             "Only the approved hand toy is allowed next; no code, real-data dry-run, smoke, or benchmark."
+        )
+    elif "IDENTITY_CERTIFICATE_READY_FOR_HAND_TOY" in final_label:
+        next_action = (
+            "Run SPWIC hand toy only with explicit approval; no code, toy prototype, real-data sync, "
+            "smoke, benchmark, SEIC patching, or BBS/EPBSD semantics."
         )
     elif (
         "BAEPC_FEIW_STOP_FULL_ALIGNMENT_REQUIRED" in final_label
