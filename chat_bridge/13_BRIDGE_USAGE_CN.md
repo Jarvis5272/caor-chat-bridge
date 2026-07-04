@@ -41,23 +41,3 @@ git push origin HEAD:chat-bridge
 ## 哪些文件不要同步
 
 不要同步 raw data、fastq/fasta/fa、gz/zip、大型 per-prefix/per-read 表、secret/token/ssh key/API key、原始 BBS source、protected code、formal evaluator 或旧 results。
-
-## 当前原创性边界
-
-当前目标短语：`baseline-aware original CleanIDS algorithm`。
-
-当前独立性边界：`BBS-semantics-independent`。允许借鉴通用 baseline 模块，但不允许复制 baseline 的完整 decoder 语义、输出决策或在线核心。
-
-仍然禁止：
-
-- BBS output online
-- BBS full decoder wrapper
-- BBS path-likelihood / beam / pruning semantics as online core
-- EPBSD scoring kernel
-- reference/truth/ED/exact/accuracy online
-- dataset/source family route
-- refusal-only or fallback-only as reconstruction success
-
-## 当前 BAEPC 状态
-
-当前 latest result 是 `results/baepc_baseline_aware_method_card_20260704`，final label 是 `BAEPC_METHOD_CARD_GO_TO_HAND_TOY`。下一步只允许 hand toy；不允许代码、真实数据 dry-run、smoke 或 benchmark。

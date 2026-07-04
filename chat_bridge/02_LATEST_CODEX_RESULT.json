@@ -3,18 +3,9 @@
   "auto_detected_latest_result": false,
   "blocking_missing": false,
   "bridge_workflow_final_label": "CHAT_BRIDGE_WORKFLOW_INITIALIZED",
-  "claim_boundary": "BAEPC is a baseline-aware original method-card candidate for hand toy only; not an effective decoder, not BBS replacement, not benchmark success, not real-data proven.",
+  "claim_boundary": "不能说 BAEPC 已经有效、不能说 BBS replacement、不能说 benchmark success、不能说 real-data proven。下一步只允许 hand toy，不允许代码、真实数据、smoke 或 benchmark。",
   "completed_stages": [
-    "BAEPC method positioning",
-    "module attribution",
-    "math objects",
-    "state/update/decode/confidence/stop",
-    "indel mechanism",
-    "complexity",
-    "failure lessons",
-    "counterexamples",
-    "BBS rescue coverage",
-    "go/no-go"
+    "missing"
   ],
   "data_modified": "no_by_bridge_task",
   "files_for_chatgpt_review": [
@@ -38,10 +29,10 @@
   "latest_result_used": "results/baepc_baseline_aware_method_card_20260704",
   "main_metrics": {},
   "missing_expected_files": [],
-  "next_action": "Only BAEPC hand toy is allowed next; no code, real-data dry-run, smoke, or benchmark.",
-  "original_bbs_source_modified": "no_by_this_task",
+  "next_action": "Only the approved hand toy is allowed next; no code, real-data dry-run, smoke, or benchmark.",
+  "original_bbs_source_modified": "no",
   "output_dir": "results/baepc_baseline_aware_method_card_20260704",
-  "protected_files_modified": "no_by_this_task",
+  "protected_files_modified": "no",
   "selected_candidate": "BAEPC baseline-aware original CleanIDS method card",
-  "timestamp": "2026-07-04T17:42:23+08:00"
+  "timestamp": "2026-07-04T17:54:20+08:00"
 }

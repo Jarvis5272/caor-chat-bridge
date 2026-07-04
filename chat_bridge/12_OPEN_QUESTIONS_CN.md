@@ -1,7 +1,6 @@
 # Open Questions
 
-- BAEPC 的 streaming edit-event posterior field 是否足够区别于 R3C residual correction？
-- Hand toy 是否能展示 bounded insertion/deletion/substitution constructive correction，而不是 medoid + refusal？
-- `W/s/m` 是否足够，还是 hand toy 会暴露第 4 个核心参数需求？
-- repeated context、homopolymer tied length、branch ambiguity 和 long-range ambiguity 是否能被诚实标 low-confidence？
-- 如果 hand toy 发现需要 full alignment / full POA / full graph / BBS-like path search，是否立即 stop？
+- Gate fail/stop 后，是否需要重设计 global search / sync witness 机制？
+- `results/baepc_baseline_aware_method_card_20260704` 缺失的 expected context 是否可接受，还是需要指定另一个 `--latest-result`？
+- ChatGPT 是否认可当前 claim boundary：sync dry-run only，不写 benchmark success？
+- 下一轮是否需要用户批准启动新实验，或只做报告审查？

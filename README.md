@@ -17,11 +17,11 @@ ChatGPT should first read:
 
 ## Claim Boundary
 
-BAEPC is a baseline-aware original method-card candidate for hand toy only; not an effective decoder, not BBS replacement, not benchmark success, not real-data proven.
+不能说 BAEPC 已经有效、不能说 BBS replacement、不能说 benchmark success、不能说 real-data proven。下一步只允许 hand toy，不允许代码、真实数据、smoke 或 benchmark。
 
 ## Next Action
 
-Only BAEPC hand toy is allowed next; no code, real-data dry-run, smoke, or benchmark.
+Only the approved hand toy is allowed next; no code, real-data dry-run, smoke, or benchmark.
 
 ## If Linking From GitHub
 

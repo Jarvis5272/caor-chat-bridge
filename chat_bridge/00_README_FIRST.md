@@ -27,7 +27,7 @@
 
 ## 当前 claim boundary
 
-BAEPC 是一个值得进入 hand toy 的 baseline-aware original method-card candidate。它借鉴 medoid scaffold、bounded local DP/alignment、local edit-event posterior 和 confidence/margin，但禁止 BBS output、BBS score/beam/pruning/path likelihood、EPBSD kernel、reference/truth online。不能说 BAEPC 已经是有效 decoder、BBS replacement、benchmark success 或 real-data proven method。
+不能说 BAEPC 已经有效、不能说 BBS replacement、不能说 benchmark success、不能说 real-data proven。下一步只允许 hand toy，不允许代码、真实数据、smoke 或 benchmark。
 
 ## 是否有 missing context
 
@@ -35,12 +35,12 @@ BAEPC 是一个值得进入 hand toy 的 baseline-aware original method-card can
 
 ## 当前下一步
 
-下一步只允许 BAEPC hand toy；不允许代码、真实数据 dry-run、smoke 或 benchmark。
+Only the approved hand toy is allowed next; no code, real-data dry-run, smoke, or benchmark.
 
 ## protected diff 状态
 
-`protected_files_modified=no_by_this_task`。本 method-card 任务只写入 `results/baepc_baseline_aware_method_card_20260704` 和 bridge 同步文件。
+`protected_files_modified=no`。本 bridge 任务只写入 `chat_bridge/` 和 `scripts/chat_bridge/`。
 
 ## original BBS source 状态
 
-`original_bbs_source_modified=no_by_this_task`。本任务未写入 `../bbs-src` 或 BBS source。
+`original_bbs_source_modified=no`。本 bridge 任务未写入 `../bbs-src` 或 BBS source。

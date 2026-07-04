@@ -279,13 +279,21 @@ def target_met(gate_decision: str, final_label: str) -> str:
 def audit_status(rows: list[dict[str, str]]) -> str:
     if not rows:
         return "unknown"
+    clean_statuses = {
+        "pass",
+        "ok",
+        "unchanged",
+        "not_modified",
+        "not_modified_by_this_task",
+        "no_by_this_task",
+    }
     for row in rows:
         values = {k.lower(): v.strip().lower() for k, v in row.items()}
         modified = values.get("modified", values.get("modified_by_this_task", "no"))
         status = values.get("status", "")
         if modified not in {"no", "false", "0", ""}:
             return "yes"
-        if status and status not in {"pass", "ok"}:
+        if status and status not in clean_statuses:
             return "unknown"
     return "no"
 
@@ -447,13 +455,22 @@ def build_snapshot(args: argparse.Namespace) -> dict[str, Any]:
     candidate = parse_environment_task(env_text)
     if candidate == "missing":
         candidate = "TPC+OCWP real-data synchronization dry-run" if "TPC+OCWP" in report_text else "missing"
-    claim_boundary = extract_section(report_text, "Claim boundary")
+    claim_boundary = extract_section(report_text, "Claim boundary") or extract_section(report_text, "Boundary")
     if not claim_boundary:
-        claim_boundary = (
-            "BBS-free sync dry-run only. No reconstruction benchmark-quality claim; "
-            "low-confidence/refusal is not decoder success."
-        )
+        if "HAND_TOY" in final_label:
+            claim_boundary = (
+                "Method-card candidate is allowed to proceed to hand toy only; "
+                "not an effective decoder, not benchmark success, and not real-data proven."
+            )
+        else:
+            claim_boundary = (
+                "BBS-free sync dry-run only. No reconstruction benchmark-quality claim; "
+                "low-confidence/refusal is not decoder success."
+            )
     next_action = (
+        "Only the approved hand toy is allowed next; no code, real-data dry-run, smoke, or benchmark."
+        if "HAND_TOY" in final_label
+        else
         "Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy."
         if target_met(gate_decision, final_label) == "no"
         else "Review latest result artifacts and confirm whether another validation step is warranted."
@@ -503,7 +520,7 @@ def build_snapshot(args: argparse.Namespace) -> dict[str, Any]:
 
 ## 当前项目一句话目标
 
-在 ACOR / clean IDS / BBS-free 同步重建研究中，用小型、可审查的状态快照让 ChatGPT 读取 Codex 的最新结果、claim boundary 和下一步。
+在 ACOR / clean IDS / baseline-aware original algorithm 研究中，用小型、可审查的状态快照让 ChatGPT 读取 Codex 的最新结果、claim boundary 和下一步。
 
 ## 当前主线状态
 
@@ -546,7 +563,7 @@ def build_snapshot(args: argparse.Namespace) -> dict[str, Any]:
 
 ## 实时故事状态
 
-最新结果目录 `{output_dir}` 显示当前主线仍处在同步/拒绝/风险门控阶段；最新 label 是 `{final_label}`。
+最新结果目录 `{output_dir}` 是当前 latest result；最新 label 是 `{final_label}`。
 
 ## clean IDS 数据状态
 
@@ -556,7 +573,7 @@ def build_snapshot(args: argparse.Namespace) -> dict[str, Any]:
 
 当前 bridge 只同步状态，不新增 EPBSD/BBS acceleration 实验。latest audit: protected=`{protected_modified}`, original_bbs=`{original_modified}`。
 
-## BBS-free independent algorithm 状态
+## baseline-aware / independent algorithm 状态
 
 当前 active track: `{candidate}`。根据 latest gate，当前结论是 `{gate_decision}`。
 
@@ -570,12 +587,12 @@ def build_snapshot(args: argparse.Namespace) -> dict[str, Any]:
 
 ## 当前最大风险
 
-如果继续把低置信/拒绝、同步失败或 global_search_risk 当作重建成功，会越过当前 claim boundary。
+如果继续把低置信/拒绝、同步失败、method-card 通过或工程加速当作 reconstruction success，会越过当前 claim boundary。
 
 ## 当前不建议继续的方向
 
-- 不建议在 gate 失败时做小 reconstruction smoke。
-- 不建议把同步 dry-run 写成 benchmark 质量成功。
+- 不建议在 gate 未允许时做小 reconstruction smoke。
+- 不建议把 method-card、hand-toy 或 sync dry-run 写成 benchmark 质量成功。
 - 不建议修改 protected code、原始数据或 original BBS source。
 """
 
@@ -602,12 +619,13 @@ def build_snapshot(args: argparse.Namespace) -> dict[str, Any]:
 
 - 当前结果是 metadata-only 同步快照，latest result 为 `{output_dir}`。
 - latest final label 是 `{final_label}`。
-- 可以说这是 BBS-free sync dry-run 状态同步，不是新的实验或 benchmark。
+- 当前 claim boundary 是：{claim_boundary}
 
 ## 不能说
 
 - 不能说当前结果证明 reconstruction benchmark 质量成功。
 - 不能把 low-confidence/refusal 计为 decoder success。
+- 不能把 method-card 或 hand-toy gate 写成 real-data proven decoder。
 - 不能声称 protected code、原始数据或 original BBS source 在本轮被修改。
 
 ## 只能作为工程结果
@@ -657,7 +675,7 @@ def build_snapshot(args: argparse.Namespace) -> dict[str, Any]:
 ## 推荐给 ChatGPT 的下一步问题
 
 - 当前是否应该把 TPC+OCWP 作为负结果冻结？
-- 当前 strategy review / paper positioning 是否应把 EPBSD 与 BBS-free decoder 负结果分开叙述？
+- 当前 strategy review / paper positioning 是否应把 EPBSD 与 independent decoder 负结果分开叙述？
 - 若继续理论线，是否只允许少数 deep candidates 而不是 broad search？
 
 ## 推荐给 Codex 的下一步动作
