@@ -1,7 +1,12 @@
 item	status	details
 requested_latest_result	pass	results/baepc_toy_only_prototype_20260704
 used_latest_result	pass	results/baepc_toy_only_prototype_20260704
+explicit_latest_result_used	yes	true
 auto_detected	no	false
+auto_detected_latest_result	no	false
+latest_final_label	pass	BAEPC_TOY_PASS_GO_TO_REAL_DATA_SYNC_DRYRUN
+latest_output_dir	pass	results/baepc_toy_only_prototype_20260704
+bridge_consistency_status	pending_validation	generated_pending_validation
 reason	pass	requested latest result exists and was used
 latest result requested	pass	results/baepc_toy_only_prototype_20260704
 latest result used	pass	results/baepc_toy_only_prototype_20260704
@@ -32,7 +37,7 @@ git status summary	pass	"M AGENTS.md
 ?? experiments/bbs_baseline_eval.py
 ?? experiments/candidate_pool_selector_eval.py
 ?? experiments"
-timestamp	pass	2026-07-04T18:16:12+08:00
+timestamp	pass	2026-07-04T18:31:19+08:00
 protected files modified	pass	no
 original BBS source modified	pass	no
 generated bridge files	pass	14

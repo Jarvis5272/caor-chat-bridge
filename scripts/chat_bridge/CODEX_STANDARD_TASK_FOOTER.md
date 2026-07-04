@@ -1,30 +1,35 @@
 # Codex Standard Task Footer
 
-任何 Codex goal 最后必须执行：
+任何 Codex goal 的最后必须执行：
 
 ```bash
 bash scripts/chat_bridge/codex_task_finalize.sh results/<本轮输出目录> "<FINAL_LABEL>"
 ```
 
-Codex final response 必须只输出：
+注意：
+
+- final label 必须显式传给 finalize；
+- finalize 禁止 auto-detect 覆盖本轮 run_dir；
+- bridge finalize 必须 local validation pass、push pass、raw validation pass；
+- raw README / JSON / feedback / sync status 必须都包含同一个 output_dir 和 final_label；
+- 如果 bridge finalize fail，Codex final label 必须改为：
+
+```text
+TASK_COMPLETED_BUT_BRIDGE_FINALIZE_FAILED
+```
+
+- 不允许只说 bridge pushed；必须验证 raw latest label/output_dir；
+- 不允许把 bridge success 当算法、实验或 benchmark 成果。
+
+成功时 `codex_task_finalize.sh` stdout 固定包含：
 
 1. final label
 2. output dir
-3. completed stages
-4. key metrics
-5. gate decision
-6. claim boundary
-7. next recommendation
-8. bridge status
-9. chat_bridge_feedback_package path
-10. bridge raw link if pushed
-11. protected files modified?
-12. original BBS source modified?
-
-如果未执行 bridge finalize，final label 必须改为：
-
-```text
-TASK_COMPLETED_BUT_BRIDGE_NOT_FINALIZED
-```
-
-Bridge finalize 不是算法成果，也不是 benchmark。它只是 ChatGPT-Codex 状态同步基础设施。
+3. bridge status
+4. raw README link
+5. fallback package
+6. local bridge validation
+7. raw bridge validation
+8. protected files modified?
+9. original BBS source modified?
+10. message to ChatGPT

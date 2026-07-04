@@ -402,12 +402,23 @@ def build_snapshot(args: argparse.Namespace) -> dict[str, Any]:
 
     requested_latest = args.latest_result or "auto"
     auto_detected = False
+    explicit_latest_result_used = bool(args.latest_result)
     latest = Path(args.latest_result) if args.latest_result else None
-    if args.auto_detect_latest:
-        if latest is None or not (latest if latest.is_absolute() else root / latest).exists():
-            latest = detect_latest_result(root)
-            auto_detected = True
-    elif latest is None:
+    if args.no_auto_detect and latest is None:
+        raise SystemExit("--no-auto-detect requires --latest-result")
+    if latest is not None:
+        candidate_latest = latest if latest.is_absolute() else root / latest
+        if not candidate_latest.exists() or not candidate_latest.is_dir():
+            if args.auto_detect_latest and not args.no_auto_detect:
+                latest = detect_latest_result(root)
+                auto_detected = True
+                explicit_latest_result_used = False
+            else:
+                raise SystemExit(f"Explicit latest result directory does not exist: {candidate_latest}")
+        else:
+            latest = candidate_latest
+            auto_detected = False
+    elif args.auto_detect_latest or not args.no_auto_detect:
         latest = detect_latest_result(root)
         auto_detected = True
     if latest is None:
@@ -522,9 +533,11 @@ def build_snapshot(args: argparse.Namespace) -> dict[str, Any]:
         "files_for_chatgpt_review": [row["path"] for row in review_rows[:12]],
         "missing_expected_files": missing_expected,
         "blocking_missing": False,
+        "explicit_latest_result_used": explicit_latest_result_used,
         "auto_detected_latest_result": auto_detected,
         "latest_result_requested": requested_latest,
         "latest_result_used": output_dir,
+        "bridge_consistency_status": "generated_pending_validation",
         "large_files_skipped_count": large_count,
     }
 
@@ -728,6 +741,8 @@ def build_snapshot(args: argparse.Namespace) -> dict[str, Any]:
 10. files for review: `{rel(out / '06_FILES_FOR_REVIEW.tsv', root)}`
 11. missing context: `{missing_expected or []}`
 12. package expected: `chat_bridge_feedback_package.zip`
+13. raw README link: `https://raw.githubusercontent.com/Jarvis5272/caor-chat-bridge/main/chat_bridge/00_README_FIRST.md`
+14. transactional raw validation: `required by bridge_after_run.sh`
 """
 
     detection_reason = (
@@ -738,7 +753,12 @@ def build_snapshot(args: argparse.Namespace) -> dict[str, Any]:
     status_rows = [
         {"item": "requested_latest_result", "status": "pass", "details": requested_latest},
         {"item": "used_latest_result", "status": "pass", "details": output_dir},
+        {"item": "explicit_latest_result_used", "status": "yes" if explicit_latest_result_used else "no", "details": str(explicit_latest_result_used).lower()},
         {"item": "auto_detected", "status": "yes" if auto_detected else "no", "details": str(auto_detected).lower()},
+        {"item": "auto_detected_latest_result", "status": "yes" if auto_detected else "no", "details": str(auto_detected).lower()},
+        {"item": "latest_final_label", "status": "pass", "details": final_label},
+        {"item": "latest_output_dir", "status": "pass", "details": output_dir},
+        {"item": "bridge_consistency_status", "status": "pending_validation", "details": "generated_pending_validation"},
         {"item": "reason", "status": "pass", "details": detection_reason},
         {"item": "latest result requested", "status": "pass", "details": requested_latest},
         {"item": "latest result used", "status": "pass", "details": output_dir},
@@ -823,8 +843,16 @@ zip -T chat_bridge_feedback_package.zip
 或者：
 
 ```bash
-bash scripts/chat_bridge/bridge_after_run.sh results/<run_dir>
+bash scripts/chat_bridge/bridge_after_run.sh results/<run_dir> "<FINAL_LABEL>"
 ```
+
+任务最终收尾必须使用：
+
+```bash
+bash scripts/chat_bridge/codex_task_finalize.sh results/<run_dir> "<FINAL_LABEL>"
+```
+
+该流程会禁止 finalize 阶段 auto-detect，执行 local validation、push 和 raw validation；任一失败都不能报告 bridge_ok。
 
 ## 用户给 ChatGPT 发什么
 
@@ -863,6 +891,7 @@ git push origin HEAD:chat-bridge
         "05_NEXT_ACTION_CN.md": next_action_md,
         "07_LAST_CHATGPT_PROMPT_TO_CODEX.md": prompt_text,
         "08_CODEX_FEEDBACK_TO_CHATGPT.md": feedback,
+        "codex_final_feedback.md": feedback,
         "12_OPEN_QUESTIONS_CN.md": open_questions,
         "13_BRIDGE_USAGE_CN.md": bridge_usage,
     }
@@ -925,6 +954,7 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
     parser.add_argument("--final-label-override", help="Force the latest-result final label when the result report is missing or parser-incomplete.")
     parser.add_argument("--prompt-file", help="Optional previous ChatGPT-to-Codex prompt file.")
     parser.add_argument("--auto-detect-latest", action="store_true", help="Auto-detect newest results/ directory, or fall back to it if --latest-result is missing.")
+    parser.add_argument("--no-auto-detect", action="store_true", help="Forbid auto-detect/fallback. Requires an existing explicit --latest-result.")
     parser.add_argument("--out", default="chat_bridge", help="Output directory for bridge files.")
     return parser.parse_args(argv)
 

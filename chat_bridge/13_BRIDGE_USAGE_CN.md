@@ -11,8 +11,16 @@ zip -T chat_bridge_feedback_package.zip
 或者：
 
 ```bash
-bash scripts/chat_bridge/bridge_after_run.sh results/<run_dir>
+bash scripts/chat_bridge/bridge_after_run.sh results/<run_dir> "<FINAL_LABEL>"
 ```
+
+任务最终收尾必须使用：
+
+```bash
+bash scripts/chat_bridge/codex_task_finalize.sh results/<run_dir> "<FINAL_LABEL>"
+```
+
+该流程会禁止 finalize 阶段 auto-detect，执行 local validation、push 和 raw validation；任一失败都不能报告 bridge_ok。
 
 ## 用户给 ChatGPT 发什么
 

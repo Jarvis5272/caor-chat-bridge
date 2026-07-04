@@ -2,6 +2,7 @@
   "artifact_manifest_path": "results/baepc_toy_only_prototype_20260704/final_artifact_manifest.tsv",
   "auto_detected_latest_result": false,
   "blocking_missing": false,
+  "bridge_consistency_status": "generated_pending_validation",
   "bridge_workflow_final_label": "CHAT_BRIDGE_WORKFLOW_INITIALIZED",
   "claim_boundary": "BAEPC toy-only prototype passed on declared toy cases; not real-data proven, not smoke, not benchmark, and not decoder success on CleanIDS.",
   "completed_stages": [
@@ -20,6 +21,7 @@
     "stage0_gate_decision"
   ],
   "data_modified": "no_by_bridge_task",
+  "explicit_latest_result_used": true,
   "files_for_chatgpt_review": [
     "chat_bridge/00_README_FIRST.md",
     "chat_bridge/01_CURRENT_STATE_CN.md",
@@ -46,5 +48,5 @@
   "output_dir": "results/baepc_toy_only_prototype_20260704",
   "protected_files_modified": "no",
   "selected_candidate": "BAEPC toy-only prototype",
-  "timestamp": "2026-07-04T18:16:12+08:00"
+  "timestamp": "2026-07-04T18:31:19+08:00"
 }
