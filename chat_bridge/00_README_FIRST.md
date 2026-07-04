@@ -41,7 +41,7 @@ Review latest result artifacts and confirm whether another validation step is wa
 
 ## protected diff 状态
 
-`protected_files_modified=unknown`。本 bridge 任务只写入 `chat_bridge/` 和 `scripts/chat_bridge/`。
+`protected_files_modified=no`。本 bridge 任务只写入 `chat_bridge/` 和 `scripts/chat_bridge/`。
 
 ## original BBS source 状态
 

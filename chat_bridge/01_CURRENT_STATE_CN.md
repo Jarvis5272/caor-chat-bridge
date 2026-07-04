@@ -10,7 +10,7 @@
 
 ## EPBSD / BBS acceleration 状态
 
-当前 bridge 只同步状态，不新增 EPBSD/BBS acceleration 实验。latest audit: protected=`unknown`, original_bbs=`no`。
+当前 bridge 只同步状态，不新增 EPBSD/BBS acceleration 实验。latest audit: protected=`no`, original_bbs=`no`。
 
 ## baseline-aware / independent algorithm 状态
 

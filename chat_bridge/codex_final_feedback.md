@@ -10,7 +10,7 @@
 
 不能说：real-data quality success、benchmark success、BBS replacement、formal integration、or BBS-free decoder proven.
 7. next recommendation: Review latest result artifacts and confirm whether another validation step is warranted.
-8. protected files modified? `unknown`
+8. protected files modified? `no`
 9. original BBS source modified? `no`
 10. files for review: `chat_bridge/06_FILES_FOR_REVIEW.tsv`
 11. missing context: `['FINAL*_REPORT_CN.md']`

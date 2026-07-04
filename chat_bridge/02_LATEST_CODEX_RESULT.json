@@ -44,7 +44,7 @@
   "next_action": "Review latest result artifacts and confirm whether another validation step is warranted.",
   "original_bbs_source_modified": "no",
   "output_dir": "results/baepc_feiw_toy_only_prototype_20260704",
-  "protected_files_modified": "unknown",
+  "protected_files_modified": "no",
   "selected_candidate": "missing",
-  "timestamp": "2026-07-04T21:09:30+08:00"
+  "timestamp": "2026-07-04T21:11:30+08:00"
 }
