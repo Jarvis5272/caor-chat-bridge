@@ -12,16 +12,16 @@ ChatGPT should first read:
 
 ## Current Latest Result
 
-- latest result: `results/baepc_toy_only_prototype_20260704`
-- latest final label: `BAEPC_TOY_PASS_GO_TO_REAL_DATA_SYNC_DRYRUN`
+- latest result: `results/chat_bridge_transactional_finalize_hardened_20260704`
+- latest final label: `CHAT_BRIDGE_TRANSACTIONAL_FINALIZE_HARDENED`
 
 ## Claim Boundary
 
-BAEPC toy-only prototype passed on declared toy cases; not real-data proven, not smoke, not benchmark, and not decoder success on CleanIDS.
+BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
 
 ## Next Action
 
-Real-data synchronization dry-run is allowed next with explicit user approval; no smoke, benchmark, or algorithm success claim.
+Review latest result artifacts and confirm whether another validation step is warranted.
 
 ## If Linking From GitHub
 

@@ -2,7 +2,7 @@
 
 ## 当前建议下一步
 
-Real-data synchronization dry-run is allowed next with explicit user approval; no smoke, benchmark, or algorithm success claim.
+Review latest result artifacts and confirm whether another validation step is warranted.
 
 ## 不建议做什么
 

@@ -2,9 +2,9 @@
 
 ## 可以说
 
-- 当前结果是 metadata-only 同步快照，latest result 为 `results/baepc_toy_only_prototype_20260704`。
-- latest final label 是 `BAEPC_TOY_PASS_GO_TO_REAL_DATA_SYNC_DRYRUN`。
-- 当前 claim boundary 是：BAEPC toy-only prototype passed on declared toy cases; not real-data proven, not smoke, not benchmark, and not decoder success on CleanIDS.
+- 当前结果是 metadata-only 同步快照，latest result 为 `results/chat_bridge_transactional_finalize_hardened_20260704`。
+- latest final label 是 `CHAT_BRIDGE_TRANSACTIONAL_FINALIZE_HARDENED`。
+- 当前 claim boundary 是：BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
 
 ## 不能说
 
