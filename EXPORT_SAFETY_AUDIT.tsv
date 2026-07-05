@@ -5,5 +5,5 @@ contains_large_files	pass	false
 contains_secret_like_files	pass	false
 contains_raw_reads	pass	false
 contains_only_bridge	pass	CHATGPT_LINK_INSTRUCTIONS_CN.md,README.md,chat_bridge,chat_bridge_feedback_package.zip,scripts
-latest_result_final_label	pass	SCC_TOY_PASS_GO_TO_REAL_DATA_SYNC_DRYRUN
-claim_boundary_present	pass	Online prototype only sees observed reads. Hidden target is used after Decode for offline toy evaluation. No BBS, EPBSD, STWC/CAOR, full alignment, POA, graph, dataset/source route, or online ED/exact
+latest_result_final_label	pass	SCC_REAL_SYNC_STOP_COMPLEXITY_TOO_HIGH
+claim_boundary_present	pass	No smoke or benchmark is run. Reference is used only offline. BBS/EPBSD/STWC/CAOR semantics are not used online. Protected files and original BBS source remain unchanged by this task.

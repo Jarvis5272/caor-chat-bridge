@@ -12,16 +12,16 @@ ChatGPT should first read:
 
 ## Current Latest Result
 
-- latest result: `results/scc_sparse_consistency_certificate_toy_only_prototype_20260705`
-- latest final label: `SCC_TOY_PASS_GO_TO_REAL_DATA_SYNC_DRYRUN`
+- latest result: `results/scc_real_data_sync_dryrun_20260705`
+- latest final label: `SCC_REAL_SYNC_STOP_COMPLEXITY_TOO_HIGH`
 
 ## Claim Boundary
 
-Online prototype only sees observed reads. Hidden target is used after Decode for offline toy evaluation. No BBS, EPBSD, STWC/CAOR, full alignment, POA, graph, dataset/source route, or online ED/exact/accuracy is used.
+No smoke or benchmark is run. Reference is used only offline. BBS/EPBSD/STWC/CAOR semantics are not used online. Protected files and original BBS source remain unchanged by this task.
 
 ## Next Action
 
-Review latest result artifacts and confirm whether another validation step is warranted.
+Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.
 
 ## If Linking From GitHub
 

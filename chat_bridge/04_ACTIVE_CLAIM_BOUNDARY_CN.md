@@ -2,9 +2,9 @@
 
 ## 可以说
 
-- 当前结果是 metadata-only 同步快照，latest result 为 `results/scc_sparse_consistency_certificate_toy_only_prototype_20260705`。
-- latest final label 是 `SCC_TOY_PASS_GO_TO_REAL_DATA_SYNC_DRYRUN`。
-- 当前 claim boundary 是：Online prototype only sees observed reads. Hidden target is used after Decode for offline toy evaluation. No BBS, EPBSD, STWC/CAOR, full alignment, POA, graph, dataset/source route, or online ED/exact/accuracy is used.
+- 当前结果是 metadata-only 同步快照，latest result 为 `results/scc_real_data_sync_dryrun_20260705`。
+- latest final label 是 `SCC_REAL_SYNC_STOP_COMPLEXITY_TOO_HIGH`。
+- 当前 claim boundary 是：No smoke or benchmark is run. Reference is used only offline. BBS/EPBSD/STWC/CAOR semantics are not used online. Protected files and original BBS source remain unchanged by this task.
 
 ## 不能说
 

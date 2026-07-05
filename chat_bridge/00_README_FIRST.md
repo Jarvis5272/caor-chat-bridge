@@ -6,15 +6,15 @@
 
 ## 当前主线状态
 
-最新自动检测结果为 `results/scc_sparse_consistency_certificate_toy_only_prototype_20260705`；当前最新 Codex label 为 `SCC_TOY_PASS_GO_TO_REAL_DATA_SYNC_DRYRUN`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED`。
+最新自动检测结果为 `results/scc_real_data_sync_dryrun_20260705`；当前最新 Codex label 为 `SCC_REAL_SYNC_STOP_COMPLEXITY_TOO_HIGH`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED`。
 
 ## 最新 Codex final label
 
-`SCC_TOY_PASS_GO_TO_REAL_DATA_SYNC_DRYRUN`
+`SCC_REAL_SYNC_STOP_COMPLEXITY_TOO_HIGH`
 
 ## 最新输出目录
 
-`results/scc_sparse_consistency_certificate_toy_only_prototype_20260705`
+`results/scc_real_data_sync_dryrun_20260705`
 
 ## ChatGPT 应先读哪些文件
 
@@ -27,7 +27,7 @@
 
 ## 当前 claim boundary
 
-Online prototype only sees observed reads. Hidden target is used after Decode for offline toy evaluation. No BBS, EPBSD, STWC/CAOR, full alignment, POA, graph, dataset/source route, or online ED/exact/accuracy is used.
+No smoke or benchmark is run. Reference is used only offline. BBS/EPBSD/STWC/CAOR semantics are not used online. Protected files and original BBS source remain unchanged by this task.
 
 ## 是否有 missing context
 
@@ -35,7 +35,7 @@ Online prototype only sees observed reads. Hidden target is used after Decode fo
 
 ## 当前下一步
 
-Review latest result artifacts and confirm whether another validation step is warranted.
+Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.
 
 ## protected diff 状态
 
