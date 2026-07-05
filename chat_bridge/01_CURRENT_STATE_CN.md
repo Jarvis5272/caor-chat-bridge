@@ -2,11 +2,11 @@
 
 ## 实时故事状态
 
-最新结果目录 `results/bapc_local_conflict_mode_certificate_theory_20260705` 是当前 latest result；最新 label 是 `LCMC_THEORY_NEEDS_MORE_THEORY`。
+最新结果目录 `results/bapc_decisive_advantage_or_failure_validation_20260705` 是当前 latest result；最新 label 是 `BAPC_DECISIVE_FAIL_NO_SAFE_UPDATE_BOUNDARY`。
 
 ## clean IDS 数据状态
 
-最新结果记录的数据状态来自 `results/bapc_local_conflict_mode_certificate_theory_20260705`。若报告中的 input scope 不完整，以源 artifact 为准，不在 bridge 中编造。
+最新结果记录的数据状态来自 `results/bapc_decisive_advantage_or_failure_validation_20260705`。若报告中的 input scope 不完整，以源 artifact 为准，不在 bridge 中编造。
 
 ## EPBSD / BBS acceleration 状态
 
@@ -14,7 +14,7 @@
 
 ## baseline-aware / independent algorithm 状态
 
-当前 active track: `missing`。根据 latest gate，当前结论是 `# Stage 0 gate decision Decision: PASS_THEORY_ONLY. All required input paths were checked. Missing items, if any, are recorded in `stage0_input_audit.tsv` and not inferred. This task remains theory-only: no new experiment, no BAPC revision,`。
+当前 active track: `missing`。根据 latest gate，当前结论是 `# Stage 0 gate decision Decision: PASS_TO_STAGE1_FINAL_SEPARABILITY. Required evidence directories are present except 20260703 source/data ledger variants; per objective, 20260627 fallback paths are present and recorded. Current claim remai`。
 
 ## 当前 active candidate
 
@@ -22,7 +22,7 @@
 
 ## 当前 gate
 
-# Stage 0 gate decision Decision: PASS_THEORY_ONLY. All required input paths were checked. Missing items, if any, are recorded in `stage0_input_audit.tsv` and not inferred. This task remains theory-only: no new experiment, no BAPC revision,
+# Stage 0 gate decision Decision: PASS_TO_STAGE1_FINAL_SEPARABILITY. Required evidence directories are present except 20260703 source/data ledger variants; per objective, 20260627 fallback paths are present and recorded. Current claim remai
 
 ## 当前最大风险
 

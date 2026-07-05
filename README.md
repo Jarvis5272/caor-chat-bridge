@@ -12,13 +12,16 @@ ChatGPT should first read:
 
 ## Current Latest Result
 
-- latest result: `results/bapc_local_conflict_mode_certificate_theory_20260705`
-- latest final label: `LCMC_THEORY_NEEDS_MORE_THEORY`
+- latest result: `results/bapc_decisive_advantage_or_failure_validation_20260705`
+- latest final label: `BAPC_DECISIVE_FAIL_NO_SAFE_UPDATE_BOUNDARY`
 
 ## Claim Boundary
 
-Protected files modified by this task: no。
-Original BBS source modified by this task: no。
+Can say: BAPC has the strongest current promising aggregate signal among this line; current BAPC is original/non-BBS online core; the decisive validation failed because no safe-update boundary qualifies.
+
+Cannot say: BAPC target met, BAPC bounded success, BAPC replaces BBS/EPBSD, BAPC is ready for benchmark, or another small patch/revision is allowed.
+
+Final label: `BAPC_DECISIVE_FAIL_NO_SAFE_UPDATE_BOUNDARY`.
 
 ## Next Action
 

@@ -6,15 +6,15 @@
 
 ## 当前主线状态
 
-最新自动检测结果为 `results/bapc_local_conflict_mode_certificate_theory_20260705`；当前最新 Codex label 为 `LCMC_THEORY_NEEDS_MORE_THEORY`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED`。
+最新自动检测结果为 `results/bapc_decisive_advantage_or_failure_validation_20260705`；当前最新 Codex label 为 `BAPC_DECISIVE_FAIL_NO_SAFE_UPDATE_BOUNDARY`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED`。
 
 ## 最新 Codex final label
 
-`LCMC_THEORY_NEEDS_MORE_THEORY`
+`BAPC_DECISIVE_FAIL_NO_SAFE_UPDATE_BOUNDARY`
 
 ## 最新输出目录
 
-`results/bapc_local_conflict_mode_certificate_theory_20260705`
+`results/bapc_decisive_advantage_or_failure_validation_20260705`
 
 ## ChatGPT 应先读哪些文件
 
@@ -27,8 +27,11 @@
 
 ## 当前 claim boundary
 
-Protected files modified by this task: no。
-Original BBS source modified by this task: no。
+Can say: BAPC has the strongest current promising aggregate signal among this line; current BAPC is original/non-BBS online core; the decisive validation failed because no safe-update boundary qualifies.
+
+Cannot say: BAPC target met, BAPC bounded success, BAPC replaces BBS/EPBSD, BAPC is ready for benchmark, or another small patch/revision is allowed.
+
+Final label: `BAPC_DECISIVE_FAIL_NO_SAFE_UPDATE_BOUNDARY`.
 
 ## 是否有 missing context
 

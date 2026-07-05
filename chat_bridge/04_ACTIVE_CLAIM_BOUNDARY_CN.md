@@ -2,10 +2,13 @@
 
 ## 可以说
 
-- 当前结果是 metadata-only 同步快照，latest result 为 `results/bapc_local_conflict_mode_certificate_theory_20260705`。
-- latest final label 是 `LCMC_THEORY_NEEDS_MORE_THEORY`。
-- 当前 claim boundary 是：Protected files modified by this task: no。
-Original BBS source modified by this task: no。
+- 当前结果是 metadata-only 同步快照，latest result 为 `results/bapc_decisive_advantage_or_failure_validation_20260705`。
+- latest final label 是 `BAPC_DECISIVE_FAIL_NO_SAFE_UPDATE_BOUNDARY`。
+- 当前 claim boundary 是：Can say: BAPC has the strongest current promising aggregate signal among this line; current BAPC is original/non-BBS online core; the decisive validation failed because no safe-update boundary qualifies.
+
+Cannot say: BAPC target met, BAPC bounded success, BAPC replaces BBS/EPBSD, BAPC is ready for benchmark, or another small patch/revision is allowed.
+
+Final label: `BAPC_DECISIVE_FAIL_NO_SAFE_UPDATE_BOUNDARY`.
 
 ## 不能说
 

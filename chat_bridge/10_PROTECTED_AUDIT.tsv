@@ -5,4 +5,4 @@ src/pipeline/	no	pass	not touched by this task
 baseline/	no	pass	not touched by this task
 external_baselines/	no	pass	not touched by this task
 frozen/	no	pass	not touched by this task
-protected_git_status_summary	no	pass	pre-existing/unrelated untracked protected-path status may be present in repo; this task did not modify protected files
+protected_git_status_summary	no	pass	pre-existing/unrelated untracked protected-path status may be present; this task did not modify protected files

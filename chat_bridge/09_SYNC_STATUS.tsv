@@ -1,17 +1,17 @@
 item	status	details
-requested_latest_result	pass	results/bapc_local_conflict_mode_certificate_theory_20260705
-used_latest_result	pass	results/bapc_local_conflict_mode_certificate_theory_20260705
+requested_latest_result	pass	results/bapc_decisive_advantage_or_failure_validation_20260705
+used_latest_result	pass	results/bapc_decisive_advantage_or_failure_validation_20260705
 explicit_latest_result_used	yes	true
 auto_detected	no	false
 auto_detected_latest_result	no	false
-latest_final_label	pass	LCMC_THEORY_NEEDS_MORE_THEORY
-latest_output_dir	pass	results/bapc_local_conflict_mode_certificate_theory_20260705
+latest_final_label	pass	BAPC_DECISIVE_FAIL_NO_SAFE_UPDATE_BOUNDARY
+latest_output_dir	pass	results/bapc_decisive_advantage_or_failure_validation_20260705
 bridge_consistency_status	pending_validation	generated_pending_validation
 reason	pass	requested latest result exists and was used
-latest result requested	pass	results/bapc_local_conflict_mode_certificate_theory_20260705
-latest result used	pass	results/bapc_local_conflict_mode_certificate_theory_20260705
+latest result requested	pass	results/bapc_decisive_advantage_or_failure_validation_20260705
+latest result used	pass	results/bapc_decisive_advantage_or_failure_validation_20260705
 latest result detection mode	explicit	False
-latest result detected	pass	results/bapc_local_conflict_mode_certificate_theory_20260705
+latest result detected	pass	results/bapc_decisive_advantage_or_failure_validation_20260705
 files copied	pass	0 source artifact files copied; bridge files generated only
 files skipped	pass	0
 large files skipped	pass	0
@@ -37,7 +37,7 @@ git status summary	pass	"M AGENTS.md
 ?? experiments/bbs_baseline_eval.py
 ?? experiments/candidate_pool_selector_eval.py
 ?? experiments"
-timestamp	pass	2026-07-05T22:57:25+08:00
+timestamp	pass	2026-07-05T23:30:01+08:00
 protected files modified	pass	no
 original BBS source modified	pass	no
 generated bridge files	pass	14
