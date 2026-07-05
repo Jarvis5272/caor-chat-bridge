@@ -1,13 +1,13 @@
 # Codex Feedback To ChatGPT
 
-1. final label: `SCC_HAND_TOY_PASS_GO_TO_TOY_ONLY_PROTOTYPE`
-2. output dir: `results/scc_sparse_consistency_certificate_hand_toy_20260705`
+1. final label: `SCC_TOY_PASS_GO_TO_REAL_DATA_SYNC_DRYRUN`
+2. output dir: `results/scc_sparse_consistency_certificate_toy_only_prototype_20260705`
 3. completed stages: stage0_gate_decision
 4. key metrics:
 - missing
-5. gate decision: Decision: `PASS_TO_SCC_HAND_TOY` All required inputs are present. The task remains hand-toy only: no code, no prototype, no real-data run, no smoke, no benchmark.
-6. claim boundary: Method-card candidate is allowed to proceed to hand toy only; not an effective decoder, not benchmark success, and not real-data proven.
-7. next recommendation: Toy-only prototype is allowed next with explicit user approval; no real-data dry-run, smoke, or benchmark.
+5. gate decision: Decision: `PASS_TO_TOY_ONLY_PROTOTYPE` All inputs are present or recorded; SCC toy-only scope is locked.
+6. claim boundary: Online prototype only sees observed reads. Hidden target is used after Decode for offline toy evaluation. No BBS, EPBSD, STWC/CAOR, full alignment, POA, graph, dataset/source route, or online ED/exact/accuracy is used.
+7. next recommendation: Review latest result artifacts and confirm whether another validation step is warranted.
 8. protected files modified? `no`
 9. original BBS source modified? `no`
 10. files for review: `chat_bridge/06_FILES_FOR_REVIEW.tsv`

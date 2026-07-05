@@ -6,15 +6,15 @@
 
 ## 当前主线状态
 
-最新自动检测结果为 `results/scc_sparse_consistency_certificate_hand_toy_20260705`；当前最新 Codex label 为 `SCC_HAND_TOY_PASS_GO_TO_TOY_ONLY_PROTOTYPE`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED`。
+最新自动检测结果为 `results/scc_sparse_consistency_certificate_toy_only_prototype_20260705`；当前最新 Codex label 为 `SCC_TOY_PASS_GO_TO_REAL_DATA_SYNC_DRYRUN`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED`。
 
 ## 最新 Codex final label
 
-`SCC_HAND_TOY_PASS_GO_TO_TOY_ONLY_PROTOTYPE`
+`SCC_TOY_PASS_GO_TO_REAL_DATA_SYNC_DRYRUN`
 
 ## 最新输出目录
 
-`results/scc_sparse_consistency_certificate_hand_toy_20260705`
+`results/scc_sparse_consistency_certificate_toy_only_prototype_20260705`
 
 ## ChatGPT 应先读哪些文件
 
@@ -27,7 +27,7 @@
 
 ## 当前 claim boundary
 
-Method-card candidate is allowed to proceed to hand toy only; not an effective decoder, not benchmark success, and not real-data proven.
+Online prototype only sees observed reads. Hidden target is used after Decode for offline toy evaluation. No BBS, EPBSD, STWC/CAOR, full alignment, POA, graph, dataset/source route, or online ED/exact/accuracy is used.
 
 ## 是否有 missing context
 
@@ -35,7 +35,7 @@ Method-card candidate is allowed to proceed to hand toy only; not an effective d
 
 ## 当前下一步
 
-Toy-only prototype is allowed next with explicit user approval; no real-data dry-run, smoke, or benchmark.
+Review latest result artifacts and confirm whether another validation step is warranted.
 
 ## protected diff 状态
 

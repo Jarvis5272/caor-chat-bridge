@@ -12,16 +12,16 @@ ChatGPT should first read:
 
 ## Current Latest Result
 
-- latest result: `results/scc_sparse_consistency_certificate_hand_toy_20260705`
-- latest final label: `SCC_HAND_TOY_PASS_GO_TO_TOY_ONLY_PROTOTYPE`
+- latest result: `results/scc_sparse_consistency_certificate_toy_only_prototype_20260705`
+- latest final label: `SCC_TOY_PASS_GO_TO_REAL_DATA_SYNC_DRYRUN`
 
 ## Claim Boundary
 
-Method-card candidate is allowed to proceed to hand toy only; not an effective decoder, not benchmark success, and not real-data proven.
+Online prototype only sees observed reads. Hidden target is used after Decode for offline toy evaluation. No BBS, EPBSD, STWC/CAOR, full alignment, POA, graph, dataset/source route, or online ED/exact/accuracy is used.
 
 ## Next Action
 
-Toy-only prototype is allowed next with explicit user approval; no real-data dry-run, smoke, or benchmark.
+Review latest result artifacts and confirm whether another validation step is warranted.
 
 ## If Linking From GitHub
 

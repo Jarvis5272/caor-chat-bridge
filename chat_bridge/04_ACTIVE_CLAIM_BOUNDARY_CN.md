@@ -2,9 +2,9 @@
 
 ## 可以说
 
-- 当前结果是 metadata-only 同步快照，latest result 为 `results/scc_sparse_consistency_certificate_hand_toy_20260705`。
-- latest final label 是 `SCC_HAND_TOY_PASS_GO_TO_TOY_ONLY_PROTOTYPE`。
-- 当前 claim boundary 是：Method-card candidate is allowed to proceed to hand toy only; not an effective decoder, not benchmark success, and not real-data proven.
+- 当前结果是 metadata-only 同步快照，latest result 为 `results/scc_sparse_consistency_certificate_toy_only_prototype_20260705`。
+- latest final label 是 `SCC_TOY_PASS_GO_TO_REAL_DATA_SYNC_DRYRUN`。
+- 当前 claim boundary 是：Online prototype only sees observed reads. Hidden target is used after Decode for offline toy evaluation. No BBS, EPBSD, STWC/CAOR, full alignment, POA, graph, dataset/source route, or online ED/exact/accuracy is used.
 
 ## 不能说
 

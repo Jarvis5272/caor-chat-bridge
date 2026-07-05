@@ -1,10 +1,10 @@
 {
-  "artifact_manifest_path": "results/scc_sparse_consistency_certificate_hand_toy_20260705/final_artifact_manifest.tsv",
+  "artifact_manifest_path": "results/scc_sparse_consistency_certificate_toy_only_prototype_20260705/final_artifact_manifest.tsv",
   "auto_detected_latest_result": false,
   "blocking_missing": false,
   "bridge_consistency_status": "generated_pending_validation",
   "bridge_workflow_final_label": "CHAT_BRIDGE_WORKFLOW_INITIALIZED",
-  "claim_boundary": "Method-card candidate is allowed to proceed to hand toy only; not an effective decoder, not benchmark success, and not real-data proven.",
+  "claim_boundary": "Online prototype only sees observed reads. Hidden target is used after Decode for offline toy evaluation. No BBS, EPBSD, STWC/CAOR, full alignment, POA, graph, dataset/source route, or online ED/exact/accuracy is used.",
   "completed_stages": [
     "stage0_gate_decision"
   ],
@@ -17,24 +17,24 @@
     "chat_bridge/04_ACTIVE_CLAIM_BOUNDARY_CN.md",
     "chat_bridge/05_NEXT_ACTION_CN.md",
     "chat_bridge/09_SYNC_STATUS.tsv",
-    "results/scc_sparse_consistency_certificate_hand_toy_20260705/FINAL_SCC_SPARSE_CONSISTENCY_CERTIFICATE_HAND_TOY_REPORT_CN.md",
-    "results/scc_sparse_consistency_certificate_hand_toy_20260705/SCC_SPARSE_CONSISTENCY_CERTIFICATE_HAND_TOY_REPORT_CN.md",
-    "results/scc_sparse_consistency_certificate_hand_toy_20260705/SCC_HAND_TOY_GO_NO_GO_CN.md",
-    "results/scc_sparse_consistency_certificate_hand_toy_20260705/stage0_gate_decision.md",
-    "results/scc_sparse_consistency_certificate_hand_toy_20260705/final_decision_matrix.tsv",
-    "results/scc_sparse_consistency_certificate_hand_toy_20260705/final_artifact_manifest.tsv"
+    "results/scc_sparse_consistency_certificate_toy_only_prototype_20260705/FINAL_SCC_TOY_ONLY_PROTOTYPE_REPORT_CN.md",
+    "results/scc_sparse_consistency_certificate_toy_only_prototype_20260705/SCC_TOY_ONLY_PROTOTYPE_REPORT_CN.md",
+    "results/scc_sparse_consistency_certificate_toy_only_prototype_20260705/SCC_TOY_GO_NO_GO_CN.md",
+    "results/scc_sparse_consistency_certificate_toy_only_prototype_20260705/scc_toy_gate_matrix.tsv",
+    "results/scc_sparse_consistency_certificate_toy_only_prototype_20260705/stage0_gate_decision.md",
+    "results/scc_sparse_consistency_certificate_toy_only_prototype_20260705/final_decision_matrix.tsv"
   ],
-  "final_label": "SCC_HAND_TOY_PASS_GO_TO_TOY_ONLY_PROTOTYPE",
-  "gate_decision": "Decision: `PASS_TO_SCC_HAND_TOY` All required inputs are present. The task remains hand-toy only: no code, no prototype, no real-data run, no smoke, no benchmark.",
-  "large_files_skipped_count": 0,
-  "latest_result_requested": "results/scc_sparse_consistency_certificate_hand_toy_20260705",
-  "latest_result_used": "results/scc_sparse_consistency_certificate_hand_toy_20260705",
+  "final_label": "SCC_TOY_PASS_GO_TO_REAL_DATA_SYNC_DRYRUN",
+  "gate_decision": "Decision: `PASS_TO_TOY_ONLY_PROTOTYPE` All inputs are present or recorded; SCC toy-only scope is locked.",
+  "large_files_skipped_count": 1,
+  "latest_result_requested": "results/scc_sparse_consistency_certificate_toy_only_prototype_20260705",
+  "latest_result_used": "results/scc_sparse_consistency_certificate_toy_only_prototype_20260705",
   "main_metrics": {},
   "missing_expected_files": [],
-  "next_action": "Toy-only prototype is allowed next with explicit user approval; no real-data dry-run, smoke, or benchmark.",
+  "next_action": "Review latest result artifacts and confirm whether another validation step is warranted.",
   "original_bbs_source_modified": "no",
-  "output_dir": "results/scc_sparse_consistency_certificate_hand_toy_20260705",
+  "output_dir": "results/scc_sparse_consistency_certificate_toy_only_prototype_20260705",
   "protected_files_modified": "no",
-  "selected_candidate": "scc_sparse_consistency_certificate_hand_toy",
-  "timestamp": "2026-07-05T14:42:02+08:00"
+  "selected_candidate": "scc_toy_only_prototype",
+  "timestamp": "2026-07-05T14:58:53+08:00"
 }
