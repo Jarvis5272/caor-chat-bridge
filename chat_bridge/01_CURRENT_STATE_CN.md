@@ -2,11 +2,11 @@
 
 ## 实时故事状态
 
-最新结果目录 `results/bapc_bounded_alignment_posterior_validation_20260705` 是当前 latest result；最新 label 是 `BAPC_ACCELERATED_REAL_SYNC_SIGNAL_ONLY`。
+最新结果目录 `results/bapc_stage2_comparison_and_bounded_validation_20260705` 是当前 latest result；最新 label 是 `BAPC_STAGE2_STOP_BBS_TRIO_OR_PROJECTED_COLLAPSE`。
 
 ## clean IDS 数据状态
 
-最新结果记录的数据状态来自 `results/bapc_bounded_alignment_posterior_validation_20260705`。若报告中的 input scope 不完整，以源 artifact 为准，不在 bridge 中编造。
+最新结果记录的数据状态来自 `results/bapc_stage2_comparison_and_bounded_validation_20260705`。若报告中的 input scope 不完整，以源 artifact 为准，不在 bridge 中编造。
 
 ## EPBSD / BBS acceleration 状态
 
@@ -14,7 +14,7 @@
 
 ## baseline-aware / independent algorithm 状态
 
-当前 active track: `missing`。根据 latest gate，当前结论是 `Stage 0 decision: PASS - SIPC failure evidence exists: True - BSLC failure evidence exists: True - readable datasets: 17/17 - ledger status: 20260627_fallback - realtime contract exists: True`。
+当前 active track: `missing`。根据 latest gate，当前结论是 `# Stage 0 gate decision Decision: PASS Stage1 rows: 495511 Wrapper-like/recompute rows: 0 Reference remains offline-only; no BBS/EPBSD online comparator is used.`。
 
 ## 当前 active candidate
 
@@ -22,7 +22,7 @@
 
 ## 当前 gate
 
-Stage 0 decision: PASS - SIPC failure evidence exists: True - BSLC failure evidence exists: True - readable datasets: 17/17 - ledger status: 20260627_fallback - realtime contract exists: True
+# Stage 0 gate decision Decision: PASS Stage1 rows: 495511 Wrapper-like/recompute rows: 0 Reference remains offline-only; no BBS/EPBSD online comparator is used.
 
 ## 当前最大风险
 
