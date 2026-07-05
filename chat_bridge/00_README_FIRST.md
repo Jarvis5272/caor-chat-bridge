@@ -6,15 +6,15 @@
 
 ## 当前主线状态
 
-最新自动检测结果为 `results/sipc_sparse_identity_path_consistency_toy_only_prototype_20260705`；当前最新 Codex label 为 `SIPC_TOY_PASS_GO_TO_REAL_DATA_SYNC_DRYRUN`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED`。
+最新自动检测结果为 `results/sipc_accelerated_full_validation_20260705`；当前最新 Codex label 为 `SIPC_ACCELERATED_STOP_COMPLEXITY_OR_BBS_TRIO_COLLAPSE`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT`。
 
 ## 最新 Codex final label
 
-`SIPC_TOY_PASS_GO_TO_REAL_DATA_SYNC_DRYRUN`
+`SIPC_ACCELERATED_STOP_COMPLEXITY_OR_BBS_TRIO_COLLAPSE`
 
 ## 最新输出目录
 
-`results/sipc_sparse_identity_path_consistency_toy_only_prototype_20260705`
+`results/sipc_accelerated_full_validation_20260705`
 
 ## ChatGPT 应先读哪些文件
 
@@ -27,11 +27,11 @@
 
 ## 当前 claim boundary
 
-Online SIPC sees only observed toy reads. Hidden targets and edit metrics are used only after Decode for offline audit. The prototype does not call or read BBS, does not use BBS score/beam/path likelihood, does not use EPBSD, and does not build POA/full graph/full alignment.
+BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
 
 ## 是否有 missing context
 
-`missing_expected_files=[]`。这些缺失项只作为上下文缺口记录；若 required bridge files 全部生成，则不阻塞 bridge 使用。
+`missing_expected_files=['FINAL*_REPORT_CN.md']`。这些缺失项只作为上下文缺口记录；若 required bridge files 全部生成，则不阻塞 bridge 使用。
 
 ## 当前下一步
 

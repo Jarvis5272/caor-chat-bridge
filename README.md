@@ -12,12 +12,12 @@ ChatGPT should first read:
 
 ## Current Latest Result
 
-- latest result: `results/sipc_sparse_identity_path_consistency_toy_only_prototype_20260705`
-- latest final label: `SIPC_TOY_PASS_GO_TO_REAL_DATA_SYNC_DRYRUN`
+- latest result: `results/sipc_accelerated_full_validation_20260705`
+- latest final label: `SIPC_ACCELERATED_STOP_COMPLEXITY_OR_BBS_TRIO_COLLAPSE`
 
 ## Claim Boundary
 
-Online SIPC sees only observed toy reads. Hidden targets and edit metrics are used only after Decode for offline audit. The prototype does not call or read BBS, does not use BBS score/beam/path likelihood, does not use EPBSD, and does not build POA/full graph/full alignment.
+BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
 
 ## Next Action
 

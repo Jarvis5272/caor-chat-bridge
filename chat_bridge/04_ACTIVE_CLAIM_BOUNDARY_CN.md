@@ -2,9 +2,9 @@
 
 ## 可以说
 
-- 当前结果是 metadata-only 同步快照，latest result 为 `results/sipc_sparse_identity_path_consistency_toy_only_prototype_20260705`。
-- latest final label 是 `SIPC_TOY_PASS_GO_TO_REAL_DATA_SYNC_DRYRUN`。
-- 当前 claim boundary 是：Online SIPC sees only observed toy reads. Hidden targets and edit metrics are used only after Decode for offline audit. The prototype does not call or read BBS, does not use BBS score/beam/path likelihood, does not use EPBSD, and does not build POA/full graph/full alignment.
+- 当前结果是 metadata-only 同步快照，latest result 为 `results/sipc_accelerated_full_validation_20260705`。
+- latest final label 是 `SIPC_ACCELERATED_STOP_COMPLEXITY_OR_BBS_TRIO_COLLAPSE`。
+- 当前 claim boundary 是：BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
 
 ## 不能说
 
