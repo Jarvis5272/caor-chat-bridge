@@ -3,7 +3,7 @@
   "auto_detected_latest_result": false,
   "blocking_missing": false,
   "bridge_consistency_status": "generated_pending_validation",
-  "bridge_workflow_final_label": "CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT",
+  "bridge_workflow_final_label": "CHAT_BRIDGE_WORKFLOW_INITIALIZED",
   "claim_boundary": "BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.",
   "completed_stages": [
     "stage0_gate_decision"
@@ -30,13 +30,11 @@
   "latest_result_requested": "results/bapc_positive_signal_and_hard_trio_theory_reset_20260705",
   "latest_result_used": "results/bapc_positive_signal_and_hard_trio_theory_reset_20260705",
   "main_metrics": {},
-  "missing_expected_files": [
-    "leakage_audit.tsv"
-  ],
+  "missing_expected_files": [],
   "next_action": "Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.",
   "original_bbs_source_modified": "no",
   "output_dir": "results/bapc_positive_signal_and_hard_trio_theory_reset_20260705",
   "protected_files_modified": "no",
   "selected_candidate": "BAPC positive-signal consolidation and hard-trio theory reset",
-  "timestamp": "2026-07-05T22:18:01+08:00"
+  "timestamp": "2026-07-05T22:18:37+08:00"
 }
