@@ -12,16 +12,16 @@ ChatGPT should first read:
 
 ## Current Latest Result
 
-- latest result: `results/event_identity_soundness_coverage_obstacle_synthesis_20260705`
-- latest final label: `NEXT_IDENTITY_OBJECT_NEEDS_MORE_THEORY`
+- latest result: `results/scc_sparse_consistency_certificate_theory_note_20260705`
+- latest final label: `SCC_THEORY_READY_FOR_HAND_TOY`
 
 ## Claim Boundary
 
-BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
+Method-card candidate is allowed to proceed to hand toy only; not an effective decoder, not benchmark success, and not real-data proven.
 
 ## Next Action
 
-Review latest result artifacts and confirm whether another validation step is warranted.
+Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.
 
 ## If Linking From GitHub
 

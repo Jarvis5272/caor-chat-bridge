@@ -2,9 +2,9 @@
 
 ## 可以说
 
-- 当前结果是 metadata-only 同步快照，latest result 为 `results/event_identity_soundness_coverage_obstacle_synthesis_20260705`。
-- latest final label 是 `NEXT_IDENTITY_OBJECT_NEEDS_MORE_THEORY`。
-- 当前 claim boundary 是：BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
+- 当前结果是 metadata-only 同步快照，latest result 为 `results/scc_sparse_consistency_certificate_theory_note_20260705`。
+- latest final label 是 `SCC_THEORY_READY_FOR_HAND_TOY`。
+- 当前 claim boundary 是：Method-card candidate is allowed to proceed to hand toy only; not an effective decoder, not benchmark success, and not real-data proven.
 
 ## 不能说
 

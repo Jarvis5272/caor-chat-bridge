@@ -6,15 +6,15 @@
 
 ## 当前主线状态
 
-最新自动检测结果为 `results/event_identity_soundness_coverage_obstacle_synthesis_20260705`；当前最新 Codex label 为 `NEXT_IDENTITY_OBJECT_NEEDS_MORE_THEORY`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED`。
+最新自动检测结果为 `results/scc_sparse_consistency_certificate_theory_note_20260705`；当前最新 Codex label 为 `SCC_THEORY_READY_FOR_HAND_TOY`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT`。
 
 ## 最新 Codex final label
 
-`NEXT_IDENTITY_OBJECT_NEEDS_MORE_THEORY`
+`SCC_THEORY_READY_FOR_HAND_TOY`
 
 ## 最新输出目录
 
-`results/event_identity_soundness_coverage_obstacle_synthesis_20260705`
+`results/scc_sparse_consistency_certificate_theory_note_20260705`
 
 ## ChatGPT 应先读哪些文件
 
@@ -27,15 +27,15 @@
 
 ## 当前 claim boundary
 
-BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
+Method-card candidate is allowed to proceed to hand toy only; not an effective decoder, not benchmark success, and not real-data proven.
 
 ## 是否有 missing context
 
-`missing_expected_files=[]`。这些缺失项只作为上下文缺口记录；若 required bridge files 全部生成，则不阻塞 bridge 使用。
+`missing_expected_files=['FINAL*_REPORT_CN.md']`。这些缺失项只作为上下文缺口记录；若 required bridge files 全部生成，则不阻塞 bridge 使用。
 
 ## 当前下一步
 
-Review latest result artifacts and confirm whether another validation step is warranted.
+Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.
 
 ## protected diff 状态
 
