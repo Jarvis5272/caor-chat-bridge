@@ -2,11 +2,11 @@
 
 ## 实时故事状态
 
-最新结果目录 `results/controlled_certificate_soundness_continuation_20260705` 是当前 latest result；最新 label 是 `CERT_CONTINUATION_FREEZE_NO_SMOKE_SIGNAL`。
+最新结果目录 `results/event_identity_soundness_coverage_obstacle_synthesis_20260705` 是当前 latest result；最新 label 是 `NEXT_IDENTITY_OBJECT_NEEDS_MORE_THEORY`。
 
 ## clean IDS 数据状态
 
-最新结果记录的数据状态来自 `results/controlled_certificate_soundness_continuation_20260705`。若报告中的 input scope 不完整，以源 artifact 为准，不在 bridge 中编造。
+最新结果记录的数据状态来自 `results/event_identity_soundness_coverage_obstacle_synthesis_20260705`。若报告中的 input scope 不完整，以源 artifact 为准，不在 bridge 中编造。
 
 ## EPBSD / BBS acceleration 状态
 
@@ -14,15 +14,15 @@
 
 ## baseline-aware / independent algorithm 状态
 
-当前 active track: `controlled certificate soundness continuation`。根据 latest gate，当前结论是 `Decision: `PASS_TO_STAGE_A1_SOUNDNESS_AUDIT` This is controlled continuation, not broad search.`。
+当前 active track: `event_identity_soundness_coverage_obstacle_synthesis`。根据 latest gate，当前结论是 `Decision: `PASS_TO_OBSTACLE_SYNTHESIS` Inputs are sufficient for a synthesis package. Missing `results/spwic_certificate_soundness_audit_20260705` is recorded; equivalent SPWIC soundness evidence is available in the controlled continuation `。
 
 ## 当前 active candidate
 
-`controlled certificate soundness continuation`
+`event_identity_soundness_coverage_obstacle_synthesis`
 
 ## 当前 gate
 
-Decision: `PASS_TO_STAGE_A1_SOUNDNESS_AUDIT` This is controlled continuation, not broad search.
+Decision: `PASS_TO_OBSTACLE_SYNTHESIS` Inputs are sufficient for a synthesis package. Missing `results/spwic_certificate_soundness_audit_20260705` is recorded; equivalent SPWIC soundness evidence is available in the controlled continuation 
 
 ## 当前最大风险
 

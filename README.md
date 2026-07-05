@@ -12,8 +12,8 @@ ChatGPT should first read:
 
 ## Current Latest Result
 
-- latest result: `results/controlled_certificate_soundness_continuation_20260705`
-- latest final label: `CERT_CONTINUATION_FREEZE_NO_SMOKE_SIGNAL`
+- latest result: `results/event_identity_soundness_coverage_obstacle_synthesis_20260705`
+- latest final label: `NEXT_IDENTITY_OBJECT_NEEDS_MORE_THEORY`
 
 ## Claim Boundary
 

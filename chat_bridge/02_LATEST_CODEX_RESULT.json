@@ -1,22 +1,12 @@
 {
-  "artifact_manifest_path": "results/controlled_certificate_soundness_continuation_20260705/final_artifact_manifest.tsv",
+  "artifact_manifest_path": "results/event_identity_soundness_coverage_obstacle_synthesis_20260705/final_artifact_manifest.tsv",
   "auto_detected_latest_result": false,
   "blocking_missing": false,
   "bridge_consistency_status": "generated_pending_validation",
-  "bridge_workflow_final_label": "CHAT_BRIDGE_WORKFLOW_INITIALIZED",
+  "bridge_workflow_final_label": "CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT",
   "claim_boundary": "BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.",
   "completed_stages": [
-    "Purpose",
-    "SPWIC Soundness",
-    "Path Followed",
-    "CLEC Real Sync",
-    "Decision",
-    "stage0_gate_decision",
-    "stageA1_gate_decision",
-    "stageC1_clec_gate_decision",
-    "stageC2_clec_gate_decision",
-    "stageC3_clec_gate_decision",
-    "stageC4_clec_gate_decision"
+    "stage0_gate_decision"
   ],
   "data_modified": "no_by_bridge_task",
   "explicit_latest_result_used": true,
@@ -27,27 +17,26 @@
     "chat_bridge/04_ACTIVE_CLAIM_BOUNDARY_CN.md",
     "chat_bridge/05_NEXT_ACTION_CN.md",
     "chat_bridge/09_SYNC_STATUS.tsv",
-    "results/controlled_certificate_soundness_continuation_20260705/FINAL_CONTROLLED_CERTIFICATE_SOUNDNESS_CONTINUATION_REPORT_CN.md",
-    "results/controlled_certificate_soundness_continuation_20260705/CONTROLLED_CERTIFICATE_SOUNDNESS_CONTINUATION_REPORT_CN.md",
-    "results/controlled_certificate_soundness_continuation_20260705/stage0_gate_decision.md",
-    "results/controlled_certificate_soundness_continuation_20260705/stageA1_gate_decision.md",
-    "results/controlled_certificate_soundness_continuation_20260705/stageC1_clec_gate_decision.md",
-    "results/controlled_certificate_soundness_continuation_20260705/stageC2_clec_gate_decision.md"
+    "results/event_identity_soundness_coverage_obstacle_synthesis_20260705/FINAL_EVENT_IDENTITY_SOUNDNESS_COVERAGE_OBSTACLE_SYNTHESIS_REPORT_CN.md",
+    "results/event_identity_soundness_coverage_obstacle_synthesis_20260705/EVENT_IDENTITY_SOUNDNESS_COVERAGE_OBSTACLE_SYNTHESIS_REPORT_CN.md",
+    "results/event_identity_soundness_coverage_obstacle_synthesis_20260705/stage0_gate_decision.md",
+    "results/event_identity_soundness_coverage_obstacle_synthesis_20260705/final_decision_matrix.tsv",
+    "results/event_identity_soundness_coverage_obstacle_synthesis_20260705/final_artifact_manifest.tsv",
+    "results/event_identity_soundness_coverage_obstacle_synthesis_20260705/no_protected_files_modified.tsv"
   ],
-  "final_label": "CERT_CONTINUATION_FREEZE_NO_SMOKE_SIGNAL",
-  "gate_decision": "Decision: `PASS_TO_STAGE_A1_SOUNDNESS_AUDIT` This is controlled continuation, not broad search.",
-  "large_files_skipped_count": 3,
-  "latest_result_requested": "results/controlled_certificate_soundness_continuation_20260705",
-  "latest_result_used": "results/controlled_certificate_soundness_continuation_20260705",
-  "main_metrics": {
-    "high_confidence_wrong_rate": 0.0,
-    "stable_recovery_low_confidence_rate": 0.37142857142857144
-  },
-  "missing_expected_files": [],
+  "final_label": "NEXT_IDENTITY_OBJECT_NEEDS_MORE_THEORY",
+  "gate_decision": "Decision: `PASS_TO_OBSTACLE_SYNTHESIS` Inputs are sufficient for a synthesis package. Missing `results/spwic_certificate_soundness_audit_20260705` is recorded; equivalent SPWIC soundness evidence is available in the controlled continuation ",
+  "large_files_skipped_count": 0,
+  "latest_result_requested": "results/event_identity_soundness_coverage_obstacle_synthesis_20260705",
+  "latest_result_used": "results/event_identity_soundness_coverage_obstacle_synthesis_20260705",
+  "main_metrics": {},
+  "missing_expected_files": [
+    "leakage_audit.tsv"
+  ],
   "next_action": "Review latest result artifacts and confirm whether another validation step is warranted.",
   "original_bbs_source_modified": "no",
-  "output_dir": "results/controlled_certificate_soundness_continuation_20260705",
+  "output_dir": "results/event_identity_soundness_coverage_obstacle_synthesis_20260705",
   "protected_files_modified": "no",
-  "selected_candidate": "controlled certificate soundness continuation",
-  "timestamp": "2026-07-05T13:31:13+08:00"
+  "selected_candidate": "event_identity_soundness_coverage_obstacle_synthesis",
+  "timestamp": "2026-07-05T14:16:18+08:00"
 }
