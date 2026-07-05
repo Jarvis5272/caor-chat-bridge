@@ -1,21 +1,21 @@
 item	status	details
-requested_latest_result	pass	results/bapc_bbs_trio_collapse_autopsy_and_revision_20260705
-used_latest_result	pass	results/bapc_bbs_trio_collapse_autopsy_and_revision_20260705
+requested_latest_result	pass	results/bapc_positive_signal_and_hard_trio_theory_reset_20260705
+used_latest_result	pass	results/bapc_positive_signal_and_hard_trio_theory_reset_20260705
 explicit_latest_result_used	yes	true
 auto_detected	no	false
 auto_detected_latest_result	no	false
-latest_final_label	pass	BAPC_AUTOPSY_FREEZE_NO_CLEAN_REVISION
-latest_output_dir	pass	results/bapc_bbs_trio_collapse_autopsy_and_revision_20260705
+latest_final_label	pass	BAPC_SIGNAL_PACKAGE_HARD_TRIO_THEORY_READY
+latest_output_dir	pass	results/bapc_positive_signal_and_hard_trio_theory_reset_20260705
 bridge_consistency_status	pending_validation	generated_pending_validation
 reason	pass	requested latest result exists and was used
-latest result requested	pass	results/bapc_bbs_trio_collapse_autopsy_and_revision_20260705
-latest result used	pass	results/bapc_bbs_trio_collapse_autopsy_and_revision_20260705
+latest result requested	pass	results/bapc_positive_signal_and_hard_trio_theory_reset_20260705
+latest result used	pass	results/bapc_positive_signal_and_hard_trio_theory_reset_20260705
 latest result detection mode	explicit	False
-latest result detected	pass	results/bapc_bbs_trio_collapse_autopsy_and_revision_20260705
+latest result detected	pass	results/bapc_positive_signal_and_hard_trio_theory_reset_20260705
 files copied	pass	0 source artifact files copied; bridge files generated only
 files skipped	pass	0
 large files skipped	pass	0
-missing expected files	pass	0
+missing expected files	warn	leakage_audit.tsv
 required bridge files present	pass	14/14
 package path	pass	chat_bridge_feedback_package.zip
 git branch	pass	release/earlystop-v0.4
@@ -37,7 +37,7 @@ git status summary	pass	"M AGENTS.md
 ?? experiments/bbs_baseline_eval.py
 ?? experiments/candidate_pool_selector_eval.py
 ?? experiments"
-timestamp	pass	2026-07-05T21:55:49+08:00
+timestamp	pass	2026-07-05T22:18:01+08:00
 protected files modified	pass	no
 original BBS source modified	pass	no
 generated bridge files	pass	14

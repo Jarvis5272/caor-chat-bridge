@@ -1,10 +1,10 @@
 {
-  "artifact_manifest_path": "results/bapc_bbs_trio_collapse_autopsy_and_revision_20260705/final_artifact_manifest.tsv",
+  "artifact_manifest_path": "results/bapc_positive_signal_and_hard_trio_theory_reset_20260705/final_artifact_manifest.tsv",
   "auto_detected_latest_result": false,
   "blocking_missing": false,
   "bridge_consistency_status": "generated_pending_validation",
-  "bridge_workflow_final_label": "CHAT_BRIDGE_WORKFLOW_INITIALIZED",
-  "claim_boundary": "BAPC 可保留为 promising real-sync/comparison signal；不能说 target met，不能说 BBS-free decoder success，不能说 bounded validation success。",
+  "bridge_workflow_final_label": "CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT",
+  "claim_boundary": "BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.",
   "completed_stages": [
     "stage0_gate_decision"
   ],
@@ -17,24 +17,26 @@
     "chat_bridge/04_ACTIVE_CLAIM_BOUNDARY_CN.md",
     "chat_bridge/05_NEXT_ACTION_CN.md",
     "chat_bridge/09_SYNC_STATUS.tsv",
-    "results/bapc_bbs_trio_collapse_autopsy_and_revision_20260705/FINAL_BAPC_BBS_TRIO_COLLAPSE_AUTOPSY_AND_REVISION_REPORT_CN.md",
-    "results/bapc_bbs_trio_collapse_autopsy_and_revision_20260705/BAPC_BBS_TRIO_COLLAPSE_AUTOPSY_AND_REVISION_REPORT_CN.md",
-    "results/bapc_bbs_trio_collapse_autopsy_and_revision_20260705/stage0_gate_decision.md",
-    "results/bapc_bbs_trio_collapse_autopsy_and_revision_20260705/final_decision_matrix.tsv",
-    "results/bapc_bbs_trio_collapse_autopsy_and_revision_20260705/final_artifact_manifest.tsv",
-    "results/bapc_bbs_trio_collapse_autopsy_and_revision_20260705/no_protected_files_modified.tsv"
+    "results/bapc_positive_signal_and_hard_trio_theory_reset_20260705/FINAL_BAPC_POSITIVE_SIGNAL_AND_HARD_TRIO_THEORY_RESET_REPORT_CN.md",
+    "results/bapc_positive_signal_and_hard_trio_theory_reset_20260705/BAPC_POSITIVE_SIGNAL_AND_HARD_TRIO_THEORY_RESET_REPORT_CN.md",
+    "results/bapc_positive_signal_and_hard_trio_theory_reset_20260705/stage0_gate_decision.md",
+    "results/bapc_positive_signal_and_hard_trio_theory_reset_20260705/final_decision_matrix.tsv",
+    "results/bapc_positive_signal_and_hard_trio_theory_reset_20260705/final_artifact_manifest.tsv",
+    "results/bapc_positive_signal_and_hard_trio_theory_reset_20260705/no_protected_files_modified.tsv"
   ],
-  "final_label": "BAPC_AUTOPSY_FREEZE_NO_CLEAN_REVISION",
-  "gate_decision": "# Stage 0 gate decision Decision: PASS Missing/non-blocking inputs: none 20260703 data fallback is recorded in stage0_input_audit.tsv.",
+  "final_label": "BAPC_SIGNAL_PACKAGE_HARD_TRIO_THEORY_READY",
+  "gate_decision": "# Stage 0 gate decision Decision: PASS All required upstream result directories and bridge files were present. This task remains consolidation/theory-reset only. No new experiment, benchmark, BAPC revision, bounded validation, BBS/EPBSD onl",
   "large_files_skipped_count": 0,
-  "latest_result_requested": "results/bapc_bbs_trio_collapse_autopsy_and_revision_20260705",
-  "latest_result_used": "results/bapc_bbs_trio_collapse_autopsy_and_revision_20260705",
+  "latest_result_requested": "results/bapc_positive_signal_and_hard_trio_theory_reset_20260705",
+  "latest_result_used": "results/bapc_positive_signal_and_hard_trio_theory_reset_20260705",
   "main_metrics": {},
-  "missing_expected_files": [],
-  "next_action": "Review latest result artifacts and confirm whether another validation step is warranted.",
+  "missing_expected_files": [
+    "leakage_audit.tsv"
+  ],
+  "next_action": "Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.",
   "original_bbs_source_modified": "no",
-  "output_dir": "results/bapc_bbs_trio_collapse_autopsy_and_revision_20260705",
+  "output_dir": "results/bapc_positive_signal_and_hard_trio_theory_reset_20260705",
   "protected_files_modified": "no",
-  "selected_candidate": "autopsy_and_revision_eligibility_only",
-  "timestamp": "2026-07-05T21:55:49+08:00"
+  "selected_candidate": "BAPC positive-signal consolidation and hard-trio theory reset",
+  "timestamp": "2026-07-05T22:18:01+08:00"
 }

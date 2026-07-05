@@ -6,15 +6,15 @@
 
 ## 当前主线状态
 
-最新自动检测结果为 `results/bapc_bbs_trio_collapse_autopsy_and_revision_20260705`；当前最新 Codex label 为 `BAPC_AUTOPSY_FREEZE_NO_CLEAN_REVISION`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED`。
+最新自动检测结果为 `results/bapc_positive_signal_and_hard_trio_theory_reset_20260705`；当前最新 Codex label 为 `BAPC_SIGNAL_PACKAGE_HARD_TRIO_THEORY_READY`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT`。
 
 ## 最新 Codex final label
 
-`BAPC_AUTOPSY_FREEZE_NO_CLEAN_REVISION`
+`BAPC_SIGNAL_PACKAGE_HARD_TRIO_THEORY_READY`
 
 ## 最新输出目录
 
-`results/bapc_bbs_trio_collapse_autopsy_and_revision_20260705`
+`results/bapc_positive_signal_and_hard_trio_theory_reset_20260705`
 
 ## ChatGPT 应先读哪些文件
 
@@ -27,15 +27,15 @@
 
 ## 当前 claim boundary
 
-BAPC 可保留为 promising real-sync/comparison signal；不能说 target met，不能说 BBS-free decoder success，不能说 bounded validation success。
+BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
 
 ## 是否有 missing context
 
-`missing_expected_files=[]`。这些缺失项只作为上下文缺口记录；若 required bridge files 全部生成，则不阻塞 bridge 使用。
+`missing_expected_files=['leakage_audit.tsv']`。这些缺失项只作为上下文缺口记录；若 required bridge files 全部生成，则不阻塞 bridge 使用。
 
 ## 当前下一步
 
-Review latest result artifacts and confirm whether another validation step is warranted.
+Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.
 
 ## protected diff 状态
 
