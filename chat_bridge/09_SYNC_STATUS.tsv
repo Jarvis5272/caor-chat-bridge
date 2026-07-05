@@ -15,7 +15,7 @@ latest result detected	pass	results/scc_real_sync_failure_reconciliation_2026070
 files copied	pass	0 source artifact files copied; bridge files generated only
 files skipped	pass	0
 large files skipped	pass	0
-missing expected files	warn	FINAL*_REPORT_CN.md, leakage_audit.tsv
+missing expected files	pass	0
 required bridge files present	pass	14/14
 package path	pass	chat_bridge_feedback_package.zip
 git branch	pass	release/earlystop-v0.4
@@ -37,7 +37,7 @@ git status summary	pass	"M AGENTS.md
 ?? experiments/bbs_baseline_eval.py
 ?? experiments/candidate_pool_selector_eval.py
 ?? experiments"
-timestamp	pass	2026-07-05T15:41:57+08:00
+timestamp	pass	2026-07-05T15:42:35+08:00
 protected files modified	pass	no
 original BBS source modified	pass	no
 generated bridge files	pass	14
