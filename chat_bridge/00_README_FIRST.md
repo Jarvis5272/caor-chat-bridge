@@ -6,7 +6,7 @@
 
 ## 当前主线状态
 
-最新自动检测结果为 `results/scc_sparse_consistency_certificate_theory_note_20260705`；当前最新 Codex label 为 `SCC_THEORY_READY_FOR_HAND_TOY`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT`。
+最新自动检测结果为 `results/scc_sparse_consistency_certificate_theory_note_20260705`；当前最新 Codex label 为 `SCC_THEORY_READY_FOR_HAND_TOY`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED`。
 
 ## 最新 Codex final label
 
@@ -27,11 +27,23 @@
 
 ## 当前 claim boundary
 
-Method-card candidate is allowed to proceed to hand toy only; not an effective decoder, not benchmark success, and not real-data proven.
+An event `e` may be accepted only if:
+
+1. paired witness unique；
+2. bounded counterfactual delta over no-event and bounded competitors is at least `m`；
+3. cross-read order consistency support exceeds `m`；
+4. no competing certificate has comparable or stronger dominance；
+5. independent support exceeds `m`；
+6. all checks stay within `a/W` and the competitor registry remains sparse.
+
+If any condition fails, SCC must output low-confidence/no correction or stop. It cannot widen W, add helper families, use graph/POA/full alignment, or call BBS/EPBSD semantics.
+
+
+SCC is not guaranteed to cover all useful edits. It has coverage when true edits often have unique sparse identity and positive local counterfactual margin. It becomes refusal-only in repeats, homopolymers, low coverage, cost ties, competing certificate ties, and long-range ambiguity. These cases are not patched; they are reported.
 
 ## 是否有 missing context
 
-`missing_expected_files=['FINAL*_REPORT_CN.md']`。这些缺失项只作为上下文缺口记录；若 required bridge files 全部生成，则不阻塞 bridge 使用。
+`missing_expected_files=[]`。这些缺失项只作为上下文缺口记录；若 required bridge files 全部生成，则不阻塞 bridge 使用。
 
 ## 当前下一步
 

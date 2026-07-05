@@ -1,2 +1,14 @@
 timestamp	final_label	output_dir	candidate_or_track	stage_reached	gate_decision	target_met	claim_boundary	protected_files_modified	original_bbs_source_modified	data_modified	notes
-2026-07-05T14:32:45+08:00	SCC_THEORY_READY_FOR_HAND_TOY	results/scc_sparse_consistency_certificate_theory_note_20260705	scc_sparse_consistency_certificate_theory_note	stage0_gate_decision	Decision: `PASS_TO_SCC_THEORY_NOTE` All required inputs are present. The task remains theory-only. No toy, prototype, real-sync, smoke, or benchmark is run.	no	Method-card candidate is allowed to proceed to hand toy only; not an effective decoder, not benchmark success, and not real-data proven.	no	no	no_by_bridge_task	bridge_label=CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT; auto_detected_latest_result=False
+2026-07-05T14:33:23+08:00	SCC_THEORY_READY_FOR_HAND_TOY	results/scc_sparse_consistency_certificate_theory_note_20260705	scc_sparse_consistency_certificate_theory_note	stage0_gate_decision	Decision: `PASS_TO_SCC_THEORY_NOTE` All required inputs are present. The task remains theory-only. No toy, prototype, real-sync, smoke, or benchmark is run.	no	"An event `e` may be accepted only if:
+
+1. paired witness unique；
+2. bounded counterfactual delta over no-event and bounded competitors is at least `m`；
+3. cross-read order consistency support exceeds `m`；
+4. no competing certificate has comparable or stronger dominance；
+5. independent support exceeds `m`；
+6. all checks stay within `a/W` and the competitor registry remains sparse.
+
+If any condition fails, SCC must output low-confidence/no correction or stop. It cannot widen W, add helper families, use graph/POA/full alignment, or call BBS/EPBSD semantics.
+
+
+SCC is not guaranteed to cover all useful edits. It has coverage when true edits often have unique sparse identity and positive local counterfactual margin. It becomes refusal-only in repeats, homopolymers, low coverage, cost ties, competing certificate ties, and long-range ambiguity. These cases are not patched; they are reported."	no	no	no_by_bridge_task	bridge_label=CHAT_BRIDGE_WORKFLOW_INITIALIZED; auto_detected_latest_result=False
