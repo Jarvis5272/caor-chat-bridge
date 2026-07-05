@@ -1,13 +1,13 @@
 # Codex Feedback To ChatGPT
 
-1. final label: `BAPC_STAGE2_STOP_BBS_TRIO_OR_PROJECTED_COLLAPSE`
-2. output dir: `results/bapc_stage2_comparison_and_bounded_validation_20260705`
-3. completed stages: stage0_gate_decision, stage1_gate_decision
+1. final label: `BAPC_AUTOPSY_FREEZE_NO_CLEAN_REVISION`
+2. output dir: `results/bapc_bbs_trio_collapse_autopsy_and_revision_20260705`
+3. completed stages: stage0_gate_decision
 4. key metrics:
 - missing
-5. gate decision: # Stage 0 gate decision Decision: PASS Stage1 rows: 495511 Wrapper-like/recompute rows: 0 Reference remains offline-only; no BBS/EPBSD online comparator is used.
-6. claim boundary: BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
-7. next recommendation: Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.
+5. gate decision: # Stage 0 gate decision Decision: PASS Missing/non-blocking inputs: none 20260703 data fallback is recorded in stage0_input_audit.tsv.
+6. claim boundary: BAPC 可保留为 promising real-sync/comparison signal；不能说 target met，不能说 BBS-free decoder success，不能说 bounded validation success。
+7. next recommendation: Review latest result artifacts and confirm whether another validation step is warranted.
 8. protected files modified? `no`
 9. original BBS source modified? `no`
 10. files for review: `chat_bridge/06_FILES_FOR_REVIEW.tsv`

@@ -1,20 +1,20 @@
 item	status	details
-requested_latest_result	pass	results/bapc_stage2_comparison_and_bounded_validation_20260705
-used_latest_result	pass	results/bapc_stage2_comparison_and_bounded_validation_20260705
+requested_latest_result	pass	results/bapc_bbs_trio_collapse_autopsy_and_revision_20260705
+used_latest_result	pass	results/bapc_bbs_trio_collapse_autopsy_and_revision_20260705
 explicit_latest_result_used	yes	true
 auto_detected	no	false
 auto_detected_latest_result	no	false
-latest_final_label	pass	BAPC_STAGE2_STOP_BBS_TRIO_OR_PROJECTED_COLLAPSE
-latest_output_dir	pass	results/bapc_stage2_comparison_and_bounded_validation_20260705
+latest_final_label	pass	BAPC_AUTOPSY_FREEZE_NO_CLEAN_REVISION
+latest_output_dir	pass	results/bapc_bbs_trio_collapse_autopsy_and_revision_20260705
 bridge_consistency_status	pending_validation	generated_pending_validation
 reason	pass	requested latest result exists and was used
-latest result requested	pass	results/bapc_stage2_comparison_and_bounded_validation_20260705
-latest result used	pass	results/bapc_stage2_comparison_and_bounded_validation_20260705
+latest result requested	pass	results/bapc_bbs_trio_collapse_autopsy_and_revision_20260705
+latest result used	pass	results/bapc_bbs_trio_collapse_autopsy_and_revision_20260705
 latest result detection mode	explicit	False
-latest result detected	pass	results/bapc_stage2_comparison_and_bounded_validation_20260705
+latest result detected	pass	results/bapc_bbs_trio_collapse_autopsy_and_revision_20260705
 files copied	pass	0 source artifact files copied; bridge files generated only
-files skipped	pass	4
-large files skipped	pass	4
+files skipped	pass	0
+large files skipped	pass	0
 missing expected files	pass	0
 required bridge files present	pass	14/14
 package path	pass	chat_bridge_feedback_package.zip
@@ -37,9 +37,9 @@ git status summary	pass	"M AGENTS.md
 ?? experiments/bbs_baseline_eval.py
 ?? experiments/candidate_pool_selector_eval.py
 ?? experiments"
-timestamp	pass	2026-07-05T21:35:04+08:00
+timestamp	pass	2026-07-05T21:55:49+08:00
 protected files modified	pass	no
 original BBS source modified	pass	no
 generated bridge files	pass	14
 read_skipped	pass	[]
-scan_skipped	pass	"[{""path"": ""results/bapc_stage2_comparison_and_bounded_validation_20260705/stage1_comparison_per_prefix.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 144080147}, {""path"": ""results/bapc_stage2_comparison_and_bounded_validation_20260705/stage1_comparison_per_cluster.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 104788821}, {""path"": ""results/bapc_stage2_comparison_and_bounded_validation_20260705/stage1_bapc_vs_best_simple.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 79281720}, {""path"": ""results/bapc_stage2_comparison_and_bounded_validation_20260705/stage1_recovery_impact.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 54402736}]"
+scan_skipped	pass	[]

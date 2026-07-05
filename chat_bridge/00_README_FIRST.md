@@ -6,15 +6,15 @@
 
 ## 当前主线状态
 
-最新自动检测结果为 `results/bapc_stage2_comparison_and_bounded_validation_20260705`；当前最新 Codex label 为 `BAPC_STAGE2_STOP_BBS_TRIO_OR_PROJECTED_COLLAPSE`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED`。
+最新自动检测结果为 `results/bapc_bbs_trio_collapse_autopsy_and_revision_20260705`；当前最新 Codex label 为 `BAPC_AUTOPSY_FREEZE_NO_CLEAN_REVISION`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED`。
 
 ## 最新 Codex final label
 
-`BAPC_STAGE2_STOP_BBS_TRIO_OR_PROJECTED_COLLAPSE`
+`BAPC_AUTOPSY_FREEZE_NO_CLEAN_REVISION`
 
 ## 最新输出目录
 
-`results/bapc_stage2_comparison_and_bounded_validation_20260705`
+`results/bapc_bbs_trio_collapse_autopsy_and_revision_20260705`
 
 ## ChatGPT 应先读哪些文件
 
@@ -27,7 +27,7 @@
 
 ## 当前 claim boundary
 
-BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
+BAPC 可保留为 promising real-sync/comparison signal；不能说 target met，不能说 BBS-free decoder success，不能说 bounded validation success。
 
 ## 是否有 missing context
 
@@ -35,7 +35,7 @@ BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confi
 
 ## 当前下一步
 
-Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.
+Review latest result artifacts and confirm whether another validation step is warranted.
 
 ## protected diff 状态
 

@@ -12,16 +12,16 @@ ChatGPT should first read:
 
 ## Current Latest Result
 
-- latest result: `results/bapc_stage2_comparison_and_bounded_validation_20260705`
-- latest final label: `BAPC_STAGE2_STOP_BBS_TRIO_OR_PROJECTED_COLLAPSE`
+- latest result: `results/bapc_bbs_trio_collapse_autopsy_and_revision_20260705`
+- latest final label: `BAPC_AUTOPSY_FREEZE_NO_CLEAN_REVISION`
 
 ## Claim Boundary
 
-BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
+BAPC 可保留为 promising real-sync/comparison signal；不能说 target met，不能说 BBS-free decoder success，不能说 bounded validation success。
 
 ## Next Action
 
-Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.
+Review latest result artifacts and confirm whether another validation step is warranted.
 
 ## If Linking From GitHub
 
