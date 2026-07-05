@@ -11,7 +11,7 @@
 8. protected files modified? `no`
 9. original BBS source modified? `no`
 10. files for review: `chat_bridge/06_FILES_FOR_REVIEW.tsv`
-11. missing context: `['FINAL*_REPORT_CN.md']`
+11. missing context: `[]`
 12. package expected: `chat_bridge_feedback_package.zip`
 13. raw README link: `https://raw.githubusercontent.com/Jarvis5272/caor-chat-bridge/main/chat_bridge/00_README_FIRST.md`
 14. transactional raw validation: `required by bridge_after_run.sh`
