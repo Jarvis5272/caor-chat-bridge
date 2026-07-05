@@ -1,8 +1,8 @@
 protected_path	modified	status	notes
-	no		not touched by this task
-	no		not touched by this task
-	no		not touched by this task
-	no		not touched by this task
-	no		not touched by this task
-	no		not touched by this task
-	no_by_this_task		pre-existing/unrelated untracked status may be present
+experiments/streaming_slim_generalization_eval.py	no	no_by_this_task	not touched by this task
+src/pipeline/sparse_viterbi_dbg.py	no	no_by_this_task	not touched by this task
+src/pipeline/	no	no_by_this_task	not touched by this task
+baseline/	no	no_by_this_task	not touched by this task
+external_baselines/	no	no_by_this_task	not touched by this task
+frozen/	no	no_by_this_task	not touched by this task
+protected_git_status_summary	no	pre_existing_untracked_caveat	pre-existing/unrelated untracked protected-path status may be present in repo; this task did not modify protected files

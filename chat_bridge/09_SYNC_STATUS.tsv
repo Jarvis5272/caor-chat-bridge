@@ -37,9 +37,9 @@ git status summary	pass	"M AGENTS.md
 ?? experiments/bbs_baseline_eval.py
 ?? experiments/candidate_pool_selector_eval.py
 ?? experiments"
-timestamp	pass	2026-07-05T22:55:57+08:00
-protected files modified	warn	yes
-original BBS source modified	pass	no
+timestamp	pass	2026-07-05T22:57:02+08:00
+protected files modified	warn	unknown
+original BBS source modified	warn	unknown
 generated bridge files	pass	14
 read_skipped	pass	[]
 scan_skipped	pass	[]
