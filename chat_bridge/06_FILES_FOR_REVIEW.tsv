@@ -8,8 +8,8 @@ priority	path	reason_to_review	expected_content	small_enough_for_git	exists	note
 7	results/bapc_decisive_freeze_evidence_package_20260705/FINAL_BAPC_DECISIVE_FREEZE_EVIDENCE_PACKAGE_REPORT_CN.md	latest result source artifact	FINAL*_REPORT_CN.md	yes	yes	1551 bytes
 8	results/bapc_decisive_freeze_evidence_package_20260705/BAPC_DECISIVE_FREEZE_EVIDENCE_PACKAGE_REPORT_CN.md	latest result source artifact	*REPORT_CN.md	yes	yes	1551 bytes
 9	results/bapc_decisive_freeze_evidence_package_20260705/final_decision_matrix.tsv	latest result source artifact	final_decision_matrix.tsv	yes	yes	657 bytes
-10	results/bapc_decisive_freeze_evidence_package_20260705/final_artifact_manifest.tsv	latest result source artifact	final_artifact_manifest.tsv	yes	yes	2587 bytes
+10	results/bapc_decisive_freeze_evidence_package_20260705/final_artifact_manifest.tsv	latest result source artifact	final_artifact_manifest.tsv	yes	yes	2713 bytes
 11	results/bapc_decisive_freeze_evidence_package_20260705/no_protected_files_modified.tsv	latest result source artifact	no_protected_files_modified.tsv	yes	yes	521 bytes
 12	results/bapc_decisive_freeze_evidence_package_20260705/original_bbs_unchanged_audit.tsv	latest result source artifact	original_bbs_unchanged_audit.tsv	yes	yes	106 bytes
-13	results/bapc_decisive_freeze_evidence_package_20260705/environment_summary.txt	latest result source artifact	environment_summary.txt	yes	yes	224 bytes
-14	results/bapc_decisive_freeze_evidence_package_20260705/leakage_audit.tsv	missing expected context	leakage_audit.tsv	unknown	no	missing; do not infer
+13	results/bapc_decisive_freeze_evidence_package_20260705/leakage_audit.tsv	latest result source artifact	leakage_audit.tsv	yes	yes	468 bytes
+14	results/bapc_decisive_freeze_evidence_package_20260705/environment_summary.txt	latest result source artifact	environment_summary.txt	yes	yes	224 bytes

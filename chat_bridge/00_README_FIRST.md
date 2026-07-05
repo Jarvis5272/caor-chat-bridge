@@ -6,7 +6,7 @@
 
 ## 当前主线状态
 
-最新自动检测结果为 `results/bapc_decisive_freeze_evidence_package_20260705`；当前最新 Codex label 为 `BAPC_DECISIVE_FREEZE_EVIDENCE_PACKAGE_COMPLETED`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT`。
+最新自动检测结果为 `results/bapc_decisive_freeze_evidence_package_20260705`；当前最新 Codex label 为 `BAPC_DECISIVE_FREEZE_EVIDENCE_PACKAGE_COMPLETED`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED`。
 
 ## 最新 Codex final label
 
@@ -31,7 +31,7 @@ BAPC may be described as a promising signal and a useful negative-evidence packa
 
 ## 是否有 missing context
 
-`missing_expected_files=['leakage_audit.tsv']`。这些缺失项只作为上下文缺口记录；若 required bridge files 全部生成，则不阻塞 bridge 使用。
+`missing_expected_files=[]`。这些缺失项只作为上下文缺口记录；若 required bridge files 全部生成，则不阻塞 bridge 使用。
 
 ## 当前下一步
 

@@ -15,7 +15,7 @@ latest result detected	pass	results/bapc_decisive_freeze_evidence_package_202607
 files copied	pass	0 source artifact files copied; bridge files generated only
 files skipped	pass	0
 large files skipped	pass	0
-missing expected files	warn	leakage_audit.tsv
+missing expected files	pass	0
 required bridge files present	pass	14/14
 package path	pass	chat_bridge_feedback_package.zip
 git branch	pass	release/earlystop-v0.4
@@ -37,7 +37,7 @@ git status summary	pass	"M AGENTS.md
 ?? experiments/bbs_baseline_eval.py
 ?? experiments/candidate_pool_selector_eval.py
 ?? experiments"
-timestamp	pass	2026-07-05T23:43:59+08:00
+timestamp	pass	2026-07-05T23:45:00+08:00
 protected files modified	pass	no
 original BBS source modified	pass	no
 generated bridge files	pass	14
