@@ -2,11 +2,9 @@
 
 ## 可以说
 
-- 当前结果是 metadata-only 同步快照，latest result 为 `results/spwic_real_data_sync_dryrun_20260705`。
-- latest final label 是 `SPWIC_REAL_SYNC_STOP_HARMFUL_CORRECTIONS`。
-- 当前 claim boundary 是：可以说：SPWIC real sync dry-run completed on bounded clean IDS candidate scope.
-
-不能说：不能说 benchmark success、BBS comparison win、small smoke unless label permits、或 independent decoder success。
+- 当前结果是 metadata-only 同步快照，latest result 为 `results/controlled_certificate_soundness_continuation_20260705`。
+- latest final label 是 `CERT_CONTINUATION_FREEZE_NO_SMOKE_SIGNAL`。
+- 当前 claim boundary 是：BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
 
 ## 不能说
 

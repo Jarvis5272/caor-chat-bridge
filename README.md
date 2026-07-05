@@ -12,18 +12,16 @@ ChatGPT should first read:
 
 ## Current Latest Result
 
-- latest result: `results/spwic_real_data_sync_dryrun_20260705`
-- latest final label: `SPWIC_REAL_SYNC_STOP_HARMFUL_CORRECTIONS`
+- latest result: `results/controlled_certificate_soundness_continuation_20260705`
+- latest final label: `CERT_CONTINUATION_FREEZE_NO_SMOKE_SIGNAL`
 
 ## Claim Boundary
 
-可以说：SPWIC real sync dry-run completed on bounded clean IDS candidate scope.
-
-不能说：不能说 benchmark success、BBS comparison win、small smoke unless label permits、或 independent decoder success。
+BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
 
 ## Next Action
 
-Freeze SPWIC real-data sync dry-run as a stopped line under this label; no small smoke, benchmark, or patch stacking unless the user opens a new theory/revise task.
+Review latest result artifacts and confirm whether another validation step is warranted.
 
 ## If Linking From GitHub
 

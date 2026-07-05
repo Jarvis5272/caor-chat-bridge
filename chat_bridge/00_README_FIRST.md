@@ -6,15 +6,15 @@
 
 ## 当前主线状态
 
-最新自动检测结果为 `results/spwic_real_data_sync_dryrun_20260705`；当前最新 Codex label 为 `SPWIC_REAL_SYNC_STOP_HARMFUL_CORRECTIONS`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED`。
+最新自动检测结果为 `results/controlled_certificate_soundness_continuation_20260705`；当前最新 Codex label 为 `CERT_CONTINUATION_FREEZE_NO_SMOKE_SIGNAL`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED`。
 
 ## 最新 Codex final label
 
-`SPWIC_REAL_SYNC_STOP_HARMFUL_CORRECTIONS`
+`CERT_CONTINUATION_FREEZE_NO_SMOKE_SIGNAL`
 
 ## 最新输出目录
 
-`results/spwic_real_data_sync_dryrun_20260705`
+`results/controlled_certificate_soundness_continuation_20260705`
 
 ## ChatGPT 应先读哪些文件
 
@@ -27,9 +27,7 @@
 
 ## 当前 claim boundary
 
-可以说：SPWIC real sync dry-run completed on bounded clean IDS candidate scope.
-
-不能说：不能说 benchmark success、BBS comparison win、small smoke unless label permits、或 independent decoder success。
+BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
 
 ## 是否有 missing context
 
@@ -37,7 +35,7 @@
 
 ## 当前下一步
 
-Freeze SPWIC real-data sync dry-run as a stopped line under this label; no small smoke, benchmark, or patch stacking unless the user opens a new theory/revise task.
+Review latest result artifacts and confirm whether another validation step is warranted.
 
 ## protected diff 状态
 

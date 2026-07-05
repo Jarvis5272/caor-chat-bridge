@@ -1,7 +1,7 @@
 protected_path	modified	status	notes
-experiments/streaming_slim_generalization_eval.py		no_by_this_task	checked after dry-run
-src/pipeline/sparse_viterbi_dbg.py		no_by_this_task	checked after dry-run
-src/pipeline		no_by_this_task	checked after dry-run
-baseline		no_by_this_task	checked after dry-run
-external_baselines		no_by_this_task	checked after dry-run
-frozen		no_by_this_task	checked after dry-run
+experiments/streaming_slim_generalization_eval.py		no_by_this_task	
+src/pipeline/sparse_viterbi_dbg.py		no_by_this_task	
+src/pipeline		no_by_this_task	
+baseline		no_by_this_task	
+external_baselines		no_by_this_task	
+frozen		no_by_this_task	

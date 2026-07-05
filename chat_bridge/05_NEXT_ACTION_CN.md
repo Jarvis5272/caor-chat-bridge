@@ -2,7 +2,7 @@
 
 ## 当前建议下一步
 
-Freeze SPWIC real-data sync dry-run as a stopped line under this label; no small smoke, benchmark, or patch stacking unless the user opens a new theory/revise task.
+Review latest result artifacts and confirm whether another validation step is warranted.
 
 ## 不建议做什么
 
