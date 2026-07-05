@@ -6,15 +6,15 @@
 
 ## 当前主线状态
 
-最新自动检测结果为 `results/sipc_sparse_identity_path_consistency_method_handtoy_20260705`；当前最新 Codex label 为 `SIPC_HAND_TOY_PASS_GO_TO_TOY_ONLY_PROTOTYPE`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED`。
+最新自动检测结果为 `results/sipc_sparse_identity_path_consistency_toy_only_prototype_20260705`；当前最新 Codex label 为 `SIPC_TOY_PASS_GO_TO_REAL_DATA_SYNC_DRYRUN`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED`。
 
 ## 最新 Codex final label
 
-`SIPC_HAND_TOY_PASS_GO_TO_TOY_ONLY_PROTOTYPE`
+`SIPC_TOY_PASS_GO_TO_REAL_DATA_SYNC_DRYRUN`
 
 ## 最新输出目录
 
-`results/sipc_sparse_identity_path_consistency_method_handtoy_20260705`
+`results/sipc_sparse_identity_path_consistency_toy_only_prototype_20260705`
 
 ## ChatGPT 应先读哪些文件
 
@@ -27,7 +27,7 @@
 
 ## 当前 claim boundary
 
-This is not a new experiment, not a toy prototype, not real-data sync, not smoke, and not benchmark. SIPC does not use BBS output, BBS score, beam, pruning, path likelihood, EPBSD kernel, POA, full graph, or full alignment. It has exactly three core parameters: `a`, `W`, `m`.
+Online SIPC sees only observed toy reads. Hidden targets and edit metrics are used only after Decode for offline audit. The prototype does not call or read BBS, does not use BBS score/beam/path likelihood, does not use EPBSD, and does not build POA/full graph/full alignment.
 
 ## 是否有 missing context
 
@@ -35,7 +35,7 @@ This is not a new experiment, not a toy prototype, not real-data sync, not smoke
 
 ## 当前下一步
 
-Toy-only prototype is allowed next with explicit user approval; no real-data dry-run, smoke, or benchmark.
+Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.
 
 ## protected diff 状态
 

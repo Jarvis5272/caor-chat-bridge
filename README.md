@@ -12,16 +12,16 @@ ChatGPT should first read:
 
 ## Current Latest Result
 
-- latest result: `results/sipc_sparse_identity_path_consistency_method_handtoy_20260705`
-- latest final label: `SIPC_HAND_TOY_PASS_GO_TO_TOY_ONLY_PROTOTYPE`
+- latest result: `results/sipc_sparse_identity_path_consistency_toy_only_prototype_20260705`
+- latest final label: `SIPC_TOY_PASS_GO_TO_REAL_DATA_SYNC_DRYRUN`
 
 ## Claim Boundary
 
-This is not a new experiment, not a toy prototype, not real-data sync, not smoke, and not benchmark. SIPC does not use BBS output, BBS score, beam, pruning, path likelihood, EPBSD kernel, POA, full graph, or full alignment. It has exactly three core parameters: `a`, `W`, `m`.
+Online SIPC sees only observed toy reads. Hidden targets and edit metrics are used only after Decode for offline audit. The prototype does not call or read BBS, does not use BBS score/beam/path likelihood, does not use EPBSD, and does not build POA/full graph/full alignment.
 
 ## Next Action
 
-Toy-only prototype is allowed next with explicit user approval; no real-data dry-run, smoke, or benchmark.
+Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.
 
 ## If Linking From GitHub
 

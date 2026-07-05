@@ -1,13 +1,13 @@
 # Codex Feedback To ChatGPT
 
-1. final label: `SIPC_HAND_TOY_PASS_GO_TO_TOY_ONLY_PROTOTYPE`
-2. output dir: `results/sipc_sparse_identity_path_consistency_method_handtoy_20260705`
+1. final label: `SIPC_TOY_PASS_GO_TO_REAL_DATA_SYNC_DRYRUN`
+2. output dir: `results/sipc_sparse_identity_path_consistency_toy_only_prototype_20260705`
 3. completed stages: stage0_gate_decision
 4. key metrics:
 - missing
-5. gate decision: Decision: `PASS_TO_METHOD_CARD_AND_HAND_TOY_ONLY` All required upstream SCC/SPWIC/CLEC evidence is readable enough for theory/hand-toy work. No real-data experiment, benchmark, or prototype run is allowed in this stage.
-6. claim boundary: This is not a new experiment, not a toy prototype, not real-data sync, not smoke, and not benchmark. SIPC does not use BBS output, BBS score, beam, pruning, path likelihood, EPBSD kernel, POA, full graph, or full alignment. It has exactly three core parameters: `a`, `W`, `m`.
-7. next recommendation: Toy-only prototype is allowed next with explicit user approval; no real-data dry-run, smoke, or benchmark.
+5. gate decision: Decision: `PASS_TO_TOY_ONLY_PROTOTYPE_RUN` Required method-card inputs are readable; toy-only traces/results are generated in an isolated results directory.
+6. claim boundary: Online SIPC sees only observed toy reads. Hidden targets and edit metrics are used only after Decode for offline audit. The prototype does not call or read BBS, does not use BBS score/beam/path likelihood, does not use EPBSD, and does not build POA/full graph/full alignment.
+7. next recommendation: Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.
 8. protected files modified? `no`
 9. original BBS source modified? `no`
 10. files for review: `chat_bridge/06_FILES_FOR_REVIEW.tsv`

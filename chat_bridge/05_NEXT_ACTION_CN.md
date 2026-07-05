@@ -2,7 +2,7 @@
 
 ## 当前建议下一步
 
-Toy-only prototype is allowed next with explicit user approval; no real-data dry-run, smoke, or benchmark.
+Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.
 
 ## 不建议做什么
 
