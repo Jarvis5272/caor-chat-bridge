@@ -9,11 +9,11 @@
 6. claim boundary: 可以说：SPWIC toy-only prototype 在 48 toy cases 上通过 gate，constructive recovery 非零且 S/I/D/LD 都出现，harmful traps 被拒绝，high-confidence wrong 为 0。
 
 不能说：不能说 real-data proven、small smoke allowed、benchmark success、clean IDS decoder success。
-7. next recommendation: Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.
+7. next recommendation: SPWIC real-data sync dry-run is allowed next with explicit user approval; no small reconstruction smoke, benchmark, or algorithm success claim.
 8. protected files modified? `no`
 9. original BBS source modified? `no`
 10. files for review: `chat_bridge/06_FILES_FOR_REVIEW.tsv`
-11. missing context: `['FINAL*_REPORT_CN.md']`
+11. missing context: `[]`
 12. package expected: `chat_bridge_feedback_package.zip`
 13. raw README link: `https://raw.githubusercontent.com/Jarvis5272/caor-chat-bridge/main/chat_bridge/00_README_FIRST.md`
 14. transactional raw validation: `required by bridge_after_run.sh`

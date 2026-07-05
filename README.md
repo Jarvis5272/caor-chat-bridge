@@ -23,7 +23,7 @@ ChatGPT should first read:
 
 ## Next Action
 
-Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.
+SPWIC real-data sync dry-run is allowed next with explicit user approval; no small reconstruction smoke, benchmark, or algorithm success claim.
 
 ## If Linking From GitHub
 

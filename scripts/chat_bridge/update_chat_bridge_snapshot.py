@@ -492,6 +492,11 @@ def build_snapshot(args: argparse.Namespace) -> dict[str, Any]:
             "Real-data synchronization dry-run is allowed next with explicit user approval; "
             "no smoke, benchmark, or algorithm success claim."
         )
+    elif "SPWIC_TOY_PASS_GO_TO_REAL_DATA_SYNC_DRYRUN" in final_label:
+        next_action = (
+            "SPWIC real-data sync dry-run is allowed next with explicit user approval; "
+            "no small reconstruction smoke, benchmark, or algorithm success claim."
+        )
     elif "HAND_TOY_PASS_GO_TO_TOY_ONLY_PROTOTYPE" in final_label:
         next_action = (
             "Toy-only prototype is allowed next with explicit user approval; "

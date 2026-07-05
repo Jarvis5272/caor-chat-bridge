@@ -3,7 +3,7 @@
   "auto_detected_latest_result": false,
   "blocking_missing": false,
   "bridge_consistency_status": "generated_pending_validation",
-  "bridge_workflow_final_label": "CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT",
+  "bridge_workflow_final_label": "CHAT_BRIDGE_WORKFLOW_INITIALIZED",
   "claim_boundary": "可以说：SPWIC toy-only prototype 在 48 toy cases 上通过 gate，constructive recovery 非零且 S/I/D/LD 都出现，harmful traps 被拒绝，high-confidence wrong 为 0。\n\n不能说：不能说 real-data proven、small smoke allowed、benchmark success、clean IDS decoder success。",
   "completed_stages": [
     "本任务目的",
@@ -30,12 +30,12 @@
     "chat_bridge/04_ACTIVE_CLAIM_BOUNDARY_CN.md",
     "chat_bridge/05_NEXT_ACTION_CN.md",
     "chat_bridge/09_SYNC_STATUS.tsv",
+    "results/spwic_identity_certificate_toy_only_prototype_20260704/FINAL_SPWIC_TOY_ONLY_PROTOTYPE_REPORT_CN.md",
     "results/spwic_identity_certificate_toy_only_prototype_20260704/SPWIC_TOY_ONLY_PROTOTYPE_REPORT_CN.md",
     "results/spwic_identity_certificate_toy_only_prototype_20260704/SPWIC_TOY_GO_NO_GO_CN.md",
     "results/spwic_identity_certificate_toy_only_prototype_20260704/spwic_toy_gate_matrix.tsv",
     "results/spwic_identity_certificate_toy_only_prototype_20260704/stage0_gate_decision.md",
-    "results/spwic_identity_certificate_toy_only_prototype_20260704/final_decision_matrix.tsv",
-    "results/spwic_identity_certificate_toy_only_prototype_20260704/final_artifact_manifest.tsv"
+    "results/spwic_identity_certificate_toy_only_prototype_20260704/final_decision_matrix.tsv"
   ],
   "final_label": "SPWIC_TOY_PASS_GO_TO_REAL_DATA_SYNC_DRYRUN",
   "gate_decision": "Decision: `PASS_TO_TOY_ONLY_PROTOTYPE_RUN` All required upstream inputs were checked; missing entries, if any, are recorded in `stage0_input_audit.tsv`.",
@@ -43,13 +43,11 @@
   "latest_result_requested": "results/spwic_identity_certificate_toy_only_prototype_20260704",
   "latest_result_used": "results/spwic_identity_certificate_toy_only_prototype_20260704",
   "main_metrics": {},
-  "missing_expected_files": [
-    "FINAL*_REPORT_CN.md"
-  ],
-  "next_action": "Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.",
+  "missing_expected_files": [],
+  "next_action": "SPWIC real-data sync dry-run is allowed next with explicit user approval; no small reconstruction smoke, benchmark, or algorithm success claim.",
   "original_bbs_source_modified": "no",
   "output_dir": "results/spwic_identity_certificate_toy_only_prototype_20260704",
   "protected_files_modified": "no",
   "selected_candidate": "SPWIC identity-certificate toy-only prototype",
-  "timestamp": "2026-07-05T12:22:24+08:00"
+  "timestamp": "2026-07-05T12:23:12+08:00"
 }
