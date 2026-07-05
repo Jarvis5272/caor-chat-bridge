@@ -2,7 +2,7 @@
 
 ## 当前建议下一步
 
-SPWIC real-data sync dry-run is allowed next with explicit user approval; no small reconstruction smoke, benchmark, or algorithm success claim.
+Freeze SPWIC real-data sync dry-run as a stopped line under this label; no small smoke, benchmark, or patch stacking unless the user opens a new theory/revise task.
 
 ## 不建议做什么
 

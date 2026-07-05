@@ -466,6 +466,8 @@ def build_snapshot(args: argparse.Namespace) -> dict[str, Any]:
     candidate = parse_environment_task(env_text)
     if "SPWIC_HAND_TOY" in final_label:
         candidate = "SPWIC sparse paired-witness identity certificate hand toy"
+    elif "SPWIC_REAL_SYNC" in final_label:
+        candidate = "SPWIC real-data synchronization dry-run"
     elif "IDENTITY_CERTIFICATE_READY_FOR_HAND_TOY" in final_label:
         candidate = "SPWIC edit-event identity certificate synthesis"
     if candidate == "missing":
@@ -496,6 +498,21 @@ def build_snapshot(args: argparse.Namespace) -> dict[str, Any]:
         next_action = (
             "SPWIC real-data sync dry-run is allowed next with explicit user approval; "
             "no small reconstruction smoke, benchmark, or algorithm success claim."
+        )
+    elif "SPWIC_REAL_SYNC_PASS_GO_TO_SMALL_RECONSTRUCTION_SMOKE" in final_label:
+        next_action = (
+            "SPWIC small reconstruction smoke is allowed next only with explicit approval; "
+            "no benchmark or algorithm success claim."
+        )
+    elif "SPWIC_REAL_SYNC_STOP" in final_label:
+        next_action = (
+            "Freeze SPWIC real-data sync dry-run as a stopped line under this label; "
+            "no small smoke, benchmark, or patch stacking unless the user opens a new theory/revise task."
+        )
+    elif "SPWIC_REAL_SYNC_REVISE_ONCE" in final_label:
+        next_action = (
+            "At most one SPWIC revise task is allowed, with no new parameter, no W/a expansion, "
+            "no BBS/EPBSD/full graph, and no smoke/benchmark."
         )
     elif "HAND_TOY_PASS_GO_TO_TOY_ONLY_PROTOTYPE" in final_label:
         next_action = (

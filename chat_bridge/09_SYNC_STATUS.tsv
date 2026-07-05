@@ -1,20 +1,20 @@
 item	status	details
-requested_latest_result	pass	results/spwic_identity_certificate_toy_only_prototype_20260704
-used_latest_result	pass	results/spwic_identity_certificate_toy_only_prototype_20260704
+requested_latest_result	pass	results/spwic_real_data_sync_dryrun_20260705
+used_latest_result	pass	results/spwic_real_data_sync_dryrun_20260705
 explicit_latest_result_used	yes	true
 auto_detected	no	false
 auto_detected_latest_result	no	false
-latest_final_label	pass	SPWIC_TOY_PASS_GO_TO_REAL_DATA_SYNC_DRYRUN
-latest_output_dir	pass	results/spwic_identity_certificate_toy_only_prototype_20260704
+latest_final_label	pass	SPWIC_REAL_SYNC_STOP_HARMFUL_CORRECTIONS
+latest_output_dir	pass	results/spwic_real_data_sync_dryrun_20260705
 bridge_consistency_status	pending_validation	generated_pending_validation
 reason	pass	requested latest result exists and was used
-latest result requested	pass	results/spwic_identity_certificate_toy_only_prototype_20260704
-latest result used	pass	results/spwic_identity_certificate_toy_only_prototype_20260704
+latest result requested	pass	results/spwic_real_data_sync_dryrun_20260705
+latest result used	pass	results/spwic_real_data_sync_dryrun_20260705
 latest result detection mode	explicit	False
-latest result detected	pass	results/spwic_identity_certificate_toy_only_prototype_20260704
+latest result detected	pass	results/spwic_real_data_sync_dryrun_20260705
 files copied	pass	0 source artifact files copied; bridge files generated only
-files skipped	pass	2
-large files skipped	pass	2
+files skipped	pass	9
+large files skipped	pass	9
 missing expected files	pass	0
 required bridge files present	pass	14/14
 package path	pass	chat_bridge_feedback_package.zip
@@ -37,9 +37,9 @@ git status summary	pass	"M AGENTS.md
 ?? experiments/bbs_baseline_eval.py
 ?? experiments/candidate_pool_selector_eval.py
 ?? experiments"
-timestamp	pass	2026-07-05T12:23:12+08:00
+timestamp	pass	2026-07-05T12:59:44+08:00
 protected files modified	pass	no
 original BBS source modified	pass	no
 generated bridge files	pass	14
 read_skipped	pass	[]
-scan_skipped	pass	"[{""path"": ""results/spwic_identity_certificate_toy_only_prototype_20260704/toy_event_certificate_trace.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 119042}, {""path"": ""results/spwic_identity_certificate_toy_only_prototype_20260704/toy_sparse_witness_trace.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 88893}]"
+scan_skipped	pass	"[{""path"": ""results/spwic_real_data_sync_dryrun_20260705/spwic_vs_scaffold_offline_audit.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 336795}, {""path"": ""results/spwic_real_data_sync_dryrun_20260705/real_sync_per_prefix_statistics.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 553160}, {""path"": ""results/spwic_real_data_sync_dryrun_20260705/real_paired_witness_trace_sample.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 112480}, {""path"": ""results/spwic_real_data_sync_dryrun_20260705/spwic_real_constructive_recovery_audit.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 302083}, {""path"": ""results/spwic_real_data_sync_dryrun_20260705/real_decode_trace_sample.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 147311}, {""path"": ""results/spwic_real_data_sync_dryrun_20260705/real_event_certificate_trace_sample.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 116467}, {""path"": ""results/spwic_real_data_sync_dryrun_20260705/offline_silent_error_risk_audit.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 317997}, {""path"": ""results/spwic_real_data_sync_dryrun_20260705/real_sparse_witness_trace_sample.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 168302}, {""path"": ""results/spwic_real_data_sync_dryrun_20260705/real_scaffold_trace_sample.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 190004}]"

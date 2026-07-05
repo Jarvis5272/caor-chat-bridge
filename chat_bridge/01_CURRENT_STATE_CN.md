@@ -2,11 +2,11 @@
 
 ## 实时故事状态
 
-最新结果目录 `results/spwic_identity_certificate_toy_only_prototype_20260704` 是当前 latest result；最新 label 是 `SPWIC_TOY_PASS_GO_TO_REAL_DATA_SYNC_DRYRUN`。
+最新结果目录 `results/spwic_real_data_sync_dryrun_20260705` 是当前 latest result；最新 label 是 `SPWIC_REAL_SYNC_STOP_HARMFUL_CORRECTIONS`。
 
 ## clean IDS 数据状态
 
-最新结果记录的数据状态来自 `results/spwic_identity_certificate_toy_only_prototype_20260704`。若报告中的 input scope 不完整，以源 artifact 为准，不在 bridge 中编造。
+最新结果记录的数据状态来自 `results/spwic_real_data_sync_dryrun_20260705`。若报告中的 input scope 不完整，以源 artifact 为准，不在 bridge 中编造。
 
 ## EPBSD / BBS acceleration 状态
 
@@ -14,15 +14,15 @@
 
 ## baseline-aware / independent algorithm 状态
 
-当前 active track: `SPWIC identity-certificate toy-only prototype`。根据 latest gate，当前结论是 `Decision: `PASS_TO_TOY_ONLY_PROTOTYPE_RUN` All required upstream inputs were checked; missing entries, if any, are recorded in `stage0_input_audit.tsv`.`。
+当前 active track: `SPWIC real-data synchronization dry-run`。根据 latest gate，当前结论是 `Decision: `PASS_TO_REAL_SYNC_DRYRUN` 20260703 inputs were missing and 20260627 fallback paths were used where required. This is recorded in manifests.`。
 
 ## 当前 active candidate
 
-`SPWIC identity-certificate toy-only prototype`
+`SPWIC real-data synchronization dry-run`
 
 ## 当前 gate
 
-Decision: `PASS_TO_TOY_ONLY_PROTOTYPE_RUN` All required upstream inputs were checked; missing entries, if any, are recorded in `stage0_input_audit.tsv`.
+Decision: `PASS_TO_REAL_SYNC_DRYRUN` 20260703 inputs were missing and 20260627 fallback paths were used where required. This is recorded in manifests.
 
 ## 当前最大风险
 

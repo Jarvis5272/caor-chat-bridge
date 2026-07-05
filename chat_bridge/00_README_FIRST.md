@@ -6,15 +6,15 @@
 
 ## 当前主线状态
 
-最新自动检测结果为 `results/spwic_identity_certificate_toy_only_prototype_20260704`；当前最新 Codex label 为 `SPWIC_TOY_PASS_GO_TO_REAL_DATA_SYNC_DRYRUN`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED`。
+最新自动检测结果为 `results/spwic_real_data_sync_dryrun_20260705`；当前最新 Codex label 为 `SPWIC_REAL_SYNC_STOP_HARMFUL_CORRECTIONS`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED`。
 
 ## 最新 Codex final label
 
-`SPWIC_TOY_PASS_GO_TO_REAL_DATA_SYNC_DRYRUN`
+`SPWIC_REAL_SYNC_STOP_HARMFUL_CORRECTIONS`
 
 ## 最新输出目录
 
-`results/spwic_identity_certificate_toy_only_prototype_20260704`
+`results/spwic_real_data_sync_dryrun_20260705`
 
 ## ChatGPT 应先读哪些文件
 
@@ -27,9 +27,9 @@
 
 ## 当前 claim boundary
 
-可以说：SPWIC toy-only prototype 在 48 toy cases 上通过 gate，constructive recovery 非零且 S/I/D/LD 都出现，harmful traps 被拒绝，high-confidence wrong 为 0。
+可以说：SPWIC real sync dry-run completed on bounded clean IDS candidate scope.
 
-不能说：不能说 real-data proven、small smoke allowed、benchmark success、clean IDS decoder success。
+不能说：不能说 benchmark success、BBS comparison win、small smoke unless label permits、或 independent decoder success。
 
 ## 是否有 missing context
 
@@ -37,7 +37,7 @@
 
 ## 当前下一步
 
-SPWIC real-data sync dry-run is allowed next with explicit user approval; no small reconstruction smoke, benchmark, or algorithm success claim.
+Freeze SPWIC real-data sync dry-run as a stopped line under this label; no small smoke, benchmark, or patch stacking unless the user opens a new theory/revise task.
 
 ## protected diff 状态
 

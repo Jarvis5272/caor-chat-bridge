@@ -2,11 +2,11 @@
 
 ## 可以说
 
-- 当前结果是 metadata-only 同步快照，latest result 为 `results/spwic_identity_certificate_toy_only_prototype_20260704`。
-- latest final label 是 `SPWIC_TOY_PASS_GO_TO_REAL_DATA_SYNC_DRYRUN`。
-- 当前 claim boundary 是：可以说：SPWIC toy-only prototype 在 48 toy cases 上通过 gate，constructive recovery 非零且 S/I/D/LD 都出现，harmful traps 被拒绝，high-confidence wrong 为 0。
+- 当前结果是 metadata-only 同步快照，latest result 为 `results/spwic_real_data_sync_dryrun_20260705`。
+- latest final label 是 `SPWIC_REAL_SYNC_STOP_HARMFUL_CORRECTIONS`。
+- 当前 claim boundary 是：可以说：SPWIC real sync dry-run completed on bounded clean IDS candidate scope.
 
-不能说：不能说 real-data proven、small smoke allowed、benchmark success、clean IDS decoder success。
+不能说：不能说 benchmark success、BBS comparison win、small smoke unless label permits、或 independent decoder success。
 
 ## 不能说
 

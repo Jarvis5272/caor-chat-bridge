@@ -5,7 +5,7 @@ contains_large_files	pass	false
 contains_secret_like_files	pass	false
 contains_raw_reads	pass	false
 contains_only_bridge	pass	CHATGPT_LINK_INSTRUCTIONS_CN.md,README.md,chat_bridge,chat_bridge_feedback_package.zip,scripts
-latest_result_final_label	pass	SPWIC_TOY_PASS_GO_TO_REAL_DATA_SYNC_DRYRUN
-claim_boundary_present	pass	"可以说：SPWIC toy-only prototype 在 48 toy cases 上通过 gate，constructive recovery 非零且 S/I/D/LD 都出现，harmful traps 被拒绝，high-confidence wrong 为 0。
+latest_result_final_label	pass	SPWIC_REAL_SYNC_STOP_HARMFUL_CORRECTIONS
+claim_boundary_present	pass	"可以说：SPWIC real sync dry-run completed on bounded clean IDS candidate scope.
 
-不能说：不能说 real-data proven、small smoke allowed、benchmark success"
+不能说：不能说 benchmark success、BBS comparison win、small smoke unless label permits、或 independent decoder success。"
