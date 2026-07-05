@@ -1,13 +1,12 @@
 {
-  "artifact_manifest_path": "results/bapc_decisive_advantage_or_failure_validation_20260705/final_artifact_manifest.tsv",
+  "artifact_manifest_path": "results/bapc_decisive_freeze_evidence_package_20260705/final_artifact_manifest.tsv",
   "auto_detected_latest_result": false,
   "blocking_missing": false,
   "bridge_consistency_status": "generated_pending_validation",
-  "bridge_workflow_final_label": "CHAT_BRIDGE_WORKFLOW_INITIALIZED",
-  "claim_boundary": "Can say: BAPC has the strongest current promising aggregate signal among this line; current BAPC is original/non-BBS online core; the decisive validation failed because no safe-update boundary qualifies.\n\nCannot say: BAPC target met, BAPC bounded success, BAPC replaces BBS/EPBSD, BAPC is ready for benchmark, or another small patch/revision is allowed.\n\nFinal label: `BAPC_DECISIVE_FAIL_NO_SAFE_UPDATE_BOUNDARY`.",
+  "bridge_workflow_final_label": "CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT",
+  "claim_boundary": "BAPC may be described as a promising signal and a useful negative-evidence package. It must not be described as a solved decoder, bounded success, BBS replacement, speed-success result, or route for further patching.",
   "completed_stages": [
-    "stage0_gate_decision",
-    "stage1_gate_decision"
+    "missing"
   ],
   "data_modified": "no_by_bridge_task",
   "explicit_latest_result_used": true,
@@ -18,24 +17,26 @@
     "chat_bridge/04_ACTIVE_CLAIM_BOUNDARY_CN.md",
     "chat_bridge/05_NEXT_ACTION_CN.md",
     "chat_bridge/09_SYNC_STATUS.tsv",
-    "results/bapc_decisive_advantage_or_failure_validation_20260705/FINAL_BAPC_DECISIVE_ADVANTAGE_OR_FAILURE_REPORT_CN.md",
-    "results/bapc_decisive_advantage_or_failure_validation_20260705/BAPC_DECISIVE_ADVANTAGE_OR_FAILURE_REPORT_CN.md",
-    "results/bapc_decisive_advantage_or_failure_validation_20260705/stage0_gate_decision.md",
-    "results/bapc_decisive_advantage_or_failure_validation_20260705/stage1_gate_decision.md",
-    "results/bapc_decisive_advantage_or_failure_validation_20260705/final_decision_matrix.tsv",
-    "results/bapc_decisive_advantage_or_failure_validation_20260705/final_artifact_manifest.tsv"
+    "results/bapc_decisive_freeze_evidence_package_20260705/FINAL_BAPC_DECISIVE_FREEZE_EVIDENCE_PACKAGE_REPORT_CN.md",
+    "results/bapc_decisive_freeze_evidence_package_20260705/BAPC_DECISIVE_FREEZE_EVIDENCE_PACKAGE_REPORT_CN.md",
+    "results/bapc_decisive_freeze_evidence_package_20260705/final_decision_matrix.tsv",
+    "results/bapc_decisive_freeze_evidence_package_20260705/final_artifact_manifest.tsv",
+    "results/bapc_decisive_freeze_evidence_package_20260705/no_protected_files_modified.tsv",
+    "results/bapc_decisive_freeze_evidence_package_20260705/original_bbs_unchanged_audit.tsv"
   ],
-  "final_label": "BAPC_DECISIVE_FAIL_NO_SAFE_UPDATE_BOUNDARY",
-  "gate_decision": "# Stage 0 gate decision Decision: PASS_TO_STAGE1_FINAL_SEPARABILITY. Required evidence directories are present except 20260703 source/data ledger variants; per objective, 20260627 fallback paths are present and recorded. Current claim remai",
+  "final_label": "BAPC_DECISIVE_FREEZE_EVIDENCE_PACKAGE_COMPLETED",
+  "gate_decision": "BAPC_DECISIVE_FREEZE_EVIDENCE_PACKAGE_COMPLETED",
   "large_files_skipped_count": 0,
-  "latest_result_requested": "results/bapc_decisive_advantage_or_failure_validation_20260705",
-  "latest_result_used": "results/bapc_decisive_advantage_or_failure_validation_20260705",
+  "latest_result_requested": "results/bapc_decisive_freeze_evidence_package_20260705",
+  "latest_result_used": "results/bapc_decisive_freeze_evidence_package_20260705",
   "main_metrics": {},
-  "missing_expected_files": [],
-  "next_action": "Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.",
+  "missing_expected_files": [
+    "leakage_audit.tsv"
+  ],
+  "next_action": "Review latest result artifacts and confirm whether another validation step is warranted.",
   "original_bbs_source_modified": "no",
-  "output_dir": "results/bapc_decisive_advantage_or_failure_validation_20260705",
+  "output_dir": "results/bapc_decisive_freeze_evidence_package_20260705",
   "protected_files_modified": "no",
   "selected_candidate": "missing",
-  "timestamp": "2026-07-05T23:30:01+08:00"
+  "timestamp": "2026-07-05T23:43:59+08:00"
 }

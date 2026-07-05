@@ -12,20 +12,16 @@ ChatGPT should first read:
 
 ## Current Latest Result
 
-- latest result: `results/bapc_decisive_advantage_or_failure_validation_20260705`
-- latest final label: `BAPC_DECISIVE_FAIL_NO_SAFE_UPDATE_BOUNDARY`
+- latest result: `results/bapc_decisive_freeze_evidence_package_20260705`
+- latest final label: `BAPC_DECISIVE_FREEZE_EVIDENCE_PACKAGE_COMPLETED`
 
 ## Claim Boundary
 
-Can say: BAPC has the strongest current promising aggregate signal among this line; current BAPC is original/non-BBS online core; the decisive validation failed because no safe-update boundary qualifies.
-
-Cannot say: BAPC target met, BAPC bounded success, BAPC replaces BBS/EPBSD, BAPC is ready for benchmark, or another small patch/revision is allowed.
-
-Final label: `BAPC_DECISIVE_FAIL_NO_SAFE_UPDATE_BOUNDARY`.
+BAPC may be described as a promising signal and a useful negative-evidence package. It must not be described as a solved decoder, bounded success, BBS replacement, speed-success result, or route for further patching.
 
 ## Next Action
 
-Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.
+Review latest result artifacts and confirm whether another validation step is warranted.
 
 ## If Linking From GitHub
 

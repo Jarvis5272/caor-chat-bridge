@@ -6,15 +6,15 @@
 
 ## 当前主线状态
 
-最新自动检测结果为 `results/bapc_decisive_advantage_or_failure_validation_20260705`；当前最新 Codex label 为 `BAPC_DECISIVE_FAIL_NO_SAFE_UPDATE_BOUNDARY`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED`。
+最新自动检测结果为 `results/bapc_decisive_freeze_evidence_package_20260705`；当前最新 Codex label 为 `BAPC_DECISIVE_FREEZE_EVIDENCE_PACKAGE_COMPLETED`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT`。
 
 ## 最新 Codex final label
 
-`BAPC_DECISIVE_FAIL_NO_SAFE_UPDATE_BOUNDARY`
+`BAPC_DECISIVE_FREEZE_EVIDENCE_PACKAGE_COMPLETED`
 
 ## 最新输出目录
 
-`results/bapc_decisive_advantage_or_failure_validation_20260705`
+`results/bapc_decisive_freeze_evidence_package_20260705`
 
 ## ChatGPT 应先读哪些文件
 
@@ -27,19 +27,15 @@
 
 ## 当前 claim boundary
 
-Can say: BAPC has the strongest current promising aggregate signal among this line; current BAPC is original/non-BBS online core; the decisive validation failed because no safe-update boundary qualifies.
-
-Cannot say: BAPC target met, BAPC bounded success, BAPC replaces BBS/EPBSD, BAPC is ready for benchmark, or another small patch/revision is allowed.
-
-Final label: `BAPC_DECISIVE_FAIL_NO_SAFE_UPDATE_BOUNDARY`.
+BAPC may be described as a promising signal and a useful negative-evidence package. It must not be described as a solved decoder, bounded success, BBS replacement, speed-success result, or route for further patching.
 
 ## 是否有 missing context
 
-`missing_expected_files=[]`。这些缺失项只作为上下文缺口记录；若 required bridge files 全部生成，则不阻塞 bridge 使用。
+`missing_expected_files=['leakage_audit.tsv']`。这些缺失项只作为上下文缺口记录；若 required bridge files 全部生成，则不阻塞 bridge 使用。
 
 ## 当前下一步
 
-Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.
+Review latest result artifacts and confirm whether another validation step is warranted.
 
 ## protected diff 状态
 
