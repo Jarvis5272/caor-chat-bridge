@@ -5,11 +5,11 @@ priority	path	reason_to_review	expected_content	small_enough_for_git	exists	note
 4	chat_bridge/04_ACTIVE_CLAIM_BOUNDARY_CN.md	claim audit	allowed/disallowed claims	yes	yes	generated bridge file
 5	chat_bridge/05_NEXT_ACTION_CN.md	next step	recommended next action	yes	yes	generated bridge file
 6	chat_bridge/09_SYNC_STATUS.tsv	sync audit	detected/missing/skipped status	yes	yes	generated bridge file
-7	results/bapc_hard_trio_safe_update_theory_note_20260705/stage0_gate_decision.md	latest result source artifact	stage*_gate_decision.md	yes	yes	258 bytes
-8	results/bapc_hard_trio_safe_update_theory_note_20260705/final_decision_matrix.tsv	latest result source artifact	final_decision_matrix.tsv	yes	yes	617 bytes
-9	results/bapc_hard_trio_safe_update_theory_note_20260705/final_artifact_manifest.tsv	latest result source artifact	final_artifact_manifest.tsv	yes	yes	2653 bytes
-10	results/bapc_hard_trio_safe_update_theory_note_20260705/no_protected_files_modified.tsv	latest result source artifact	no_protected_files_modified.tsv	yes	yes	1010 bytes
-11	results/bapc_hard_trio_safe_update_theory_note_20260705/original_bbs_unchanged_audit.tsv	latest result source artifact	original_bbs_unchanged_audit.tsv	yes	yes	144 bytes
-12	results/bapc_hard_trio_safe_update_theory_note_20260705/leakage_audit.tsv	latest result source artifact	leakage_audit.tsv	yes	yes	383 bytes
-13	results/bapc_hard_trio_safe_update_theory_note_20260705/environment_summary.txt	latest result source artifact	environment_summary.txt	yes	yes	214 bytes
-14	results/bapc_hard_trio_safe_update_theory_note_20260705/FINAL*_REPORT_CN.md	missing expected context	FINAL*_REPORT_CN.md	unknown	no	missing; do not infer
+7	results/bapc_hard_trio_safe_update_theory_note_20260705/FINAL_BAPC_HARD_TRIO_SAFE_UPDATE_THEORY_REPORT_CN.md	latest result source artifact	FINAL*_REPORT_CN.md	yes	yes	1384 bytes
+8	results/bapc_hard_trio_safe_update_theory_note_20260705/stage0_gate_decision.md	latest result source artifact	stage*_gate_decision.md	yes	yes	258 bytes
+9	results/bapc_hard_trio_safe_update_theory_note_20260705/final_decision_matrix.tsv	latest result source artifact	final_decision_matrix.tsv	yes	yes	617 bytes
+10	results/bapc_hard_trio_safe_update_theory_note_20260705/final_artifact_manifest.tsv	latest result source artifact	final_artifact_manifest.tsv	yes	yes	2778 bytes
+11	results/bapc_hard_trio_safe_update_theory_note_20260705/no_protected_files_modified.tsv	latest result source artifact	no_protected_files_modified.tsv	yes	yes	1010 bytes
+12	results/bapc_hard_trio_safe_update_theory_note_20260705/original_bbs_unchanged_audit.tsv	latest result source artifact	original_bbs_unchanged_audit.tsv	yes	yes	144 bytes
+13	results/bapc_hard_trio_safe_update_theory_note_20260705/leakage_audit.tsv	latest result source artifact	leakage_audit.tsv	yes	yes	383 bytes
+14	results/bapc_hard_trio_safe_update_theory_note_20260705/environment_summary.txt	latest result source artifact	environment_summary.txt	yes	yes	214 bytes

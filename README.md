@@ -17,7 +17,9 @@ ChatGPT should first read:
 
 ## Claim Boundary
 
-BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
+Status: `needs_more_theory`.
+
+The missing object is a sound observed-only local conflict-mode certificate that can separate true edit-event recovery from hard indel/path ambiguity without BBS/EPBSD/full graph/dataset route.
 
 ## Next Action
 

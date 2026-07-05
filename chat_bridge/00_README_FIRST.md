@@ -6,7 +6,7 @@
 
 ## 当前主线状态
 
-最新自动检测结果为 `results/bapc_hard_trio_safe_update_theory_note_20260705`；当前最新 Codex label 为 `HARD_TRIO_THEORY_NEEDS_MORE_THEORY`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT`。
+最新自动检测结果为 `results/bapc_hard_trio_safe_update_theory_note_20260705`；当前最新 Codex label 为 `HARD_TRIO_THEORY_NEEDS_MORE_THEORY`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED`。
 
 ## 最新 Codex final label
 
@@ -27,11 +27,13 @@
 
 ## 当前 claim boundary
 
-BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
+Status: `needs_more_theory`.
+
+The missing object is a sound observed-only local conflict-mode certificate that can separate true edit-event recovery from hard indel/path ambiguity without BBS/EPBSD/full graph/dataset route.
 
 ## 是否有 missing context
 
-`missing_expected_files=['FINAL*_REPORT_CN.md']`。这些缺失项只作为上下文缺口记录；若 required bridge files 全部生成，则不阻塞 bridge 使用。
+`missing_expected_files=[]`。这些缺失项只作为上下文缺口记录；若 required bridge files 全部生成，则不阻塞 bridge 使用。
 
 ## 当前下一步
 

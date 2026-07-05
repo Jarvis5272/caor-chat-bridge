@@ -4,7 +4,9 @@
 
 - 当前结果是 metadata-only 同步快照，latest result 为 `results/bapc_hard_trio_safe_update_theory_note_20260705`。
 - latest final label 是 `HARD_TRIO_THEORY_NEEDS_MORE_THEORY`。
-- 当前 claim boundary 是：BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
+- 当前 claim boundary 是：Status: `needs_more_theory`.
+
+The missing object is a sound observed-only local conflict-mode certificate that can separate true edit-event recovery from hard indel/path ambiguity without BBS/EPBSD/full graph/dataset route.
 
 ## 不能说
 
