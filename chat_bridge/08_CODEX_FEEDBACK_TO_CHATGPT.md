@@ -1,25 +1,13 @@
 # Codex Feedback To ChatGPT
 
-1. final label: `SCC_THEORY_READY_FOR_HAND_TOY`
-2. output dir: `results/scc_sparse_consistency_certificate_theory_note_20260705`
+1. final label: `SCC_HAND_TOY_PASS_GO_TO_TOY_ONLY_PROTOTYPE`
+2. output dir: `results/scc_sparse_consistency_certificate_hand_toy_20260705`
 3. completed stages: stage0_gate_decision
 4. key metrics:
 - missing
-5. gate decision: Decision: `PASS_TO_SCC_THEORY_NOTE` All required inputs are present. The task remains theory-only. No toy, prototype, real-sync, smoke, or benchmark is run.
-6. claim boundary: An event `e` may be accepted only if:
-
-1. paired witness unique；
-2. bounded counterfactual delta over no-event and bounded competitors is at least `m`；
-3. cross-read order consistency support exceeds `m`；
-4. no competing certificate has comparable or stronger dominance；
-5. independent support exceeds `m`；
-6. all checks stay within `a/W` and the competitor registry remains sparse.
-
-If any condition fails, SCC must output low-confidence/no correction or stop. It cannot widen W, add helper families, use graph/POA/full alignment, or call BBS/EPBSD semantics.
-
-
-SCC is not guaranteed to cover all useful edits. It has coverage when true edits often have unique sparse identity and positive local counterfactual margin. It becomes refusal-only in repeats, homopolymers, low coverage, cost ties, competing certificate ties, and long-range ambiguity. These cases are not patched; they are reported.
-7. next recommendation: Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.
+5. gate decision: Decision: `PASS_TO_SCC_HAND_TOY` All required inputs are present. The task remains hand-toy only: no code, no prototype, no real-data run, no smoke, no benchmark.
+6. claim boundary: Method-card candidate is allowed to proceed to hand toy only; not an effective decoder, not benchmark success, and not real-data proven.
+7. next recommendation: Toy-only prototype is allowed next with explicit user approval; no real-data dry-run, smoke, or benchmark.
 8. protected files modified? `no`
 9. original BBS source modified? `no`
 10. files for review: `chat_bridge/06_FILES_FOR_REVIEW.tsv`

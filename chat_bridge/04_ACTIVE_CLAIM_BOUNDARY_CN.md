@@ -2,21 +2,9 @@
 
 ## 可以说
 
-- 当前结果是 metadata-only 同步快照，latest result 为 `results/scc_sparse_consistency_certificate_theory_note_20260705`。
-- latest final label 是 `SCC_THEORY_READY_FOR_HAND_TOY`。
-- 当前 claim boundary 是：An event `e` may be accepted only if:
-
-1. paired witness unique；
-2. bounded counterfactual delta over no-event and bounded competitors is at least `m`；
-3. cross-read order consistency support exceeds `m`；
-4. no competing certificate has comparable or stronger dominance；
-5. independent support exceeds `m`；
-6. all checks stay within `a/W` and the competitor registry remains sparse.
-
-If any condition fails, SCC must output low-confidence/no correction or stop. It cannot widen W, add helper families, use graph/POA/full alignment, or call BBS/EPBSD semantics.
-
-
-SCC is not guaranteed to cover all useful edits. It has coverage when true edits often have unique sparse identity and positive local counterfactual margin. It becomes refusal-only in repeats, homopolymers, low coverage, cost ties, competing certificate ties, and long-range ambiguity. These cases are not patched; they are reported.
+- 当前结果是 metadata-only 同步快照，latest result 为 `results/scc_sparse_consistency_certificate_hand_toy_20260705`。
+- latest final label 是 `SCC_HAND_TOY_PASS_GO_TO_TOY_ONLY_PROTOTYPE`。
+- 当前 claim boundary 是：Method-card candidate is allowed to proceed to hand toy only; not an effective decoder, not benchmark success, and not real-data proven.
 
 ## 不能说
 
