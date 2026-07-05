@@ -9,8 +9,8 @@
 6. claim boundary: Protected files modified by this task: no。
 Original BBS source modified by this task: no。
 7. next recommendation: Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.
-8. protected files modified? `unknown`
-9. original BBS source modified? `unknown`
+8. protected files modified? `no`
+9. original BBS source modified? `no`
 10. files for review: `chat_bridge/06_FILES_FOR_REVIEW.tsv`
 11. missing context: `[]`
 12. package expected: `chat_bridge_feedback_package.zip`
