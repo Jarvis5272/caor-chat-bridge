@@ -12,8 +12,8 @@ ChatGPT should first read:
 
 ## Current Latest Result
 
-- latest result: `results/bslc_bounded_sparse_lattice_accelerated_validation_20260705`
-- latest final label: `BSLC_ACCELERATED_STOP_COMPLEXITY_OR_BBS_TRIO_COLLAPSE`
+- latest result: `results/bapc_bounded_alignment_posterior_validation_20260705`
+- latest final label: `BAPC_ACCELERATED_REAL_SYNC_SIGNAL_ONLY`
 
 ## Claim Boundary
 

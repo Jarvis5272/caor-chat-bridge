@@ -2,8 +2,8 @@
 
 ## 可以说
 
-- 当前结果是 metadata-only 同步快照，latest result 为 `results/bslc_bounded_sparse_lattice_accelerated_validation_20260705`。
-- latest final label 是 `BSLC_ACCELERATED_STOP_COMPLEXITY_OR_BBS_TRIO_COLLAPSE`。
+- 当前结果是 metadata-only 同步快照，latest result 为 `results/bapc_bounded_alignment_posterior_validation_20260705`。
+- latest final label 是 `BAPC_ACCELERATED_REAL_SYNC_SIGNAL_ONLY`。
 - 当前 claim boundary 是：BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
 
 ## 不能说

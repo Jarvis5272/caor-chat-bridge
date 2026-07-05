@@ -6,15 +6,15 @@
 
 ## 当前主线状态
 
-最新自动检测结果为 `results/bslc_bounded_sparse_lattice_accelerated_validation_20260705`；当前最新 Codex label 为 `BSLC_ACCELERATED_STOP_COMPLEXITY_OR_BBS_TRIO_COLLAPSE`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT`。
+最新自动检测结果为 `results/bapc_bounded_alignment_posterior_validation_20260705`；当前最新 Codex label 为 `BAPC_ACCELERATED_REAL_SYNC_SIGNAL_ONLY`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT`。
 
 ## 最新 Codex final label
 
-`BSLC_ACCELERATED_STOP_COMPLEXITY_OR_BBS_TRIO_COLLAPSE`
+`BAPC_ACCELERATED_REAL_SYNC_SIGNAL_ONLY`
 
 ## 最新输出目录
 
-`results/bslc_bounded_sparse_lattice_accelerated_validation_20260705`
+`results/bapc_bounded_alignment_posterior_validation_20260705`
 
 ## ChatGPT 应先读哪些文件
 
