@@ -2,11 +2,11 @@
 
 ## 实时故事状态
 
-最新结果目录 `results/bapc_positive_signal_and_hard_trio_theory_reset_20260705` 是当前 latest result；最新 label 是 `BAPC_SIGNAL_PACKAGE_HARD_TRIO_THEORY_READY`。
+最新结果目录 `results/bapc_hard_trio_safe_update_theory_note_20260705` 是当前 latest result；最新 label 是 `HARD_TRIO_THEORY_NEEDS_MORE_THEORY`。
 
 ## clean IDS 数据状态
 
-最新结果记录的数据状态来自 `results/bapc_positive_signal_and_hard_trio_theory_reset_20260705`。若报告中的 input scope 不完整，以源 artifact 为准，不在 bridge 中编造。
+最新结果记录的数据状态来自 `results/bapc_hard_trio_safe_update_theory_note_20260705`。若报告中的 input scope 不完整，以源 artifact 为准，不在 bridge 中编造。
 
 ## EPBSD / BBS acceleration 状态
 
@@ -14,15 +14,15 @@
 
 ## baseline-aware / independent algorithm 状态
 
-当前 active track: `BAPC positive-signal consolidation and hard-trio theory reset`。根据 latest gate，当前结论是 `# Stage 0 gate decision Decision: PASS All required upstream result directories and bridge files were present. This task remains consolidation/theory-reset only. No new experiment, benchmark, BAPC revision, bounded validation, BBS/EPBSD onl`。
+当前 active track: `hard-trio safe-update theory note`。根据 latest gate，当前结论是 `# Stage 0 gate decision Decision: PASS All required inputs were present. This package is theory-only: no experiment, no BAPC revision, no benchmark, no bounded validation, no protected-code edit, no BBS-source edit, and no evaluator patch w`。
 
 ## 当前 active candidate
 
-`BAPC positive-signal consolidation and hard-trio theory reset`
+`hard-trio safe-update theory note`
 
 ## 当前 gate
 
-# Stage 0 gate decision Decision: PASS All required upstream result directories and bridge files were present. This task remains consolidation/theory-reset only. No new experiment, benchmark, BAPC revision, bounded validation, BBS/EPBSD onl
+# Stage 0 gate decision Decision: PASS All required inputs were present. This package is theory-only: no experiment, no BAPC revision, no benchmark, no bounded validation, no protected-code edit, no BBS-source edit, and no evaluator patch w
 
 ## 当前最大风险
 

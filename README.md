@@ -12,8 +12,8 @@ ChatGPT should first read:
 
 ## Current Latest Result
 
-- latest result: `results/bapc_positive_signal_and_hard_trio_theory_reset_20260705`
-- latest final label: `BAPC_SIGNAL_PACKAGE_HARD_TRIO_THEORY_READY`
+- latest result: `results/bapc_hard_trio_safe_update_theory_note_20260705`
+- latest final label: `HARD_TRIO_THEORY_NEEDS_MORE_THEORY`
 
 ## Claim Boundary
 

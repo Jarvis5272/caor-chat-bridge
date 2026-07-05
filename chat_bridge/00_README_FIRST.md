@@ -6,15 +6,15 @@
 
 ## 当前主线状态
 
-最新自动检测结果为 `results/bapc_positive_signal_and_hard_trio_theory_reset_20260705`；当前最新 Codex label 为 `BAPC_SIGNAL_PACKAGE_HARD_TRIO_THEORY_READY`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED`。
+最新自动检测结果为 `results/bapc_hard_trio_safe_update_theory_note_20260705`；当前最新 Codex label 为 `HARD_TRIO_THEORY_NEEDS_MORE_THEORY`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT`。
 
 ## 最新 Codex final label
 
-`BAPC_SIGNAL_PACKAGE_HARD_TRIO_THEORY_READY`
+`HARD_TRIO_THEORY_NEEDS_MORE_THEORY`
 
 ## 最新输出目录
 
-`results/bapc_positive_signal_and_hard_trio_theory_reset_20260705`
+`results/bapc_hard_trio_safe_update_theory_note_20260705`
 
 ## ChatGPT 应先读哪些文件
 
@@ -31,7 +31,7 @@ BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confi
 
 ## 是否有 missing context
 
-`missing_expected_files=[]`。这些缺失项只作为上下文缺口记录；若 required bridge files 全部生成，则不阻塞 bridge 使用。
+`missing_expected_files=['FINAL*_REPORT_CN.md']`。这些缺失项只作为上下文缺口记录；若 required bridge files 全部生成，则不阻塞 bridge 使用。
 
 ## 当前下一步
 
