@@ -1,7 +1,7 @@
 protected_path	modified	status	notes
-experiments/streaming_slim_generalization_eval.py		no_by_this_task	no edit
-src/pipeline/sparse_viterbi_dbg.py		no_by_this_task	no edit
-src/pipeline/		no_by_this_task	no edit
-baseline/		no_by_this_task	no edit
-external_baselines/		no_by_this_task	no edit
-frozen/		no_by_this_task	no edit
+experiments/streaming_slim_generalization_eval.py		no_by_this_task	checked after toy run
+src/pipeline/sparse_viterbi_dbg.py		no_by_this_task	checked after toy run
+src/pipeline		no_by_this_task	checked after toy run
+baseline		no_by_this_task	checked after toy run
+external_baselines		no_by_this_task	checked after toy run
+frozen		no_by_this_task	checked after toy run

@@ -2,26 +2,11 @@
 
 ## 可以说
 
-- 当前结果是 metadata-only 同步快照，latest result 为 `results/spwic_identity_certificate_hand_toy_20260704`。
-- latest final label 是 `SPWIC_HAND_TOY_PASS_GO_TO_TOY_ONLY_PROTOTYPE`。
-- 当前 claim boundary 是：可以说：
+- 当前结果是 metadata-only 同步快照，latest result 为 `results/spwic_identity_certificate_toy_only_prototype_20260704`。
+- latest final label 是 `SPWIC_TOY_PASS_GO_TO_REAL_DATA_SYNC_DRYRUN`。
+- 当前 claim boundary 是：可以说：SPWIC toy-only prototype 在 48 toy cases 上通过 gate，constructive recovery 非零且 S/I/D/LD 都出现，harmful traps 被拒绝，high-confidence wrong 为 0。
 
-- SPWIC hand toy 规则具体；
-- hand toy 上有 9 个 constructive recovery；
-- S/I/D 都有；
-- harmful residual traps 被拒绝；
-- 非唯一 witness low-confidence；
-- no full alignment / graph / BBS / EPBSD semantics。
-
-不能说：
-
-- 不能说 SPWIC 是算法成功；
-- 不能说 toy prototype 已通过；
-- 不能说 real-data 成功；
-- 不能说 smoke/benchmark 允许；
-- 不能把 low-confidence 当 success。
-
-下一步只允许 toy-only prototype，并且需要用户明确批准。
+不能说：不能说 real-data proven、small smoke allowed、benchmark success、clean IDS decoder success。
 
 ## 不能说
 
