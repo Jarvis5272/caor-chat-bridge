@@ -1,5 +1,5 @@
 {
-  "artifact_manifest_path": "results/sipc_accelerated_full_validation_20260705/final_artifact_manifest.tsv",
+  "artifact_manifest_path": "results/bslc_bounded_sparse_lattice_accelerated_validation_20260705/final_artifact_manifest.tsv",
   "auto_detected_latest_result": false,
   "blocking_missing": false,
   "bridge_consistency_status": "generated_pending_validation",
@@ -18,26 +18,26 @@
     "chat_bridge/04_ACTIVE_CLAIM_BOUNDARY_CN.md",
     "chat_bridge/05_NEXT_ACTION_CN.md",
     "chat_bridge/09_SYNC_STATUS.tsv",
-    "results/sipc_accelerated_full_validation_20260705/SIPC_ACCELERATED_FULL_VALIDATION_REPORT_CN.md",
-    "results/sipc_accelerated_full_validation_20260705/stage0_gate_decision.md",
-    "results/sipc_accelerated_full_validation_20260705/stage1_gate_decision.md",
-    "results/sipc_accelerated_full_validation_20260705/final_decision_matrix.tsv",
-    "results/sipc_accelerated_full_validation_20260705/final_artifact_manifest.tsv",
-    "results/sipc_accelerated_full_validation_20260705/no_protected_files_modified.tsv"
+    "results/bslc_bounded_sparse_lattice_accelerated_validation_20260705/BSLC_ACCELERATED_VALIDATION_REPORT_CN.md",
+    "results/bslc_bounded_sparse_lattice_accelerated_validation_20260705/stage0_gate_decision.md",
+    "results/bslc_bounded_sparse_lattice_accelerated_validation_20260705/stage1_gate_decision.md",
+    "results/bslc_bounded_sparse_lattice_accelerated_validation_20260705/final_decision_matrix.tsv",
+    "results/bslc_bounded_sparse_lattice_accelerated_validation_20260705/final_artifact_manifest.tsv",
+    "results/bslc_bounded_sparse_lattice_accelerated_validation_20260705/no_protected_files_modified.tsv"
   ],
-  "final_label": "SIPC_ACCELERATED_STOP_COMPLEXITY_OR_BBS_TRIO_COLLAPSE",
-  "gate_decision": "Stage 0 decision: PASS - toy prototype exists: True - readable datasets: 17/17 - ledger status: 20260627_fallback - realtime contract exists: True",
+  "final_label": "BSLC_ACCELERATED_STOP_COMPLEXITY_OR_BBS_TRIO_COLLAPSE",
+  "gate_decision": "Stage 0 decision: PASS - SIPC failure evidence exists: True - readable datasets: 17/17 - ledger status: 20260627_fallback - realtime contract exists: True",
   "large_files_skipped_count": 2,
-  "latest_result_requested": "results/sipc_accelerated_full_validation_20260705",
-  "latest_result_used": "results/sipc_accelerated_full_validation_20260705",
+  "latest_result_requested": "results/bslc_bounded_sparse_lattice_accelerated_validation_20260705",
+  "latest_result_used": "results/bslc_bounded_sparse_lattice_accelerated_validation_20260705",
   "main_metrics": {},
   "missing_expected_files": [
     "FINAL*_REPORT_CN.md"
   ],
   "next_action": "Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.",
   "original_bbs_source_modified": "no",
-  "output_dir": "results/sipc_accelerated_full_validation_20260705",
+  "output_dir": "results/bslc_bounded_sparse_lattice_accelerated_validation_20260705",
   "protected_files_modified": "no",
   "selected_candidate": "missing",
-  "timestamp": "2026-07-05T16:52:20+08:00"
+  "timestamp": "2026-07-05T18:00:10+08:00"
 }

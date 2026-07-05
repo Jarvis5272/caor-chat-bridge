@@ -1,17 +1,17 @@
 item	status	details
-requested_latest_result	pass	results/sipc_accelerated_full_validation_20260705
-used_latest_result	pass	results/sipc_accelerated_full_validation_20260705
+requested_latest_result	pass	results/bslc_bounded_sparse_lattice_accelerated_validation_20260705
+used_latest_result	pass	results/bslc_bounded_sparse_lattice_accelerated_validation_20260705
 explicit_latest_result_used	yes	true
 auto_detected	no	false
 auto_detected_latest_result	no	false
-latest_final_label	pass	SIPC_ACCELERATED_STOP_COMPLEXITY_OR_BBS_TRIO_COLLAPSE
-latest_output_dir	pass	results/sipc_accelerated_full_validation_20260705
+latest_final_label	pass	BSLC_ACCELERATED_STOP_COMPLEXITY_OR_BBS_TRIO_COLLAPSE
+latest_output_dir	pass	results/bslc_bounded_sparse_lattice_accelerated_validation_20260705
 bridge_consistency_status	pending_validation	generated_pending_validation
 reason	pass	requested latest result exists and was used
-latest result requested	pass	results/sipc_accelerated_full_validation_20260705
-latest result used	pass	results/sipc_accelerated_full_validation_20260705
+latest result requested	pass	results/bslc_bounded_sparse_lattice_accelerated_validation_20260705
+latest result used	pass	results/bslc_bounded_sparse_lattice_accelerated_validation_20260705
 latest result detection mode	explicit	False
-latest result detected	pass	results/sipc_accelerated_full_validation_20260705
+latest result detected	pass	results/bslc_bounded_sparse_lattice_accelerated_validation_20260705
 files copied	pass	0 source artifact files copied; bridge files generated only
 files skipped	pass	2
 large files skipped	pass	2
@@ -37,9 +37,9 @@ git status summary	pass	"M AGENTS.md
 ?? experiments/bbs_baseline_eval.py
 ?? experiments/candidate_pool_selector_eval.py
 ?? experiments"
-timestamp	pass	2026-07-05T16:52:20+08:00
+timestamp	pass	2026-07-05T18:00:10+08:00
 protected files modified	pass	no
 original BBS source modified	pass	no
 generated bridge files	pass	14
 read_skipped	pass	[]
-scan_skipped	pass	"[{""path"": ""results/sipc_accelerated_full_validation_20260705/stage1_sipc_per_cluster.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 16799909}, {""path"": ""results/sipc_accelerated_full_validation_20260705/stage1_sipc_per_prefix.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 197728797}]"
+scan_skipped	pass	"[{""path"": ""results/bslc_bounded_sparse_lattice_accelerated_validation_20260705/stage1_bslc_per_cluster.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 18429186}, {""path"": ""results/bslc_bounded_sparse_lattice_accelerated_validation_20260705/stage1_bslc_per_prefix.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 216039722}]"
