@@ -1,21 +1,21 @@
 item	status	details
-requested_latest_result	pass	results/scc_real_data_sync_dryrun_20260705
-used_latest_result	pass	results/scc_real_data_sync_dryrun_20260705
+requested_latest_result	pass	results/scc_real_sync_failure_reconciliation_20260705
+used_latest_result	pass	results/scc_real_sync_failure_reconciliation_20260705
 explicit_latest_result_used	yes	true
 auto_detected	no	false
 auto_detected_latest_result	no	false
-latest_final_label	pass	SCC_REAL_SYNC_STOP_COMPLEXITY_TOO_HIGH
-latest_output_dir	pass	results/scc_real_data_sync_dryrun_20260705
+latest_final_label	pass	SCC_STOP_SOUNDNESS_COVERAGE_TRADEOFF
+latest_output_dir	pass	results/scc_real_sync_failure_reconciliation_20260705
 bridge_consistency_status	pending_validation	generated_pending_validation
 reason	pass	requested latest result exists and was used
-latest result requested	pass	results/scc_real_data_sync_dryrun_20260705
-latest result used	pass	results/scc_real_data_sync_dryrun_20260705
+latest result requested	pass	results/scc_real_sync_failure_reconciliation_20260705
+latest result used	pass	results/scc_real_sync_failure_reconciliation_20260705
 latest result detection mode	explicit	False
-latest result detected	pass	results/scc_real_data_sync_dryrun_20260705
+latest result detected	pass	results/scc_real_sync_failure_reconciliation_20260705
 files copied	pass	0 source artifact files copied; bridge files generated only
-files skipped	pass	5
-large files skipped	pass	5
-missing expected files	pass	0
+files skipped	pass	0
+large files skipped	pass	0
+missing expected files	warn	FINAL*_REPORT_CN.md, leakage_audit.tsv
 required bridge files present	pass	14/14
 package path	pass	chat_bridge_feedback_package.zip
 git branch	pass	release/earlystop-v0.4
@@ -37,9 +37,9 @@ git status summary	pass	"M AGENTS.md
 ?? experiments/bbs_baseline_eval.py
 ?? experiments/candidate_pool_selector_eval.py
 ?? experiments"
-timestamp	pass	2026-07-05T15:15:28+08:00
+timestamp	pass	2026-07-05T15:41:57+08:00
 protected files modified	pass	no
 original BBS source modified	pass	no
 generated bridge files	pass	14
 read_skipped	pass	[]
-scan_skipped	pass	"[{""path"": ""results/scc_real_data_sync_dryrun_20260705/scc_real_constructive_recovery_audit.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 287436}, {""path"": ""results/scc_real_data_sync_dryrun_20260705/real_sync_per_prefix_statistics.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 706407}, {""path"": ""results/scc_real_data_sync_dryrun_20260705/scc_runtime_profile.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 134208}, {""path"": ""results/scc_real_data_sync_dryrun_20260705/offline_silent_error_risk_audit.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 468189}, {""path"": ""results/scc_real_data_sync_dryrun_20260705/scc_vs_scaffold_offline_audit.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 961124}]"
+scan_skipped	pass	[]

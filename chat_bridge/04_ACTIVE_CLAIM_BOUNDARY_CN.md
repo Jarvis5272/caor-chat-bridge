@@ -2,9 +2,9 @@
 
 ## 可以说
 
-- 当前结果是 metadata-only 同步快照，latest result 为 `results/scc_real_data_sync_dryrun_20260705`。
-- latest final label 是 `SCC_REAL_SYNC_STOP_COMPLEXITY_TOO_HIGH`。
-- 当前 claim boundary 是：No smoke or benchmark is run. Reference is used only offline. BBS/EPBSD/STWC/CAOR semantics are not used online. Protected files and original BBS source remain unchanged by this task.
+- 当前结果是 metadata-only 同步快照，latest result 为 `results/scc_real_sync_failure_reconciliation_20260705`。
+- latest final label 是 `SCC_STOP_SOUNDNESS_COVERAGE_TRADEOFF`。
+- 当前 claim boundary 是：Protected files and original BBS source were not modified by this task. Reference/metrics remain offline-only in the upstream real-sync output; this reconciliation only reads existing artifacts.
 
 ## 不能说
 
