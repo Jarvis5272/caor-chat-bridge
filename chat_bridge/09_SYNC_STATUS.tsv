@@ -1,17 +1,17 @@
 item	status	details
-requested_latest_result	pass	results/bapc_hard_trio_safe_update_theory_note_20260705
-used_latest_result	pass	results/bapc_hard_trio_safe_update_theory_note_20260705
+requested_latest_result	pass	results/bapc_local_conflict_mode_certificate_theory_20260705
+used_latest_result	pass	results/bapc_local_conflict_mode_certificate_theory_20260705
 explicit_latest_result_used	yes	true
 auto_detected	no	false
 auto_detected_latest_result	no	false
-latest_final_label	pass	HARD_TRIO_THEORY_NEEDS_MORE_THEORY
-latest_output_dir	pass	results/bapc_hard_trio_safe_update_theory_note_20260705
+latest_final_label	pass	LCMC_THEORY_NEEDS_MORE_THEORY
+latest_output_dir	pass	results/bapc_local_conflict_mode_certificate_theory_20260705
 bridge_consistency_status	pending_validation	generated_pending_validation
 reason	pass	requested latest result exists and was used
-latest result requested	pass	results/bapc_hard_trio_safe_update_theory_note_20260705
-latest result used	pass	results/bapc_hard_trio_safe_update_theory_note_20260705
+latest result requested	pass	results/bapc_local_conflict_mode_certificate_theory_20260705
+latest result used	pass	results/bapc_local_conflict_mode_certificate_theory_20260705
 latest result detection mode	explicit	False
-latest result detected	pass	results/bapc_hard_trio_safe_update_theory_note_20260705
+latest result detected	pass	results/bapc_local_conflict_mode_certificate_theory_20260705
 files copied	pass	0 source artifact files copied; bridge files generated only
 files skipped	pass	0
 large files skipped	pass	0
@@ -37,8 +37,8 @@ git status summary	pass	"M AGENTS.md
 ?? experiments/bbs_baseline_eval.py
 ?? experiments/candidate_pool_selector_eval.py
 ?? experiments"
-timestamp	pass	2026-07-05T22:40:16+08:00
-protected files modified	pass	no
+timestamp	pass	2026-07-05T22:55:57+08:00
+protected files modified	warn	yes
 original BBS source modified	pass	no
 generated bridge files	pass	14
 read_skipped	pass	[]

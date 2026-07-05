@@ -6,15 +6,15 @@
 
 ## 当前主线状态
 
-最新自动检测结果为 `results/bapc_hard_trio_safe_update_theory_note_20260705`；当前最新 Codex label 为 `HARD_TRIO_THEORY_NEEDS_MORE_THEORY`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED`。
+最新自动检测结果为 `results/bapc_local_conflict_mode_certificate_theory_20260705`；当前最新 Codex label 为 `LCMC_THEORY_NEEDS_MORE_THEORY`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED`。
 
 ## 最新 Codex final label
 
-`HARD_TRIO_THEORY_NEEDS_MORE_THEORY`
+`LCMC_THEORY_NEEDS_MORE_THEORY`
 
 ## 最新输出目录
 
-`results/bapc_hard_trio_safe_update_theory_note_20260705`
+`results/bapc_local_conflict_mode_certificate_theory_20260705`
 
 ## ChatGPT 应先读哪些文件
 
@@ -27,9 +27,8 @@
 
 ## 当前 claim boundary
 
-Status: `needs_more_theory`.
-
-The missing object is a sound observed-only local conflict-mode certificate that can separate true edit-event recovery from hard indel/path ambiguity without BBS/EPBSD/full graph/dataset route.
+Protected files modified by this task: no。
+Original BBS source modified by this task: no。
 
 ## 是否有 missing context
 
@@ -41,7 +40,7 @@ Revise the sync/global-search mechanism before any small reconstruction smoke; r
 
 ## protected diff 状态
 
-`protected_files_modified=no`。本 bridge 任务只写入 `chat_bridge/` 和 `scripts/chat_bridge/`。
+`protected_files_modified=yes`。本 bridge 任务只写入 `chat_bridge/` 和 `scripts/chat_bridge/`。
 
 ## original BBS source 状态
 

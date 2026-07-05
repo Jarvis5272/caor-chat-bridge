@@ -1,12 +1,8 @@
 protected_path	modified	status	notes
-true	no		preexisting/unrelated status may exist
-true	false		preexisting_or_unrelated_git_status
-true	false		preexisting_or_unrelated_git_status
-true	false		preexisting_or_unrelated_git_status
-true	false		preexisting_or_unrelated_git_status
-true	false		preexisting_or_unrelated_git_status
-true	false		preexisting_or_unrelated_git_status
-true	false		preexisting_or_unrelated_git_status
-true	false		preexisting_or_unrelated_git_status
-true	false		preexisting_or_unrelated_git_status
-true	false		preexisting_or_unrelated_git_status
+	no		not touched by this task
+	no		not touched by this task
+	no		not touched by this task
+	no		not touched by this task
+	no		not touched by this task
+	no		not touched by this task
+	no_by_this_task		pre-existing/unrelated untracked status may be present
