@@ -1,13 +1,13 @@
 # Codex Feedback To ChatGPT
 
-1. final label: `SCC_STOP_SOUNDNESS_COVERAGE_TRADEOFF`
-2. output dir: `results/scc_real_sync_failure_reconciliation_20260705`
+1. final label: `SIPC_HAND_TOY_PASS_GO_TO_TOY_ONLY_PROTOTYPE`
+2. output dir: `results/sipc_sparse_identity_path_consistency_method_handtoy_20260705`
 3. completed stages: stage0_gate_decision
 4. key metrics:
 - missing
-5. gate decision: Decision: `RECONCILIATION_PROCEED_READ_ONLY` 关键 SCC real-sync 表可读；当前任务只做数学-实验对齐，不运行新实验、不重跑 real-sync、不修改算法。
-6. claim boundary: Protected files and original BBS source were not modified by this task. Reference/metrics remain offline-only in the upstream real-sync output; this reconciliation only reads existing artifacts.
-7. next recommendation: Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.
+5. gate decision: Decision: `PASS_TO_METHOD_CARD_AND_HAND_TOY_ONLY` All required upstream SCC/SPWIC/CLEC evidence is readable enough for theory/hand-toy work. No real-data experiment, benchmark, or prototype run is allowed in this stage.
+6. claim boundary: This is not a new experiment, not a toy prototype, not real-data sync, not smoke, and not benchmark. SIPC does not use BBS output, BBS score, beam, pruning, path likelihood, EPBSD kernel, POA, full graph, or full alignment. It has exactly three core parameters: `a`, `W`, `m`.
+7. next recommendation: Toy-only prototype is allowed next with explicit user approval; no real-data dry-run, smoke, or benchmark.
 8. protected files modified? `no`
 9. original BBS source modified? `no`
 10. files for review: `chat_bridge/06_FILES_FOR_REVIEW.tsv`

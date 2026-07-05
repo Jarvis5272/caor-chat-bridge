@@ -2,9 +2,9 @@
 
 ## 可以说
 
-- 当前结果是 metadata-only 同步快照，latest result 为 `results/scc_real_sync_failure_reconciliation_20260705`。
-- latest final label 是 `SCC_STOP_SOUNDNESS_COVERAGE_TRADEOFF`。
-- 当前 claim boundary 是：Protected files and original BBS source were not modified by this task. Reference/metrics remain offline-only in the upstream real-sync output; this reconciliation only reads existing artifacts.
+- 当前结果是 metadata-only 同步快照，latest result 为 `results/sipc_sparse_identity_path_consistency_method_handtoy_20260705`。
+- latest final label 是 `SIPC_HAND_TOY_PASS_GO_TO_TOY_ONLY_PROTOTYPE`。
+- 当前 claim boundary 是：This is not a new experiment, not a toy prototype, not real-data sync, not smoke, and not benchmark. SIPC does not use BBS output, BBS score, beam, pruning, path likelihood, EPBSD kernel, POA, full graph, or full alignment. It has exactly three core parameters: `a`, `W`, `m`.
 
 ## 不能说
 

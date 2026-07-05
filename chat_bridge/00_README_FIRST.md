@@ -6,15 +6,15 @@
 
 ## 当前主线状态
 
-最新自动检测结果为 `results/scc_real_sync_failure_reconciliation_20260705`；当前最新 Codex label 为 `SCC_STOP_SOUNDNESS_COVERAGE_TRADEOFF`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED`。
+最新自动检测结果为 `results/sipc_sparse_identity_path_consistency_method_handtoy_20260705`；当前最新 Codex label 为 `SIPC_HAND_TOY_PASS_GO_TO_TOY_ONLY_PROTOTYPE`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED`。
 
 ## 最新 Codex final label
 
-`SCC_STOP_SOUNDNESS_COVERAGE_TRADEOFF`
+`SIPC_HAND_TOY_PASS_GO_TO_TOY_ONLY_PROTOTYPE`
 
 ## 最新输出目录
 
-`results/scc_real_sync_failure_reconciliation_20260705`
+`results/sipc_sparse_identity_path_consistency_method_handtoy_20260705`
 
 ## ChatGPT 应先读哪些文件
 
@@ -27,7 +27,7 @@
 
 ## 当前 claim boundary
 
-Protected files and original BBS source were not modified by this task. Reference/metrics remain offline-only in the upstream real-sync output; this reconciliation only reads existing artifacts.
+This is not a new experiment, not a toy prototype, not real-data sync, not smoke, and not benchmark. SIPC does not use BBS output, BBS score, beam, pruning, path likelihood, EPBSD kernel, POA, full graph, or full alignment. It has exactly three core parameters: `a`, `W`, `m`.
 
 ## 是否有 missing context
 
@@ -35,7 +35,7 @@ Protected files and original BBS source were not modified by this task. Referenc
 
 ## 当前下一步
 
-Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.
+Toy-only prototype is allowed next with explicit user approval; no real-data dry-run, smoke, or benchmark.
 
 ## protected diff 状态
 
