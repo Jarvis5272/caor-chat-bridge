@@ -37,12 +37,12 @@
 
 ## 当前下一步
 
-Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.
+Continue only with the declared next Pareto frontier LPEC/SMPC/NESC from stage9_next_frontier.tsv; do not claim target success, BBS replacement, or clean IDS decoder found.
 
 ## protected diff 状态
 
-`protected_files_modified=unknown`。本 bridge 任务只写入 `chat_bridge/` 和 `scripts/chat_bridge/`。
+`protected_files_modified=no`。本 bridge 任务只写入 `chat_bridge/` 和 `scripts/chat_bridge/`。
 
 ## original BBS source 状态
 
-`original_bbs_source_modified=unknown`。本 bridge 任务未写入 `../bbs-src` 或 BBS source。
+`original_bbs_source_modified=no`。本 bridge 任务未写入 `../bbs-src` 或 BBS source。

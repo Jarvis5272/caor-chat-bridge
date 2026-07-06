@@ -40,10 +40,10 @@
   "latest_result_used": "results/adaptive_quality_speed_pareto_explorer_wave4_20260706",
   "main_metrics": {},
   "missing_expected_files": [],
-  "next_action": "Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.",
-  "original_bbs_source_modified": "unknown",
+  "next_action": "Continue only with the declared next Pareto frontier LPEC/SMPC/NESC from stage9_next_frontier.tsv; do not claim target success, BBS replacement, or clean IDS decoder found.",
+  "original_bbs_source_modified": "no",
   "output_dir": "results/adaptive_quality_speed_pareto_explorer_wave4_20260706",
-  "protected_files_modified": "unknown",
+  "protected_files_modified": "no",
   "selected_candidate": "missing",
-  "timestamp": "2026-07-06T21:54:20+08:00"
+  "timestamp": "2026-07-06T21:55:12+08:00"
 }

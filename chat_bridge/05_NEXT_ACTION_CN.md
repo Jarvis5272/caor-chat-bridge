@@ -2,7 +2,7 @@
 
 ## 当前建议下一步
 
-Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.
+Continue only with the declared next Pareto frontier LPEC/SMPC/NESC from stage9_next_frontier.tsv; do not claim target success, BBS replacement, or clean IDS decoder found.
 
 ## 不建议做什么
 

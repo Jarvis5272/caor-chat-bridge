@@ -23,7 +23,7 @@ ChatGPT should first read:
 
 ## Next Action
 
-Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.
+Continue only with the declared next Pareto frontier LPEC/SMPC/NESC from stage9_next_frontier.tsv; do not claim target success, BBS replacement, or clean IDS decoder found.
 
 ## If Linking From GitHub
 

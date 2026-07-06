@@ -37,9 +37,9 @@ git status summary	pass	"M AGENTS.md
 ?? experiments/bbs_baseline_eval.py
 ?? experiments/candidate_pool_selector_eval.py
 ?? experiments"
-timestamp	pass	2026-07-06T21:54:20+08:00
-protected files modified	warn	unknown
-original BBS source modified	warn	unknown
+timestamp	pass	2026-07-06T21:55:12+08:00
+protected files modified	pass	no
+original BBS source modified	pass	no
 generated bridge files	pass	14
 read_skipped	pass	[]
 scan_skipped	pass	"[{""path"": ""results/adaptive_quality_speed_pareto_explorer_wave4_20260706/stage6_ispc_per_prefix.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 34481004}, {""path"": ""results/adaptive_quality_speed_pareto_explorer_wave4_20260706/stage6_rdis_per_prefix.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 33742703}, {""path"": ""results/adaptive_quality_speed_pareto_explorer_wave4_20260706/stage6_psec_per_prefix.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 33437906}, {""path"": ""results/adaptive_quality_speed_pareto_explorer_wave4_20260706/stage6_swmc_per_prefix.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 34450338}, {""path"": ""results/adaptive_quality_speed_pareto_explorer_wave4_20260706/stage6_wrmc_per_prefix.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 34472089}, {""path"": ""results/adaptive_quality_speed_pareto_explorer_wave4_20260706/stage6_cpes_per_prefix.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 34512193}]"

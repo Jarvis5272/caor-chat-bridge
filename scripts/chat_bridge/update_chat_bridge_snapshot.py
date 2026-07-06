@@ -286,6 +286,7 @@ def audit_status(rows: list[dict[str, str]]) -> str:
         "not_modified",
         "not_modified_by_this_task",
         "no_by_this_task",
+        "not_touched",
     }
     for row in rows:
         values = {k.lower(): v.strip().lower() for k, v in row.items()}
@@ -536,6 +537,11 @@ def build_snapshot(args: argparse.Namespace) -> dict[str, Any]:
         next_action = (
             "Freeze BAEPC+FEIW as a stopped line; no revise, smoke, or benchmark. "
             "Return to strategy review or open a new theory-only candidate only with explicit approval."
+        )
+    elif "PARETO_WAVE4_CONTINUE_REQUIRED_WITH_UNTESTED_FRONTIER" in final_label:
+        next_action = (
+            "Continue only with the declared next Pareto frontier LPEC/SMPC/NESC from stage9_next_frontier.tsv; "
+            "do not claim target success, BBS replacement, or clean IDS decoder found."
         )
     elif target_met(gate_decision, final_label) == "no":
         next_action = (
