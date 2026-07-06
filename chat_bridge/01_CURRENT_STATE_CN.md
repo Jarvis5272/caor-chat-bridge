@@ -2,11 +2,11 @@
 
 ## 实时故事状态
 
-最新结果目录 `results/quality_speed_pareto_long_goal_v2_20260706` 是当前 latest result；最新 label 是 `PARETO_V2_CONTINUE_REQUIRED_WITH_NEXT_FRONTIER`。
+最新结果目录 `results/adaptive_quality_speed_pareto_explorer_20260706` 是当前 latest result；最新 label 是 `PARETO_ADAPTIVE_CONTINUE_REQUIRED_WITH_UNTESTED_FRONTIER`。
 
 ## clean IDS 数据状态
 
-最新结果记录的数据状态来自 `results/quality_speed_pareto_long_goal_v2_20260706`。若报告中的 input scope 不完整，以源 artifact 为准，不在 bridge 中编造。
+最新结果记录的数据状态来自 `results/adaptive_quality_speed_pareto_explorer_20260706`。若报告中的 input scope 不完整，以源 artifact 为准，不在 bridge 中编造。
 
 ## EPBSD / BBS acceleration 状态
 
@@ -14,7 +14,7 @@
 
 ## baseline-aware / independent algorithm 状态
 
-当前 active track: `missing`。根据 latest gate，当前结论是 `PASS: frontier locked; isolated V2 runner may proceed.`。
+当前 active track: `missing`。根据 latest gate，当前结论是 `PASS: adaptive controller/frontier locked; wave-1 operator compositions may proceed.`。
 
 ## 当前 active candidate
 
@@ -22,7 +22,7 @@
 
 ## 当前 gate
 
-PASS: frontier locked; isolated V2 runner may proceed.
+PASS: adaptive controller/frontier locked; wave-1 operator compositions may proceed.
 
 ## 当前最大风险
 

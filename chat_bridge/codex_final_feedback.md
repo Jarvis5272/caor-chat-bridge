@@ -1,11 +1,11 @@
 # Codex Feedback To ChatGPT
 
-1. final label: `PARETO_V2_CONTINUE_REQUIRED_WITH_NEXT_FRONTIER`
-2. output dir: `results/quality_speed_pareto_long_goal_v2_20260706`
-3. completed stages: stage0_gate_decision, stage1_gate_decision, stage2_gate_decision, stage3_gate_decision, stage5_awp_gate_decision, stage5_hapc_gate_decision, stage5_rbcp_gate_decision, stage5_sbcp_gate_decision
+1. final label: `PARETO_ADAPTIVE_CONTINUE_REQUIRED_WITH_UNTESTED_FRONTIER`
+2. output dir: `results/adaptive_quality_speed_pareto_explorer_20260706`
+3. completed stages: stage0_gate_decision, stage1_gate_decision, stage3_gate_decision, stage4_gate_decision, stage6_apcx_gate_decision, stage6_cmc_gate_decision, stage6_dpc2_gate_decision, stage6_hrc_gate_decision
 4. key metrics:
 - missing
-5. gate decision: PASS: frontier locked; isolated V2 runner may proceed.
+5. gate decision: PASS: adaptive controller/frontier locked; wave-1 operator compositions may proceed.
 6. claim boundary: BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
 7. next recommendation: Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.
 8. protected files modified? `unknown`
