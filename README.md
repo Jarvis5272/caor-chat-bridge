@@ -12,8 +12,8 @@ ChatGPT should first read:
 
 ## Current Latest Result
 
-- latest result: `results/asvc_anchored_segment_vote_validation_20260706`
-- latest final label: `ASVC_FAIL_QUALITY`
+- latest result: `results/quality_speed_pareto_long_goal_cleanids_20260706`
+- latest final label: `PARETO_STOP_GROUP_ROBUSTNESS_BARRIER`
 
 ## Claim Boundary
 

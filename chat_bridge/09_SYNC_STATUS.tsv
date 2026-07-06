@@ -1,20 +1,20 @@
 item	status	details
-requested_latest_result	pass	results/asvc_anchored_segment_vote_validation_20260706
-used_latest_result	pass	results/asvc_anchored_segment_vote_validation_20260706
+requested_latest_result	pass	results/quality_speed_pareto_long_goal_cleanids_20260706
+used_latest_result	pass	results/quality_speed_pareto_long_goal_cleanids_20260706
 explicit_latest_result_used	yes	true
 auto_detected	no	false
 auto_detected_latest_result	no	false
-latest_final_label	pass	ASVC_FAIL_QUALITY
-latest_output_dir	pass	results/asvc_anchored_segment_vote_validation_20260706
+latest_final_label	pass	PARETO_STOP_GROUP_ROBUSTNESS_BARRIER
+latest_output_dir	pass	results/quality_speed_pareto_long_goal_cleanids_20260706
 bridge_consistency_status	pending_validation	generated_pending_validation
 reason	pass	requested latest result exists and was used
-latest result requested	pass	results/asvc_anchored_segment_vote_validation_20260706
-latest result used	pass	results/asvc_anchored_segment_vote_validation_20260706
+latest result requested	pass	results/quality_speed_pareto_long_goal_cleanids_20260706
+latest result used	pass	results/quality_speed_pareto_long_goal_cleanids_20260706
 latest result detection mode	explicit	False
-latest result detected	pass	results/asvc_anchored_segment_vote_validation_20260706
+latest result detected	pass	results/quality_speed_pareto_long_goal_cleanids_20260706
 files copied	pass	0 source artifact files copied; bridge files generated only
-files skipped	pass	4
-large files skipped	pass	4
+files skipped	pass	12
+large files skipped	pass	12
 missing expected files	warn	FINAL*_REPORT_CN.md
 required bridge files present	pass	14/14
 package path	pass	chat_bridge_feedback_package.zip
@@ -37,9 +37,9 @@ git status summary	pass	"M AGENTS.md
 ?? experiments/bbs_baseline_eval.py
 ?? experiments/candidate_pool_selector_eval.py
 ?? experiments"
-timestamp	pass	2026-07-06T15:12:14+08:00
+timestamp	pass	2026-07-06T15:57:41+08:00
 protected files modified	warn	unknown
 original BBS source modified	warn	unknown
 generated bridge files	pass	14
 read_skipped	pass	[]
-scan_skipped	pass	"[{""path"": ""results/asvc_anchored_segment_vote_validation_20260706/stage3_sanity_per_prefix.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 125453}, {""path"": ""results/asvc_anchored_segment_vote_validation_20260706/stage4_asvc_per_prefix.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 15680155}, {""path"": ""results/asvc_anchored_segment_vote_validation_20260706/stage4_asvc_vs_best_simple.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 18850308}, {""path"": ""results/asvc_anchored_segment_vote_validation_20260706/stage4_asvc_vs_strong_baselines.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 1984949}]"
+scan_skipped	pass	"[{""path"": ""results/quality_speed_pareto_long_goal_cleanids_20260706/stage5_aspc_per_prefix.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 14883656}, {""path"": ""results/quality_speed_pareto_long_goal_cleanids_20260706/stage5_rabp_per_prefix.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 14839217}, {""path"": ""results/quality_speed_pareto_long_goal_cleanids_20260706/stage5_aspc_vs_strong_baselines.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 2040647}, {""path"": ""results/quality_speed_pareto_long_goal_cleanids_20260706/stage5_adfc_vs_strong_baselines.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 1979600}, {""path"": ""results/quality_speed_pareto_long_goal_cleanids_20260706/stage4_adfc_sanity_per_prefix.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 118463}, {""path"": ""results/quality_speed_pareto_long_goal_cleanids_20260706/stage5_aspc_vs_best_simple.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 17462676}, {""path"": ""results/quality_speed_pareto_long_goal_cleanids_20260706/stage5_adfc_per_prefix.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 14836775}, {""path"": ""results/quality_speed_pareto_long_goal_cleanids_20260706/stage4_rabp_sanity_per_prefix.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 118529}, {""path"": ""results/quality_speed_pareto_long_goal_cleanids_20260706/stage5_adfc_vs_best_simple.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 17178659}, {""path"": ""results/quality_speed_pareto_long_goal_cleanids_20260706/stage4_aspc_sanity_per_prefix.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 119062}, {""path"": ""results/quality_speed_pareto_long_goal_cleanids_20260706/stage5_rabp_vs_best_simple.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 17213319}, {""path"": ""results/quality_speed_pareto_long_goal_cleanids_20260706/stage5_rabp_vs_strong_baselines.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 1982739}]"

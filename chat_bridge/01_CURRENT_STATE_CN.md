@@ -2,11 +2,11 @@
 
 ## 实时故事状态
 
-最新结果目录 `results/asvc_anchored_segment_vote_validation_20260706` 是当前 latest result；最新 label 是 `ASVC_FAIL_QUALITY`。
+最新结果目录 `results/quality_speed_pareto_long_goal_cleanids_20260706` 是当前 latest result；最新 label 是 `PARETO_STOP_GROUP_ROBUSTNESS_BARRIER`。
 
 ## clean IDS 数据状态
 
-最新结果记录的数据状态来自 `results/asvc_anchored_segment_vote_validation_20260706`。若报告中的 input scope 不完整，以源 artifact 为准，不在 bridge 中编造。
+最新结果记录的数据状态来自 `results/quality_speed_pareto_long_goal_cleanids_20260706`。若报告中的 input scope 不完整，以源 artifact 为准，不在 bridge 中编造。
 
 ## EPBSD / BBS acceleration 状态
 
@@ -14,7 +14,7 @@
 
 ## baseline-aware / independent algorithm 状态
 
-当前 active track: `missing`。根据 latest gate，当前结论是 `PASS: inputs are sufficiently available for isolated ASVC direct validation; missing strong baselines are explicitly marked, not fabricated.`。
+当前 active track: `missing`。根据 latest gate，当前结论是 `PASS: endpoints and strong-baseline context are available; proceed to controlled candidate pool.`。
 
 ## 当前 active candidate
 
@@ -22,7 +22,7 @@
 
 ## 当前 gate
 
-PASS: inputs are sufficiently available for isolated ASVC direct validation; missing strong baselines are explicitly marked, not fabricated.
+PASS: endpoints and strong-baseline context are available; proceed to controlled candidate pool.
 
 ## 当前最大风险
 

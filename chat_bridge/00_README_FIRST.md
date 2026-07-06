@@ -6,15 +6,15 @@
 
 ## 当前主线状态
 
-最新自动检测结果为 `results/asvc_anchored_segment_vote_validation_20260706`；当前最新 Codex label 为 `ASVC_FAIL_QUALITY`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT`。
+最新自动检测结果为 `results/quality_speed_pareto_long_goal_cleanids_20260706`；当前最新 Codex label 为 `PARETO_STOP_GROUP_ROBUSTNESS_BARRIER`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT`。
 
 ## 最新 Codex final label
 
-`ASVC_FAIL_QUALITY`
+`PARETO_STOP_GROUP_ROBUSTNESS_BARRIER`
 
 ## 最新输出目录
 
-`results/asvc_anchored_segment_vote_validation_20260706`
+`results/quality_speed_pareto_long_goal_cleanids_20260706`
 
 ## ChatGPT 应先读哪些文件
 

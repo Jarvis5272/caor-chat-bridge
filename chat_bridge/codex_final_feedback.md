@@ -1,11 +1,11 @@
 # Codex Feedback To ChatGPT
 
-1. final label: `ASVC_FAIL_QUALITY`
-2. output dir: `results/asvc_anchored_segment_vote_validation_20260706`
-3. completed stages: stage0_gate_decision, stage1_gate_decision, stage2_gate_decision, stage3_gate_decision, stage4_gate_decision
+1. final label: `PARETO_STOP_GROUP_ROBUSTNESS_BARRIER`
+2. output dir: `results/quality_speed_pareto_long_goal_cleanids_20260706`
+3. completed stages: stage0_gate_decision, stage1_gate_decision, stage3_gate_decision, stage5_adfc_gate_decision, stage5_aspc_gate_decision, stage5_rabp_gate_decision
 4. key metrics:
 - missing
-5. gate decision: PASS: inputs are sufficiently available for isolated ASVC direct validation; missing strong baselines are explicitly marked, not fabricated.
+5. gate decision: PASS: endpoints and strong-baseline context are available; proceed to controlled candidate pool.
 6. claim boundary: BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
 7. next recommendation: Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.
 8. protected files modified? `unknown`
