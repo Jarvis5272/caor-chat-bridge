@@ -2,11 +2,9 @@
 
 ## 可以说
 
-- 当前结果是 metadata-only 同步快照，latest result 为 `results/cgbapc_speed_decisive_validation_20260706`。
-- latest final label 是 `CGBAPC_FAIL_WRAPPER_OR_REFUSAL`。
-- 当前 claim boundary 是：可以说：CGBAPC 是当前 BAPC 线上最强 PostGate quality signal，且 previous PostGate 修复了 BBS trio collapse。
-
-不能说：CGBAPC 达到 realtime speed target；不能说 cheap PreGate 已经成功；不能说这是 BBS/EPBSD 替代；不能把 PostGate 写成 PreGate。
+- 当前结果是 metadata-only 同步快照，latest result 为 `results/cgbapc_postgate_semantic_acceleration_20260706`。
+- latest final label 是 `CGBAPC_POSTGATE_QUALITY_ONLY_SPEED_FAIL`。
+- 当前 claim boundary 是：BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
 
 ## 不能说
 

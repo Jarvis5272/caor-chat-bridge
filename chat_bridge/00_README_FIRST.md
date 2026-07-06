@@ -6,15 +6,15 @@
 
 ## 当前主线状态
 
-最新自动检测结果为 `results/cgbapc_speed_decisive_validation_20260706`；当前最新 Codex label 为 `CGBAPC_FAIL_WRAPPER_OR_REFUSAL`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT`。
+最新自动检测结果为 `results/cgbapc_postgate_semantic_acceleration_20260706`；当前最新 Codex label 为 `CGBAPC_POSTGATE_QUALITY_ONLY_SPEED_FAIL`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT`。
 
 ## 最新 Codex final label
 
-`CGBAPC_FAIL_WRAPPER_OR_REFUSAL`
+`CGBAPC_POSTGATE_QUALITY_ONLY_SPEED_FAIL`
 
 ## 最新输出目录
 
-`results/cgbapc_speed_decisive_validation_20260706`
+`results/cgbapc_postgate_semantic_acceleration_20260706`
 
 ## ChatGPT 应先读哪些文件
 
@@ -27,9 +27,7 @@
 
 ## 当前 claim boundary
 
-可以说：CGBAPC 是当前 BAPC 线上最强 PostGate quality signal，且 previous PostGate 修复了 BBS trio collapse。
-
-不能说：CGBAPC 达到 realtime speed target；不能说 cheap PreGate 已经成功；不能说这是 BBS/EPBSD 替代；不能把 PostGate 写成 PreGate。
+BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
 
 ## 是否有 missing context
 
