@@ -2,11 +2,11 @@
 
 ## 实时故事状态
 
-最新结果目录 `results/cheap_feature_hard_trio_separability_and_safety_gate_20260706` 是当前 latest result；最新 label 是 `CHEAP_FEATURE_NO_SEPARABILITY`。
+最新结果目录 `results/full_scope_cheap_feature_separability_rebuild_20260706` 是当前 latest result；最新 label 是 `CHEAP_FEATURE_NO_GENERALIZING_SEPARABILITY`。
 
 ## clean IDS 数据状态
 
-最新结果记录的数据状态来自 `results/cheap_feature_hard_trio_separability_and_safety_gate_20260706`。若报告中的 input scope 不完整，以源 artifact 为准，不在 bridge 中编造。
+最新结果记录的数据状态来自 `results/full_scope_cheap_feature_separability_rebuild_20260706`。若报告中的 input scope 不完整，以源 artifact 为准，不在 bridge 中编造。
 
 ## EPBSD / BBS acceleration 状态
 
@@ -14,7 +14,7 @@
 
 ## baseline-aware / independent algorithm 状态
 
-当前 active track: `missing`。根据 latest gate，当前结论是 `PASS: prior Pareto outputs and strong-baseline tables are available.`。
+当前 active track: `missing`。根据 latest gate，当前结论是 `PASS: prior failure and required inputs are available; proceed to larger feature generation.`。
 
 ## 当前 active candidate
 
@@ -22,7 +22,7 @@
 
 ## 当前 gate
 
-PASS: prior Pareto outputs and strong-baseline tables are available.
+PASS: prior failure and required inputs are available; proceed to larger feature generation.
 
 ## 当前最大风险
 

@@ -1,20 +1,20 @@
 item	status	details
-requested_latest_result	pass	results/cheap_feature_hard_trio_separability_and_safety_gate_20260706
-used_latest_result	pass	results/cheap_feature_hard_trio_separability_and_safety_gate_20260706
+requested_latest_result	pass	results/full_scope_cheap_feature_separability_rebuild_20260706
+used_latest_result	pass	results/full_scope_cheap_feature_separability_rebuild_20260706
 explicit_latest_result_used	yes	true
 auto_detected	no	false
 auto_detected_latest_result	no	false
-latest_final_label	pass	CHEAP_FEATURE_NO_SEPARABILITY
-latest_output_dir	pass	results/cheap_feature_hard_trio_separability_and_safety_gate_20260706
+latest_final_label	pass	CHEAP_FEATURE_NO_GENERALIZING_SEPARABILITY
+latest_output_dir	pass	results/full_scope_cheap_feature_separability_rebuild_20260706
 bridge_consistency_status	pending_validation	generated_pending_validation
 reason	pass	requested latest result exists and was used
-latest result requested	pass	results/cheap_feature_hard_trio_separability_and_safety_gate_20260706
-latest result used	pass	results/cheap_feature_hard_trio_separability_and_safety_gate_20260706
+latest result requested	pass	results/full_scope_cheap_feature_separability_rebuild_20260706
+latest result used	pass	results/full_scope_cheap_feature_separability_rebuild_20260706
 latest result detection mode	explicit	False
-latest result detected	pass	results/cheap_feature_hard_trio_separability_and_safety_gate_20260706
+latest result detected	pass	results/full_scope_cheap_feature_separability_rebuild_20260706
 files copied	pass	0 source artifact files copied; bridge files generated only
-files skipped	pass	1
-large files skipped	pass	1
+files skipped	pass	6
+large files skipped	pass	6
 missing expected files	warn	FINAL*_REPORT_CN.md
 required bridge files present	pass	14/14
 package path	pass	chat_bridge_feedback_package.zip
@@ -37,9 +37,9 @@ git status summary	pass	"M AGENTS.md
 ?? experiments/bbs_baseline_eval.py
 ?? experiments/candidate_pool_selector_eval.py
 ?? experiments"
-timestamp	pass	2026-07-06T16:14:18+08:00
+timestamp	pass	2026-07-06T18:33:02+08:00
 protected files modified	warn	unknown
 original BBS source modified	warn	unknown
 generated bridge files	pass	14
 read_skipped	pass	[]
-scan_skipped	pass	"[{""path"": ""results/cheap_feature_hard_trio_separability_and_safety_gate_20260706/stage2_training_table.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 10104515}]"
+scan_skipped	pass	"[{""path"": ""results/full_scope_cheap_feature_separability_rebuild_20260706/stage1_adfc_candidate_outputs.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 57150004}, {""path"": ""results/full_scope_cheap_feature_separability_rebuild_20260706/stage1_rabp_feature_rows.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 10672306}, {""path"": ""results/full_scope_cheap_feature_separability_rebuild_20260706/stage3_training_labels.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 7451908}, {""path"": ""results/full_scope_cheap_feature_separability_rebuild_20260706/stage1_candidate_outputs.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 114546730}, {""path"": ""results/full_scope_cheap_feature_separability_rebuild_20260706/stage1_adfc_feature_rows.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 10534253}, {""path"": ""results/full_scope_cheap_feature_separability_rebuild_20260706/stage1_rabp_candidate_outputs.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 57398194}]"

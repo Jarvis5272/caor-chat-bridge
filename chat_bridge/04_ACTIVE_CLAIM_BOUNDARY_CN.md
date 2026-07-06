@@ -2,8 +2,8 @@
 
 ## 可以说
 
-- 当前结果是 metadata-only 同步快照，latest result 为 `results/cheap_feature_hard_trio_separability_and_safety_gate_20260706`。
-- latest final label 是 `CHEAP_FEATURE_NO_SEPARABILITY`。
+- 当前结果是 metadata-only 同步快照，latest result 为 `results/full_scope_cheap_feature_separability_rebuild_20260706`。
+- latest final label 是 `CHEAP_FEATURE_NO_GENERALIZING_SEPARABILITY`。
 - 当前 claim boundary 是：BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
 
 ## 不能说
