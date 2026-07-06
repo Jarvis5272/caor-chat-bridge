@@ -5,14 +5,16 @@ priority	path	reason_to_review	expected_content	small_enough_for_git	exists	note
 4	chat_bridge/04_ACTIVE_CLAIM_BOUNDARY_CN.md	claim audit	allowed/disallowed claims	yes	yes	generated bridge file
 5	chat_bridge/05_NEXT_ACTION_CN.md	next step	recommended next action	yes	yes	generated bridge file
 6	chat_bridge/09_SYNC_STATUS.tsv	sync audit	detected/missing/skipped status	yes	yes	generated bridge file
-7	results/strong_baseline_scoreboard_and_fast_algorithm_validation_20260706/STRONG_BASELINE_SCOREBOARD_AND_FAST_ALGORITHM_VALIDATION_REPORT_CN.md	latest result source artifact	*VALIDATION_REPORT_CN.md	yes	yes	777 bytes
-8	results/strong_baseline_scoreboard_and_fast_algorithm_validation_20260706/stage0_gate_decision.md	latest result source artifact	stage*_gate_decision.md	yes	yes	56 bytes
-9	results/strong_baseline_scoreboard_and_fast_algorithm_validation_20260706/stage2_gate_decision.md	latest result source artifact	stage*_gate_decision.md	yes	yes	417 bytes
-10	results/strong_baseline_scoreboard_and_fast_algorithm_validation_20260706/stage4_gate_decision.md	latest result source artifact	stage*_gate_decision.md	yes	yes	154 bytes
-11	results/strong_baseline_scoreboard_and_fast_algorithm_validation_20260706/final_decision_matrix.tsv	latest result source artifact	final_decision_matrix.tsv	yes	yes	1794 bytes
-12	results/strong_baseline_scoreboard_and_fast_algorithm_validation_20260706/final_artifact_manifest.tsv	latest result source artifact	final_artifact_manifest.tsv	yes	yes	3197 bytes
-13	results/strong_baseline_scoreboard_and_fast_algorithm_validation_20260706/no_protected_files_modified.tsv	latest result source artifact	no_protected_files_modified.tsv	yes	yes	261 bytes
-14	results/strong_baseline_scoreboard_and_fast_algorithm_validation_20260706/original_bbs_unchanged_audit.tsv	latest result source artifact	original_bbs_unchanged_audit.tsv	yes	yes	60 bytes
-15	results/strong_baseline_scoreboard_and_fast_algorithm_validation_20260706/leakage_audit.tsv	latest result source artifact	leakage_audit.tsv	yes	yes	263 bytes
-16	results/strong_baseline_scoreboard_and_fast_algorithm_validation_20260706/environment_summary.txt	latest result source artifact	environment_summary.txt	yes	yes	127 bytes
-17	results/strong_baseline_scoreboard_and_fast_algorithm_validation_20260706/FINAL*_REPORT_CN.md	missing expected context	FINAL*_REPORT_CN.md	unknown	no	missing; do not infer
+7	results/fapc_direct_validation_with_strong_baselines_20260706/FAPC_DIRECT_VALIDATION_WITH_STRONG_BASELINES_REPORT_CN.md	latest result source artifact	*REPORT_CN.md	yes	yes	499 bytes
+8	results/fapc_direct_validation_with_strong_baselines_20260706/stage0_gate_decision.md	latest result source artifact	stage*_gate_decision.md	yes	yes	141 bytes
+9	results/fapc_direct_validation_with_strong_baselines_20260706/stage1_gate_decision.md	latest result source artifact	stage*_gate_decision.md	yes	yes	123 bytes
+10	results/fapc_direct_validation_with_strong_baselines_20260706/stage2_gate_decision.md	latest result source artifact	stage*_gate_decision.md	yes	yes	78 bytes
+11	results/fapc_direct_validation_with_strong_baselines_20260706/stage3_gate_decision.md	latest result source artifact	stage*_gate_decision.md	yes	yes	62 bytes
+12	results/fapc_direct_validation_with_strong_baselines_20260706/stage4_gate_decision.md	latest result source artifact	stage*_gate_decision.md	yes	yes	121 bytes
+13	results/fapc_direct_validation_with_strong_baselines_20260706/final_decision_matrix.tsv	latest result source artifact	final_decision_matrix.tsv	yes	yes	1049 bytes
+14	results/fapc_direct_validation_with_strong_baselines_20260706/final_artifact_manifest.tsv	latest result source artifact	final_artifact_manifest.tsv	yes	yes	3725 bytes
+15	results/fapc_direct_validation_with_strong_baselines_20260706/no_protected_files_modified.tsv	latest result source artifact	no_protected_files_modified.tsv	yes	yes	261 bytes
+16	results/fapc_direct_validation_with_strong_baselines_20260706/original_bbs_unchanged_audit.tsv	latest result source artifact	original_bbs_unchanged_audit.tsv	yes	yes	60 bytes
+17	results/fapc_direct_validation_with_strong_baselines_20260706/leakage_audit.tsv	latest result source artifact	leakage_audit.tsv	yes	yes	209 bytes
+18	results/fapc_direct_validation_with_strong_baselines_20260706/environment_summary.txt	latest result source artifact	environment_summary.txt	yes	yes	100 bytes
+19	results/fapc_direct_validation_with_strong_baselines_20260706/FINAL*_REPORT_CN.md	missing expected context	FINAL*_REPORT_CN.md	unknown	no	missing; do not infer

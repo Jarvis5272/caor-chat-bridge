@@ -1,20 +1,20 @@
 item	status	details
-requested_latest_result	pass	results/strong_baseline_scoreboard_and_fast_algorithm_validation_20260706
-used_latest_result	pass	results/strong_baseline_scoreboard_and_fast_algorithm_validation_20260706
+requested_latest_result	pass	results/fapc_direct_validation_with_strong_baselines_20260706
+used_latest_result	pass	results/fapc_direct_validation_with_strong_baselines_20260706
 explicit_latest_result_used	yes	true
 auto_detected	no	false
 auto_detected_latest_result	no	false
-latest_final_label	pass	NO_CURRENT_METHOD_MEETS_TARGET_SCOREBOARD_COMPLETED
-latest_output_dir	pass	results/strong_baseline_scoreboard_and_fast_algorithm_validation_20260706
+latest_final_label	pass	FAPC_FAIL_QUALITY
+latest_output_dir	pass	results/fapc_direct_validation_with_strong_baselines_20260706
 bridge_consistency_status	pending_validation	generated_pending_validation
 reason	pass	requested latest result exists and was used
-latest result requested	pass	results/strong_baseline_scoreboard_and_fast_algorithm_validation_20260706
-latest result used	pass	results/strong_baseline_scoreboard_and_fast_algorithm_validation_20260706
+latest result requested	pass	results/fapc_direct_validation_with_strong_baselines_20260706
+latest result used	pass	results/fapc_direct_validation_with_strong_baselines_20260706
 latest result detection mode	explicit	False
-latest result detected	pass	results/strong_baseline_scoreboard_and_fast_algorithm_validation_20260706
+latest result detected	pass	results/fapc_direct_validation_with_strong_baselines_20260706
 files copied	pass	0 source artifact files copied; bridge files generated only
-files skipped	pass	0
-large files skipped	pass	0
+files skipped	pass	5
+large files skipped	pass	5
 missing expected files	warn	FINAL*_REPORT_CN.md
 required bridge files present	pass	14/14
 package path	pass	chat_bridge_feedback_package.zip
@@ -37,9 +37,9 @@ git status summary	pass	"M AGENTS.md
 ?? experiments/bbs_baseline_eval.py
 ?? experiments/candidate_pool_selector_eval.py
 ?? experiments"
-timestamp	pass	2026-07-06T13:40:04+08:00
+timestamp	pass	2026-07-06T14:06:33+08:00
 protected files modified	warn	unknown
 original BBS source modified	warn	unknown
 generated bridge files	pass	14
 read_skipped	pass	[]
-scan_skipped	pass	[]
+scan_skipped	pass	"[{""path"": ""results/fapc_direct_validation_with_strong_baselines_20260706/stage3_sanity_per_prefix.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 121400}, {""path"": ""results/fapc_direct_validation_with_strong_baselines_20260706/stage4_fapc_vs_best_simple.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 18313555}, {""path"": ""results/fapc_direct_validation_with_strong_baselines_20260706/stage4_fapc_vs_strong_baselines.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 1979921}, {""path"": ""results/fapc_direct_validation_with_strong_baselines_20260706/tmp_speed_probe.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 159185}, {""path"": ""results/fapc_direct_validation_with_strong_baselines_20260706/stage4_fapc_per_prefix.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 15141747}]"

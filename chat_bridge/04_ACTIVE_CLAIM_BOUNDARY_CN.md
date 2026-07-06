@@ -2,8 +2,8 @@
 
 ## 可以说
 
-- 当前结果是 metadata-only 同步快照，latest result 为 `results/strong_baseline_scoreboard_and_fast_algorithm_validation_20260706`。
-- latest final label 是 `NO_CURRENT_METHOD_MEETS_TARGET_SCOREBOARD_COMPLETED`。
+- 当前结果是 metadata-only 同步快照，latest result 为 `results/fapc_direct_validation_with_strong_baselines_20260706`。
+- latest final label 是 `FAPC_FAIL_QUALITY`。
 - 当前 claim boundary 是：BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
 
 ## 不能说

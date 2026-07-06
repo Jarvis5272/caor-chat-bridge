@@ -12,8 +12,8 @@ ChatGPT should first read:
 
 ## Current Latest Result
 
-- latest result: `results/strong_baseline_scoreboard_and_fast_algorithm_validation_20260706`
-- latest final label: `NO_CURRENT_METHOD_MEETS_TARGET_SCOREBOARD_COMPLETED`
+- latest result: `results/fapc_direct_validation_with_strong_baselines_20260706`
+- latest final label: `FAPC_FAIL_QUALITY`
 
 ## Claim Boundary
 
@@ -21,7 +21,7 @@ BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confi
 
 ## Next Action
 
-Review latest result artifacts and confirm whether another validation step is warranted.
+Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.
 
 ## If Linking From GitHub
 
