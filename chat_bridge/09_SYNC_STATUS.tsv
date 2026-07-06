@@ -1,20 +1,20 @@
 item	status	details
-requested_latest_result	pass	results/adaptive_quality_speed_pareto_explorer_20260706
-used_latest_result	pass	results/adaptive_quality_speed_pareto_explorer_20260706
+requested_latest_result	pass	results/adaptive_quality_speed_pareto_explorer_continued_20260706
+used_latest_result	pass	results/adaptive_quality_speed_pareto_explorer_continued_20260706
 explicit_latest_result_used	yes	true
 auto_detected	no	false
 auto_detected_latest_result	no	false
-latest_final_label	pass	PARETO_ADAPTIVE_CONTINUE_REQUIRED_WITH_UNTESTED_FRONTIER
-latest_output_dir	pass	results/adaptive_quality_speed_pareto_explorer_20260706
+latest_final_label	pass	PARETO_CONTINUED_REQUIRED_WITH_UNTESTED_FRONTIER
+latest_output_dir	pass	results/adaptive_quality_speed_pareto_explorer_continued_20260706
 bridge_consistency_status	pending_validation	generated_pending_validation
 reason	pass	requested latest result exists and was used
-latest result requested	pass	results/adaptive_quality_speed_pareto_explorer_20260706
-latest result used	pass	results/adaptive_quality_speed_pareto_explorer_20260706
+latest result requested	pass	results/adaptive_quality_speed_pareto_explorer_continued_20260706
+latest result used	pass	results/adaptive_quality_speed_pareto_explorer_continued_20260706
 latest result detection mode	explicit	False
-latest result detected	pass	results/adaptive_quality_speed_pareto_explorer_20260706
+latest result detected	pass	results/adaptive_quality_speed_pareto_explorer_continued_20260706
 files copied	pass	0 source artifact files copied; bridge files generated only
-files skipped	pass	6
-large files skipped	pass	6
+files skipped	pass	8
+large files skipped	pass	8
 missing expected files	warn	FINAL*_REPORT_CN.md
 required bridge files present	pass	14/14
 package path	pass	chat_bridge_feedback_package.zip
@@ -37,9 +37,9 @@ git status summary	pass	"M AGENTS.md
 ?? experiments/bbs_baseline_eval.py
 ?? experiments/candidate_pool_selector_eval.py
 ?? experiments"
-timestamp	pass	2026-07-06T21:26:06+08:00
+timestamp	pass	2026-07-06T21:40:14+08:00
 protected files modified	warn	unknown
 original BBS source modified	warn	unknown
 generated bridge files	pass	14
 read_skipped	pass	[]
-scan_skipped	pass	"[{""path"": ""results/adaptive_quality_speed_pareto_explorer_20260706/stage6_cmc_per_prefix.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 34356580}, {""path"": ""results/adaptive_quality_speed_pareto_explorer_20260706/stage6_rmp_per_prefix.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 33286400}, {""path"": ""results/adaptive_quality_speed_pareto_explorer_20260706/stage6_pmc_per_prefix.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 33307610}, {""path"": ""results/adaptive_quality_speed_pareto_explorer_20260706/stage6_hrc_per_prefix.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 33486329}, {""path"": ""results/adaptive_quality_speed_pareto_explorer_20260706/stage6_apcx_per_prefix.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 34495952}, {""path"": ""results/adaptive_quality_speed_pareto_explorer_20260706/stage6_dpc2_per_prefix.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 34613052}]"
+scan_skipped	pass	"[{""path"": ""results/adaptive_quality_speed_pareto_explorer_continued_20260706/stage6_dpmc_per_prefix.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 34536148}, {""path"": ""results/adaptive_quality_speed_pareto_explorer_continued_20260706/stage6_sdmdp_per_prefix.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 31523421}, {""path"": ""results/adaptive_quality_speed_pareto_explorer_continued_20260706/stage6_csmc_per_prefix.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 34604810}, {""path"": ""results/adaptive_quality_speed_pareto_explorer_continued_20260706/stage6_ltic_per_prefix.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 34598215}, {""path"": ""results/adaptive_quality_speed_pareto_explorer_continued_20260706/stage6_hltc_per_prefix.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 31581997}, {""path"": ""results/adaptive_quality_speed_pareto_explorer_continued_20260706/stage6_bema_per_prefix.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 33607518}, {""path"": ""results/adaptive_quality_speed_pareto_explorer_continued_20260706/stage6_eemc_per_prefix.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 33563675}, {""path"": ""results/adaptive_quality_speed_pareto_explorer_continued_20260706/stage6_rlpx_per_prefix.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 33479489}]"

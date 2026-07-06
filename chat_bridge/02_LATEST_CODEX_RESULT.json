@@ -1,5 +1,5 @@
 {
-  "artifact_manifest_path": "results/adaptive_quality_speed_pareto_explorer_20260706/final_artifact_manifest.tsv",
+  "artifact_manifest_path": "results/adaptive_quality_speed_pareto_explorer_continued_20260706/final_artifact_manifest.tsv",
   "auto_detected_latest_result": false,
   "blocking_missing": false,
   "bridge_consistency_status": "generated_pending_validation",
@@ -10,12 +10,14 @@
     "stage1_gate_decision",
     "stage3_gate_decision",
     "stage4_gate_decision",
-    "stage6_apcx_gate_decision",
-    "stage6_cmc_gate_decision",
-    "stage6_dpc2_gate_decision",
-    "stage6_hrc_gate_decision",
-    "stage6_pmc_gate_decision",
-    "stage6_rmp_gate_decision"
+    "stage6_bema_gate_decision",
+    "stage6_csmc_gate_decision",
+    "stage6_dpmc_gate_decision",
+    "stage6_eemc_gate_decision",
+    "stage6_hltc_gate_decision",
+    "stage6_ltic_gate_decision",
+    "stage6_rlpx_gate_decision",
+    "stage6_sdmdp_gate_decision"
   ],
   "data_modified": "no_by_bridge_task",
   "explicit_latest_result_used": true,
@@ -26,26 +28,26 @@
     "chat_bridge/04_ACTIVE_CLAIM_BOUNDARY_CN.md",
     "chat_bridge/05_NEXT_ACTION_CN.md",
     "chat_bridge/09_SYNC_STATUS.tsv",
-    "results/adaptive_quality_speed_pareto_explorer_20260706/ADAPTIVE_QUALITY_SPEED_PARETO_EXPLORER_REPORT_CN.md",
-    "results/adaptive_quality_speed_pareto_explorer_20260706/stage0_gate_decision.md",
-    "results/adaptive_quality_speed_pareto_explorer_20260706/stage1_gate_decision.md",
-    "results/adaptive_quality_speed_pareto_explorer_20260706/stage3_gate_decision.md",
-    "results/adaptive_quality_speed_pareto_explorer_20260706/stage4_gate_decision.md",
-    "results/adaptive_quality_speed_pareto_explorer_20260706/stage6_apcx_gate_decision.md"
+    "results/adaptive_quality_speed_pareto_explorer_continued_20260706/ADAPTIVE_PARETO_CONTINUATION_REPORT_CN.md",
+    "results/adaptive_quality_speed_pareto_explorer_continued_20260706/stage0_gate_decision.md",
+    "results/adaptive_quality_speed_pareto_explorer_continued_20260706/stage1_gate_decision.md",
+    "results/adaptive_quality_speed_pareto_explorer_continued_20260706/stage3_gate_decision.md",
+    "results/adaptive_quality_speed_pareto_explorer_continued_20260706/stage4_gate_decision.md",
+    "results/adaptive_quality_speed_pareto_explorer_continued_20260706/stage6_bema_gate_decision.md"
   ],
-  "final_label": "PARETO_ADAPTIVE_CONTINUE_REQUIRED_WITH_UNTESTED_FRONTIER",
-  "gate_decision": "PASS: adaptive controller/frontier locked; wave-1 operator compositions may proceed.",
-  "large_files_skipped_count": 6,
-  "latest_result_requested": "results/adaptive_quality_speed_pareto_explorer_20260706",
-  "latest_result_used": "results/adaptive_quality_speed_pareto_explorer_20260706",
+  "final_label": "PARETO_CONTINUED_REQUIRED_WITH_UNTESTED_FRONTIER",
+  "gate_decision": "PASS: continuation locked; Wave 2 frontier must be validated and Wave 3 generated if needed.",
+  "large_files_skipped_count": 8,
+  "latest_result_requested": "results/adaptive_quality_speed_pareto_explorer_continued_20260706",
+  "latest_result_used": "results/adaptive_quality_speed_pareto_explorer_continued_20260706",
   "main_metrics": {},
   "missing_expected_files": [
     "FINAL*_REPORT_CN.md"
   ],
   "next_action": "Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.",
   "original_bbs_source_modified": "unknown",
-  "output_dir": "results/adaptive_quality_speed_pareto_explorer_20260706",
+  "output_dir": "results/adaptive_quality_speed_pareto_explorer_continued_20260706",
   "protected_files_modified": "unknown",
   "selected_candidate": "missing",
-  "timestamp": "2026-07-06T21:26:06+08:00"
+  "timestamp": "2026-07-06T21:40:14+08:00"
 }
