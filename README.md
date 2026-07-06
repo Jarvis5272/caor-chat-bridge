@@ -12,8 +12,8 @@ ChatGPT should first read:
 
 ## Current Latest Result
 
-- latest result: `results/adaptive_quality_speed_pareto_explorer_continued_20260706`
-- latest final label: `PARETO_CONTINUED_REQUIRED_WITH_UNTESTED_FRONTIER`
+- latest result: `results/adaptive_quality_speed_pareto_explorer_wave4_20260706`
+- latest final label: `PARETO_WAVE4_CONTINUE_REQUIRED_WITH_UNTESTED_FRONTIER`
 
 ## Claim Boundary
 

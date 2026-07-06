@@ -6,15 +6,15 @@
 
 ## 当前主线状态
 
-最新自动检测结果为 `results/adaptive_quality_speed_pareto_explorer_continued_20260706`；当前最新 Codex label 为 `PARETO_CONTINUED_REQUIRED_WITH_UNTESTED_FRONTIER`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT`。
+最新自动检测结果为 `results/adaptive_quality_speed_pareto_explorer_wave4_20260706`；当前最新 Codex label 为 `PARETO_WAVE4_CONTINUE_REQUIRED_WITH_UNTESTED_FRONTIER`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT`。
 
 ## 最新 Codex final label
 
-`PARETO_CONTINUED_REQUIRED_WITH_UNTESTED_FRONTIER`
+`PARETO_WAVE4_CONTINUE_REQUIRED_WITH_UNTESTED_FRONTIER`
 
 ## 最新输出目录
 
-`results/adaptive_quality_speed_pareto_explorer_continued_20260706`
+`results/adaptive_quality_speed_pareto_explorer_wave4_20260706`
 
 ## ChatGPT 应先读哪些文件
 
