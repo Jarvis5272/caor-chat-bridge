@@ -4,9 +4,9 @@
 
 - 当前结果是 metadata-only 同步快照，latest result 为 `results/pareto_run_to_completion_controller_20260706`。
 - latest final label 是 `PARETO_RUN_RESOURCE_CHECKPOINT_RESUME_REQUIRED`。
-- 当前 claim boundary 是：可以说：DSEC/PNEC/SPLR 已验证，并继续保持 no BBS/EPBSD/CGBAPC-teacher online。可以报告 absolute quality/speed/group/safety 和 failure reason。
+- 当前 claim boundary 是：可以说：QGEC/BLCM/ONRC 已按 checkpoint 验证，并新增 anti-degenerate audit；duplicate/degenerate 候选不计入有效探索。
 
-不能说：不能 claim clean IDS target success、不能 claim BBS replacement、不能把 resource checkpoint 当完成、不能用 aggregate 正信号遮盖 BBS trio/safety failure。
+不能说：不能 claim target success、不能 claim BBS replacement、不能用 speed-only 或 aggregate 正信号遮盖 BBS trio/safety/originality failure。
 
 ## 不能说
 
