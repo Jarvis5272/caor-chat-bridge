@@ -12,8 +12,8 @@ ChatGPT should first read:
 
 ## Current Latest Result
 
-- latest result: `results/fapc_direct_validation_with_strong_baselines_20260706`
-- latest final label: `FAPC_FAIL_QUALITY`
+- latest result: `results/dfapc_distilled_fast_anchor_posterior_validation_20260706`
+- latest final label: `DFAPC_FAIL_DISTILLATION_NO_GENERALIZATION`
 
 ## Claim Boundary
 

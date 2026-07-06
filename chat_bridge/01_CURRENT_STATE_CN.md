@@ -2,11 +2,11 @@
 
 ## 实时故事状态
 
-最新结果目录 `results/fapc_direct_validation_with_strong_baselines_20260706` 是当前 latest result；最新 label 是 `FAPC_FAIL_QUALITY`。
+最新结果目录 `results/dfapc_distilled_fast_anchor_posterior_validation_20260706` 是当前 latest result；最新 label 是 `DFAPC_FAIL_DISTILLATION_NO_GENERALIZATION`。
 
 ## clean IDS 数据状态
 
-最新结果记录的数据状态来自 `results/fapc_direct_validation_with_strong_baselines_20260706`。若报告中的 input scope 不完整，以源 artifact 为准，不在 bridge 中编造。
+最新结果记录的数据状态来自 `results/dfapc_distilled_fast_anchor_posterior_validation_20260706`。若报告中的 input scope 不完整，以源 artifact 为准，不在 bridge 中编造。
 
 ## EPBSD / BBS acceleration 状态
 
@@ -14,7 +14,7 @@
 
 ## baseline-aware / independent algorithm 状态
 
-当前 active track: `missing`。根据 latest gate，当前结论是 `PASS: inputs are sufficiently available for isolated FAPC direct validation; missing strong baselines are explicitly marked, not fabricated.`。
+当前 active track: `missing`。根据 latest gate，当前结论是 `PASS: required teacher/baseline inputs are available enough for DFAPC distillation and direct validation; missing strong baselines remain explicit.`。
 
 ## 当前 active candidate
 
@@ -22,7 +22,7 @@
 
 ## 当前 gate
 
-PASS: inputs are sufficiently available for isolated FAPC direct validation; missing strong baselines are explicitly marked, not fabricated.
+PASS: required teacher/baseline inputs are available enough for DFAPC distillation and direct validation; missing strong baselines remain explicit.
 
 ## 当前最大风险
 

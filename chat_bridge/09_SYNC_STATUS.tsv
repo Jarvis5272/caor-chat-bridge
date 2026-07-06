@@ -1,20 +1,20 @@
 item	status	details
-requested_latest_result	pass	results/fapc_direct_validation_with_strong_baselines_20260706
-used_latest_result	pass	results/fapc_direct_validation_with_strong_baselines_20260706
+requested_latest_result	pass	results/dfapc_distilled_fast_anchor_posterior_validation_20260706
+used_latest_result	pass	results/dfapc_distilled_fast_anchor_posterior_validation_20260706
 explicit_latest_result_used	yes	true
 auto_detected	no	false
 auto_detected_latest_result	no	false
-latest_final_label	pass	FAPC_FAIL_QUALITY
-latest_output_dir	pass	results/fapc_direct_validation_with_strong_baselines_20260706
+latest_final_label	pass	DFAPC_FAIL_DISTILLATION_NO_GENERALIZATION
+latest_output_dir	pass	results/dfapc_distilled_fast_anchor_posterior_validation_20260706
 bridge_consistency_status	pending_validation	generated_pending_validation
 reason	pass	requested latest result exists and was used
-latest result requested	pass	results/fapc_direct_validation_with_strong_baselines_20260706
-latest result used	pass	results/fapc_direct_validation_with_strong_baselines_20260706
+latest result requested	pass	results/dfapc_distilled_fast_anchor_posterior_validation_20260706
+latest result used	pass	results/dfapc_distilled_fast_anchor_posterior_validation_20260706
 latest result detection mode	explicit	False
-latest result detected	pass	results/fapc_direct_validation_with_strong_baselines_20260706
+latest result detected	pass	results/dfapc_distilled_fast_anchor_posterior_validation_20260706
 files copied	pass	0 source artifact files copied; bridge files generated only
-files skipped	pass	5
-large files skipped	pass	5
+files skipped	pass	6
+large files skipped	pass	6
 missing expected files	warn	FINAL*_REPORT_CN.md
 required bridge files present	pass	14/14
 package path	pass	chat_bridge_feedback_package.zip
@@ -37,9 +37,9 @@ git status summary	pass	"M AGENTS.md
 ?? experiments/bbs_baseline_eval.py
 ?? experiments/candidate_pool_selector_eval.py
 ?? experiments"
-timestamp	pass	2026-07-06T14:09:39+08:00
+timestamp	pass	2026-07-06T14:44:14+08:00
 protected files modified	warn	unknown
 original BBS source modified	warn	unknown
 generated bridge files	pass	14
 read_skipped	pass	[]
-scan_skipped	pass	"[{""path"": ""results/fapc_direct_validation_with_strong_baselines_20260706/stage3_sanity_per_prefix.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 121415}, {""path"": ""results/fapc_direct_validation_with_strong_baselines_20260706/stage4_fapc_vs_best_simple.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 18313712}, {""path"": ""results/fapc_direct_validation_with_strong_baselines_20260706/stage4_fapc_vs_strong_baselines.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 1979921}, {""path"": ""results/fapc_direct_validation_with_strong_baselines_20260706/tmp_speed_probe.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 159185}, {""path"": ""results/fapc_direct_validation_with_strong_baselines_20260706/stage4_fapc_per_prefix.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 15141836}]"
+scan_skipped	pass	"[{""path"": ""results/dfapc_distilled_fast_anchor_posterior_validation_20260706/stage1_row_training_table.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 3701835}, {""path"": ""results/dfapc_distilled_fast_anchor_posterior_validation_20260706/stage3_dfapc_vs_cgbapc_teacher_context.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 2930807}, {""path"": ""results/dfapc_distilled_fast_anchor_posterior_validation_20260706/stage3_dfapc_vs_strong_baselines.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 1987118}, {""path"": ""results/dfapc_distilled_fast_anchor_posterior_validation_20260706/stage1_event_training_table.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 4037329}, {""path"": ""results/dfapc_distilled_fast_anchor_posterior_validation_20260706/stage3_dfapc_vs_best_simple.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 20693217}, {""path"": ""results/dfapc_distilled_fast_anchor_posterior_validation_20260706/stage3_dfapc_per_prefix.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 14569697}]"
