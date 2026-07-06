@@ -6,15 +6,15 @@
 
 ## 当前主线状态
 
-最新自动检测结果为 `results/quality_speed_pareto_long_goal_cleanids_20260706`；当前最新 Codex label 为 `PARETO_STOP_GROUP_ROBUSTNESS_BARRIER`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT`。
+最新自动检测结果为 `results/cheap_feature_hard_trio_separability_and_safety_gate_20260706`；当前最新 Codex label 为 `CHEAP_FEATURE_NO_SEPARABILITY`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT`。
 
 ## 最新 Codex final label
 
-`PARETO_STOP_GROUP_ROBUSTNESS_BARRIER`
+`CHEAP_FEATURE_NO_SEPARABILITY`
 
 ## 最新输出目录
 
-`results/quality_speed_pareto_long_goal_cleanids_20260706`
+`results/cheap_feature_hard_trio_separability_and_safety_gate_20260706`
 
 ## ChatGPT 应先读哪些文件
 
@@ -35,7 +35,7 @@ BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confi
 
 ## 当前下一步
 
-Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.
+Review latest result artifacts and confirm whether another validation step is warranted.
 
 ## protected diff 状态
 

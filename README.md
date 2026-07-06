@@ -12,8 +12,8 @@ ChatGPT should first read:
 
 ## Current Latest Result
 
-- latest result: `results/quality_speed_pareto_long_goal_cleanids_20260706`
-- latest final label: `PARETO_STOP_GROUP_ROBUSTNESS_BARRIER`
+- latest result: `results/cheap_feature_hard_trio_separability_and_safety_gate_20260706`
+- latest final label: `CHEAP_FEATURE_NO_SEPARABILITY`
 
 ## Claim Boundary
 
@@ -21,7 +21,7 @@ BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confi
 
 ## Next Action
 
-Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.
+Review latest result artifacts and confirm whether another validation step is warranted.
 
 ## If Linking From GitHub
 
