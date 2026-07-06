@@ -6,15 +6,15 @@
 
 ## 当前主线状态
 
-最新自动检测结果为 `results/cgbapc_calibrated_gated_bapc_validation_20260705`；当前最新 Codex label 为 `CGBAPC_PROMISING_POSTGATE_ONLY`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED`。
+最新自动检测结果为 `results/cgbapc_speed_decisive_validation_20260706`；当前最新 Codex label 为 `CGBAPC_FAIL_WRAPPER_OR_REFUSAL`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT`。
 
 ## 最新 Codex final label
 
-`CGBAPC_PROMISING_POSTGATE_ONLY`
+`CGBAPC_FAIL_WRAPPER_OR_REFUSAL`
 
 ## 最新输出目录
 
-`results/cgbapc_calibrated_gated_bapc_validation_20260705`
+`results/cgbapc_speed_decisive_validation_20260706`
 
 ## ChatGPT 应先读哪些文件
 
@@ -27,20 +27,22 @@
 
 ## 当前 claim boundary
 
-BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
+可以说：CGBAPC 是当前 BAPC 线上最强 PostGate quality signal，且 previous PostGate 修复了 BBS trio collapse。
+
+不能说：CGBAPC 达到 realtime speed target；不能说 cheap PreGate 已经成功；不能说这是 BBS/EPBSD 替代；不能把 PostGate 写成 PreGate。
 
 ## 是否有 missing context
 
-`missing_expected_files=[]`。这些缺失项只作为上下文缺口记录；若 required bridge files 全部生成，则不阻塞 bridge 使用。
+`missing_expected_files=['FINAL*_REPORT_CN.md']`。这些缺失项只作为上下文缺口记录；若 required bridge files 全部生成，则不阻塞 bridge 使用。
 
 ## 当前下一步
 
-Review latest result artifacts and confirm whether another validation step is warranted.
+Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.
 
 ## protected diff 状态
 
-`protected_files_modified=no`。本 bridge 任务只写入 `chat_bridge/` 和 `scripts/chat_bridge/`。
+`protected_files_modified=unknown`。本 bridge 任务只写入 `chat_bridge/` 和 `scripts/chat_bridge/`。
 
 ## original BBS source 状态
 
-`original_bbs_source_modified=no`。本 bridge 任务未写入 `../bbs-src` 或 BBS source。
+`original_bbs_source_modified=unknown`。本 bridge 任务未写入 `../bbs-src` 或 BBS source。

@@ -1,2 +1,2 @@
 source_path	modified	status	notes
-../bbs-src	no	pass	not touched
+../bbs-src	no	not_touched_by_this_task	this task did not read/write original BBS source beyond optional existence context

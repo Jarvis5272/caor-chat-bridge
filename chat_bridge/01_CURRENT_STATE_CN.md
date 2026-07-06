@@ -2,19 +2,19 @@
 
 ## 实时故事状态
 
-最新结果目录 `results/cgbapc_calibrated_gated_bapc_validation_20260705` 是当前 latest result；最新 label 是 `CGBAPC_PROMISING_POSTGATE_ONLY`。
+最新结果目录 `results/cgbapc_speed_decisive_validation_20260706` 是当前 latest result；最新 label 是 `CGBAPC_FAIL_WRAPPER_OR_REFUSAL`。
 
 ## clean IDS 数据状态
 
-最新结果记录的数据状态来自 `results/cgbapc_calibrated_gated_bapc_validation_20260705`。若报告中的 input scope 不完整，以源 artifact 为准，不在 bridge 中编造。
+最新结果记录的数据状态来自 `results/cgbapc_speed_decisive_validation_20260706`。若报告中的 input scope 不完整，以源 artifact 为准，不在 bridge 中编造。
 
 ## EPBSD / BBS acceleration 状态
 
-当前 bridge 只同步状态，不新增 EPBSD/BBS acceleration 实验。latest audit: protected=`no`, original_bbs=`no`。
+当前 bridge 只同步状态，不新增 EPBSD/BBS acceleration 实验。latest audit: protected=`unknown`, original_bbs=`unknown`。
 
 ## baseline-aware / independent algorithm 状态
 
-当前 active track: `missing`。根据 latest gate，当前结论是 `# Stage 0 gate decision Decision: PASS. Joined rows available for CGBAPC: 495511. BAPC Stage1/Stage2 per-prefix rows are readable; kmer_medoid rows are available and used as best safe baseline for this gate. Dataset/group labels are retaine`。
+当前 active track: `missing`。根据 latest gate，当前结论是 `# Stage 0 gate decision Decision: PASS_SCOPE_LOCK. Inputs are read-only; current task remains speed-decisive validation only.`。
 
 ## 当前 active candidate
 
@@ -22,7 +22,7 @@
 
 ## 当前 gate
 
-# Stage 0 gate decision Decision: PASS. Joined rows available for CGBAPC: 495511. BAPC Stage1/Stage2 per-prefix rows are readable; kmer_medoid rows are available and used as best safe baseline for this gate. Dataset/group labels are retaine
+# Stage 0 gate decision Decision: PASS_SCOPE_LOCK. Inputs are read-only; current task remains speed-decisive validation only.
 
 ## 当前最大风险
 

@@ -12,16 +12,18 @@ ChatGPT should first read:
 
 ## Current Latest Result
 
-- latest result: `results/cgbapc_calibrated_gated_bapc_validation_20260705`
-- latest final label: `CGBAPC_PROMISING_POSTGATE_ONLY`
+- latest result: `results/cgbapc_speed_decisive_validation_20260706`
+- latest final label: `CGBAPC_FAIL_WRAPPER_OR_REFUSAL`
 
 ## Claim Boundary
 
-BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
+可以说：CGBAPC 是当前 BAPC 线上最强 PostGate quality signal，且 previous PostGate 修复了 BBS trio collapse。
+
+不能说：CGBAPC 达到 realtime speed target；不能说 cheap PreGate 已经成功；不能说这是 BBS/EPBSD 替代；不能把 PostGate 写成 PreGate。
 
 ## Next Action
 
-Review latest result artifacts and confirm whether another validation step is warranted.
+Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.
 
 ## If Linking From GitHub
 
