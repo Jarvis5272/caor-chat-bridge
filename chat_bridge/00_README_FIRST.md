@@ -6,7 +6,7 @@
 
 ## 当前主线状态
 
-最新自动检测结果为 `results/adaptive_quality_speed_pareto_explorer_wave4_20260706`；当前最新 Codex label 为 `PARETO_WAVE4_CONTINUE_REQUIRED_WITH_UNTESTED_FRONTIER`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT`。
+最新自动检测结果为 `results/adaptive_quality_speed_pareto_explorer_wave4_20260706`；当前最新 Codex label 为 `PARETO_WAVE4_CONTINUE_REQUIRED_WITH_UNTESTED_FRONTIER`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED`。
 
 ## 最新 Codex final label
 
@@ -27,11 +27,13 @@
 
 ## 当前 claim boundary
 
-BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
+可以说：Wave4 必测 frontier CPES/RDIS/SWMC 已完成，且 Wave4 失败后自动验证了 Wave5 候选 PSEC/ISPC/WRMC；所有 tested candidates 都保持 observed-only selector、no BBS/EPBSD online、no reference online、no dataset route。可以说这些候选在 aggregate quality 上相对 best simple baseline 有小幅正信号。
+
+不能说：不能 claim target success、不能 claim clean IDS realtime reconstruction algorithm found、不能 claim BBS replacement、不能把 source-gap/projected 正信号覆盖 BBS trio collapse、不能把 fallback/refusal 或 posterior-heavy replay 当作成功。当前 blocking reason 是 BBS trio group gate 与 safety gate 未通过，部分候选同时未达到 speed gate。
 
 ## 是否有 missing context
 
-`missing_expected_files=['FINAL*_REPORT_CN.md']`。这些缺失项只作为上下文缺口记录；若 required bridge files 全部生成，则不阻塞 bridge 使用。
+`missing_expected_files=[]`。这些缺失项只作为上下文缺口记录；若 required bridge files 全部生成，则不阻塞 bridge 使用。
 
 ## 当前下一步
 

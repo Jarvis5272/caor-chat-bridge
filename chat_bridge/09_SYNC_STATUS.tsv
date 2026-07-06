@@ -15,7 +15,7 @@ latest result detected	pass	results/adaptive_quality_speed_pareto_explorer_wave4
 files copied	pass	0 source artifact files copied; bridge files generated only
 files skipped	pass	6
 large files skipped	pass	6
-missing expected files	warn	FINAL*_REPORT_CN.md
+missing expected files	pass	0
 required bridge files present	pass	14/14
 package path	pass	chat_bridge_feedback_package.zip
 git branch	pass	release/earlystop-v0.4
@@ -37,7 +37,7 @@ git status summary	pass	"M AGENTS.md
 ?? experiments/bbs_baseline_eval.py
 ?? experiments/candidate_pool_selector_eval.py
 ?? experiments"
-timestamp	pass	2026-07-06T21:53:01+08:00
+timestamp	pass	2026-07-06T21:54:20+08:00
 protected files modified	warn	unknown
 original BBS source modified	warn	unknown
 generated bridge files	pass	14
