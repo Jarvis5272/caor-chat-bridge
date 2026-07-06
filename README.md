@@ -12,8 +12,8 @@ ChatGPT should first read:
 
 ## Current Latest Result
 
-- latest result: `results/cgbapc_feature_necessity_and_minimal_fast_core_20260706`
-- latest final label: `CGBAPC_QUALITY_DEPENDS_ON_EXPENSIVE_CORE`
+- latest result: `results/asvc_anchored_segment_vote_validation_20260706`
+- latest final label: `ASVC_FAIL_QUALITY`
 
 ## Claim Boundary
 
