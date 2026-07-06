@@ -553,6 +553,19 @@ def build_snapshot(args: argparse.Namespace) -> dict[str, Any]:
             "Continue only with the declared next Pareto frontier PIMC/DRPC/CENF from stage9_next_frontier.tsv; "
             "do not claim target success, BBS replacement, or clean IDS decoder found."
         )
+    elif "PARETO_RUN_RESOURCE_CHECKPOINT_RESUME_REQUIRED" in final_label:
+        next_action = (
+            "Resume the run-to-completion Pareto controller with the command in controller_state.json "
+            "or stageF_next_command_recommendation.md; current tested candidates are frozen and target success is not claimed."
+        )
+    elif "PARETO_RUN_TARGET_SUCCESS_QUALITY_AND_SPEED" in final_label:
+        next_action = (
+            "Freeze target-success evidence and run independent claim-boundary/equivalence audit before any stronger claim."
+        )
+    elif "PARETO_RUN_NO_ADMISSIBLE_FRONTIER_LEFT" in final_label:
+        next_action = (
+            "Freeze no-frontier evidence as a negative result; do not continue candidate search without a new theory/objective."
+        )
     elif target_met(gate_decision, final_label) == "no":
         next_action = (
             "Revise the sync/global-search mechanism before any small reconstruction smoke; "

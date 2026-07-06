@@ -2,7 +2,7 @@
 
 ## 当前建议下一步
 
-Continue only with the declared next Pareto frontier PIMC/DRPC/CENF from stage9_next_frontier.tsv; do not claim target success, BBS replacement, or clean IDS decoder found.
+Resume the run-to-completion Pareto controller with the command in controller_state.json or stageF_next_command_recommendation.md; current tested candidates are frozen and target success is not claimed.
 
 ## 不建议做什么
 

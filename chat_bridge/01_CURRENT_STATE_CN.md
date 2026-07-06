@@ -2,11 +2,11 @@
 
 ## 实时故事状态
 
-最新结果目录 `results/adaptive_quality_speed_pareto_explorer_wave8_20260706` 是当前 latest result；最新 label 是 `PARETO_WAVE8_CONTINUE_REQUIRED_WITH_UNTESTED_FRONTIER`。
+最新结果目录 `results/pareto_run_to_completion_controller_20260706` 是当前 latest result；最新 label 是 `PARETO_RUN_RESOURCE_CHECKPOINT_RESUME_REQUIRED`。
 
 ## clean IDS 数据状态
 
-最新结果记录的数据状态来自 `results/adaptive_quality_speed_pareto_explorer_wave8_20260706`。若报告中的 input scope 不完整，以源 artifact 为准，不在 bridge 中编造。
+最新结果记录的数据状态来自 `results/pareto_run_to_completion_controller_20260706`。若报告中的 input scope 不完整，以源 artifact 为准，不在 bridge 中编造。
 
 ## EPBSD / BBS acceleration 状态
 
@@ -14,7 +14,7 @@
 
 ## baseline-aware / independent algorithm 状态
 
-当前 active track: `missing`。根据 latest gate，当前结论是 `PASS: continuation locked; Wave8 frontier must be validated and Wave9 generated if needed.`。
+当前 active track: `missing`。根据 latest gate，当前结论是 `PASS: run-to-completion controller locked; frontier nonempty means continue until success/no-frontier/resource checkpoint.`。
 
 ## 当前 active candidate
 
@@ -22,7 +22,7 @@
 
 ## 当前 gate
 
-PASS: continuation locked; Wave8 frontier must be validated and Wave9 generated if needed.
+PASS: run-to-completion controller locked; frontier nonempty means continue until success/no-frontier/resource checkpoint.
 
 ## 当前最大风险
 

@@ -6,15 +6,15 @@
 
 ## 当前主线状态
 
-最新自动检测结果为 `results/adaptive_quality_speed_pareto_explorer_wave8_20260706`；当前最新 Codex label 为 `PARETO_WAVE8_CONTINUE_REQUIRED_WITH_UNTESTED_FRONTIER`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED`。
+最新自动检测结果为 `results/pareto_run_to_completion_controller_20260706`；当前最新 Codex label 为 `PARETO_RUN_RESOURCE_CHECKPOINT_RESUME_REQUIRED`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED`。
 
 ## 最新 Codex final label
 
-`PARETO_WAVE8_CONTINUE_REQUIRED_WITH_UNTESTED_FRONTIER`
+`PARETO_RUN_RESOURCE_CHECKPOINT_RESUME_REQUIRED`
 
 ## 最新输出目录
 
-`results/adaptive_quality_speed_pareto_explorer_wave8_20260706`
+`results/pareto_run_to_completion_controller_20260706`
 
 ## ChatGPT 应先读哪些文件
 
@@ -27,7 +27,7 @@
 
 ## 当前 claim boundary
 
-可以说：Wave8 必测 frontier EPCM/DDSC/NRCM 已完成，且 Wave8 失败后自动验证了 Wave9 候选 PWPC/CSRC/SDNE；所有 tested candidates 都保持 observed-only selector、no BBS/EPBSD online、no reference online、no dataset route。可以报告 absolute quality/speed/group/safety 表和每个候选的 gate failure。
+可以说：PIMC/DRPC/CENF 已完成，且失败后自动验证了 BLEM/PSWP/NEDP/CSWRC/SDWMDP/ALHC/TMICNE；所有 tested candidates 都保持 observed-only selector、no BBS/EPBSD online、no reference online、no dataset route。可以报告 absolute quality/speed/group/safety 表和每个候选的 gate failure。
 
 不能说：不能 claim target success、不能 claim clean IDS realtime reconstruction algorithm found、不能 claim BBS replacement、不能把 aggregate 正信号覆盖 BBS trio collapse、不能把 fallback/refusal 或 posterior-heavy replay 当作成功。当前 blocking reason 以 BBS trio group gate / safety gate / speed gate 为准。
 
@@ -37,7 +37,7 @@
 
 ## 当前下一步
 
-Continue only with the declared next Pareto frontier PIMC/DRPC/CENF from stage9_next_frontier.tsv; do not claim target success, BBS replacement, or clean IDS decoder found.
+Resume the run-to-completion Pareto controller with the command in controller_state.json or stageF_next_command_recommendation.md; current tested candidates are frozen and target success is not claimed.
 
 ## protected diff 状态
 
