@@ -1,5 +1,5 @@
 {
-  "artifact_manifest_path": "results/cgbapc_postgate_semantic_acceleration_20260706/final_artifact_manifest.tsv",
+  "artifact_manifest_path": "results/strong_baseline_scoreboard_and_fast_algorithm_validation_20260706/final_artifact_manifest.tsv",
   "auto_detected_latest_result": false,
   "blocking_missing": false,
   "bridge_consistency_status": "generated_pending_validation",
@@ -7,12 +7,8 @@
   "claim_boundary": "BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.",
   "completed_stages": [
     "stage0_gate_decision",
-    "stage1_gate_decision",
     "stage2_gate_decision",
-    "stage3_gate_decision",
-    "stage4_gate_decision",
-    "stage5_gate_decision",
-    "stage6_gate_decision"
+    "stage4_gate_decision"
   ],
   "data_modified": "no_by_bridge_task",
   "explicit_latest_result_used": true,
@@ -23,26 +19,26 @@
     "chat_bridge/04_ACTIVE_CLAIM_BOUNDARY_CN.md",
     "chat_bridge/05_NEXT_ACTION_CN.md",
     "chat_bridge/09_SYNC_STATUS.tsv",
-    "results/cgbapc_postgate_semantic_acceleration_20260706/CGBAPC_POSTGATE_SEMANTIC_ACCELERATION_REPORT_CN.md",
-    "results/cgbapc_postgate_semantic_acceleration_20260706/stage0_gate_decision.md",
-    "results/cgbapc_postgate_semantic_acceleration_20260706/stage1_gate_decision.md",
-    "results/cgbapc_postgate_semantic_acceleration_20260706/stage2_gate_decision.md",
-    "results/cgbapc_postgate_semantic_acceleration_20260706/stage3_gate_decision.md",
-    "results/cgbapc_postgate_semantic_acceleration_20260706/stage4_gate_decision.md"
+    "results/strong_baseline_scoreboard_and_fast_algorithm_validation_20260706/STRONG_BASELINE_SCOREBOARD_AND_FAST_ALGORITHM_VALIDATION_REPORT_CN.md",
+    "results/strong_baseline_scoreboard_and_fast_algorithm_validation_20260706/stage0_gate_decision.md",
+    "results/strong_baseline_scoreboard_and_fast_algorithm_validation_20260706/stage2_gate_decision.md",
+    "results/strong_baseline_scoreboard_and_fast_algorithm_validation_20260706/stage4_gate_decision.md",
+    "results/strong_baseline_scoreboard_and_fast_algorithm_validation_20260706/final_decision_matrix.tsv",
+    "results/strong_baseline_scoreboard_and_fast_algorithm_validation_20260706/final_artifact_manifest.tsv"
   ],
-  "final_label": "CGBAPC_POSTGATE_QUALITY_ONLY_SPEED_FAIL",
-  "gate_decision": "# Stage 0 gate decision Decision: PASS_SCOPE_LOCK. PostGate quality exists; cheap PreGate is invalid due fallback-heavy speed illusion; current target is semantic-preserving PostGate acceleration.",
-  "large_files_skipped_count": 4,
-  "latest_result_requested": "results/cgbapc_postgate_semantic_acceleration_20260706",
-  "latest_result_used": "results/cgbapc_postgate_semantic_acceleration_20260706",
+  "final_label": "NO_CURRENT_METHOD_MEETS_TARGET_SCOREBOARD_COMPLETED",
+  "gate_decision": "# Stage 0 gate decision Decision: PASS_RULE_INSTALLED.",
+  "large_files_skipped_count": 0,
+  "latest_result_requested": "results/strong_baseline_scoreboard_and_fast_algorithm_validation_20260706",
+  "latest_result_used": "results/strong_baseline_scoreboard_and_fast_algorithm_validation_20260706",
   "main_metrics": {},
   "missing_expected_files": [
     "FINAL*_REPORT_CN.md"
   ],
-  "next_action": "Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.",
+  "next_action": "Review latest result artifacts and confirm whether another validation step is warranted.",
   "original_bbs_source_modified": "unknown",
-  "output_dir": "results/cgbapc_postgate_semantic_acceleration_20260706",
+  "output_dir": "results/strong_baseline_scoreboard_and_fast_algorithm_validation_20260706",
   "protected_files_modified": "unknown",
   "selected_candidate": "missing",
-  "timestamp": "2026-07-06T13:01:48+08:00"
+  "timestamp": "2026-07-06T13:40:04+08:00"
 }

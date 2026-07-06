@@ -1,7 +1,7 @@
 protected_path	modified	status	notes
-experiments/streaming_slim_generalization_eval.py	no	not_touched_by_this_task	workspace may contain pre-existing unrelated changes
-src/pipeline/sparse_viterbi_dbg.py	no	not_touched_by_this_task	workspace may contain pre-existing unrelated changes
-src/pipeline/	no	not_touched_by_this_task	workspace may contain pre-existing unrelated changes
-baseline/	no	not_touched_by_this_task	workspace may contain pre-existing unrelated changes
-external_baselines/	no	not_touched_by_this_task	workspace may contain pre-existing unrelated changes
-frozen/	no	not_touched_by_this_task	workspace may contain pre-existing unrelated changes
+experiments/streaming_slim_generalization_eval.py	no	not_touched	
+src/pipeline/sparse_viterbi_dbg.py	no	not_touched	
+src/pipeline/	no	not_touched	
+baseline/	no	not_touched	
+external_baselines/	no	not_touched	
+frozen/	no	not_touched	

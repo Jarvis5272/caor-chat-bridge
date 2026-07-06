@@ -2,7 +2,7 @@
 
 ## 当前建议下一步
 
-Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.
+Review latest result artifacts and confirm whether another validation step is warranted.
 
 ## 不建议做什么
 

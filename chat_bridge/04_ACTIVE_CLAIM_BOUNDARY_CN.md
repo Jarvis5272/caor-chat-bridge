@@ -2,8 +2,8 @@
 
 ## 可以说
 
-- 当前结果是 metadata-only 同步快照，latest result 为 `results/cgbapc_postgate_semantic_acceleration_20260706`。
-- latest final label 是 `CGBAPC_POSTGATE_QUALITY_ONLY_SPEED_FAIL`。
+- 当前结果是 metadata-only 同步快照，latest result 为 `results/strong_baseline_scoreboard_and_fast_algorithm_validation_20260706`。
+- latest final label 是 `NO_CURRENT_METHOD_MEETS_TARGET_SCOREBOARD_COMPLETED`。
 - 当前 claim boundary 是：BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
 
 ## 不能说
