@@ -27,7 +27,7 @@
 
 ## 当前 claim boundary
 
-可以说：IPDP/OCMC/SDEC 已按 latest checkpoint 继续验证，并且没有重复消费 EPMC/DRNC/CPMC/LEMSC/NODC/RSPC。可以报告 absolute quality/speed/group/safety 和 failure reason。
+可以说：DSEC/PNEC/SPLR 已验证，并继续保持 no BBS/EPBSD/CGBAPC-teacher online。可以报告 absolute quality/speed/group/safety 和 failure reason。
 
 不能说：不能 claim clean IDS target success、不能 claim BBS replacement、不能把 resource checkpoint 当完成、不能用 aggregate 正信号遮盖 BBS trio/safety failure。
 

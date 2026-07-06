@@ -6,6 +6,6 @@ contains_secret_like_files	pass	false
 contains_raw_reads	pass	false
 contains_only_bridge	pass	CHATGPT_LINK_INSTRUCTIONS_CN.md,README.md,chat_bridge,chat_bridge_feedback_package.zip,scripts
 latest_result_final_label	pass	PARETO_RUN_RESOURCE_CHECKPOINT_RESUME_REQUIRED
-claim_boundary_present	pass	"可以说：IPDP/OCMC/SDEC 已按 latest checkpoint 继续验证，并且没有重复消费 EPMC/DRNC/CPMC/LEMSC/NODC/RSPC。可以报告 absolute quality/speed/group/safety 和 failure reason。
+claim_boundary_present	pass	"可以说：DSEC/PNEC/SPLR 已验证，并继续保持 no BBS/EPBSD/CGBAPC-teacher online。可以报告 absolute quality/speed/group/safety 和 failure reason。
 
-不能说：不能 claim clean IDS target success、不能 claim BBS repl"
+不能说：不能 claim clean IDS target success、不能 claim BBS replacement、不能把 resource "
