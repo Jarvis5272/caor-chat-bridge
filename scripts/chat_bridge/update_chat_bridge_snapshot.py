@@ -543,6 +543,11 @@ def build_snapshot(args: argparse.Namespace) -> dict[str, Any]:
             "Continue only with the declared next Pareto frontier LPEC/SMPC/NESC from stage9_next_frontier.tsv; "
             "do not claim target success, BBS replacement, or clean IDS decoder found."
         )
+    elif "PARETO_WAVE6_CONTINUE_REQUIRED_WITH_UNTESTED_FRONTIER" in final_label:
+        next_action = (
+            "Continue only with the declared next Pareto frontier EPCM/DDSC/NRCM from stage9_next_frontier.tsv; "
+            "do not claim target success, BBS replacement, or clean IDS decoder found."
+        )
     elif target_met(gate_decision, final_label) == "no":
         next_action = (
             "Revise the sync/global-search mechanism before any small reconstruction smoke; "

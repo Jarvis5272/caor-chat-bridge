@@ -2,11 +2,11 @@
 
 ## 可以说
 
-- 当前结果是 metadata-only 同步快照，latest result 为 `results/adaptive_quality_speed_pareto_explorer_wave4_20260706`。
-- latest final label 是 `PARETO_WAVE4_CONTINUE_REQUIRED_WITH_UNTESTED_FRONTIER`。
-- 当前 claim boundary 是：可以说：Wave4 必测 frontier CPES/RDIS/SWMC 已完成，且 Wave4 失败后自动验证了 Wave5 候选 PSEC/ISPC/WRMC；所有 tested candidates 都保持 observed-only selector、no BBS/EPBSD online、no reference online、no dataset route。可以说这些候选在 aggregate quality 上相对 best simple baseline 有小幅正信号。
+- 当前结果是 metadata-only 同步快照，latest result 为 `results/adaptive_quality_speed_pareto_explorer_wave6_20260706`。
+- latest final label 是 `PARETO_WAVE6_CONTINUE_REQUIRED_WITH_UNTESTED_FRONTIER`。
+- 当前 claim boundary 是：可以说：Wave6 必测 frontier LPEC/SMPC/NESC 已完成，且 Wave6 失败后自动验证了 Wave7 候选 BLMC/TMIC/PSCF；所有 tested candidates 都保持 observed-only selector、no BBS/EPBSD online、no reference online、no dataset route。可以报告 absolute quality/speed/group/safety 表和每个候选的 gate failure。
 
-不能说：不能 claim target success、不能 claim clean IDS realtime reconstruction algorithm found、不能 claim BBS replacement、不能把 source-gap/projected 正信号覆盖 BBS trio collapse、不能把 fallback/refusal 或 posterior-heavy replay 当作成功。当前 blocking reason 是 BBS trio group gate 与 safety gate 未通过，部分候选同时未达到 speed gate。
+不能说：不能 claim target success、不能 claim clean IDS realtime reconstruction algorithm found、不能 claim BBS replacement、不能把 aggregate 正信号覆盖 BBS trio collapse、不能把 fallback/refusal 或 posterior-heavy replay 当作成功。当前 blocking reason 以 BBS trio group gate / safety gate / speed gate 为准。
 
 ## 不能说
 
