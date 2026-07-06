@@ -1,5 +1,5 @@
 {
-  "artifact_manifest_path": "results/full_scope_cheap_feature_separability_rebuild_20260706/final_artifact_manifest.tsv",
+  "artifact_manifest_path": "results/quality_speed_pareto_long_goal_v2_20260706/final_artifact_manifest.tsv",
   "auto_detected_latest_result": false,
   "blocking_missing": false,
   "bridge_consistency_status": "generated_pending_validation",
@@ -10,7 +10,11 @@
     "stage1_gate_decision",
     "stage2_gate_decision",
     "stage3_gate_decision",
-    "stage4_gate_decision"
+    "stage5_awp_gate_decision",
+    "stage5_hapc_gate_decision",
+    "stage5_rbcp_gate_decision",
+    "stage5_sbcp_gate_decision",
+    "stage5_thcp_gate_decision"
   ],
   "data_modified": "no_by_bridge_task",
   "explicit_latest_result_used": true,
@@ -21,26 +25,26 @@
     "chat_bridge/04_ACTIVE_CLAIM_BOUNDARY_CN.md",
     "chat_bridge/05_NEXT_ACTION_CN.md",
     "chat_bridge/09_SYNC_STATUS.tsv",
-    "results/full_scope_cheap_feature_separability_rebuild_20260706/FULL_SCOPE_CHEAP_FEATURE_SEPARABILITY_REBUILD_REPORT_CN.md",
-    "results/full_scope_cheap_feature_separability_rebuild_20260706/stage0_gate_decision.md",
-    "results/full_scope_cheap_feature_separability_rebuild_20260706/stage1_gate_decision.md",
-    "results/full_scope_cheap_feature_separability_rebuild_20260706/stage2_gate_decision.md",
-    "results/full_scope_cheap_feature_separability_rebuild_20260706/stage3_gate_decision.md",
-    "results/full_scope_cheap_feature_separability_rebuild_20260706/stage4_gate_decision.md"
+    "results/quality_speed_pareto_long_goal_v2_20260706/QUALITY_SPEED_PARETO_LONG_GOAL_V2_REPORT_CN.md",
+    "results/quality_speed_pareto_long_goal_v2_20260706/stage0_gate_decision.md",
+    "results/quality_speed_pareto_long_goal_v2_20260706/stage1_gate_decision.md",
+    "results/quality_speed_pareto_long_goal_v2_20260706/stage2_gate_decision.md",
+    "results/quality_speed_pareto_long_goal_v2_20260706/stage3_gate_decision.md",
+    "results/quality_speed_pareto_long_goal_v2_20260706/stage5_awp_gate_decision.md"
   ],
-  "final_label": "CHEAP_FEATURE_NO_GENERALIZING_SEPARABILITY",
-  "gate_decision": "PASS: prior failure and required inputs are available; proceed to larger feature generation.",
-  "large_files_skipped_count": 6,
-  "latest_result_requested": "results/full_scope_cheap_feature_separability_rebuild_20260706",
-  "latest_result_used": "results/full_scope_cheap_feature_separability_rebuild_20260706",
+  "final_label": "PARETO_V2_CONTINUE_REQUIRED_WITH_NEXT_FRONTIER",
+  "gate_decision": "PASS: frontier locked; isolated V2 runner may proceed.",
+  "large_files_skipped_count": 5,
+  "latest_result_requested": "results/quality_speed_pareto_long_goal_v2_20260706",
+  "latest_result_used": "results/quality_speed_pareto_long_goal_v2_20260706",
   "main_metrics": {},
   "missing_expected_files": [
     "FINAL*_REPORT_CN.md"
   ],
   "next_action": "Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.",
   "original_bbs_source_modified": "unknown",
-  "output_dir": "results/full_scope_cheap_feature_separability_rebuild_20260706",
+  "output_dir": "results/quality_speed_pareto_long_goal_v2_20260706",
   "protected_files_modified": "unknown",
   "selected_candidate": "missing",
-  "timestamp": "2026-07-06T18:33:02+08:00"
+  "timestamp": "2026-07-06T20:04:43+08:00"
 }

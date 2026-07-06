@@ -12,8 +12,8 @@ ChatGPT should first read:
 
 ## Current Latest Result
 
-- latest result: `results/full_scope_cheap_feature_separability_rebuild_20260706`
-- latest final label: `CHEAP_FEATURE_NO_GENERALIZING_SEPARABILITY`
+- latest result: `results/quality_speed_pareto_long_goal_v2_20260706`
+- latest final label: `PARETO_V2_CONTINUE_REQUIRED_WITH_NEXT_FRONTIER`
 
 ## Claim Boundary
 

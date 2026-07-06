@@ -6,15 +6,15 @@
 
 ## 当前主线状态
 
-最新自动检测结果为 `results/full_scope_cheap_feature_separability_rebuild_20260706`；当前最新 Codex label 为 `CHEAP_FEATURE_NO_GENERALIZING_SEPARABILITY`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT`。
+最新自动检测结果为 `results/quality_speed_pareto_long_goal_v2_20260706`；当前最新 Codex label 为 `PARETO_V2_CONTINUE_REQUIRED_WITH_NEXT_FRONTIER`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT`。
 
 ## 最新 Codex final label
 
-`CHEAP_FEATURE_NO_GENERALIZING_SEPARABILITY`
+`PARETO_V2_CONTINUE_REQUIRED_WITH_NEXT_FRONTIER`
 
 ## 最新输出目录
 
-`results/full_scope_cheap_feature_separability_rebuild_20260706`
+`results/quality_speed_pareto_long_goal_v2_20260706`
 
 ## ChatGPT 应先读哪些文件
 
