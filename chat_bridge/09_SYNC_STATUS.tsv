@@ -37,9 +37,9 @@ git status summary	pass	"M AGENTS.md
 ?? experiments/bbs_baseline_eval.py
 ?? experiments/candidate_pool_selector_eval.py
 ?? experiments"
-timestamp	pass	2026-07-06T14:06:33+08:00
+timestamp	pass	2026-07-06T14:09:39+08:00
 protected files modified	warn	unknown
 original BBS source modified	warn	unknown
 generated bridge files	pass	14
 read_skipped	pass	[]
-scan_skipped	pass	"[{""path"": ""results/fapc_direct_validation_with_strong_baselines_20260706/stage3_sanity_per_prefix.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 121400}, {""path"": ""results/fapc_direct_validation_with_strong_baselines_20260706/stage4_fapc_vs_best_simple.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 18313555}, {""path"": ""results/fapc_direct_validation_with_strong_baselines_20260706/stage4_fapc_vs_strong_baselines.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 1979921}, {""path"": ""results/fapc_direct_validation_with_strong_baselines_20260706/tmp_speed_probe.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 159185}, {""path"": ""results/fapc_direct_validation_with_strong_baselines_20260706/stage4_fapc_per_prefix.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 15141747}]"
+scan_skipped	pass	"[{""path"": ""results/fapc_direct_validation_with_strong_baselines_20260706/stage3_sanity_per_prefix.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 121415}, {""path"": ""results/fapc_direct_validation_with_strong_baselines_20260706/stage4_fapc_vs_best_simple.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 18313712}, {""path"": ""results/fapc_direct_validation_with_strong_baselines_20260706/stage4_fapc_vs_strong_baselines.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 1979921}, {""path"": ""results/fapc_direct_validation_with_strong_baselines_20260706/tmp_speed_probe.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 159185}, {""path"": ""results/fapc_direct_validation_with_strong_baselines_20260706/stage4_fapc_per_prefix.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 15141836}]"
