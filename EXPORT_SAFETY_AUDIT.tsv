@@ -5,5 +5,5 @@ contains_large_files	pass	false
 contains_secret_like_files	pass	false
 contains_raw_reads	pass	false
 contains_only_bridge	pass	CHATGPT_LINK_INSTRUCTIONS_CN.md,README.md,chat_bridge,chat_bridge_feedback_package.zip,scripts
-latest_result_final_label	pass	DFAPC_FAIL_DISTILLATION_NO_GENERALIZATION
+latest_result_final_label	pass	CGBAPC_QUALITY_DEPENDS_ON_EXPENSIVE_CORE
 claim_boundary_present	pass	BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.

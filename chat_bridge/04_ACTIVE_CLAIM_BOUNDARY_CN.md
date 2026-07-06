@@ -2,8 +2,8 @@
 
 ## 可以说
 
-- 当前结果是 metadata-only 同步快照，latest result 为 `results/dfapc_distilled_fast_anchor_posterior_validation_20260706`。
-- latest final label 是 `DFAPC_FAIL_DISTILLATION_NO_GENERALIZATION`。
+- 当前结果是 metadata-only 同步快照，latest result 为 `results/cgbapc_feature_necessity_and_minimal_fast_core_20260706`。
+- latest final label 是 `CGBAPC_QUALITY_DEPENDS_ON_EXPENSIVE_CORE`。
 - 当前 claim boundary 是：BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
 
 ## 不能说

@@ -1,11 +1,11 @@
 # Codex Feedback To ChatGPT
 
-1. final label: `DFAPC_FAIL_DISTILLATION_NO_GENERALIZATION`
-2. output dir: `results/dfapc_distilled_fast_anchor_posterior_validation_20260706`
-3. completed stages: stage0_gate_decision, stage1_gate_decision, stage2_gate_decision, stage3_gate_decision
+1. final label: `CGBAPC_QUALITY_DEPENDS_ON_EXPENSIVE_CORE`
+2. output dir: `results/cgbapc_feature_necessity_and_minimal_fast_core_20260706`
+3. completed stages: stage0_gate_decision, stage1_gate_decision, stage2_gate_decision
 4. key metrics:
 - missing
-5. gate decision: PASS: required teacher/baseline inputs are available enough for DFAPC distillation and direct validation; missing strong baselines remain explicit.
+5. gate decision: PASS: CGBAPC model, BAPC feature tables, DFAPC failure package, strong baseline scoreboard, and BBS matched context are available enough for feature-necessity audit.
 6. claim boundary: BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
 7. next recommendation: Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.
 8. protected files modified? `unknown`

@@ -5,15 +5,14 @@ priority	path	reason_to_review	expected_content	small_enough_for_git	exists	note
 4	chat_bridge/04_ACTIVE_CLAIM_BOUNDARY_CN.md	claim audit	allowed/disallowed claims	yes	yes	generated bridge file
 5	chat_bridge/05_NEXT_ACTION_CN.md	next step	recommended next action	yes	yes	generated bridge file
 6	chat_bridge/09_SYNC_STATUS.tsv	sync audit	detected/missing/skipped status	yes	yes	generated bridge file
-7	results/dfapc_distilled_fast_anchor_posterior_validation_20260706/DFAPC_DISTILLED_FAST_ANCHOR_POSTERIOR_VALIDATION_REPORT_CN.md	latest result source artifact	*VALIDATION_REPORT_CN.md	yes	yes	610 bytes
-8	results/dfapc_distilled_fast_anchor_posterior_validation_20260706/stage0_gate_decision.md	latest result source artifact	stage*_gate_decision.md	yes	yes	148 bytes
-9	results/dfapc_distilled_fast_anchor_posterior_validation_20260706/stage1_gate_decision.md	latest result source artifact	stage*_gate_decision.md	yes	yes	66 bytes
-10	results/dfapc_distilled_fast_anchor_posterior_validation_20260706/stage2_gate_decision.md	latest result source artifact	stage*_gate_decision.md	yes	yes	179 bytes
-11	results/dfapc_distilled_fast_anchor_posterior_validation_20260706/stage3_gate_decision.md	latest result source artifact	stage*_gate_decision.md	yes	yes	75 bytes
-12	results/dfapc_distilled_fast_anchor_posterior_validation_20260706/final_decision_matrix.tsv	latest result source artifact	final_decision_matrix.tsv	yes	yes	917 bytes
-13	results/dfapc_distilled_fast_anchor_posterior_validation_20260706/final_artifact_manifest.tsv	latest result source artifact	final_artifact_manifest.tsv	yes	yes	4294 bytes
-14	results/dfapc_distilled_fast_anchor_posterior_validation_20260706/no_protected_files_modified.tsv	latest result source artifact	no_protected_files_modified.tsv	yes	yes	261 bytes
-15	results/dfapc_distilled_fast_anchor_posterior_validation_20260706/original_bbs_unchanged_audit.tsv	latest result source artifact	original_bbs_unchanged_audit.tsv	yes	yes	60 bytes
-16	results/dfapc_distilled_fast_anchor_posterior_validation_20260706/leakage_audit.tsv	latest result source artifact	leakage_audit.tsv	yes	yes	230 bytes
-17	results/dfapc_distilled_fast_anchor_posterior_validation_20260706/environment_summary.txt	latest result source artifact	environment_summary.txt	yes	yes	100 bytes
-18	results/dfapc_distilled_fast_anchor_posterior_validation_20260706/FINAL*_REPORT_CN.md	missing expected context	FINAL*_REPORT_CN.md	unknown	no	missing; do not infer
+7	results/cgbapc_feature_necessity_and_minimal_fast_core_20260706/CGBAPC_FEATURE_NECESSITY_AND_MINIMAL_FAST_CORE_REPORT_CN.md	latest result source artifact	*REPORT_CN.md	yes	yes	595 bytes
+8	results/cgbapc_feature_necessity_and_minimal_fast_core_20260706/stage0_gate_decision.md	latest result source artifact	stage*_gate_decision.md	yes	yes	166 bytes
+9	results/cgbapc_feature_necessity_and_minimal_fast_core_20260706/stage1_gate_decision.md	latest result source artifact	stage*_gate_decision.md	yes	yes	94 bytes
+10	results/cgbapc_feature_necessity_and_minimal_fast_core_20260706/stage2_gate_decision.md	latest result source artifact	stage*_gate_decision.md	yes	yes	115 bytes
+11	results/cgbapc_feature_necessity_and_minimal_fast_core_20260706/final_decision_matrix.tsv	latest result source artifact	final_decision_matrix.tsv	yes	yes	906 bytes
+12	results/cgbapc_feature_necessity_and_minimal_fast_core_20260706/final_artifact_manifest.tsv	latest result source artifact	final_artifact_manifest.tsv	yes	yes	2888 bytes
+13	results/cgbapc_feature_necessity_and_minimal_fast_core_20260706/no_protected_files_modified.tsv	latest result source artifact	no_protected_files_modified.tsv	yes	yes	261 bytes
+14	results/cgbapc_feature_necessity_and_minimal_fast_core_20260706/original_bbs_unchanged_audit.tsv	latest result source artifact	original_bbs_unchanged_audit.tsv	yes	yes	60 bytes
+15	results/cgbapc_feature_necessity_and_minimal_fast_core_20260706/leakage_audit.tsv	latest result source artifact	leakage_audit.tsv	yes	yes	231 bytes
+16	results/cgbapc_feature_necessity_and_minimal_fast_core_20260706/environment_summary.txt	latest result source artifact	environment_summary.txt	yes	yes	100 bytes
+17	results/cgbapc_feature_necessity_and_minimal_fast_core_20260706/FINAL*_REPORT_CN.md	missing expected context	FINAL*_REPORT_CN.md	unknown	no	missing; do not infer

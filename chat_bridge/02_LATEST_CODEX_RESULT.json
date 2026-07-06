@@ -1,5 +1,5 @@
 {
-  "artifact_manifest_path": "results/dfapc_distilled_fast_anchor_posterior_validation_20260706/final_artifact_manifest.tsv",
+  "artifact_manifest_path": "results/cgbapc_feature_necessity_and_minimal_fast_core_20260706/final_artifact_manifest.tsv",
   "auto_detected_latest_result": false,
   "blocking_missing": false,
   "bridge_consistency_status": "generated_pending_validation",
@@ -8,8 +8,7 @@
   "completed_stages": [
     "stage0_gate_decision",
     "stage1_gate_decision",
-    "stage2_gate_decision",
-    "stage3_gate_decision"
+    "stage2_gate_decision"
   ],
   "data_modified": "no_by_bridge_task",
   "explicit_latest_result_used": true,
@@ -20,26 +19,26 @@
     "chat_bridge/04_ACTIVE_CLAIM_BOUNDARY_CN.md",
     "chat_bridge/05_NEXT_ACTION_CN.md",
     "chat_bridge/09_SYNC_STATUS.tsv",
-    "results/dfapc_distilled_fast_anchor_posterior_validation_20260706/DFAPC_DISTILLED_FAST_ANCHOR_POSTERIOR_VALIDATION_REPORT_CN.md",
-    "results/dfapc_distilled_fast_anchor_posterior_validation_20260706/stage0_gate_decision.md",
-    "results/dfapc_distilled_fast_anchor_posterior_validation_20260706/stage1_gate_decision.md",
-    "results/dfapc_distilled_fast_anchor_posterior_validation_20260706/stage2_gate_decision.md",
-    "results/dfapc_distilled_fast_anchor_posterior_validation_20260706/stage3_gate_decision.md",
-    "results/dfapc_distilled_fast_anchor_posterior_validation_20260706/final_decision_matrix.tsv"
+    "results/cgbapc_feature_necessity_and_minimal_fast_core_20260706/CGBAPC_FEATURE_NECESSITY_AND_MINIMAL_FAST_CORE_REPORT_CN.md",
+    "results/cgbapc_feature_necessity_and_minimal_fast_core_20260706/stage0_gate_decision.md",
+    "results/cgbapc_feature_necessity_and_minimal_fast_core_20260706/stage1_gate_decision.md",
+    "results/cgbapc_feature_necessity_and_minimal_fast_core_20260706/stage2_gate_decision.md",
+    "results/cgbapc_feature_necessity_and_minimal_fast_core_20260706/final_decision_matrix.tsv",
+    "results/cgbapc_feature_necessity_and_minimal_fast_core_20260706/final_artifact_manifest.tsv"
   ],
-  "final_label": "DFAPC_FAIL_DISTILLATION_NO_GENERALIZATION",
-  "gate_decision": "PASS: required teacher/baseline inputs are available enough for DFAPC distillation and direct validation; missing strong baselines remain explicit.",
-  "large_files_skipped_count": 6,
-  "latest_result_requested": "results/dfapc_distilled_fast_anchor_posterior_validation_20260706",
-  "latest_result_used": "results/dfapc_distilled_fast_anchor_posterior_validation_20260706",
+  "final_label": "CGBAPC_QUALITY_DEPENDS_ON_EXPENSIVE_CORE",
+  "gate_decision": "PASS: CGBAPC model, BAPC feature tables, DFAPC failure package, strong baseline scoreboard, and BBS matched context are available enough for feature-necessity audit.",
+  "large_files_skipped_count": 0,
+  "latest_result_requested": "results/cgbapc_feature_necessity_and_minimal_fast_core_20260706",
+  "latest_result_used": "results/cgbapc_feature_necessity_and_minimal_fast_core_20260706",
   "main_metrics": {},
   "missing_expected_files": [
     "FINAL*_REPORT_CN.md"
   ],
   "next_action": "Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.",
   "original_bbs_source_modified": "unknown",
-  "output_dir": "results/dfapc_distilled_fast_anchor_posterior_validation_20260706",
+  "output_dir": "results/cgbapc_feature_necessity_and_minimal_fast_core_20260706",
   "protected_files_modified": "unknown",
   "selected_candidate": "missing",
-  "timestamp": "2026-07-06T14:44:14+08:00"
+  "timestamp": "2026-07-06T14:57:29+08:00"
 }
