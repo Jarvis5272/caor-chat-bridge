@@ -6,7 +6,7 @@
 4. key metrics:
 - missing
 5. gate decision: PASS: run-to-completion controller locked; frontier nonempty means continue until success/no-frontier/resource checkpoint.
-6. claim boundary: 可以说：EPMC/DRNC/CPMC 已按 checkpoint 恢复并验证；它们比上一轮更严格，禁止使用 CGBAPC/BAPC teacher output online。可以报告 absolute quality/speed/group/safety 和 failure reason。
+6. claim boundary: 可以说：IPDP/OCMC/SDEC 已按 latest checkpoint 继续验证，并且没有重复消费 EPMC/DRNC/CPMC/LEMSC/NODC/RSPC。可以报告 absolute quality/speed/group/safety 和 failure reason。
 
 不能说：不能 claim clean IDS target success、不能 claim BBS replacement、不能把 resource checkpoint 当完成、不能用 aggregate 正信号遮盖 BBS trio/safety failure。
 7. next recommendation: Resume the run-to-completion Pareto controller with the command in controller_state.json or stageF_next_command_recommendation.md; current tested candidates are frozen and target success is not claimed.
