@@ -1,12 +1,12 @@
 # Codex Feedback To ChatGPT
 
-1. final label: `BAPC_DECISIVE_FREEZE_EVIDENCE_PACKAGE_COMPLETED`
-2. output dir: `results/bapc_decisive_freeze_evidence_package_20260705`
-3. completed stages: missing
+1. final label: `CGBAPC_PROMISING_POSTGATE_ONLY`
+2. output dir: `results/cgbapc_calibrated_gated_bapc_validation_20260705`
+3. completed stages: stage0_gate_decision, stage1_gate_decision, stage2_gate_decision, stage3_gate_decision, stage4_gate_decision, stage5_gate_decision
 4. key metrics:
 - missing
-5. gate decision: BAPC_DECISIVE_FREEZE_EVIDENCE_PACKAGE_COMPLETED
-6. claim boundary: BAPC may be described as a promising signal and a useful negative-evidence package. It must not be described as a solved decoder, bounded success, BBS replacement, speed-success result, or route for further patching.
+5. gate decision: # Stage 0 gate decision Decision: PASS. Joined rows available for CGBAPC: 495511. BAPC Stage1/Stage2 per-prefix rows are readable; kmer_medoid rows are available and used as best safe baseline for this gate. Dataset/group labels are retaine
+6. claim boundary: BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
 7. next recommendation: Review latest result artifacts and confirm whether another validation step is warranted.
 8. protected files modified? `no`
 9. original BBS source modified? `no`

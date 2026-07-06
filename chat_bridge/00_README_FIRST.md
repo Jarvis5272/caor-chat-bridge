@@ -6,15 +6,15 @@
 
 ## 当前主线状态
 
-最新自动检测结果为 `results/bapc_decisive_freeze_evidence_package_20260705`；当前最新 Codex label 为 `BAPC_DECISIVE_FREEZE_EVIDENCE_PACKAGE_COMPLETED`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED`。
+最新自动检测结果为 `results/cgbapc_calibrated_gated_bapc_validation_20260705`；当前最新 Codex label 为 `CGBAPC_PROMISING_POSTGATE_ONLY`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED`。
 
 ## 最新 Codex final label
 
-`BAPC_DECISIVE_FREEZE_EVIDENCE_PACKAGE_COMPLETED`
+`CGBAPC_PROMISING_POSTGATE_ONLY`
 
 ## 最新输出目录
 
-`results/bapc_decisive_freeze_evidence_package_20260705`
+`results/cgbapc_calibrated_gated_bapc_validation_20260705`
 
 ## ChatGPT 应先读哪些文件
 
@@ -27,7 +27,7 @@
 
 ## 当前 claim boundary
 
-BAPC may be described as a promising signal and a useful negative-evidence package. It must not be described as a solved decoder, bounded success, BBS replacement, speed-success result, or route for further patching.
+BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
 
 ## 是否有 missing context
 

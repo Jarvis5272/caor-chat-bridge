@@ -1,12 +1,17 @@
 {
-  "artifact_manifest_path": "results/bapc_decisive_freeze_evidence_package_20260705/final_artifact_manifest.tsv",
+  "artifact_manifest_path": "results/cgbapc_calibrated_gated_bapc_validation_20260705/final_artifact_manifest.tsv",
   "auto_detected_latest_result": false,
   "blocking_missing": false,
   "bridge_consistency_status": "generated_pending_validation",
   "bridge_workflow_final_label": "CHAT_BRIDGE_WORKFLOW_INITIALIZED",
-  "claim_boundary": "BAPC may be described as a promising signal and a useful negative-evidence package. It must not be described as a solved decoder, bounded success, BBS replacement, speed-success result, or route for further patching.",
+  "claim_boundary": "BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.",
   "completed_stages": [
-    "missing"
+    "stage0_gate_decision",
+    "stage1_gate_decision",
+    "stage2_gate_decision",
+    "stage3_gate_decision",
+    "stage4_gate_decision",
+    "stage5_gate_decision"
   ],
   "data_modified": "no_by_bridge_task",
   "explicit_latest_result_used": true,
@@ -17,24 +22,24 @@
     "chat_bridge/04_ACTIVE_CLAIM_BOUNDARY_CN.md",
     "chat_bridge/05_NEXT_ACTION_CN.md",
     "chat_bridge/09_SYNC_STATUS.tsv",
-    "results/bapc_decisive_freeze_evidence_package_20260705/FINAL_BAPC_DECISIVE_FREEZE_EVIDENCE_PACKAGE_REPORT_CN.md",
-    "results/bapc_decisive_freeze_evidence_package_20260705/BAPC_DECISIVE_FREEZE_EVIDENCE_PACKAGE_REPORT_CN.md",
-    "results/bapc_decisive_freeze_evidence_package_20260705/final_decision_matrix.tsv",
-    "results/bapc_decisive_freeze_evidence_package_20260705/final_artifact_manifest.tsv",
-    "results/bapc_decisive_freeze_evidence_package_20260705/no_protected_files_modified.tsv",
-    "results/bapc_decisive_freeze_evidence_package_20260705/original_bbs_unchanged_audit.tsv"
+    "results/cgbapc_calibrated_gated_bapc_validation_20260705/FINAL_CGBAPC_CALIBRATED_GATED_VALIDATION_REPORT_CN.md",
+    "results/cgbapc_calibrated_gated_bapc_validation_20260705/CGBAPC_CALIBRATED_GATED_VALIDATION_REPORT_CN.md",
+    "results/cgbapc_calibrated_gated_bapc_validation_20260705/stage0_gate_decision.md",
+    "results/cgbapc_calibrated_gated_bapc_validation_20260705/stage1_gate_decision.md",
+    "results/cgbapc_calibrated_gated_bapc_validation_20260705/stage2_gate_decision.md",
+    "results/cgbapc_calibrated_gated_bapc_validation_20260705/stage3_gate_decision.md"
   ],
-  "final_label": "BAPC_DECISIVE_FREEZE_EVIDENCE_PACKAGE_COMPLETED",
-  "gate_decision": "BAPC_DECISIVE_FREEZE_EVIDENCE_PACKAGE_COMPLETED",
-  "large_files_skipped_count": 0,
-  "latest_result_requested": "results/bapc_decisive_freeze_evidence_package_20260705",
-  "latest_result_used": "results/bapc_decisive_freeze_evidence_package_20260705",
+  "final_label": "CGBAPC_PROMISING_POSTGATE_ONLY",
+  "gate_decision": "# Stage 0 gate decision Decision: PASS. Joined rows available for CGBAPC: 495511. BAPC Stage1/Stage2 per-prefix rows are readable; kmer_medoid rows are available and used as best safe baseline for this gate. Dataset/group labels are retaine",
+  "large_files_skipped_count": 2,
+  "latest_result_requested": "results/cgbapc_calibrated_gated_bapc_validation_20260705",
+  "latest_result_used": "results/cgbapc_calibrated_gated_bapc_validation_20260705",
   "main_metrics": {},
   "missing_expected_files": [],
   "next_action": "Review latest result artifacts and confirm whether another validation step is warranted.",
   "original_bbs_source_modified": "no",
-  "output_dir": "results/bapc_decisive_freeze_evidence_package_20260705",
+  "output_dir": "results/cgbapc_calibrated_gated_bapc_validation_20260705",
   "protected_files_modified": "no",
   "selected_candidate": "missing",
-  "timestamp": "2026-07-06T00:08:33+08:00"
+  "timestamp": "2026-07-06T12:10:30+08:00"
 }

@@ -1,20 +1,20 @@
 item	status	details
-requested_latest_result	pass	results/bapc_decisive_freeze_evidence_package_20260705
-used_latest_result	pass	results/bapc_decisive_freeze_evidence_package_20260705
+requested_latest_result	pass	results/cgbapc_calibrated_gated_bapc_validation_20260705
+used_latest_result	pass	results/cgbapc_calibrated_gated_bapc_validation_20260705
 explicit_latest_result_used	yes	true
 auto_detected	no	false
 auto_detected_latest_result	no	false
-latest_final_label	pass	BAPC_DECISIVE_FREEZE_EVIDENCE_PACKAGE_COMPLETED
-latest_output_dir	pass	results/bapc_decisive_freeze_evidence_package_20260705
+latest_final_label	pass	CGBAPC_PROMISING_POSTGATE_ONLY
+latest_output_dir	pass	results/cgbapc_calibrated_gated_bapc_validation_20260705
 bridge_consistency_status	pending_validation	generated_pending_validation
 reason	pass	requested latest result exists and was used
-latest result requested	pass	results/bapc_decisive_freeze_evidence_package_20260705
-latest result used	pass	results/bapc_decisive_freeze_evidence_package_20260705
+latest result requested	pass	results/cgbapc_calibrated_gated_bapc_validation_20260705
+latest result used	pass	results/cgbapc_calibrated_gated_bapc_validation_20260705
 latest result detection mode	explicit	False
-latest result detected	pass	results/bapc_decisive_freeze_evidence_package_20260705
+latest result detected	pass	results/cgbapc_calibrated_gated_bapc_validation_20260705
 files copied	pass	0 source artifact files copied; bridge files generated only
-files skipped	pass	0
-large files skipped	pass	0
+files skipped	pass	2
+large files skipped	pass	2
 missing expected files	pass	0
 required bridge files present	pass	14/14
 package path	pass	chat_bridge_feedback_package.zip
@@ -37,9 +37,9 @@ git status summary	pass	"M AGENTS.md
 ?? experiments/bbs_baseline_eval.py
 ?? experiments/candidate_pool_selector_eval.py
 ?? experiments"
-timestamp	pass	2026-07-06T00:08:33+08:00
+timestamp	pass	2026-07-06T12:10:30+08:00
 protected files modified	pass	no
 original BBS source modified	pass	no
 generated bridge files	pass	14
 read_skipped	pass	[]
-scan_skipped	pass	[]
+scan_skipped	pass	"[{""path"": ""results/cgbapc_calibrated_gated_bapc_validation_20260705/stage1_training_labels.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 90411616}, {""path"": ""results/cgbapc_calibrated_gated_bapc_validation_20260705/stage3_postgate_per_prefix.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 98366571}]"

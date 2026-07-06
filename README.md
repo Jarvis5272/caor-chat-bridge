@@ -12,12 +12,12 @@ ChatGPT should first read:
 
 ## Current Latest Result
 
-- latest result: `results/bapc_decisive_freeze_evidence_package_20260705`
-- latest final label: `BAPC_DECISIVE_FREEZE_EVIDENCE_PACKAGE_COMPLETED`
+- latest result: `results/cgbapc_calibrated_gated_bapc_validation_20260705`
+- latest final label: `CGBAPC_PROMISING_POSTGATE_ONLY`
 
 ## Claim Boundary
 
-BAPC may be described as a promising signal and a useful negative-evidence package. It must not be described as a solved decoder, bounded success, BBS replacement, speed-success result, or route for further patching.
+BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
 
 ## Next Action
 
