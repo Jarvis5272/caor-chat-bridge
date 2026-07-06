@@ -5,5 +5,5 @@ contains_large_files	pass	false
 contains_secret_like_files	pass	false
 contains_raw_reads	pass	false
 contains_only_bridge	pass	CHATGPT_LINK_INSTRUCTIONS_CN.md,README.md,chat_bridge,chat_bridge_feedback_package.zip,scripts
-latest_result_final_label	pass	PARETO_WAVE6_CONTINUE_REQUIRED_WITH_UNTESTED_FRONTIER
-claim_boundary_present	pass	可以说：Wave6 必测 frontier LPEC/SMPC/NESC 已完成，且 Wave6 失败后自动验证了 Wave7 候选 BLMC/TMIC/PSCF；所有 tested candidates 都保持 observed-only selector、no BBS/EPBSD online、no reference online、no dataset route。可以报告 absolute
+latest_result_final_label	pass	PARETO_WAVE8_CONTINUE_REQUIRED_WITH_UNTESTED_FRONTIER
+claim_boundary_present	pass	可以说：Wave8 必测 frontier EPCM/DDSC/NRCM 已完成，且 Wave8 失败后自动验证了 Wave9 候选 PWPC/CSRC/SDNE；所有 tested candidates 都保持 observed-only selector、no BBS/EPBSD online、no reference online、no dataset route。可以报告 absolute

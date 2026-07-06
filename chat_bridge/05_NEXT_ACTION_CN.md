@@ -2,7 +2,7 @@
 
 ## 当前建议下一步
 
-Continue only with the declared next Pareto frontier EPCM/DDSC/NRCM from stage9_next_frontier.tsv; do not claim target success, BBS replacement, or clean IDS decoder found.
+Continue only with the declared next Pareto frontier PIMC/DRPC/CENF from stage9_next_frontier.tsv; do not claim target success, BBS replacement, or clean IDS decoder found.
 
 ## 不建议做什么
 
