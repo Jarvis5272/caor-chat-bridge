@@ -4,7 +4,7 @@
   "blocking_missing": false,
   "bridge_consistency_status": "generated_pending_validation",
   "bridge_workflow_final_label": "CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT",
-  "claim_boundary": "### Can claim:\n- OUR_REALTIME_METHOD accuracy 0.9660 on CAPPED_17_MATCHED (82,462 rows)\n- Wall-clock runtime 103.53s, 796 prefix/s, BBS-free online decode\n- Row keys verified (SHA256: 7ac2b177...)\n- CAPPED_17_MATCHED is the defined fair comparison scope for ALL methods\n\n### Cannot claim:\n- Cannot claim speedup vs BBS/CGBAPC/kmer_medoid until they are rerun on same keys\n- Cannot claim position vs MUSCLE/VS/BMALA/ITR/CPL until they complete\n- Cannot claim FULL_17 (495K) scope completion\n- Cannot use historical 495K metrics for direct comparison with 82K scope",
+  "claim_boundary": "BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.",
   "completed_stages": [
     "missing"
   ],
@@ -24,12 +24,15 @@
     "results/final_full_17dataset_baseline_benchmark_20260707/no_protected_files_modified.tsv",
     "results/final_full_17dataset_baseline_benchmark_20260707/original_bbs_unchanged_audit.tsv"
   ],
-  "final_label": "FINAL_BENCHMARK_PARTIAL_EXTERNAL_COMPLETE_PENDING",
-  "gate_decision": "FINAL_BENCHMARK_PARTIAL_EXTERNAL_COMPLETE_PENDING",
-  "large_files_skipped_count": 8,
+  "final_label": "FINAL_CAPPED_17_CORE_COMPLETE_EXTERNAL_PENDING",
+  "gate_decision": "FINAL_CAPPED_17_CORE_COMPLETE_EXTERNAL_PENDING",
+  "large_files_skipped_count": 9,
   "latest_result_requested": "results/final_full_17dataset_baseline_benchmark_20260707",
   "latest_result_used": "results/final_full_17dataset_baseline_benchmark_20260707",
-  "main_metrics": {},
+  "main_metrics": {
+    "datasets": 17,
+    "prefix_rows": 82
+  },
   "missing_expected_files": [
     "final_decision_matrix.tsv",
     "no_protected_files_modified.tsv",
@@ -43,5 +46,5 @@
   "output_dir": "results/final_full_17dataset_baseline_benchmark_20260707",
   "protected_files_modified": "unknown",
   "selected_candidate": "missing",
-  "timestamp": "2026-07-07T23:43:41+08:00"
+  "timestamp": "2026-07-08T00:05:33+08:00"
 }

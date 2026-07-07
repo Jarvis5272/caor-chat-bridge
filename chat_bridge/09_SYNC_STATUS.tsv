@@ -4,7 +4,7 @@ used_latest_result	pass	results/final_full_17dataset_baseline_benchmark_20260707
 explicit_latest_result_used	yes	true
 auto_detected	no	false
 auto_detected_latest_result	no	false
-latest_final_label	pass	FINAL_BENCHMARK_PARTIAL_EXTERNAL_COMPLETE_PENDING
+latest_final_label	pass	FINAL_CAPPED_17_CORE_COMPLETE_EXTERNAL_PENDING
 latest_output_dir	pass	results/final_full_17dataset_baseline_benchmark_20260707
 bridge_consistency_status	pending_validation	generated_pending_validation
 source_of_truth	pass	server_chat_bridge+server_results+github_raw_bridge
@@ -16,8 +16,8 @@ latest result used	pass	results/final_full_17dataset_baseline_benchmark_20260707
 latest result detection mode	explicit	False
 latest result detected	pass	results/final_full_17dataset_baseline_benchmark_20260707
 files copied	pass	0 source artifact files copied; bridge files generated only
-files skipped	pass	8
-large files skipped	pass	8
+files skipped	pass	9
+large files skipped	pass	9
 missing expected files	warn	final_decision_matrix.tsv, no_protected_files_modified.tsv, original_bbs_unchanged_audit.tsv, leakage_audit.tsv, commands_run.sh, environment_summary.txt
 required bridge files present	pass	14/14
 package path	pass	chat_bridge_feedback_package.zip
@@ -40,9 +40,9 @@ git status summary	pass	"M AGENTS.md
 ?? experiments/bbs_baseline_eval.py
 ?? experiments/candidate_pool_selector_eval.py
 ?? experiments"
-timestamp	pass	2026-07-07T23:43:41+08:00
+timestamp	pass	2026-07-08T00:05:33+08:00
 protected files modified	warn	unknown
 original BBS source modified	warn	unknown
 generated bridge files	pass	14
 read_skipped	pass	[]
-scan_skipped	pass	"[{""path"": ""results/final_full_17dataset_baseline_benchmark_20260707/CAPPED_17_first_read_raw.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 21238482}, {""path"": ""results/final_full_17dataset_baseline_benchmark_20260707/CAPPED_17_sampled_medoid_raw.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 21469183}, {""path"": ""results/final_full_17dataset_baseline_benchmark_20260707/CAPPED_17_simple_alignment_consensus_raw.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 22897051}, {""path"": ""results/final_full_17dataset_baseline_benchmark_20260707/CAPPED_17_medoid_consensus_hybrid_raw.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 22649665}, {""path"": ""results/final_full_17dataset_baseline_benchmark_20260707/CAPPED_17_muscle_raw.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 23078137}, {""path"": ""results/final_full_17dataset_baseline_benchmark_20260707/CAPPED_17_kmer_medoid_raw.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 21609422}, {""path"": ""results/final_full_17dataset_baseline_benchmark_20260707/row_keys_CAPPED_17_MATCHED.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 4148506}, {""path"": ""results/final_full_17dataset_baseline_benchmark_20260707/CAPPED_17_conservative_majority_raw.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 19786411}]"
+scan_skipped	pass	"[{""path"": ""results/final_full_17dataset_baseline_benchmark_20260707/CAPPED_17_first_read_raw.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 21238482}, {""path"": ""results/final_full_17dataset_baseline_benchmark_20260707/CAPPED_17_sampled_medoid_raw.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 21469183}, {""path"": ""results/final_full_17dataset_baseline_benchmark_20260707/CAPPED_17_BBS_raw.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 20518781}, {""path"": ""results/final_full_17dataset_baseline_benchmark_20260707/CAPPED_17_simple_alignment_consensus_raw.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 22897051}, {""path"": ""results/final_full_17dataset_baseline_benchmark_20260707/CAPPED_17_medoid_consensus_hybrid_raw.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 22649665}, {""path"": ""results/final_full_17dataset_baseline_benchmark_20260707/CAPPED_17_muscle_raw.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 23078137}, {""path"": ""results/final_full_17dataset_baseline_benchmark_20260707/CAPPED_17_kmer_medoid_raw.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 21609422}, {""path"": ""results/final_full_17dataset_baseline_benchmark_20260707/row_keys_CAPPED_17_MATCHED.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 4148506}, {""path"": ""results/final_full_17dataset_baseline_benchmark_20260707/CAPPED_17_conservative_majority_raw.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 19786411}]"

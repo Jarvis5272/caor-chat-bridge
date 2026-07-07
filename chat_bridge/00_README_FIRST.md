@@ -6,7 +6,7 @@
 
 ## 当前主线状态
 
-服务器显式结果为 `results/final_full_17dataset_baseline_benchmark_20260707`；当前最新 Codex label 为 `FINAL_BENCHMARK_PARTIAL_EXTERNAL_COMPLETE_PENDING`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT`。
+服务器显式结果为 `results/final_full_17dataset_baseline_benchmark_20260707`；当前最新 Codex label 为 `FINAL_CAPPED_17_CORE_COMPLETE_EXTERNAL_PENDING`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT`。
 
 ## 项目状态源
 
@@ -14,7 +14,7 @@
 
 ## 最新 Codex final label
 
-`FINAL_BENCHMARK_PARTIAL_EXTERNAL_COMPLETE_PENDING`
+`FINAL_CAPPED_17_CORE_COMPLETE_EXTERNAL_PENDING`
 
 ## 最新输出目录
 
@@ -31,17 +31,7 @@
 
 ## 当前 claim boundary
 
-### Can claim:
-- OUR_REALTIME_METHOD accuracy 0.9660 on CAPPED_17_MATCHED (82,462 rows)
-- Wall-clock runtime 103.53s, 796 prefix/s, BBS-free online decode
-- Row keys verified (SHA256: 7ac2b177...)
-- CAPPED_17_MATCHED is the defined fair comparison scope for ALL methods
-
-### Cannot claim:
-- Cannot claim speedup vs BBS/CGBAPC/kmer_medoid until they are rerun on same keys
-- Cannot claim position vs MUSCLE/VS/BMALA/ITR/CPL until they complete
-- Cannot claim FULL_17 (495K) scope completion
-- Cannot use historical 495K metrics for direct comparison with 82K scope
+BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
 
 ## 是否有 missing context
 
