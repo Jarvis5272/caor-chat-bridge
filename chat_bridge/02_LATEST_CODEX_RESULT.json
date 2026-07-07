@@ -39,7 +39,7 @@
   ],
   "final_label": "PARETO_RUN_NO_ADMISSIBLE_FRONTIER_LEFT",
   "gate_decision": "PASS: run-to-completion controller locked; frontier nonempty means continue until success/no-frontier/resource checkpoint.",
-  "large_files_skipped_count": 72,
+  "large_files_skipped_count": 74,
   "latest_result_requested": "results/pareto_run_to_completion_controller_20260706",
   "latest_result_used": "results/pareto_run_to_completion_controller_20260706",
   "main_metrics": {},
@@ -49,5 +49,5 @@
   "output_dir": "results/pareto_run_to_completion_controller_20260706",
   "protected_files_modified": "no",
   "selected_candidate": "missing",
-  "timestamp": "2026-07-07T16:48:16+08:00"
+  "timestamp": "2026-07-07T18:38:04+08:00"
 }
