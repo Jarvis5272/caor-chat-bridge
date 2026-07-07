@@ -1,0 +1,12 @@
+{
+  "final_label": "TICEC_DUPLICATE_OF_DICEC",
+  "target_hit": false,
+  "TICEC_ED": 4.283306250151585,
+  "TICEC_harmful": 0.06780092648735175,
+  "TICEC_BBS_trio_harmful": 0.1086853626789729,
+  "TICEC_prefix_per_second": 734.6413354507162,
+  "duplicate_or_degenerate": true,
+  "closest_frozen": "DICEC",
+  "output_similarity": 0.9935121631781911,
+  "metric_similarity": 0.9965823156787884
+}

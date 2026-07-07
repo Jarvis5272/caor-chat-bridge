@@ -2,19 +2,19 @@
 
 ## 实时故事状态
 
-最新结果目录 `results/ticec_temporal_identity_refinement_20260707` 是当前 latest result；最新 label 是 `TICEC_DUPLICATE_OF_DICEC`。
+最新结果目录 `results/glice_global_lite_identity_consistency_20260707` 是当前 latest result；最新 label 是 `GLICE_TASK_INITIALIZED`。
 
 ## clean IDS 数据状态
 
-最新结果记录的数据状态来自 `results/ticec_temporal_identity_refinement_20260707`。若报告中的 input scope 不完整，以源 artifact 为准，不在 bridge 中编造。
+最新结果记录的数据状态来自 `results/glice_global_lite_identity_consistency_20260707`。若报告中的 input scope 不完整，以源 artifact 为准，不在 bridge 中编造。
 
 ## EPBSD / BBS acceleration 状态
 
-当前 bridge 只同步状态，不新增 EPBSD/BBS acceleration 实验。latest audit: protected=`no`, original_bbs=`no`。
+当前 bridge 只同步状态，不新增 EPBSD/BBS acceleration 实验。latest audit: protected=`unknown`, original_bbs=`unknown`。
 
 ## baseline-aware / independent algorithm 状态
 
-当前 active track: `TICEC temporal event identity refinement initialization`。根据 latest gate，当前结论是 `# Stage 0 Gate Decision `PASS_TASK_TRANSITION_ONLY` - Bridge-v2 active task points to `results/ticec_temporal_identity_refinement_20260707`. - Parent Pareto line remains frozen with 38 candidates and no admissible frontier. - `TICEC` is the`。
+当前 active track: `missing`。根据 latest gate，当前结论是 `GLICE_TASK_INITIALIZED`。
 
 BAEPC+FEIW 的 `BAEPC_FEIW_STOP_FULL_ALIGNMENT_REQUIRED` 仅是 historical frozen negative evidence；它不可 revise、不可 patch，也不属于 active frontier。
 
@@ -24,11 +24,11 @@ BAEPC+FEIW 的 `BAEPC_FEIW_STOP_FULL_ALIGNMENT_REQUIRED` 仅是 historical froze
 
 ## 当前 active candidate
 
-`TICEC temporal event identity refinement initialization`
+`missing`
 
 ## 当前 gate
 
-# Stage 0 Gate Decision `PASS_TASK_TRANSITION_ONLY` - Bridge-v2 active task points to `results/ticec_temporal_identity_refinement_20260707`. - Parent Pareto line remains frozen with 38 candidates and no admissible frontier. - `TICEC` is the
+GLICE_TASK_INITIALIZED
 
 ## 当前最大风险
 

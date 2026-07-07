@@ -1,24 +1,29 @@
 {
   "_schema": "bridge_v2_active_task",
   "_version": "2.0.0",
-  "_description": "Single source of truth for project state. TICEC bounded evaluation complete.",
-  "active_task_id": "ticec_temporal_identity_refinement",
-  "active_output_dir": "results/ticec_temporal_identity_refinement_20260707",
-  "task_status": "frozen_no_admissible_frontier",
-  "final_label": "TICEC_DUPLICATE_OF_DICEC",
+  "_description": "Single source of truth for the approved GLICE research task. Chat context and attachments are not authoritative.",
+  "active_task_id": "glice_global_lite_identity_consistency",
+  "active_output_dir": "results/glice_global_lite_identity_consistency_20260707",
+  "task_status": "active_research",
+  "final_label": "GLICE_TASK_INITIALIZED",
   "target_hit": false,
-  "parent_task": "pareto_run_to_completion_controller_20260706",
+  "parent_task": "ticec_temporal_identity_refinement_20260707",
+  "active_goal": "global_lite_identity_consistency",
   "parent_candidate": "DICEC",
-  "active_goal": "complete",
-  "allowed_candidates": [],
-  "active_frontier": [],
+  "allowed_candidates": [
+    "GLICE"
+  ],
+  "active_frontier": [
+    "GLICE"
+  ],
   "frozen_families": [
     "BAEPC_FEIW",
     "SPWIC",
     "SCC",
-    "cheap_feature_gate",
+    "cheap_feature_family",
     "bounded_local_certificate_family",
-    "acdc_drift_correction_family"
+    "DICEC",
+    "TICEC"
   ],
   "do_not_resume": [
     "BAEPC",
@@ -26,30 +31,71 @@
     "SPWIC",
     "SCC",
     "all_previous_pareto_candidates",
-    "TICEC"
+    "TICEC",
+    "DICEC",
+    "ACDC",
+    "CSPC",
+    "MEPC",
+    "FHLR",
+    "NCPC",
+    "CSDP"
   ],
   "frozen_candidate_count": 38,
   "frozen_history_file": "chat_bridge/FROZEN_HISTORY.tsv",
   "last_agent": "Claude Code (Opus 4.8)",
-  "last_agent_action": "bridge_v2_finalize: TICEC_DUPLICATE_OF_DICEC",
-  "last_modified_iso": "2026-07-07T19:28:04.686966+08:00",
-  "ticec_summary": {
-    "ED": 4.2833,
-    "harmful": 0.0678,
-    "BBS_trio_harmful": 0.1087,
-    "prefix_per_second": 734.64,
-    "vs_DICEC_delta_ED": 0.004,
-    "vs_DICEC_delta_harmful": -0.0012,
-    "vs_DICEC_delta_BBS_harmful": -0.0028,
-    "output_similarity_vs_DICEC": 0.9935,
-    "metric_similarity_vs_DICEC": 0.9966,
-    "duplicate_of_DICEC": true,
-    "conclusion": "Temporal identity consistency provides marginal improvement but is functionally identical to DICEC. No new admissible frontier remains."
-  },
+  "last_agent_action": "bridge_v2_finalize: GLICE_TASK_INITIALIZED",
+  "last_modified_iso": "2026-07-07T19:44:31.063044+08:00",
   "state_consistency": {
-    "controller_state_json_must_match": "results/ticec_temporal_identity_refinement_20260707/controller_state.json",
+    "controller_state_json_must_match": "results/glice_global_lite_identity_consistency_20260707/controller_state.json",
     "parent_final_decision": "results/pareto_run_to_completion_controller_20260706/final_decision_matrix.tsv",
-    "parent_controller_state": "results/pareto_run_to_completion_controller_20260706/controller_state.json"
+    "parent_controller_state": "results/pareto_run_to_completion_controller_20260706/controller_state.json",
+    "frozen_history_is_immutable": true
+  },
+  "research_contract": {
+    "hypothesis": "Local event identity (DICEC/TICEC) is insufficient for BBS trio hard rows because event ambiguity requires cross-segment consistency. A lightweight cluster-level latent identity state — not full alignment, not graph, not beam — can resolve cross-segment ambiguity while preserving observed-only constraints.",
+    "new_object": "Global-Lite Identity Consistency Engine (GLICE)",
+    "mechanism_summary": "Maintain a ClusterIdentityState containing event identity candidates, segment compatibility matrix, event persistence scores, contradiction scores, and a global consistency score. Update incrementally per read. Decode constrained by identity state rather than independent per-segment decisions.",
+    "online_features": [
+      "observed_reads",
+      "prefix_history",
+      "cluster_identity_state",
+      "cross_segment_compatibility",
+      "local_event_evidence"
+    ],
+    "forbidden_online_features": [
+      "reference",
+      "truth",
+      "edit_distance",
+      "accuracy",
+      "BBS_output",
+      "EPBSD_score",
+      "full_alignment",
+      "POA",
+      "graph",
+      "beam_search",
+      "path_likelihood",
+      "dataset_information"
+    ],
+    "max_global_parameters": 3,
+    "validation_stages": {
+      "stage0": "method_lock",
+      "stage1": "sanity_2_datasets_20_clusters_prefix_1_2_3_5_10_20",
+      "stage2": "fullish_17_datasets_82462_prefix_rows"
+    },
+    "comparison_baseline": "DICEC",
+    "speed_gate": "prefix/s >= 500",
+    "quality_gate": "ED <= DICEC AND accuracy >= DICEC AND exact >= DICEC",
+    "safety_gate": "harmful <= 5% AND high_confidence_wrong <= 5% AND output_abnormal <= 5%",
+    "group_gate": "BBS trio safe",
+    "no_automatic_candidate_after_failure": true,
+    "failure_output": "GLICE_INFORMATION_BOUNDARY_ANALYSIS"
+  },
+  "target_gates": {
+    "quality": "ED <= DICEC (4.2793) AND accuracy >= DICEC (0.9661) AND exact >= DICEC (0.3486)",
+    "speed": "prefix/s >= 500",
+    "harmful_correction": "overall harmful correction <= 5%",
+    "group_bbs_trio": "BBS trio safe",
+    "originality": "no BBS/EPBSD/reference/dataset/full-alignment/graph/beam online"
   },
   "protected_boundary": {
     "files": [
@@ -63,7 +109,19 @@
     "bbs_source": "must not be modified",
     "epbsd_fork": "must not be modified",
     "raw_data": "must not be modified",
-    "evaluator": "must not be patched"
+    "evaluator": "must not be patched",
+    "old_results": "must not be overwritten; only append"
+  },
+  "parent_context": {
+    "best_candidate": "DICEC",
+    "best_ED": 4.2793,
+    "best_accuracy": 0.9661,
+    "best_exact": 0.3486,
+    "best_prefix_per_second": 742.58,
+    "best_harmful": 0.069,
+    "best_BBS_trio_harmful": 0.1115,
+    "ticEC_finding": "TICEC output similarity 0.9935 vs DICEC; temporal identity provides negligible improvement; functionally duplicate",
+    "primary_bottleneck": "BBS trio hard rows have event identity ambiguity that local anchor-segment decisions cannot resolve"
   },
   "handoff_protocol": "see chat_bridge/AGENT_HANDOFF.md",
   "startup_script": "bash scripts/chat_bridge/start_agent_task.sh",

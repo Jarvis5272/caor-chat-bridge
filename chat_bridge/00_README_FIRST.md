@@ -6,7 +6,7 @@
 
 ## 当前主线状态
 
-服务器显式结果为 `results/ticec_temporal_identity_refinement_20260707`；当前最新 Codex label 为 `TICEC_DUPLICATE_OF_DICEC`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED`。
+服务器显式结果为 `results/glice_global_lite_identity_consistency_20260707`；当前最新 Codex label 为 `GLICE_TASK_INITIALIZED`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT`。
 
 ## 项目状态源
 
@@ -14,11 +14,11 @@
 
 ## 最新 Codex final label
 
-`TICEC_DUPLICATE_OF_DICEC`
+`GLICE_TASK_INITIALIZED`
 
 ## 最新输出目录
 
-`results/ticec_temporal_identity_refinement_20260707`
+`results/glice_global_lite_identity_consistency_20260707`
 
 ## ChatGPT 应先读哪些文件
 
@@ -31,11 +31,11 @@
 
 ## 当前 claim boundary
 
-可以说 TICEC research task 已初始化，且其单一可证伪假设和验证顺序已经冻结。不能说 TICEC 已实现、已验证、已成功，不能说 DICEC 已通过 BBS trio gate，也不能说独立 BBS-free decoder 已找到。
+BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
 
 ## 是否有 missing context
 
-`missing_expected_files=[]`。这些缺失项只作为上下文缺口记录；若 required bridge files 全部生成，则不阻塞 bridge 使用。
+`missing_expected_files=['FINAL*_REPORT_CN.md', 'final_decision_matrix.tsv', 'final_artifact_manifest.tsv', 'no_protected_files_modified.tsv', 'original_bbs_unchanged_audit.tsv', 'leakage_audit.tsv', 'commands_run.sh', 'environment_summary.txt']`。这些缺失项只作为上下文缺口记录；若 required bridge files 全部生成，则不阻塞 bridge 使用。
 
 ## 当前下一步
 
@@ -43,8 +43,8 @@ Review latest result artifacts and confirm whether another validation step is wa
 
 ## protected diff 状态
 
-`protected_files_modified=no`。本 bridge 任务只写入 `chat_bridge/` 和 `scripts/chat_bridge/`。
+`protected_files_modified=unknown`。本 bridge 任务只写入 `chat_bridge/` 和 `scripts/chat_bridge/`。
 
 ## original BBS source 状态
 
-`original_bbs_source_modified=no`。本 bridge 任务未写入 `../bbs-src` 或 BBS source。
+`original_bbs_source_modified=unknown`。本 bridge 任务未写入 `../bbs-src` 或 BBS source。
