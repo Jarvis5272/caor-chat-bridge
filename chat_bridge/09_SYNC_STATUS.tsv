@@ -18,7 +18,7 @@ latest result detected	pass	results/ticec_temporal_identity_refinement_20260707
 files copied	pass	0 source artifact files copied; bridge files generated only
 files skipped	pass	0
 large files skipped	pass	0
-missing expected files	warn	leakage_audit.tsv
+missing expected files	pass	0
 required bridge files present	pass	14/14
 package path	pass	chat_bridge_feedback_package.zip
 git branch	pass	release/earlystop-v0.4
@@ -40,9 +40,9 @@ git status summary	pass	"M AGENTS.md
 ?? experiments/bbs_baseline_eval.py
 ?? experiments/candidate_pool_selector_eval.py
 ?? experiments"
-timestamp	pass	2026-07-07T19:10:37+08:00
-protected files modified	warn	unknown
-original BBS source modified	warn	unknown
+timestamp	pass	2026-07-07T19:12:05+08:00
+protected files modified	pass	no
+original BBS source modified	pass	no
 generated bridge files	pass	14
 read_skipped	pass	[]
 scan_skipped	pass	[]

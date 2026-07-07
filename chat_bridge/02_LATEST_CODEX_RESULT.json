@@ -3,7 +3,7 @@
   "auto_detected_latest_result": false,
   "blocking_missing": false,
   "bridge_consistency_status": "generated_pending_validation",
-  "bridge_workflow_final_label": "CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT",
+  "bridge_workflow_final_label": "CHAT_BRIDGE_WORKFLOW_INITIALIZED",
   "claim_boundary": "可以说 TICEC research task 已初始化，且其单一可证伪假设和验证顺序已经冻结。不能说 TICEC 已实现、已验证、已成功，不能说 DICEC 已通过 BBS trio gate，也不能说独立 BBS-free decoder 已找到。",
   "completed_stages": [
     "stage0_gate_decision"
@@ -30,13 +30,11 @@
   "latest_result_requested": "results/ticec_temporal_identity_refinement_20260707",
   "latest_result_used": "results/ticec_temporal_identity_refinement_20260707",
   "main_metrics": {},
-  "missing_expected_files": [
-    "leakage_audit.tsv"
-  ],
+  "missing_expected_files": [],
   "next_action": "Run only the approved TICEC small sanity under chat_bridge/ACTIVE_TASK.json; do not start full-ish validation, reopen frozen candidates, or create another candidate automatically.",
-  "original_bbs_source_modified": "unknown",
+  "original_bbs_source_modified": "no",
   "output_dir": "results/ticec_temporal_identity_refinement_20260707",
-  "protected_files_modified": "unknown",
+  "protected_files_modified": "no",
   "selected_candidate": "TICEC temporal event identity refinement initialization",
-  "timestamp": "2026-07-07T19:10:37+08:00"
+  "timestamp": "2026-07-07T19:12:05+08:00"
 }
