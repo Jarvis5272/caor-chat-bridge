@@ -13,7 +13,7 @@ ChatGPT should first read:
 ## Current Latest Result
 
 - latest result: `results/cecc_cross_event_consensus_certificate_20260707`
-- latest final label: `CECC_TASK_INITIALIZED`
+- latest final label: `CECC_INFORMATION_BOUNDARY`
 
 ## Claim Boundary
 

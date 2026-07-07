@@ -6,7 +6,7 @@
 
 ## 当前主线状态
 
-服务器显式结果为 `results/cecc_cross_event_consensus_certificate_20260707`；当前最新 Codex label 为 `CECC_TASK_INITIALIZED`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT`。
+服务器显式结果为 `results/cecc_cross_event_consensus_certificate_20260707`；当前最新 Codex label 为 `CECC_INFORMATION_BOUNDARY`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT`。
 
 ## 项目状态源
 
@@ -14,7 +14,7 @@
 
 ## 最新 Codex final label
 
-`CECC_TASK_INITIALIZED`
+`CECC_INFORMATION_BOUNDARY`
 
 ## 最新输出目录
 

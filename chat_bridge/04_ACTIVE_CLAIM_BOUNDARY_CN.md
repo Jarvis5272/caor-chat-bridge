@@ -3,7 +3,7 @@
 ## 可以说
 
 - 当前结果是 metadata-only 同步快照，latest result 为 `results/cecc_cross_event_consensus_certificate_20260707`。
-- latest final label 是 `CECC_TASK_INITIALIZED`。
+- latest final label 是 `CECC_INFORMATION_BOUNDARY`。
 - 当前 claim boundary 是：BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
 
 ## 不能说

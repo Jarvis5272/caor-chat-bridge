@@ -24,9 +24,9 @@
     "results/cecc_cross_event_consensus_certificate_20260707/original_bbs_unchanged_audit.tsv",
     "results/cecc_cross_event_consensus_certificate_20260707/leakage_audit.tsv"
   ],
-  "final_label": "CECC_TASK_INITIALIZED",
-  "gate_decision": "CECC_TASK_INITIALIZED",
-  "large_files_skipped_count": 0,
+  "final_label": "CECC_INFORMATION_BOUNDARY",
+  "gate_decision": "CECC_INFORMATION_BOUNDARY",
+  "large_files_skipped_count": 2,
   "latest_result_requested": "results/cecc_cross_event_consensus_certificate_20260707",
   "latest_result_used": "results/cecc_cross_event_consensus_certificate_20260707",
   "main_metrics": {},
@@ -45,5 +45,5 @@
   "output_dir": "results/cecc_cross_event_consensus_certificate_20260707",
   "protected_files_modified": "unknown",
   "selected_candidate": "missing",
-  "timestamp": "2026-07-07T20:20:59+08:00"
+  "timestamp": "2026-07-07T20:45:00+08:00"
 }

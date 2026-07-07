@@ -4,7 +4,7 @@ used_latest_result	pass	results/cecc_cross_event_consensus_certificate_20260707
 explicit_latest_result_used	yes	true
 auto_detected	no	false
 auto_detected_latest_result	no	false
-latest_final_label	pass	CECC_TASK_INITIALIZED
+latest_final_label	pass	CECC_INFORMATION_BOUNDARY
 latest_output_dir	pass	results/cecc_cross_event_consensus_certificate_20260707
 bridge_consistency_status	pending_validation	generated_pending_validation
 source_of_truth	pass	server_chat_bridge+server_results+github_raw_bridge
@@ -16,8 +16,8 @@ latest result used	pass	results/cecc_cross_event_consensus_certificate_20260707
 latest result detection mode	explicit	False
 latest result detected	pass	results/cecc_cross_event_consensus_certificate_20260707
 files copied	pass	0 source artifact files copied; bridge files generated only
-files skipped	pass	0
-large files skipped	pass	0
+files skipped	pass	2
+large files skipped	pass	2
 missing expected files	warn	FINAL*_REPORT_CN.md, final_decision_matrix.tsv, final_artifact_manifest.tsv, no_protected_files_modified.tsv, original_bbs_unchanged_audit.tsv, leakage_audit.tsv, commands_run.sh, environment_summary.txt
 required bridge files present	pass	14/14
 package path	pass	chat_bridge_feedback_package.zip
@@ -40,9 +40,9 @@ git status summary	pass	"M AGENTS.md
 ?? experiments/bbs_baseline_eval.py
 ?? experiments/candidate_pool_selector_eval.py
 ?? experiments"
-timestamp	pass	2026-07-07T20:20:59+08:00
+timestamp	pass	2026-07-07T20:45:00+08:00
 protected files modified	warn	unknown
 original BBS source modified	warn	unknown
 generated bridge files	pass	14
 read_skipped	pass	[]
-scan_skipped	pass	[]
+scan_skipped	pass	"[{""path"": ""results/cecc_cross_event_consensus_certificate_20260707/cecc_raw_per_prefix.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 54877750}, {""path"": ""results/cecc_cross_event_consensus_certificate_20260707/cecc_sanity_raw_per_prefix.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 151940}]"
