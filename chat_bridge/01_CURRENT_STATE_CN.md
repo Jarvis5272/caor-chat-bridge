@@ -2,7 +2,7 @@
 
 ## 实时故事状态
 
-最新结果目录 `results/ticec_temporal_identity_refinement_20260707` 是当前 latest result；最新 label 是 `TICEC_TASK_INITIALIZED`。
+最新结果目录 `results/ticec_temporal_identity_refinement_20260707` 是当前 latest result；最新 label 是 `TICEC_DUPLICATE_OF_DICEC`。
 
 ## clean IDS 数据状态
 

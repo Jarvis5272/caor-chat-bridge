@@ -6,7 +6,7 @@
 
 ## 当前主线状态
 
-服务器显式结果为 `results/ticec_temporal_identity_refinement_20260707`；当前最新 Codex label 为 `TICEC_TASK_INITIALIZED`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED`。
+服务器显式结果为 `results/ticec_temporal_identity_refinement_20260707`；当前最新 Codex label 为 `TICEC_DUPLICATE_OF_DICEC`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED`。
 
 ## 项目状态源
 
@@ -14,7 +14,7 @@
 
 ## 最新 Codex final label
 
-`TICEC_TASK_INITIALIZED`
+`TICEC_DUPLICATE_OF_DICEC`
 
 ## 最新输出目录
 
@@ -39,7 +39,7 @@
 
 ## 当前下一步
 
-Run only the approved TICEC small sanity under chat_bridge/ACTIVE_TASK.json; do not start full-ish validation, reopen frozen candidates, or create another candidate automatically.
+Review latest result artifacts and confirm whether another validation step is warranted.
 
 ## protected diff 状态
 

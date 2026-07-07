@@ -13,7 +13,7 @@ ChatGPT should first read:
 ## Current Latest Result
 
 - latest result: `results/ticec_temporal_identity_refinement_20260707`
-- latest final label: `TICEC_TASK_INITIALIZED`
+- latest final label: `TICEC_DUPLICATE_OF_DICEC`
 
 ## Claim Boundary
 
@@ -21,7 +21,7 @@ ChatGPT should first read:
 
 ## Next Action
 
-Run only the approved TICEC small sanity under chat_bridge/ACTIVE_TASK.json; do not start full-ish validation, reopen frozen candidates, or create another candidate automatically.
+Review latest result artifacts and confirm whether another validation step is warranted.
 
 ## If Linking From GitHub
 

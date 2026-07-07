@@ -2,7 +2,7 @@
 
 ## 当前建议下一步
 
-Run only the approved TICEC small sanity under chat_bridge/ACTIVE_TASK.json; do not start full-ish validation, reopen frozen candidates, or create another candidate automatically.
+Review latest result artifacts and confirm whether another validation step is warranted.
 
 ## 不建议做什么
 
@@ -29,11 +29,11 @@ Run only the approved TICEC small sanity under chat_bridge/ACTIVE_TASK.json; do 
 
 ## 是否继续算法
 
-是否继续算法严格服从本页 latest result 的 gate 和 `Run only the approved TICEC small sanity under chat_bridge/ACTIVE_TASK.json; do not start full-ish validation, reopen frozen candidates, or create another candidate automatically.`；不得从旧聊天附件或 frozen BAEPC 状态恢复任务。
+是否继续算法严格服从本页 latest result 的 gate 和 `Review latest result artifacts and confirm whether another validation step is warranted.`；不得从旧聊天附件或 frozen BAEPC 状态恢复任务。
 
 ## 推荐给 ChatGPT/Codex 的下一步动作
 
-- 只执行 `Run only the approved TICEC small sanity under chat_bridge/ACTIVE_TASK.json; do not start full-ish validation, reopen frozen candidates, or create another candidate automatically.` 指向的显式 controller action；
+- 只执行 `Review latest result artifacts and confirm whether another validation step is warranted.` 指向的显式 controller action；
 - 不从 BAEPC+FEIW historical negative evidence 继续；
 - 不依赖聊天上传附件恢复项目状态；
 - 不修改 protected code / original BBS / raw data。

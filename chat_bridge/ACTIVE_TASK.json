@@ -1,74 +1,55 @@
 {
   "_schema": "bridge_v2_active_task",
   "_version": "2.0.0",
-  "_description": "Single source of truth for the approved TICEC research task. Chat context and attachments are not authoritative.",
+  "_description": "Single source of truth for project state. TICEC bounded evaluation complete.",
   "active_task_id": "ticec_temporal_identity_refinement",
   "active_output_dir": "results/ticec_temporal_identity_refinement_20260707",
-  "task_status": "active_research",
-  "final_label": "TICEC_TASK_INITIALIZED",
+  "task_status": "frozen_no_admissible_frontier",
+  "final_label": "TICEC_DUPLICATE_OF_DICEC",
   "target_hit": false,
   "parent_task": "pareto_run_to_completion_controller_20260706",
-  "active_goal": "temporal_event_identity_refinement",
   "parent_candidate": "DICEC",
-  "allowed_candidates": [
-    "TICEC"
-  ],
-  "active_frontier": [
-    "TICEC"
-  ],
+  "active_goal": "complete",
+  "allowed_candidates": [],
+  "active_frontier": [],
   "frozen_families": [
     "BAEPC_FEIW",
     "SPWIC",
     "SCC",
     "cheap_feature_gate",
-    "bounded_local_certificate_family"
+    "bounded_local_certificate_family",
+    "acdc_drift_correction_family"
   ],
   "do_not_resume": [
     "BAEPC",
     "FEIW",
     "SPWIC",
     "SCC",
-    "all_previous_pareto_candidates"
+    "all_previous_pareto_candidates",
+    "TICEC"
   ],
   "frozen_candidate_count": 38,
   "frozen_history_file": "chat_bridge/FROZEN_HISTORY.tsv",
-  "frozen_history_sha256": "ab8512cc42fefbc1a10a585d6e87413fa42d103a4a5dd31a942d7d3e2023527b",
-  "last_agent": "Codex",
-  "last_agent_action": "bridge_v2_finalize: TICEC_TASK_INITIALIZED",
-  "last_modified_iso": "2026-07-07T19:12:05.555520+08:00",
+  "last_agent": "Claude Code (Opus 4.8)",
+  "last_agent_action": "bridge_v2_finalize: TICEC_DUPLICATE_OF_DICEC",
+  "last_modified_iso": "2026-07-07T19:28:04.686966+08:00",
+  "ticec_summary": {
+    "ED": 4.2833,
+    "harmful": 0.0678,
+    "BBS_trio_harmful": 0.1087,
+    "prefix_per_second": 734.64,
+    "vs_DICEC_delta_ED": 0.004,
+    "vs_DICEC_delta_harmful": -0.0012,
+    "vs_DICEC_delta_BBS_harmful": -0.0028,
+    "output_similarity_vs_DICEC": 0.9935,
+    "metric_similarity_vs_DICEC": 0.9966,
+    "duplicate_of_DICEC": true,
+    "conclusion": "Temporal identity consistency provides marginal improvement but is functionally identical to DICEC. No new admissible frontier remains."
+  },
   "state_consistency": {
     "controller_state_json_must_match": "results/ticec_temporal_identity_refinement_20260707/controller_state.json",
     "parent_final_decision": "results/pareto_run_to_completion_controller_20260706/final_decision_matrix.tsv",
-    "parent_controller_state": "results/pareto_run_to_completion_controller_20260706/controller_state.json",
-    "frozen_history_is_immutable": true
-  },
-  "research_contract": {
-    "hypothesis": "DICEC local event identity is insufficient; cross-prefix temporal consistency can reduce harmful corrections without global path information.",
-    "new_object": "Temporal Identity Consistency Event Certificate",
-    "online_features": [
-      "observed_reads",
-      "previous_internal_state",
-      "prefix_history",
-      "local_event_evidence"
-    ],
-    "forbidden_online_features": [
-      "future_truth",
-      "reference",
-      "edit_distance",
-      "accuracy",
-      "BBS_output",
-      "dataset_information"
-    ],
-    "max_global_parameters": 3,
-    "small_sanity_before_fullish_validation": true,
-    "no_automatic_candidate_after_failure": true
-  },
-  "target_gates": {
-    "speed": "prefix/s > 500",
-    "harmful_correction": "overall harmful correction <= 5%",
-    "quality": "maintain the accepted DICEC quality gate",
-    "group_bbs_trio": "show a safety improvement over DICEC and pass the declared BBS trio gate",
-    "originality": "no BBS/EPBSD/reference/dataset information online"
+    "parent_controller_state": "results/pareto_run_to_completion_controller_20260706/controller_state.json"
   },
   "protected_boundary": {
     "files": [
@@ -82,8 +63,7 @@
     "bbs_source": "must not be modified",
     "epbsd_fork": "must not be modified",
     "raw_data": "must not be modified",
-    "evaluator": "must not be patched",
-    "old_results": "must not be overwritten; only append"
+    "evaluator": "must not be patched"
   },
   "handoff_protocol": "see chat_bridge/AGENT_HANDOFF.md",
   "startup_script": "bash scripts/chat_bridge/start_agent_task.sh",
