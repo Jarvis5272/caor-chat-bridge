@@ -2,9 +2,9 @@
 
 ## 可以说
 
-- 当前结果是 metadata-only 同步快照，latest result 为 `results/pareto_run_to_completion_controller_20260706`。
-- latest final label 是 `PARETO_RUN_NO_ADMISSIBLE_FRONTIER_LEFT`。
-- 当前 claim boundary 是：BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
+- 当前结果是 metadata-only 同步快照，latest result 为 `results/ticec_temporal_identity_refinement_20260707`。
+- latest final label 是 `TICEC_TASK_INITIALIZED`。
+- 当前 claim boundary 是：可以说 TICEC research task 已初始化，且其单一可证伪假设和验证顺序已经冻结。不能说 TICEC 已实现、已验证、已成功，不能说 DICEC 已通过 BBS trio gate，也不能说独立 BBS-free decoder 已找到。
 
 ## 不能说
 

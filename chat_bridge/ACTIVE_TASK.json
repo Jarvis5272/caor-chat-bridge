@@ -1,24 +1,74 @@
 {
   "_schema": "bridge_v2_active_task",
   "_version": "2.0.0",
-  "_description": "Single source of truth for active task state. All agents (Codex/Claude Code/ChatGPT) MUST read this file first. Chat context and attachments are NOT authoritative.",
-  "active_task_id": "pareto_run_to_completion_controller",
-  "active_output_dir": "results/pareto_run_to_completion_controller_20260706",
-  "task_status": "frozen_no_admissible_frontier",
-  "final_label": "PARETO_RUN_NO_ADMISSIBLE_FRONTIER_LEFT",
+  "_description": "Single source of truth for the approved TICEC research task. Chat context and attachments are not authoritative.",
+  "active_task_id": "ticec_temporal_identity_refinement",
+  "active_output_dir": "results/ticec_temporal_identity_refinement_20260707",
+  "task_status": "active_research",
+  "final_label": "TICEC_TASK_INITIALIZED",
   "target_hit": false,
-  "active_frontier": [],
+  "parent_task": "pareto_run_to_completion_controller_20260706",
+  "active_goal": "temporal_event_identity_refinement",
+  "parent_candidate": "DICEC",
+  "allowed_candidates": [
+    "TICEC"
+  ],
+  "active_frontier": [
+    "TICEC"
+  ],
+  "frozen_families": [
+    "BAEPC_FEIW",
+    "SPWIC",
+    "SCC",
+    "cheap_feature_gate",
+    "bounded_local_certificate_family"
+  ],
+  "do_not_resume": [
+    "BAEPC",
+    "FEIW",
+    "SPWIC",
+    "SCC",
+    "all_previous_pareto_candidates"
+  ],
   "frozen_candidate_count": 38,
   "frozen_history_file": "chat_bridge/FROZEN_HISTORY.tsv",
-  "frozen_history_sha256": "will_be_computed_on_write",
-  "last_agent": "Claude Code (Opus 4.8)",
-  "last_agent_action": "bridge_v2_finalize: PARETO_RUN_NO_ADMISSIBLE_FRONTIER_LEFT",
-  "last_modified_iso": "2026-07-07T18:53:31.243965+08:00",
+  "frozen_history_sha256": "ab8512cc42fefbc1a10a585d6e87413fa42d103a4a5dd31a942d7d3e2023527b",
+  "last_agent": "Codex",
+  "last_agent_action": "bridge_v2_finalize: TICEC_TASK_INITIALIZED",
+  "last_modified_iso": "2026-07-07T19:10:36.911268+08:00",
   "state_consistency": {
-    "controller_state_json_must_match": "results/pareto_run_to_completion_controller_20260706/controller_state.json",
-    "frozen_candidates_tsv_must_match": "results/pareto_run_to_completion_controller_20260706/frozen_candidates.tsv",
-    "candidate_queue_tsv_must_match": "results/pareto_run_to_completion_controller_20260706/candidate_queue.tsv",
-    "final_decision_matrix_tsv_must_match": "results/pareto_run_to_completion_controller_20260706/final_decision_matrix.tsv"
+    "controller_state_json_must_match": "results/ticec_temporal_identity_refinement_20260707/controller_state.json",
+    "parent_final_decision": "results/pareto_run_to_completion_controller_20260706/final_decision_matrix.tsv",
+    "parent_controller_state": "results/pareto_run_to_completion_controller_20260706/controller_state.json",
+    "frozen_history_is_immutable": true
+  },
+  "research_contract": {
+    "hypothesis": "DICEC local event identity is insufficient; cross-prefix temporal consistency can reduce harmful corrections without global path information.",
+    "new_object": "Temporal Identity Consistency Event Certificate",
+    "online_features": [
+      "observed_reads",
+      "previous_internal_state",
+      "prefix_history",
+      "local_event_evidence"
+    ],
+    "forbidden_online_features": [
+      "future_truth",
+      "reference",
+      "edit_distance",
+      "accuracy",
+      "BBS_output",
+      "dataset_information"
+    ],
+    "max_global_parameters": 3,
+    "small_sanity_before_fullish_validation": true,
+    "no_automatic_candidate_after_failure": true
+  },
+  "target_gates": {
+    "speed": "prefix/s > 500",
+    "harmful_correction": "overall harmful correction <= 5%",
+    "quality": "maintain the accepted DICEC quality gate",
+    "group_bbs_trio": "show a safety improvement over DICEC and pass the declared BBS trio gate",
+    "originality": "no BBS/EPBSD/reference/dataset information online"
   },
   "protected_boundary": {
     "files": [
@@ -34,23 +84,6 @@
     "raw_data": "must not be modified",
     "evaluator": "must not be patched",
     "old_results": "must not be overwritten; only append"
-  },
-  "online_boundary": {
-    "no_bbs_online": true,
-    "no_epbsd_online": true,
-    "no_reference_online": true,
-    "no_dataset_route": true,
-    "no_cgbapc_teacher_online": true,
-    "no_full_alignment_or_graph": true
-  },
-  "target_gates": {
-    "quality": "ED <= best_simple_ED AND accuracy >= best_simple_accuracy AND exact >= best_simple_exact",
-    "quality_vs_bbs": "ED <= BBS_ED + 0.10 AND accuracy >= BBS_accuracy - 0.001 AND exact >= BBS_exact - 0.01",
-    "speed": "prefix/s >= 1000 OR >= 5x CGBAPC OR >= 3x BBS",
-    "group_bbs_trio": "BBS trio safe (harmful <= 5%, delta_ED <= 0, abnormal <= 5%)",
-    "group_projected": "projected safe (delta_ED <= 0.10 or NaN)",
-    "safety": "harmful <= 5% AND high_confidence_wrong <= 5% AND output_abnormal <= 5%",
-    "originality": "not wrapper/fallback/refusal AND not source-gap-only AND not duplicate"
   },
   "handoff_protocol": "see chat_bridge/AGENT_HANDOFF.md",
   "startup_script": "bash scripts/chat_bridge/start_agent_task.sh",

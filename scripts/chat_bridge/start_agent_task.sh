@@ -150,6 +150,12 @@ case "$TASK_STATUS" in
     echo "        Do NOT re-run frozen candidates."
     echo "        Do NOT restore BAEPC."
     ;;
+  active_research)
+    echo "STATUS: active_research — an approved theory task is active."
+    echo "FRONTIER: $ACTIVE_FRONTIER"
+    echo "ACTION: Work only on candidates explicitly listed in ACTIVE_TASK.json."
+    echo "        Follow the task's staged gate; do NOT restore frozen candidates."
+    ;;
   *)
     echo "STATUS: $TASK_STATUS (unknown)"
     echo "ACTION: Proceed with caution. Verify with user."

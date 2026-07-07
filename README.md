@@ -12,16 +12,16 @@ ChatGPT should first read:
 
 ## Current Latest Result
 
-- latest result: `results/pareto_run_to_completion_controller_20260706`
-- latest final label: `PARETO_RUN_NO_ADMISSIBLE_FRONTIER_LEFT`
+- latest result: `results/ticec_temporal_identity_refinement_20260707`
+- latest final label: `TICEC_TASK_INITIALIZED`
 
 ## Claim Boundary
 
-BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
+可以说 TICEC research task 已初始化，且其单一可证伪假设和验证顺序已经冻结。不能说 TICEC 已实现、已验证、已成功，不能说 DICEC 已通过 BBS trio gate，也不能说独立 BBS-free decoder 已找到。
 
 ## Next Action
 
-Freeze no-frontier evidence as a negative result; do not continue candidate search without a new theory/objective.
+Run only the approved TICEC small sanity under chat_bridge/ACTIVE_TASK.json; do not start full-ish validation, reopen frozen candidates, or create another candidate automatically.
 
 ## If Linking From GitHub
 

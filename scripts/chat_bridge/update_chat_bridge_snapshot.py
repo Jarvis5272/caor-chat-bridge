@@ -566,6 +566,11 @@ def build_snapshot(args: argparse.Namespace) -> dict[str, Any]:
         next_action = (
             "Freeze no-frontier evidence as a negative result; do not continue candidate search without a new theory/objective."
         )
+    elif "TICEC_TASK_INITIALIZED" in final_label:
+        next_action = (
+            "Run only the approved TICEC small sanity under chat_bridge/ACTIVE_TASK.json; "
+            "do not start full-ish validation, reopen frozen candidates, or create another candidate automatically."
+        )
     elif target_met(gate_decision, final_label) == "no":
         next_action = (
             "Revise the sync/global-search mechanism before any small reconstruction smoke; "

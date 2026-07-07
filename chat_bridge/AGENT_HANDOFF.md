@@ -56,6 +56,7 @@ Based on ACTIVE_TASK.json `task_status`:
 |-------------|--------|
 | `in_progress` | Resume from `active_frontier`, using `active_output_dir` |
 | `resource_checkpoint` | Resume from `active_frontier`, do not re-run frozen |
+| `active_research` | Work only on `allowed_candidates` / `active_frontier` and obey the staged gate |
 | `frozen_no_admissible_frontier` | Do NOT start new candidates. Report status. Wait for new theory. |
 | `target_success` | Do NOT start new work. Report only. |
 

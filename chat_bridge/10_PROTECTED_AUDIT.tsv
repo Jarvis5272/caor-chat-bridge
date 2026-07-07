@@ -1,7 +1,3 @@
 protected_path	modified	status	notes
-experiments/streaming_slim_generalization_eval.py	no	not_touched	
-src/pipeline/sparse_viterbi_dbg.py	no	not_touched	
-src/pipeline/	no	not_touched	
-baseline/	no	not_touched	
-external_baselines/	no	not_touched	
-frozen/	no	not_touched	
+		no	
+		no	
