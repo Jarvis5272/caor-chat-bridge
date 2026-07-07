@@ -1,0 +1,58 @@
+{
+  "_schema": "bridge_v2_active_task",
+  "_version": "2.0.0",
+  "_description": "Single source of truth for active task state. All agents (Codex/Claude Code/ChatGPT) MUST read this file first. Chat context and attachments are NOT authoritative.",
+  "active_task_id": "pareto_run_to_completion_controller",
+  "active_output_dir": "results/pareto_run_to_completion_controller_20260706",
+  "task_status": "frozen_no_admissible_frontier",
+  "final_label": "PARETO_RUN_NO_ADMISSIBLE_FRONTIER_LEFT",
+  "target_hit": false,
+  "active_frontier": [],
+  "frozen_candidate_count": 38,
+  "frozen_history_file": "chat_bridge/FROZEN_HISTORY.tsv",
+  "frozen_history_sha256": "will_be_computed_on_write",
+  "last_agent": "Claude Code (Opus 4.8)",
+  "last_agent_action": "bridge_v2_finalize: PARETO_RUN_NO_ADMISSIBLE_FRONTIER_LEFT",
+  "last_modified_iso": "2026-07-07T18:53:31.243965+08:00",
+  "state_consistency": {
+    "controller_state_json_must_match": "results/pareto_run_to_completion_controller_20260706/controller_state.json",
+    "frozen_candidates_tsv_must_match": "results/pareto_run_to_completion_controller_20260706/frozen_candidates.tsv",
+    "candidate_queue_tsv_must_match": "results/pareto_run_to_completion_controller_20260706/candidate_queue.tsv",
+    "final_decision_matrix_tsv_must_match": "results/pareto_run_to_completion_controller_20260706/final_decision_matrix.tsv"
+  },
+  "protected_boundary": {
+    "files": [
+      "experiments/streaming_slim_generalization_eval.py",
+      "src/pipeline/sparse_viterbi_dbg.py",
+      "src/pipeline/",
+      "baseline/",
+      "external_baselines/",
+      "frozen/"
+    ],
+    "bbs_source": "must not be modified",
+    "epbsd_fork": "must not be modified",
+    "raw_data": "must not be modified",
+    "evaluator": "must not be patched",
+    "old_results": "must not be overwritten; only append"
+  },
+  "online_boundary": {
+    "no_bbs_online": true,
+    "no_epbsd_online": true,
+    "no_reference_online": true,
+    "no_dataset_route": true,
+    "no_cgbapc_teacher_online": true,
+    "no_full_alignment_or_graph": true
+  },
+  "target_gates": {
+    "quality": "ED <= best_simple_ED AND accuracy >= best_simple_accuracy AND exact >= best_simple_exact",
+    "quality_vs_bbs": "ED <= BBS_ED + 0.10 AND accuracy >= BBS_accuracy - 0.001 AND exact >= BBS_exact - 0.01",
+    "speed": "prefix/s >= 1000 OR >= 5x CGBAPC OR >= 3x BBS",
+    "group_bbs_trio": "BBS trio safe (harmful <= 5%, delta_ED <= 0, abnormal <= 5%)",
+    "group_projected": "projected safe (delta_ED <= 0.10 or NaN)",
+    "safety": "harmful <= 5% AND high_confidence_wrong <= 5% AND output_abnormal <= 5%",
+    "originality": "not wrapper/fallback/refusal AND not source-gap-only AND not duplicate"
+  },
+  "handoff_protocol": "see chat_bridge/AGENT_HANDOFF.md",
+  "startup_script": "bash scripts/chat_bridge/start_agent_task.sh",
+  "finalize_script": "bash scripts/chat_bridge/codex_task_finalize.sh"
+}
