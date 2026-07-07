@@ -1,17 +1,21 @@
 {
   "_schema": "bridge_v2_active_task",
   "_version": "2.0.0",
-  "_description": "Single source of truth for the approved GLICE research task. Chat context and attachments are not authoritative.",
-  "active_task_id": "glice_global_lite_identity_consistency",
-  "active_output_dir": "results/glice_global_lite_identity_consistency_20260707",
-  "task_status": "frozen_no_admissible_frontier",
-  "final_label": "GLICE_INFORMATION_BOUNDARY",
+  "_description": "CECC: Cross-Event Consistency Certificate. Strong-baseline scoreboard validation protocol. Chat context and attachments are NOT authoritative.",
+  "active_task_id": "cecc_cross_event_consensus_certificate",
+  "active_output_dir": "results/cecc_cross_event_consensus_certificate_20260707",
+  "task_status": "active_research",
+  "final_label": "CECC_TASK_INITIALIZED",
   "target_hit": false,
-  "parent_task": "ticec_temporal_identity_refinement_20260707",
-  "active_goal": "global_lite_identity_consistency",
+  "parent_task": "glice_global_lite_identity_consistency_20260707",
+  "active_goal": "cross_event_consistency_certificate",
   "parent_candidate": "DICEC",
-  "allowed_candidates": [],
-  "active_frontier": [],
+  "allowed_candidates": [
+    "CECC"
+  ],
+  "active_frontier": [
+    "CECC"
+  ],
   "frozen_families": [
     "BAEPC_FEIW",
     "SPWIC",
@@ -19,7 +23,8 @@
     "cheap_feature_family",
     "bounded_local_certificate_family",
     "DICEC",
-    "TICEC"
+    "TICEC",
+    "GLICE"
   ],
   "do_not_resume": [
     "BAEPC",
@@ -34,29 +39,61 @@
     "MEPC",
     "FHLR",
     "NCPC",
-    "CSDP"
+    "CSDP",
+    "GLICE"
   ],
   "frozen_candidate_count": 38,
   "frozen_history_file": "chat_bridge/FROZEN_HISTORY.tsv",
   "last_agent": "Claude Code (Opus 4.8)",
-  "last_agent_action": "bridge_v2_finalize: GLICE_INFORMATION_BOUNDARY",
-  "last_modified_iso": "2026-07-07T20:04:57.955273+08:00",
-  "state_consistency": {
-    "controller_state_json_must_match": "results/glice_global_lite_identity_consistency_20260707/controller_state.json",
-    "parent_final_decision": "results/pareto_run_to_completion_controller_20260706/final_decision_matrix.tsv",
-    "parent_controller_state": "results/pareto_run_to_completion_controller_20260706/controller_state.json",
-    "frozen_history_is_immutable": true
+  "last_agent_action": "bridge_v2_finalize: CECC_TASK_INITIALIZED",
+  "last_modified_iso": "2026-07-07T20:20:58.952229+08:00",
+  "_validation_protocol_v3": "STRONG_BASELINE_SCOREBOARD_ONLY",
+  "_validation_protocol_description": "No internal candidate ranking. All judgments based on absolute scoreboard: BBS, MUSCLE, VS, BMALA, ITR, CPL, kmer_medoid, CGBAPC, Our method. Output: method | ED | accuracy | exact | runtime | prefix/s | raw reads/s plus BBS trio/projected/source-gap groups.",
+  "strong_baseline_scoreboard_required": {
+    "methods": [
+      "BBS_original_matched_scopeA",
+      "MUSCLE",
+      "VS",
+      "BMALA",
+      "ITR_official_historical",
+      "CPL_official_historical",
+      "kmer_medoid",
+      "CGBAPC_PostGate",
+      "BAPC",
+      "first_read",
+      "sampled_medoid",
+      "conservative_majority",
+      "simple_alignment_consensus",
+      "medoid_consensus_hybrid"
+    ],
+    "our_methods": [
+      "CECC",
+      "DICEC"
+    ],
+    "required_columns": [
+      "method",
+      "ED",
+      "accuracy",
+      "exact",
+      "runtime",
+      "prefix_per_second",
+      "raw_reads_per_second"
+    ],
+    "required_groups": [
+      "BBS_trio",
+      "projected",
+      "source_gap"
+    ],
+    "output_file": "stageF_absolute_scoreboard.tsv",
+    "output_groups": "stageF_group_scoreboard.tsv"
   },
   "research_contract": {
-    "hypothesis": "Local event identity (DICEC/TICEC) is insufficient for BBS trio hard rows because event ambiguity requires cross-segment consistency. A lightweight cluster-level latent identity state — not full alignment, not graph, not beam — can resolve cross-segment ambiguity while preserving observed-only constraints.",
-    "new_object": "Global-Lite Identity Consistency Engine (GLICE)",
-    "mechanism_summary": "Maintain a ClusterIdentityState containing event identity candidates, segment compatibility matrix, event persistence scores, contradiction scores, and a global consistency score. Update incrementally per read. Decode constrained by identity state rather than independent per-segment decisions.",
+    "hypothesis": "Cross-event consistency — requiring agreement between multiple independent event observations across different anchor-pair segments — can filter harmful corrections that DICEC/GLICE miss, without using full alignment or global path information.",
     "online_features": [
       "observed_reads",
-      "prefix_history",
-      "cluster_identity_state",
-      "cross_segment_compatibility",
-      "local_event_evidence"
+      "anchor_pair_evidence",
+      "cross_event_certificate",
+      "prefix_history"
     ],
     "forbidden_online_features": [
       "reference",
@@ -75,23 +112,42 @@
     "max_global_parameters": 3,
     "validation_stages": {
       "stage0": "method_lock",
-      "stage1": "sanity_2_datasets_20_clusters_prefix_1_2_3_5_10_20",
-      "stage2": "fullish_17_datasets_82462_prefix_rows"
+      "stage1": "sanity_2_datasets_20_clusters",
+      "stage2": "fullish_17_datasets_82462_rows",
+      "stageF": "absolute_scoreboard_vs_strong_baselines"
     },
-    "comparison_baseline": "DICEC",
-    "speed_gate": "prefix/s >= 500",
-    "quality_gate": "ED <= DICEC AND accuracy >= DICEC AND exact >= DICEC",
-    "safety_gate": "harmful <= 5% AND high_confidence_wrong <= 5% AND output_abnormal <= 5%",
-    "group_gate": "BBS trio safe",
     "no_automatic_candidate_after_failure": true,
-    "failure_output": "GLICE_INFORMATION_BOUNDARY_ANALYSIS"
+    "failure_output": "CECC_INFORMATION_BOUNDARY_ANALYSIS_CN.md",
+    "no_infinite_candidate_generation": true,
+    "max_candidates_this_task": 1
   },
   "target_gates": {
-    "quality": "ED <= DICEC (4.2793) AND accuracy >= DICEC (0.9661) AND exact >= DICEC (0.3486)",
+    "quality": "ED <= kmer_medoid AND accuracy >= kmer_medoid AND exact >= kmer_medoid (same scope)",
+    "quality_vs_bbs": "ED <= BBS_ED + 0.10 (not clearly worse than BBS)",
     "speed": "prefix/s >= 500",
     "harmful_correction": "overall harmful correction <= 5%",
-    "group_bbs_trio": "BBS trio safe",
+    "group_bbs_trio": "BBS trio safe (harmful <= 5%, delta_ED <= 0, abnormal <= 5%)",
     "originality": "no BBS/EPBSD/reference/dataset/full-alignment/graph/beam online"
+  },
+  "parent_context": {
+    "best_observed_only": "DICEC",
+    "best_ED": 4.2793,
+    "best_accuracy": 0.9661,
+    "best_exact": 0.3486,
+    "best_prefix_per_second": 775.5,
+    "best_harmful": 0.0672,
+    "best_BBS_trio_harmful": 0.1079,
+    "kmer_medoid_ED": 4.1005,
+    "kmer_medoid_accuracy": 0.9663,
+    "kmer_medoid_exact": 0.2741,
+    "BBS_matched_ED": 3.7187,
+    "BBS_matched_accuracy": 0.9698,
+    "BBS_matched_exact": 0.3218,
+    "CGBAPC_ED": 3.4794,
+    "CGBAPC_accuracy": 0.9721,
+    "CGBAPC_exact": 0.4137,
+    "CGBAPC_prefix_per_second": 146.14,
+    "information_boundary_finding": "DICEC→TICEC→GLICE lineage converges at harmful≈6.7%, BBS_trio_harmful≈10.8%. Anchor-segment-local paradigm at information boundary."
   },
   "protected_boundary": {
     "files": [
@@ -108,29 +164,7 @@
     "evaluator": "must not be patched",
     "old_results": "must not be overwritten; only append"
   },
-  "parent_context": {
-    "best_candidate": "DICEC",
-    "best_ED": 4.2793,
-    "best_accuracy": 0.9661,
-    "best_exact": 0.3486,
-    "best_prefix_per_second": 742.58,
-    "best_harmful": 0.069,
-    "best_BBS_trio_harmful": 0.1115,
-    "ticEC_finding": "TICEC output similarity 0.9935 vs DICEC; temporal identity provides negligible improvement; functionally duplicate",
-    "primary_bottleneck": "BBS trio hard rows have event identity ambiguity that local anchor-segment decisions cannot resolve"
-  },
   "handoff_protocol": "see chat_bridge/AGENT_HANDOFF.md",
   "startup_script": "bash scripts/chat_bridge/start_agent_task.sh",
-  "finalize_script": "bash scripts/chat_bridge/codex_task_finalize.sh",
-  "glice_summary": {
-    "ED": 4.2822,
-    "harmful": 0.0672,
-    "BBS_trio_harmful": 0.1079,
-    "prefix_per_second": 750.51,
-    "vs_DICEC_delta_ED": 0.0029,
-    "vs_DICEC_delta_harmful": -0.0018,
-    "vs_DICEC_delta_BBS_harmful": -0.0036,
-    "duplicate_of_DICEC": false,
-    "conclusion": "Cluster-level identity state with cross-segment compatibility provides marginal improvements over DICEC but does not break the information boundary. The anchor-segment-local paradigm cannot resolve BBS trio hard rows. Further progress requires fundamentally different observation models or global path information that exceeds observed-only constraints."
-  }
+  "finalize_script": "bash scripts/chat_bridge/codex_task_finalize.sh"
 }

@@ -12,8 +12,8 @@ ChatGPT should first read:
 
 ## Current Latest Result
 
-- latest result: `results/glice_global_lite_identity_consistency_20260707`
-- latest final label: `GLICE_INFORMATION_BOUNDARY`
+- latest result: `results/cecc_cross_event_consensus_certificate_20260707`
+- latest final label: `CECC_TASK_INITIALIZED`
 
 ## Claim Boundary
 
