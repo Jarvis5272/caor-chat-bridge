@@ -13,7 +13,7 @@ ChatGPT should first read:
 ## Current Latest Result
 
 - latest result: `results/final_full_17dataset_baseline_benchmark_20260707`
-- latest final label: `FINAL_BENCHMARK_AUDIT_SCOPE_MISMATCH_EXTERNAL_PENDING`
+- latest final label: `FINAL_BENCHMARK_PARTIAL_EXTERNAL_COMPLETE_PENDING`
 
 ## Claim Boundary
 

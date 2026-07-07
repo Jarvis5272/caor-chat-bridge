@@ -3,7 +3,7 @@
 ## 可以说
 
 - 当前结果是 metadata-only 同步快照，latest result 为 `results/final_full_17dataset_baseline_benchmark_20260707`。
-- latest final label 是 `FINAL_BENCHMARK_AUDIT_SCOPE_MISMATCH_EXTERNAL_PENDING`。
+- latest final label 是 `FINAL_BENCHMARK_PARTIAL_EXTERNAL_COMPLETE_PENDING`。
 - 当前 claim boundary 是：### Can claim:
 - OUR_REALTIME_METHOD accuracy 0.9660 on CAPPED_17_MATCHED (82,462 rows)
 - Wall-clock runtime 103.53s, 796 prefix/s, BBS-free online decode

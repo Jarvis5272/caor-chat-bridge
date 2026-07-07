@@ -1,11 +1,11 @@
 # Codex Feedback To ChatGPT
 
-1. final label: `FINAL_BENCHMARK_AUDIT_SCOPE_MISMATCH_EXTERNAL_PENDING`
+1. final label: `FINAL_BENCHMARK_PARTIAL_EXTERNAL_COMPLETE_PENDING`
 2. output dir: `results/final_full_17dataset_baseline_benchmark_20260707`
 3. completed stages: missing
 4. key metrics:
 - missing
-5. gate decision: FINAL_BENCHMARK_AUDIT_SCOPE_MISMATCH_EXTERNAL_PENDING
+5. gate decision: FINAL_BENCHMARK_PARTIAL_EXTERNAL_COMPLETE_PENDING
 6. claim boundary: ### Can claim:
 - OUR_REALTIME_METHOD accuracy 0.9660 on CAPPED_17_MATCHED (82,462 rows)
 - Wall-clock runtime 103.53s, 796 prefix/s, BBS-free online decode
