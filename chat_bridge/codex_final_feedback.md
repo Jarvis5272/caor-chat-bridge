@@ -1,11 +1,11 @@
 # Codex Feedback To ChatGPT
 
-1. final label: `GLICE_TASK_INITIALIZED`
+1. final label: `GLICE_INFORMATION_BOUNDARY`
 2. output dir: `results/glice_global_lite_identity_consistency_20260707`
-3. completed stages: missing
+3. completed stages: stage2_glice_gate_decision
 4. key metrics:
 - missing
-5. gate decision: GLICE_TASK_INITIALIZED
+5. gate decision: GLICE_INFORMATION_BOUNDARY
 6. claim boundary: BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
 7. next recommendation: Review latest result artifacts and confirm whether another validation step is warranted.
 8. protected files modified? `unknown`

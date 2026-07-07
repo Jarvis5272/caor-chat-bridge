@@ -4,18 +4,14 @@
   "_description": "Single source of truth for the approved GLICE research task. Chat context and attachments are not authoritative.",
   "active_task_id": "glice_global_lite_identity_consistency",
   "active_output_dir": "results/glice_global_lite_identity_consistency_20260707",
-  "task_status": "active_research",
-  "final_label": "GLICE_TASK_INITIALIZED",
+  "task_status": "frozen_no_admissible_frontier",
+  "final_label": "GLICE_INFORMATION_BOUNDARY",
   "target_hit": false,
   "parent_task": "ticec_temporal_identity_refinement_20260707",
   "active_goal": "global_lite_identity_consistency",
   "parent_candidate": "DICEC",
-  "allowed_candidates": [
-    "GLICE"
-  ],
-  "active_frontier": [
-    "GLICE"
-  ],
+  "allowed_candidates": [],
+  "active_frontier": [],
   "frozen_families": [
     "BAEPC_FEIW",
     "SPWIC",
@@ -43,8 +39,8 @@
   "frozen_candidate_count": 38,
   "frozen_history_file": "chat_bridge/FROZEN_HISTORY.tsv",
   "last_agent": "Claude Code (Opus 4.8)",
-  "last_agent_action": "bridge_v2_finalize: GLICE_TASK_INITIALIZED",
-  "last_modified_iso": "2026-07-07T19:44:31.063044+08:00",
+  "last_agent_action": "bridge_v2_finalize: GLICE_INFORMATION_BOUNDARY",
+  "last_modified_iso": "2026-07-07T20:04:57.955273+08:00",
   "state_consistency": {
     "controller_state_json_must_match": "results/glice_global_lite_identity_consistency_20260707/controller_state.json",
     "parent_final_decision": "results/pareto_run_to_completion_controller_20260706/final_decision_matrix.tsv",
@@ -125,5 +121,16 @@
   },
   "handoff_protocol": "see chat_bridge/AGENT_HANDOFF.md",
   "startup_script": "bash scripts/chat_bridge/start_agent_task.sh",
-  "finalize_script": "bash scripts/chat_bridge/codex_task_finalize.sh"
+  "finalize_script": "bash scripts/chat_bridge/codex_task_finalize.sh",
+  "glice_summary": {
+    "ED": 4.2822,
+    "harmful": 0.0672,
+    "BBS_trio_harmful": 0.1079,
+    "prefix_per_second": 750.51,
+    "vs_DICEC_delta_ED": 0.0029,
+    "vs_DICEC_delta_harmful": -0.0018,
+    "vs_DICEC_delta_BBS_harmful": -0.0036,
+    "duplicate_of_DICEC": false,
+    "conclusion": "Cluster-level identity state with cross-segment compatibility provides marginal improvements over DICEC but does not break the information boundary. The anchor-segment-local paradigm cannot resolve BBS trio hard rows. Further progress requires fundamentally different observation models or global path information that exceeds observed-only constraints."
+  }
 }

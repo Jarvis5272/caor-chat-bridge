@@ -2,7 +2,7 @@
 
 ## 实时故事状态
 
-最新结果目录 `results/glice_global_lite_identity_consistency_20260707` 是当前 latest result；最新 label 是 `GLICE_TASK_INITIALIZED`。
+最新结果目录 `results/glice_global_lite_identity_consistency_20260707` 是当前 latest result；最新 label 是 `GLICE_INFORMATION_BOUNDARY`。
 
 ## clean IDS 数据状态
 
@@ -14,7 +14,7 @@
 
 ## baseline-aware / independent algorithm 状态
 
-当前 active track: `missing`。根据 latest gate，当前结论是 `GLICE_TASK_INITIALIZED`。
+当前 active track: `missing`。根据 latest gate，当前结论是 `GLICE_INFORMATION_BOUNDARY`。
 
 BAEPC+FEIW 的 `BAEPC_FEIW_STOP_FULL_ALIGNMENT_REQUIRED` 仅是 historical frozen negative evidence；它不可 revise、不可 patch，也不属于 active frontier。
 
@@ -28,7 +28,7 @@ BAEPC+FEIW 的 `BAEPC_FEIW_STOP_FULL_ALIGNMENT_REQUIRED` 仅是 historical froze
 
 ## 当前 gate
 
-GLICE_TASK_INITIALIZED
+GLICE_INFORMATION_BOUNDARY
 
 ## 当前最大风险
 

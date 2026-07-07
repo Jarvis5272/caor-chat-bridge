@@ -6,7 +6,7 @@
   "bridge_workflow_final_label": "CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT",
   "claim_boundary": "BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.",
   "completed_stages": [
-    "missing"
+    "stage2_glice_gate_decision"
   ],
   "data_modified": "no_by_bridge_task",
   "explicit_latest_result_used": true,
@@ -17,16 +17,16 @@
     "chat_bridge/04_ACTIVE_CLAIM_BOUNDARY_CN.md",
     "chat_bridge/05_NEXT_ACTION_CN.md",
     "chat_bridge/09_SYNC_STATUS.tsv",
+    "results/glice_global_lite_identity_consistency_20260707/stage2_glice_gate_decision.md",
     "results/glice_global_lite_identity_consistency_20260707/FINAL*_REPORT_CN.md",
     "results/glice_global_lite_identity_consistency_20260707/final_decision_matrix.tsv",
     "results/glice_global_lite_identity_consistency_20260707/final_artifact_manifest.tsv",
     "results/glice_global_lite_identity_consistency_20260707/no_protected_files_modified.tsv",
-    "results/glice_global_lite_identity_consistency_20260707/original_bbs_unchanged_audit.tsv",
-    "results/glice_global_lite_identity_consistency_20260707/leakage_audit.tsv"
+    "results/glice_global_lite_identity_consistency_20260707/original_bbs_unchanged_audit.tsv"
   ],
-  "final_label": "GLICE_TASK_INITIALIZED",
-  "gate_decision": "GLICE_TASK_INITIALIZED",
-  "large_files_skipped_count": 0,
+  "final_label": "GLICE_INFORMATION_BOUNDARY",
+  "gate_decision": "GLICE_INFORMATION_BOUNDARY",
+  "large_files_skipped_count": 2,
   "latest_result_requested": "results/glice_global_lite_identity_consistency_20260707",
   "latest_result_used": "results/glice_global_lite_identity_consistency_20260707",
   "main_metrics": {},
@@ -45,5 +45,5 @@
   "output_dir": "results/glice_global_lite_identity_consistency_20260707",
   "protected_files_modified": "unknown",
   "selected_candidate": "missing",
-  "timestamp": "2026-07-07T19:44:31+08:00"
+  "timestamp": "2026-07-07T20:04:58+08:00"
 }

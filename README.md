@@ -13,7 +13,7 @@ ChatGPT should first read:
 ## Current Latest Result
 
 - latest result: `results/glice_global_lite_identity_consistency_20260707`
-- latest final label: `GLICE_TASK_INITIALIZED`
+- latest final label: `GLICE_INFORMATION_BOUNDARY`
 
 ## Claim Boundary
 
