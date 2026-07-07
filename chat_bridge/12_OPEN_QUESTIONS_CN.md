@@ -1,6 +1,6 @@
 # Open Questions
 
-- Gate fail/stop 后，是否需要重设计 global search / sync witness 机制？
-- `results/pareto_run_to_completion_controller_20260706` 缺失的 expected context 是否可接受，还是需要指定另一个 `--latest-result`？
-- ChatGPT 是否认可当前 claim boundary：sync dry-run only，不写 benchmark success？
-- 下一轮是否需要用户批准启动新实验，或只做报告审查？
+- `results/pareto_run_to_completion_controller_20260706` 的 latest gate 是否已经穷尽 active queue，还是仍要求显式 resume？
+- 若当前 frontier 失败，是否存在机制上真正不同且仍满足 no-BBS/no-global-path 边界的 operator family？
+- strong-baseline、BBS trio、projected、source-gap 和 safety gates 是否全部有 same-scope 证据？
+- 任何后续任务都必须以服务器 controller state 为准；聊天附件状态不进入问题列表。

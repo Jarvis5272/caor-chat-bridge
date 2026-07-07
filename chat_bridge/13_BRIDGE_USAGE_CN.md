@@ -22,6 +22,12 @@ bash scripts/chat_bridge/codex_task_finalize.sh results/<run_dir> "<FINAL_LABEL>
 
 该流程会禁止 finalize 阶段 auto-detect，执行 local validation、push 和 raw validation；任一失败都不能报告 bridge_ok。
 
+## 项目状态源
+
+- 权威状态源：服务器 `results/`、服务器 `chat_bridge/`、GitHub raw bridge。
+- 聊天上传附件和旧聊天上下文不保存项目状态，不得覆盖 explicit latest result。
+- historical/frozen result 只能作为证据，不能自动恢复为 active frontier。
+
 ## 用户给 ChatGPT 发什么
 
 优先上传或链接：

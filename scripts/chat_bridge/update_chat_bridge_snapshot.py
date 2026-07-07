@@ -624,7 +624,11 @@ def build_snapshot(args: argparse.Namespace) -> dict[str, Any]:
 
 ## 当前主线状态
 
-最新自动检测结果为 `{output_dir}`；当前最新 Codex label 为 `{final_label}`。当前 bridge 初始化状态为 `{bridge_label}`。
+服务器显式结果为 `{output_dir}`；当前最新 Codex label 为 `{final_label}`。当前 bridge 初始化状态为 `{bridge_label}`。
+
+## 项目状态源
+
+服务器 `chat_bridge/`、服务器 `results/` 及本 bridge 的 GitHub raw mirror 是唯一项目状态源。聊天上传附件和旧聊天上下文不具权威性，也不得覆盖本页的显式 latest result。
 
 ## 最新 Codex final label
 
@@ -676,6 +680,12 @@ def build_snapshot(args: argparse.Namespace) -> dict[str, Any]:
 ## baseline-aware / independent algorithm 状态
 
 当前 active track: `{candidate}`。根据 latest gate，当前结论是 `{gate_decision}`。
+
+BAEPC+FEIW 的 `BAEPC_FEIW_STOP_FULL_ALIGNMENT_REQUIRED` 仅是 historical frozen negative evidence；它不可 revise、不可 patch，也不属于 active frontier。
+
+## 项目状态源
+
+权威顺序是：服务器 `results/` 与 controller state、服务器 `chat_bridge/`、GitHub raw bridge。旧聊天附件不得作为状态源或阻塞原因。
 
 ## 当前 active candidate
 
@@ -737,6 +747,7 @@ def build_snapshot(args: argparse.Namespace) -> dict[str, Any]:
 
 - gate fail / stop label 只能作为当前路线需要修正的证据。
 - missing expected files 只能作为上下文缺失，不能补写结论。
+- BAEPC+FEIW 已冻结为 `full_alignment_information_required` 负证据，不得恢复为 active latest 或继续 patch。
 
 ## 需要进一步验证
 
@@ -770,20 +781,14 @@ def build_snapshot(args: argparse.Namespace) -> dict[str, Any]:
 
 ## 是否继续算法
 
-当前不继续算法。若要重新打开算法线，必须由用户单独批准，并保留新的 result dir 与 claim boundary。
+是否继续算法严格服从本页 latest result 的 gate 和 `{next_action}`；不得从旧聊天附件或 frozen BAEPC 状态恢复任务。
 
-## 推荐给 ChatGPT 的下一步问题
+## 推荐给 ChatGPT/Codex 的下一步动作
 
-- 当前是否应该把 TPC+OCWP 作为负结果冻结？
-- 当前 strategy review / paper positioning 是否应把 EPBSD 与 independent decoder 负结果分开叙述？
-- 若继续理论线，是否只允许少数 deep candidates 而不是 broad search？
-
-## 推荐给 Codex 的下一步动作
-
-- 优先生成 strategy review / positioning package；
-- 不运行实验；
-- 不修改 protected code / original BBS / raw data；
-- 若用户明确批准，再进入新的 bounded task。
+- 只执行 `{next_action}` 指向的显式 controller action；
+- 不从 BAEPC+FEIW historical negative evidence 继续；
+- 不依赖聊天上传附件恢复项目状态；
+- 不修改 protected code / original BBS / raw data。
 """
 
     prompt_text = "missing\n"
@@ -828,6 +833,9 @@ def build_snapshot(args: argparse.Namespace) -> dict[str, Any]:
         {"item": "latest_final_label", "status": "pass", "details": final_label},
         {"item": "latest_output_dir", "status": "pass", "details": output_dir},
         {"item": "bridge_consistency_status", "status": "pending_validation", "details": "generated_pending_validation"},
+        {"item": "source_of_truth", "status": "pass", "details": "server_chat_bridge+server_results+github_raw_bridge"},
+        {"item": "chat_attachment_state", "status": "ignored", "details": "not_authoritative_and_not_blocking"},
+        {"item": "stale_baepc_quarantine", "status": "pass", "details": "historical_frozen_negative_evidence_only"},
         {"item": "reason", "status": "pass", "details": detection_reason},
         {"item": "latest result requested", "status": "pass", "details": requested_latest},
         {"item": "latest result used", "status": "pass", "details": output_dir},
@@ -893,10 +901,10 @@ def build_snapshot(args: argparse.Namespace) -> dict[str, Any]:
 
     open_questions = f"""# Open Questions
 
-- Gate fail/stop 后，是否需要重设计 global search / sync witness 机制？
-- `{output_dir}` 缺失的 expected context 是否可接受，还是需要指定另一个 `--latest-result`？
-- ChatGPT 是否认可当前 claim boundary：sync dry-run only，不写 benchmark success？
-- 下一轮是否需要用户批准启动新实验，或只做报告审查？
+- `{output_dir}` 的 latest gate 是否已经穷尽 active queue，还是仍要求显式 resume？
+- 若当前 frontier 失败，是否存在机制上真正不同且仍满足 no-BBS/no-global-path 边界的 operator family？
+- strong-baseline、BBS trio、projected、source-gap 和 safety gates 是否全部有 same-scope 证据？
+- 任何后续任务都必须以服务器 controller state 为准；聊天附件状态不进入问题列表。
 """
 
     bridge_usage = """# ChatGPT-Codex Bridge Usage
@@ -922,6 +930,12 @@ bash scripts/chat_bridge/codex_task_finalize.sh results/<run_dir> "<FINAL_LABEL>
 ```
 
 该流程会禁止 finalize 阶段 auto-detect，执行 local validation、push 和 raw validation；任一失败都不能报告 bridge_ok。
+
+## 项目状态源
+
+- 权威状态源：服务器 `results/`、服务器 `chat_bridge/`、GitHub raw bridge。
+- 聊天上传附件和旧聊天上下文不保存项目状态，不得覆盖 explicit latest result。
+- historical/frozen result 只能作为证据，不能自动恢复为 active frontier。
 
 ## 用户给 ChatGPT 发什么
 

@@ -29,17 +29,11 @@ Resume the run-to-completion Pareto controller with the command in controller_st
 
 ## 是否继续算法
 
-当前不继续算法。若要重新打开算法线，必须由用户单独批准，并保留新的 result dir 与 claim boundary。
+是否继续算法严格服从本页 latest result 的 gate 和 `Resume the run-to-completion Pareto controller with the command in controller_state.json or stageF_next_command_recommendation.md; current tested candidates are frozen and target success is not claimed.`；不得从旧聊天附件或 frozen BAEPC 状态恢复任务。
 
-## 推荐给 ChatGPT 的下一步问题
+## 推荐给 ChatGPT/Codex 的下一步动作
 
-- 当前是否应该把 TPC+OCWP 作为负结果冻结？
-- 当前 strategy review / paper positioning 是否应把 EPBSD 与 independent decoder 负结果分开叙述？
-- 若继续理论线，是否只允许少数 deep candidates 而不是 broad search？
-
-## 推荐给 Codex 的下一步动作
-
-- 优先生成 strategy review / positioning package；
-- 不运行实验；
-- 不修改 protected code / original BBS / raw data；
-- 若用户明确批准，再进入新的 bounded task。
+- 只执行 `Resume the run-to-completion Pareto controller with the command in controller_state.json or stageF_next_command_recommendation.md; current tested candidates are frozen and target success is not claimed.` 指向的显式 controller action；
+- 不从 BAEPC+FEIW historical negative evidence 继续；
+- 不依赖聊天上传附件恢复项目状态；
+- 不修改 protected code / original BBS / raw data。

@@ -24,6 +24,7 @@
 
 - gate fail / stop label 只能作为当前路线需要修正的证据。
 - missing expected files 只能作为上下文缺失，不能补写结论。
+- BAEPC+FEIW 已冻结为 `full_alignment_information_required` 负证据，不得恢复为 active latest 或继续 patch。
 
 ## 需要进一步验证
 

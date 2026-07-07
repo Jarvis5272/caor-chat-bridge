@@ -31,15 +31,15 @@
     "chat_bridge/05_NEXT_ACTION_CN.md",
     "chat_bridge/09_SYNC_STATUS.tsv",
     "results/pareto_run_to_completion_controller_20260706/FINAL_PARETO_RUN_TO_COMPLETION_CONTROLLER_REPORT_CN.md",
+    "results/pareto_run_to_completion_controller_20260706/CLAUDE_CODE_HANDOFF_REPORT_CN.md",
     "results/pareto_run_to_completion_controller_20260706/PARETO_RUN_TO_COMPLETION_CONTROLLER_REPORT_CN.md",
     "results/pareto_run_to_completion_controller_20260706/stage0_gate_decision.md",
     "results/pareto_run_to_completion_controller_20260706/stage1_gate_decision.md",
-    "results/pareto_run_to_completion_controller_20260706/stage3_gate_decision.md",
-    "results/pareto_run_to_completion_controller_20260706/stage4_gate_decision.md"
+    "results/pareto_run_to_completion_controller_20260706/stage3_gate_decision.md"
   ],
   "final_label": "PARETO_RUN_RESOURCE_CHECKPOINT_RESUME_REQUIRED",
   "gate_decision": "PASS: run-to-completion controller locked; frontier nonempty means continue until success/no-frontier/resource checkpoint.",
-  "large_files_skipped_count": 63,
+  "large_files_skipped_count": 66,
   "latest_result_requested": "results/pareto_run_to_completion_controller_20260706",
   "latest_result_used": "results/pareto_run_to_completion_controller_20260706",
   "main_metrics": {},
@@ -49,5 +49,5 @@
   "output_dir": "results/pareto_run_to_completion_controller_20260706",
   "protected_files_modified": "no",
   "selected_candidate": "missing",
-  "timestamp": "2026-07-07T00:13:32+08:00"
+  "timestamp": "2026-07-07T15:37:06+08:00"
 }

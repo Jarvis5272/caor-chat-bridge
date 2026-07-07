@@ -20,6 +20,8 @@ TASK_COMPLETED_BUT_BRIDGE_FINALIZE_FAILED
 
 - 不允许只说 bridge pushed；必须验证 raw latest label/output_dir；
 - 不允许把 bridge success 当算法、实验或 benchmark 成果。
+- 项目状态源固定为服务器 `results/`、服务器 `chat_bridge/` 和 GitHub raw bridge；聊天附件不得覆盖 explicit latest。
+- historical/frozen result 不得自动恢复为 active frontier；BAEPC+FEIW 只能作为 frozen negative evidence。
 
 成功时 `codex_task_finalize.sh` stdout 固定包含：
 

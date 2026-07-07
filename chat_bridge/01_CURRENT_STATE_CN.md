@@ -16,6 +16,12 @@
 
 当前 active track: `missing`。根据 latest gate，当前结论是 `PASS: run-to-completion controller locked; frontier nonempty means continue until success/no-frontier/resource checkpoint.`。
 
+BAEPC+FEIW 的 `BAEPC_FEIW_STOP_FULL_ALIGNMENT_REQUIRED` 仅是 historical frozen negative evidence；它不可 revise、不可 patch，也不属于 active frontier。
+
+## 项目状态源
+
+权威顺序是：服务器 `results/` 与 controller state、服务器 `chat_bridge/`、GitHub raw bridge。旧聊天附件不得作为状态源或阻塞原因。
+
 ## 当前 active candidate
 
 `missing`

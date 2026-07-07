@@ -6,6 +6,8 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import os
+import subprocess
 import time
 import urllib.error
 import urllib.request
@@ -21,6 +23,21 @@ RAW_FILES = [
 
 
 def fetch(url: str) -> str:
+    env = os.environ.copy()
+    for name in ("HTTP_PROXY", "HTTPS_PROXY", "ALL_PROXY", "http_proxy", "https_proxy", "all_proxy"):
+        env.pop(name, None)
+    curl = subprocess.run(
+        [
+            "curl", "-fsSL", "--retry", "5", "--retry-all-errors",
+            "--retry-delay", "2", "--connect-timeout", "15", "--max-time", "90", url,
+        ],
+        check=False,
+        capture_output=True,
+        text=True,
+        env=env,
+    )
+    if curl.returncode == 0:
+        return curl.stdout
     request = urllib.request.Request(
         url,
         headers={
@@ -29,7 +46,10 @@ def fetch(url: str) -> str:
             "User-Agent": "acor-chat-bridge-validator/1.0",
         },
     )
-    with urllib.request.urlopen(request, timeout=30) as response:
+    # Fallback for environments without a working curl binary.  The bridge is
+    # public, so bypass inherited workstation proxies here as well.
+    opener = urllib.request.build_opener(urllib.request.ProxyHandler({}))
+    with opener.open(request, timeout=30) as response:
         return response.read().decode("utf-8", errors="replace")
 
 
