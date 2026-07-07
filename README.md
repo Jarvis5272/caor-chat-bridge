@@ -13,17 +13,15 @@ ChatGPT should first read:
 ## Current Latest Result
 
 - latest result: `results/pareto_run_to_completion_controller_20260706`
-- latest final label: `PARETO_RUN_RESOURCE_CHECKPOINT_RESUME_REQUIRED`
+- latest final label: `PARETO_RUN_NO_ADMISSIBLE_FRONTIER_LEFT`
 
 ## Claim Boundary
 
-可以说：QGEC/BLCM/ONRC 已按 checkpoint 验证，并新增 anti-degenerate audit；duplicate/degenerate 候选不计入有效探索。
-
-不能说：不能 claim target success、不能 claim BBS replacement、不能用 speed-only 或 aggregate 正信号遮盖 BBS trio/safety/originality failure。
+BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
 
 ## Next Action
 
-Resume the run-to-completion Pareto controller with the command in controller_state.json or stageF_next_command_recommendation.md; current tested candidates are frozen and target success is not claimed.
+Freeze no-frontier evidence as a negative result; do not continue candidate search without a new theory/objective.
 
 ## If Linking From GitHub
 

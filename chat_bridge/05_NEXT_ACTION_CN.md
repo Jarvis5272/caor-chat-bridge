@@ -2,7 +2,7 @@
 
 ## 当前建议下一步
 
-Resume the run-to-completion Pareto controller with the command in controller_state.json or stageF_next_command_recommendation.md; current tested candidates are frozen and target success is not claimed.
+Freeze no-frontier evidence as a negative result; do not continue candidate search without a new theory/objective.
 
 ## 不建议做什么
 
@@ -29,11 +29,11 @@ Resume the run-to-completion Pareto controller with the command in controller_st
 
 ## 是否继续算法
 
-是否继续算法严格服从本页 latest result 的 gate 和 `Resume the run-to-completion Pareto controller with the command in controller_state.json or stageF_next_command_recommendation.md; current tested candidates are frozen and target success is not claimed.`；不得从旧聊天附件或 frozen BAEPC 状态恢复任务。
+是否继续算法严格服从本页 latest result 的 gate 和 `Freeze no-frontier evidence as a negative result; do not continue candidate search without a new theory/objective.`；不得从旧聊天附件或 frozen BAEPC 状态恢复任务。
 
 ## 推荐给 ChatGPT/Codex 的下一步动作
 
-- 只执行 `Resume the run-to-completion Pareto controller with the command in controller_state.json or stageF_next_command_recommendation.md; current tested candidates are frozen and target success is not claimed.` 指向的显式 controller action；
+- 只执行 `Freeze no-frontier evidence as a negative result; do not continue candidate search without a new theory/objective.` 指向的显式 controller action；
 - 不从 BAEPC+FEIW historical negative evidence 继续；
 - 不依赖聊天上传附件恢复项目状态；
 - 不修改 protected code / original BBS / raw data。

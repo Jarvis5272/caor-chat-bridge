@@ -2,7 +2,7 @@
 
 ## 实时故事状态
 
-最新结果目录 `results/pareto_run_to_completion_controller_20260706` 是当前 latest result；最新 label 是 `PARETO_RUN_RESOURCE_CHECKPOINT_RESUME_REQUIRED`。
+最新结果目录 `results/pareto_run_to_completion_controller_20260706` 是当前 latest result；最新 label 是 `PARETO_RUN_NO_ADMISSIBLE_FRONTIER_LEFT`。
 
 ## clean IDS 数据状态
 

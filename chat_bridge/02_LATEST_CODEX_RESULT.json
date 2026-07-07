@@ -4,7 +4,7 @@
   "blocking_missing": false,
   "bridge_consistency_status": "generated_pending_validation",
   "bridge_workflow_final_label": "CHAT_BRIDGE_WORKFLOW_INITIALIZED",
-  "claim_boundary": "可以说：QGEC/BLCM/ONRC 已按 checkpoint 验证，并新增 anti-degenerate audit；duplicate/degenerate 候选不计入有效探索。\n\n不能说：不能 claim target success、不能 claim BBS replacement、不能用 speed-only 或 aggregate 正信号遮盖 BBS trio/safety/originality failure。",
+  "claim_boundary": "BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.",
   "completed_stages": [
     "stage0_gate_decision",
     "stage1_gate_decision",
@@ -37,17 +37,17 @@
     "results/pareto_run_to_completion_controller_20260706/stage1_gate_decision.md",
     "results/pareto_run_to_completion_controller_20260706/stage3_gate_decision.md"
   ],
-  "final_label": "PARETO_RUN_RESOURCE_CHECKPOINT_RESUME_REQUIRED",
+  "final_label": "PARETO_RUN_NO_ADMISSIBLE_FRONTIER_LEFT",
   "gate_decision": "PASS: run-to-completion controller locked; frontier nonempty means continue until success/no-frontier/resource checkpoint.",
-  "large_files_skipped_count": 66,
+  "large_files_skipped_count": 72,
   "latest_result_requested": "results/pareto_run_to_completion_controller_20260706",
   "latest_result_used": "results/pareto_run_to_completion_controller_20260706",
   "main_metrics": {},
   "missing_expected_files": [],
-  "next_action": "Resume the run-to-completion Pareto controller with the command in controller_state.json or stageF_next_command_recommendation.md; current tested candidates are frozen and target success is not claimed.",
+  "next_action": "Freeze no-frontier evidence as a negative result; do not continue candidate search without a new theory/objective.",
   "original_bbs_source_modified": "no",
   "output_dir": "results/pareto_run_to_completion_controller_20260706",
   "protected_files_modified": "no",
   "selected_candidate": "missing",
-  "timestamp": "2026-07-07T15:37:06+08:00"
+  "timestamp": "2026-07-07T16:48:16+08:00"
 }

@@ -5,7 +5,5 @@ contains_large_files	pass	false
 contains_secret_like_files	pass	false
 contains_raw_reads	pass	false
 contains_only_bridge	pass	CHATGPT_LINK_INSTRUCTIONS_CN.md,README.md,chat_bridge,chat_bridge_feedback_package.zip,scripts
-latest_result_final_label	pass	PARETO_RUN_RESOURCE_CHECKPOINT_RESUME_REQUIRED
-claim_boundary_present	pass	"可以说：QGEC/BLCM/ONRC 已按 checkpoint 验证，并新增 anti-degenerate audit；duplicate/degenerate 候选不计入有效探索。
-
-不能说：不能 claim target success、不能 claim BBS replacement、不能用 speed-only 或 aggregate 正信号遮盖 BBS trio/safety/ori"
+latest_result_final_label	pass	PARETO_RUN_NO_ADMISSIBLE_FRONTIER_LEFT
+claim_boundary_present	pass	BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
