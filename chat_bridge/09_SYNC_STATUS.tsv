@@ -1,24 +1,24 @@
 item	status	details
-requested_latest_result	pass	results/final_strong_baseline_full_benchmark_20260707
-used_latest_result	pass	results/final_strong_baseline_full_benchmark_20260707
+requested_latest_result	pass	results/final_full_17dataset_baseline_benchmark_20260707
+used_latest_result	pass	results/final_full_17dataset_baseline_benchmark_20260707
 explicit_latest_result_used	yes	true
 auto_detected	no	false
 auto_detected_latest_result	no	false
-latest_final_label	pass	FINAL_STRONG_BASELINE_COMPLETE
-latest_output_dir	pass	results/final_strong_baseline_full_benchmark_20260707
+latest_final_label	pass	FINAL_FULL_17DATASET_BASELINE_COMPLETE
+latest_output_dir	pass	results/final_full_17dataset_baseline_benchmark_20260707
 bridge_consistency_status	pending_validation	generated_pending_validation
 source_of_truth	pass	server_chat_bridge+server_results+github_raw_bridge
 chat_attachment_state	ignored	not_authoritative_and_not_blocking
 stale_baepc_quarantine	pass	historical_frozen_negative_evidence_only
 reason	pass	requested latest result exists and was used
-latest result requested	pass	results/final_strong_baseline_full_benchmark_20260707
-latest result used	pass	results/final_strong_baseline_full_benchmark_20260707
+latest result requested	pass	results/final_full_17dataset_baseline_benchmark_20260707
+latest result used	pass	results/final_full_17dataset_baseline_benchmark_20260707
 latest result detection mode	explicit	False
-latest result detected	pass	results/final_strong_baseline_full_benchmark_20260707
+latest result detected	pass	results/final_full_17dataset_baseline_benchmark_20260707
 files copied	pass	0 source artifact files copied; bridge files generated only
 files skipped	pass	0
 large files skipped	pass	0
-missing expected files	warn	FINAL*_REPORT_CN.md, final_decision_matrix.tsv, no_protected_files_modified.tsv, original_bbs_unchanged_audit.tsv, leakage_audit.tsv, commands_run.sh, environment_summary.txt
+missing expected files	warn	final_decision_matrix.tsv, no_protected_files_modified.tsv, original_bbs_unchanged_audit.tsv, leakage_audit.tsv, commands_run.sh, environment_summary.txt
 required bridge files present	pass	14/14
 package path	pass	chat_bridge_feedback_package.zip
 git branch	pass	release/earlystop-v0.4
@@ -40,7 +40,7 @@ git status summary	pass	"M AGENTS.md
 ?? experiments/bbs_baseline_eval.py
 ?? experiments/candidate_pool_selector_eval.py
 ?? experiments"
-timestamp	pass	2026-07-07T21:10:11+08:00
+timestamp	pass	2026-07-07T22:16:40+08:00
 protected files modified	warn	unknown
 original BBS source modified	warn	unknown
 generated bridge files	pass	14
