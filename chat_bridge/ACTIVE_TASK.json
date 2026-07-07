@@ -1,21 +1,17 @@
 {
   "_schema": "bridge_v2_active_task",
   "_version": "2.0.0",
-  "_description": "CECC: Cross-Event Consistency Certificate. Strong-baseline scoreboard validation protocol. Chat context and attachments are NOT authoritative.",
-  "active_task_id": "cecc_cross_event_consensus_certificate",
-  "active_output_dir": "results/cecc_cross_event_consensus_certificate_20260707",
-  "task_status": "frozen_no_admissible_frontier",
-  "final_label": "CECC_INFORMATION_BOUNDARY",
+  "_description": "FINAL: Strong Baseline Full Benchmark. No algorithm exploration. Collecting all existing baseline results into a unified scoreboard. Chat context and attachments are NOT authoritative.",
+  "active_task_id": "final_strong_baseline_full_benchmark",
+  "active_output_dir": "results/final_strong_baseline_full_benchmark_20260707",
+  "task_status": "final_evaluation_complete",
+  "final_label": "FINAL_STRONG_BASELINE_COMPLETE",
   "target_hit": false,
-  "parent_task": "glice_global_lite_identity_consistency_20260707",
-  "active_goal": "cross_event_consistency_certificate",
-  "parent_candidate": "DICEC",
-  "allowed_candidates": [
-    "CECC"
-  ],
-  "active_frontier": [
-    "CECC"
-  ],
+  "parent_task": "cecc_cross_event_consensus_certificate_20260707",
+  "active_goal": "final_strong_baseline_scoreboard_only_no_exploration",
+  "parent_candidate": "all_previous",
+  "allowed_candidates": [],
+  "active_frontier": [],
   "frozen_families": [
     "BAEPC_FEIW",
     "SPWIC",
@@ -45,8 +41,49 @@
   "frozen_candidate_count": 38,
   "frozen_history_file": "chat_bridge/FROZEN_HISTORY.tsv",
   "last_agent": "Claude Code (Opus 4.8)",
-  "last_agent_action": "bridge_v2_finalize: CECC_INFORMATION_BOUNDARY",
-  "last_modified_iso": "2026-07-07T20:45:00.156234+08:00",
+  "last_agent_action": "bridge_v2_finalize: FINAL_STRONG_BASELINE_COMPLETE",
+  "last_modified_iso": "2026-07-07T21:10:11.399660+08:00",
+  "benchmark_summary": {
+    "total_methods": 17,
+    "same_scope": [
+      "CGBAPC",
+      "BAPC",
+      "first_read",
+      "sampled_medoid",
+      "kmer_medoid",
+      "conservative_majority",
+      "simple_alignment_consensus",
+      "medoid_consensus_hybrid"
+    ],
+    "matched_scopeA": [
+      "BBS_original"
+    ],
+    "our_methods": [
+      "DICEC",
+      "CECC",
+      "ACDC"
+    ],
+    "different_scope_context": [
+      "BBS_historical",
+      "ITR_historical",
+      "CPL_historical"
+    ],
+    "unavailable": [
+      "MUSCLE",
+      "VS",
+      "BMALA"
+    ],
+    "internal_engineering": [
+      "EPBSD"
+    ],
+    "best_quality": "CGBAPC (acc=0.9721, ED=3.4794, speed=146 prefix/s)",
+    "best_external": "BBS (acc=0.9698, ED=3.7187, speed=105 prefix/s)",
+    "best_simple": "kmer_medoid (acc=0.9663, ED=4.1005, speed=47,414 prefix/s)",
+    "best_ours": "DICEC (acc=0.9661, ED=4.2793, speed=743 prefix/s)",
+    "quality_gap_vs_CGBAPC": "Δacc=-0.0061",
+    "speed_advantage_vs_CGBAPC": "5.1x faster",
+    "information_boundary": "anchor-segment-local paradigm at harmful≈6.7%, BBS_trio_harmful≈10.8%"
+  },
   "_validation_protocol_v3": "STRONG_BASELINE_SCOREBOARD_ONLY",
   "_validation_protocol_description": "No internal candidate ranking. All judgments based on absolute scoreboard: BBS, MUSCLE, VS, BMALA, ITR, CPL, kmer_medoid, CGBAPC, Our method. Output: method | ED | accuracy | exact | runtime | prefix/s | raw reads/s plus BBS trio/projected/source-gap groups.",
   "strong_baseline_scoreboard_required": {

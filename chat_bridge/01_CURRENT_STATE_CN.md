@@ -2,11 +2,11 @@
 
 ## 实时故事状态
 
-最新结果目录 `results/cecc_cross_event_consensus_certificate_20260707` 是当前 latest result；最新 label 是 `CECC_INFORMATION_BOUNDARY`。
+最新结果目录 `results/final_strong_baseline_full_benchmark_20260707` 是当前 latest result；最新 label 是 `FINAL_STRONG_BASELINE_COMPLETE`。
 
 ## clean IDS 数据状态
 
-最新结果记录的数据状态来自 `results/cecc_cross_event_consensus_certificate_20260707`。若报告中的 input scope 不完整，以源 artifact 为准，不在 bridge 中编造。
+最新结果记录的数据状态来自 `results/final_strong_baseline_full_benchmark_20260707`。若报告中的 input scope 不完整，以源 artifact 为准，不在 bridge 中编造。
 
 ## EPBSD / BBS acceleration 状态
 
@@ -14,7 +14,7 @@
 
 ## baseline-aware / independent algorithm 状态
 
-当前 active track: `missing`。根据 latest gate，当前结论是 `CECC_INFORMATION_BOUNDARY`。
+当前 active track: `missing`。根据 latest gate，当前结论是 `FINAL_STRONG_BASELINE_COMPLETE`。
 
 BAEPC+FEIW 的 `BAEPC_FEIW_STOP_FULL_ALIGNMENT_REQUIRED` 仅是 historical frozen negative evidence；它不可 revise、不可 patch，也不属于 active frontier。
 
@@ -28,7 +28,7 @@ BAEPC+FEIW 的 `BAEPC_FEIW_STOP_FULL_ALIGNMENT_REQUIRED` 仅是 historical froze
 
 ## 当前 gate
 
-CECC_INFORMATION_BOUNDARY
+FINAL_STRONG_BASELINE_COMPLETE
 
 ## 当前最大风险
 

@@ -6,7 +6,7 @@
 
 ## 当前主线状态
 
-服务器显式结果为 `results/cecc_cross_event_consensus_certificate_20260707`；当前最新 Codex label 为 `CECC_INFORMATION_BOUNDARY`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT`。
+服务器显式结果为 `results/final_strong_baseline_full_benchmark_20260707`；当前最新 Codex label 为 `FINAL_STRONG_BASELINE_COMPLETE`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT`。
 
 ## 项目状态源
 
@@ -14,11 +14,11 @@
 
 ## 最新 Codex final label
 
-`CECC_INFORMATION_BOUNDARY`
+`FINAL_STRONG_BASELINE_COMPLETE`
 
 ## 最新输出目录
 
-`results/cecc_cross_event_consensus_certificate_20260707`
+`results/final_strong_baseline_full_benchmark_20260707`
 
 ## ChatGPT 应先读哪些文件
 
@@ -35,7 +35,7 @@ BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confi
 
 ## 是否有 missing context
 
-`missing_expected_files=['FINAL*_REPORT_CN.md', 'final_decision_matrix.tsv', 'final_artifact_manifest.tsv', 'no_protected_files_modified.tsv', 'original_bbs_unchanged_audit.tsv', 'leakage_audit.tsv', 'commands_run.sh', 'environment_summary.txt']`。这些缺失项只作为上下文缺口记录；若 required bridge files 全部生成，则不阻塞 bridge 使用。
+`missing_expected_files=['FINAL*_REPORT_CN.md', 'final_decision_matrix.tsv', 'no_protected_files_modified.tsv', 'original_bbs_unchanged_audit.tsv', 'leakage_audit.tsv', 'commands_run.sh', 'environment_summary.txt']`。这些缺失项只作为上下文缺口记录；若 required bridge files 全部生成，则不阻塞 bridge 使用。
 
 ## 当前下一步
 

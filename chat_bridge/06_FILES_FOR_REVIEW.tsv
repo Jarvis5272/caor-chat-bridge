@@ -5,11 +5,11 @@ priority	path	reason_to_review	expected_content	small_enough_for_git	exists	note
 4	chat_bridge/04_ACTIVE_CLAIM_BOUNDARY_CN.md	claim audit	allowed/disallowed claims	yes	yes	generated bridge file
 5	chat_bridge/05_NEXT_ACTION_CN.md	next step	recommended next action	yes	yes	generated bridge file
 6	chat_bridge/09_SYNC_STATUS.tsv	sync audit	detected/missing/skipped status	yes	yes	generated bridge file
-7	results/cecc_cross_event_consensus_certificate_20260707/FINAL*_REPORT_CN.md	missing expected context	FINAL*_REPORT_CN.md	unknown	no	missing; do not infer
-8	results/cecc_cross_event_consensus_certificate_20260707/final_decision_matrix.tsv	missing expected context	final_decision_matrix.tsv	unknown	no	missing; do not infer
-9	results/cecc_cross_event_consensus_certificate_20260707/final_artifact_manifest.tsv	missing expected context	final_artifact_manifest.tsv	unknown	no	missing; do not infer
-10	results/cecc_cross_event_consensus_certificate_20260707/no_protected_files_modified.tsv	missing expected context	no_protected_files_modified.tsv	unknown	no	missing; do not infer
-11	results/cecc_cross_event_consensus_certificate_20260707/original_bbs_unchanged_audit.tsv	missing expected context	original_bbs_unchanged_audit.tsv	unknown	no	missing; do not infer
-12	results/cecc_cross_event_consensus_certificate_20260707/leakage_audit.tsv	missing expected context	leakage_audit.tsv	unknown	no	missing; do not infer
-13	results/cecc_cross_event_consensus_certificate_20260707/commands_run.sh	missing expected context	commands_run.sh	unknown	no	missing; do not infer
-14	results/cecc_cross_event_consensus_certificate_20260707/environment_summary.txt	missing expected context	environment_summary.txt	unknown	no	missing; do not infer
+7	results/final_strong_baseline_full_benchmark_20260707/final_artifact_manifest.tsv	latest result source artifact	final_artifact_manifest.tsv	yes	yes	1239 bytes
+8	results/final_strong_baseline_full_benchmark_20260707/FINAL*_REPORT_CN.md	missing expected context	FINAL*_REPORT_CN.md	unknown	no	missing; do not infer
+9	results/final_strong_baseline_full_benchmark_20260707/final_decision_matrix.tsv	missing expected context	final_decision_matrix.tsv	unknown	no	missing; do not infer
+10	results/final_strong_baseline_full_benchmark_20260707/no_protected_files_modified.tsv	missing expected context	no_protected_files_modified.tsv	unknown	no	missing; do not infer
+11	results/final_strong_baseline_full_benchmark_20260707/original_bbs_unchanged_audit.tsv	missing expected context	original_bbs_unchanged_audit.tsv	unknown	no	missing; do not infer
+12	results/final_strong_baseline_full_benchmark_20260707/leakage_audit.tsv	missing expected context	leakage_audit.tsv	unknown	no	missing; do not infer
+13	results/final_strong_baseline_full_benchmark_20260707/commands_run.sh	missing expected context	commands_run.sh	unknown	no	missing; do not infer
+14	results/final_strong_baseline_full_benchmark_20260707/environment_summary.txt	missing expected context	environment_summary.txt	unknown	no	missing; do not infer

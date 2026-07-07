@@ -1,5 +1,5 @@
 {
-  "artifact_manifest_path": "missing",
+  "artifact_manifest_path": "results/final_strong_baseline_full_benchmark_20260707/final_artifact_manifest.tsv",
   "auto_detected_latest_result": false,
   "blocking_missing": false,
   "bridge_consistency_status": "generated_pending_validation",
@@ -17,23 +17,22 @@
     "chat_bridge/04_ACTIVE_CLAIM_BOUNDARY_CN.md",
     "chat_bridge/05_NEXT_ACTION_CN.md",
     "chat_bridge/09_SYNC_STATUS.tsv",
-    "results/cecc_cross_event_consensus_certificate_20260707/FINAL*_REPORT_CN.md",
-    "results/cecc_cross_event_consensus_certificate_20260707/final_decision_matrix.tsv",
-    "results/cecc_cross_event_consensus_certificate_20260707/final_artifact_manifest.tsv",
-    "results/cecc_cross_event_consensus_certificate_20260707/no_protected_files_modified.tsv",
-    "results/cecc_cross_event_consensus_certificate_20260707/original_bbs_unchanged_audit.tsv",
-    "results/cecc_cross_event_consensus_certificate_20260707/leakage_audit.tsv"
+    "results/final_strong_baseline_full_benchmark_20260707/final_artifact_manifest.tsv",
+    "results/final_strong_baseline_full_benchmark_20260707/FINAL*_REPORT_CN.md",
+    "results/final_strong_baseline_full_benchmark_20260707/final_decision_matrix.tsv",
+    "results/final_strong_baseline_full_benchmark_20260707/no_protected_files_modified.tsv",
+    "results/final_strong_baseline_full_benchmark_20260707/original_bbs_unchanged_audit.tsv",
+    "results/final_strong_baseline_full_benchmark_20260707/leakage_audit.tsv"
   ],
-  "final_label": "CECC_INFORMATION_BOUNDARY",
-  "gate_decision": "CECC_INFORMATION_BOUNDARY",
-  "large_files_skipped_count": 2,
-  "latest_result_requested": "results/cecc_cross_event_consensus_certificate_20260707",
-  "latest_result_used": "results/cecc_cross_event_consensus_certificate_20260707",
+  "final_label": "FINAL_STRONG_BASELINE_COMPLETE",
+  "gate_decision": "FINAL_STRONG_BASELINE_COMPLETE",
+  "large_files_skipped_count": 0,
+  "latest_result_requested": "results/final_strong_baseline_full_benchmark_20260707",
+  "latest_result_used": "results/final_strong_baseline_full_benchmark_20260707",
   "main_metrics": {},
   "missing_expected_files": [
     "FINAL*_REPORT_CN.md",
     "final_decision_matrix.tsv",
-    "final_artifact_manifest.tsv",
     "no_protected_files_modified.tsv",
     "original_bbs_unchanged_audit.tsv",
     "leakage_audit.tsv",
@@ -42,8 +41,8 @@
   ],
   "next_action": "Review latest result artifacts and confirm whether another validation step is warranted.",
   "original_bbs_source_modified": "unknown",
-  "output_dir": "results/cecc_cross_event_consensus_certificate_20260707",
+  "output_dir": "results/final_strong_baseline_full_benchmark_20260707",
   "protected_files_modified": "unknown",
   "selected_candidate": "missing",
-  "timestamp": "2026-07-07T20:45:00+08:00"
+  "timestamp": "2026-07-07T21:10:11+08:00"
 }
