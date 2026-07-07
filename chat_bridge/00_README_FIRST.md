@@ -6,7 +6,7 @@
 
 ## 当前主线状态
 
-服务器显式结果为 `results/final_full_17dataset_baseline_benchmark_20260707`；当前最新 Codex label 为 `FINAL_CAPPED_17_CORE_COMPLETE_EXTERNAL_PENDING`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT`。
+服务器显式结果为 `results/final_full_17dataset_baseline_benchmark_20260707`；当前最新 Codex label 为 `FINAL_CAPPED_17_EXTERNAL_BASELINE_PARTIAL_BACKGROUND`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT`。
 
 ## 项目状态源
 
@@ -14,7 +14,7 @@
 
 ## 最新 Codex final label
 
-`FINAL_CAPPED_17_CORE_COMPLETE_EXTERNAL_PENDING`
+`FINAL_CAPPED_17_EXTERNAL_BASELINE_PARTIAL_BACKGROUND`
 
 ## 最新输出目录
 
@@ -31,7 +31,9 @@
 
 ## 当前 claim boundary
 
-BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
+CGBAPC/BAPC excluded from main table — per user instruction. These are internal pipeline/intermediate algorithms, NOT external baselines. Moved to excluded_internal_methods.tsv.
+
+All 38 internal Pareto exploration candidates (ACDC/DICEC/TICEC/GLICE/CECC + waves 10-20) excluded from main table. See FROZEN_HISTORY.tsv and excluded_internal_methods.tsv.
 
 ## 是否有 missing context
 

@@ -2,7 +2,7 @@
 
 ## 实时故事状态
 
-最新结果目录 `results/final_full_17dataset_baseline_benchmark_20260707` 是当前 latest result；最新 label 是 `FINAL_CAPPED_17_CORE_COMPLETE_EXTERNAL_PENDING`。
+最新结果目录 `results/final_full_17dataset_baseline_benchmark_20260707` 是当前 latest result；最新 label 是 `FINAL_CAPPED_17_EXTERNAL_BASELINE_PARTIAL_BACKGROUND`。
 
 ## clean IDS 数据状态
 
@@ -14,7 +14,7 @@
 
 ## baseline-aware / independent algorithm 状态
 
-当前 active track: `missing`。根据 latest gate，当前结论是 `FINAL_CAPPED_17_CORE_COMPLETE_EXTERNAL_PENDING`。
+当前 active track: `missing`。根据 latest gate，当前结论是 `FINAL_CAPPED_17_EXTERNAL_BASELINE_PARTIAL_BACKGROUND`。
 
 BAEPC+FEIW 的 `BAEPC_FEIW_STOP_FULL_ALIGNMENT_REQUIRED` 仅是 historical frozen negative evidence；它不可 revise、不可 patch，也不属于 active frontier。
 
@@ -28,7 +28,7 @@ BAEPC+FEIW 的 `BAEPC_FEIW_STOP_FULL_ALIGNMENT_REQUIRED` 仅是 historical froze
 
 ## 当前 gate
 
-FINAL_CAPPED_17_CORE_COMPLETE_EXTERNAL_PENDING
+FINAL_CAPPED_17_EXTERNAL_BASELINE_PARTIAL_BACKGROUND
 
 ## 当前最大风险
 

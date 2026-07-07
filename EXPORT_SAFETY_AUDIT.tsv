@@ -5,5 +5,7 @@ contains_large_files	pass	false
 contains_secret_like_files	pass	false
 contains_raw_reads	pass	false
 contains_only_bridge	pass	CHATGPT_LINK_INSTRUCTIONS_CN.md,README.md,chat_bridge,chat_bridge_feedback_package.zip,scripts
-latest_result_final_label	pass	FINAL_CAPPED_17_CORE_COMPLETE_EXTERNAL_PENDING
-claim_boundary_present	pass	BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
+latest_result_final_label	pass	FINAL_CAPPED_17_EXTERNAL_BASELINE_PARTIAL_BACKGROUND
+claim_boundary_present	pass	"CGBAPC/BAPC excluded from main table — per user instruction. These are internal pipeline/intermediate algorithms, NOT external baselines. Moved to excluded_internal_methods.tsv.
+
+All 38 internal Paret"

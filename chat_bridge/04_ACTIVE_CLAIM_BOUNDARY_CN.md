@@ -3,8 +3,10 @@
 ## 可以说
 
 - 当前结果是 metadata-only 同步快照，latest result 为 `results/final_full_17dataset_baseline_benchmark_20260707`。
-- latest final label 是 `FINAL_CAPPED_17_CORE_COMPLETE_EXTERNAL_PENDING`。
-- 当前 claim boundary 是：BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
+- latest final label 是 `FINAL_CAPPED_17_EXTERNAL_BASELINE_PARTIAL_BACKGROUND`。
+- 当前 claim boundary 是：CGBAPC/BAPC excluded from main table — per user instruction. These are internal pipeline/intermediate algorithms, NOT external baselines. Moved to excluded_internal_methods.tsv.
+
+All 38 internal Pareto exploration candidates (ACDC/DICEC/TICEC/GLICE/CECC + waves 10-20) excluded from main table. See FROZEN_HISTORY.tsv and excluded_internal_methods.tsv.
 
 ## 不能说
 

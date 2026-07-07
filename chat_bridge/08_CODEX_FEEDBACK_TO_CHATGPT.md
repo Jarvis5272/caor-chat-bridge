@@ -1,13 +1,14 @@
 # Codex Feedback To ChatGPT
 
-1. final label: `FINAL_CAPPED_17_CORE_COMPLETE_EXTERNAL_PENDING`
+1. final label: `FINAL_CAPPED_17_EXTERNAL_BASELINE_PARTIAL_BACKGROUND`
 2. output dir: `results/final_full_17dataset_baseline_benchmark_20260707`
 3. completed stages: missing
 4. key metrics:
-- `datasets`: `17`
-- `prefix_rows`: `82`
-5. gate decision: FINAL_CAPPED_17_CORE_COMPLETE_EXTERNAL_PENDING
-6. claim boundary: BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
+- missing
+5. gate decision: FINAL_CAPPED_17_EXTERNAL_BASELINE_PARTIAL_BACKGROUND
+6. claim boundary: CGBAPC/BAPC excluded from main table — per user instruction. These are internal pipeline/intermediate algorithms, NOT external baselines. Moved to excluded_internal_methods.tsv.
+
+All 38 internal Pareto exploration candidates (ACDC/DICEC/TICEC/GLICE/CECC + waves 10-20) excluded from main table. See FROZEN_HISTORY.tsv and excluded_internal_methods.tsv.
 7. next recommendation: Review latest result artifacts and confirm whether another validation step is warranted.
 8. protected files modified? `unknown`
 9. original BBS source modified? `unknown`

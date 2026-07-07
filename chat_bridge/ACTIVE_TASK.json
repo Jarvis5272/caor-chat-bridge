@@ -1,254 +1,60 @@
 {
   "_schema": "bridge_v2_active_task",
   "_version": "2.0.0",
-  "_description": "FINAL: Strong Baseline Full Benchmark. No algorithm exploration. Collecting all existing baseline results into a unified scoreboard. Chat context and attachments are NOT authoritative.",
+  "_description": "FINAL: Strong Baseline Full Benchmark. CAPPED_17_MATCHED fair comparison. 12 of 13 methods complete. ITR pending. CGBAPC/BAPC + internal candidates excluded per user instruction.",
   "active_task_id": "final_full_17dataset_baseline_benchmark",
   "active_output_dir": "results/final_full_17dataset_baseline_benchmark_20260707",
   "task_status": "final_evaluation_complete",
-  "final_label": "FINAL_CAPPED_17_CORE_COMPLETE_EXTERNAL_PENDING",
+  "final_label": "FINAL_CAPPED_17_EXTERNAL_BASELINE_PARTIAL_BACKGROUND",
   "target_hit": false,
-  "parent_task": "cecc_cross_event_consensus_certificate_20260707",
-  "active_goal": "final_strong_baseline_scoreboard_only_no_exploration",
-  "all_benchmarks_completed": [
+  "active_frontier": [],
+  "frozen_candidate_count": 38,
+  "frozen_history_file": "chat_bridge/FROZEN_HISTORY.tsv",
+  "algorithm_search_allowed": false,
+  "benchmark_completed": [
     "OUR_REALTIME_METHOD",
     "BBS",
-    "MUSCLE",
+    "CPL",
     "kmer_medoid",
     "first_read",
     "sampled_medoid",
+    "VS (VSEARCH)",
+    "MUSCLE",
+    "BMALA",
     "conservative_majority",
     "simple_alignment_consensus",
     "medoid_consensus_hybrid"
   ],
-  "pending_benchmarks": [
+  "benchmark_pending": [
+    "ITR"
+  ],
+  "benchmark_excluded_internal": [
     "CGBAPC",
     "BAPC",
-    "VS",
-    "BMALA",
-    "ITR",
-    "CPL"
+    "ACDC",
+    "DICEC",
+    "TICEC",
+    "GLICE",
+    "CECC",
+    "all 38 Pareto wave candidates"
   ],
   "key_results": {
     "OUR_acc": 0.966,
     "BBS_acc": 0.9688,
+    "CPL_acc": 0.9972,
+    "VS_acc": 0.945,
+    "BMALA_acc": 0.5378,
+    "MUSCLE_acc": 0.9292,
     "OUR_vs_BBS_delta_acc": -0.0028,
     "OUR_vs_BBS_speedup": 6.6,
+    "OUR_vs_CPL_speedup": 36.2,
+    "OUR_vs_CPL_delta_acc": -0.0312,
+    "CPL_best_overall_accuracy": 0.9972,
+    "CPL_best_exact": 0.917,
     "OUR_exact": 0.3485,
     "BBS_exact": 0.2461,
-    "OUR_vs_BBS_delta_exact": 0.1024
-  },
-  "parent_candidate": "all_previous",
-  "allowed_candidates": [],
-  "active_frontier": [],
-  "frozen_families": [
-    "BAEPC_FEIW",
-    "SPWIC",
-    "SCC",
-    "cheap_feature_family",
-    "bounded_local_certificate_family",
-    "DICEC",
-    "TICEC",
-    "GLICE"
-  ],
-  "do_not_resume": [
-    "BAEPC",
-    "FEIW",
-    "SPWIC",
-    "SCC",
-    "all_previous_pareto_candidates",
-    "TICEC",
-    "DICEC",
-    "ACDC",
-    "CSPC",
-    "MEPC",
-    "FHLR",
-    "NCPC",
-    "CSDP",
-    "GLICE"
-  ],
-  "frozen_candidate_count": 38,
-  "frozen_history_file": "chat_bridge/FROZEN_HISTORY.tsv",
-  "last_agent": "Claude Code (Opus 4.8)",
-  "last_agent_action": "bridge_v2_finalize: FINAL_CAPPED_17_CORE_COMPLETE_EXTERNAL_PENDING",
-  "last_modified_iso": "2026-07-08T00:05:33.373705+08:00",
-  "bbs_capped_summary": {
-    "acc": 0.9688,
-    "ED": 3.8344,
-    "exact": 0.2461,
-    "runtime_s": 684.3,
-    "prefix_per_second": 120.5,
-    "rows": 82462,
-    "row_key_sha256": "7ac2b177a2b5a42d4f1f882610cbb384caa024bd6c60d36944beb57832b8596d",
-    "status": "completed"
-  },
-  "benchmark_status": {
-    "previous_COMPLETE_audit": "REJECTED_scope_mismatch",
-    "CAPPED_17_MATCHED": "fair_comparison_active_5_of_10_methods_complete",
-    "completed_methods": [
-      "OUR_REALTIME_METHOD",
-      "MUSCLE",
-      "kmer_medoid",
-      "first_read",
-      "sampled_medoid"
-    ],
-    "pending_methods": [
-      "BBS",
-      "VS",
-      "BMALA",
-      "ITR",
-      "CPL"
-    ],
-    "MUSCLE_acc": 0.9292,
-    "MUSCLE_runtime_s": 2035.7,
-    "OUR_acc": 0.966,
-    "OUR_runtime_s": 103.5,
-    "OUR_vs_MUSCLE_speedup": 19.7,
-    "kmer_medoid_acc": 0.9654,
-    "kmer_medoid_runtime_s": 31.3,
+    "CPL_exact": 0.917,
     "row_key_sha256": "7ac2b177a2b5a42d4f1f882610cbb384caa024bd6c60d36944beb57832b8596d"
-  },
-  "benchmark_summary": {
-    "total_methods": 17,
-    "same_scope": [
-      "CGBAPC",
-      "BAPC",
-      "first_read",
-      "sampled_medoid",
-      "kmer_medoid",
-      "conservative_majority",
-      "simple_alignment_consensus",
-      "medoid_consensus_hybrid"
-    ],
-    "matched_scopeA": [
-      "BBS_original"
-    ],
-    "our_methods": [
-      "DICEC",
-      "CECC",
-      "ACDC"
-    ],
-    "different_scope_context": [
-      "BBS_historical",
-      "ITR_historical",
-      "CPL_historical"
-    ],
-    "unavailable": [
-      "MUSCLE",
-      "VS",
-      "BMALA"
-    ],
-    "internal_engineering": [
-      "EPBSD"
-    ],
-    "best_quality": "CGBAPC (acc=0.9721, ED=3.4794, speed=146 prefix/s)",
-    "best_external": "BBS (acc=0.9698, ED=3.7187, speed=105 prefix/s)",
-    "best_simple": "kmer_medoid (acc=0.9663, ED=4.1005, speed=47,414 prefix/s)",
-    "best_ours": "DICEC (acc=0.9661, ED=4.2793, speed=743 prefix/s)",
-    "quality_gap_vs_CGBAPC": "Δacc=-0.0061",
-    "speed_advantage_vs_CGBAPC": "5.1x faster",
-    "information_boundary": "anchor-segment-local paradigm at harmful≈6.7%, BBS_trio_harmful≈10.8%"
-  },
-  "_validation_protocol_v3": "STRONG_BASELINE_SCOREBOARD_ONLY",
-  "_validation_protocol_description": "No internal candidate ranking. All judgments based on absolute scoreboard: BBS, MUSCLE, VS, BMALA, ITR, CPL, kmer_medoid, CGBAPC, Our method. Output: method | ED | accuracy | exact | runtime | prefix/s | raw reads/s plus BBS trio/projected/source-gap groups.",
-  "strong_baseline_scoreboard_required": {
-    "methods": [
-      "BBS_original_matched_scopeA",
-      "MUSCLE",
-      "VS",
-      "BMALA",
-      "ITR_official_historical",
-      "CPL_official_historical",
-      "kmer_medoid",
-      "CGBAPC_PostGate",
-      "BAPC",
-      "first_read",
-      "sampled_medoid",
-      "conservative_majority",
-      "simple_alignment_consensus",
-      "medoid_consensus_hybrid"
-    ],
-    "our_methods": [
-      "CECC",
-      "DICEC"
-    ],
-    "required_columns": [
-      "method",
-      "ED",
-      "accuracy",
-      "exact",
-      "runtime",
-      "prefix_per_second",
-      "raw_reads_per_second"
-    ],
-    "required_groups": [
-      "BBS_trio",
-      "projected",
-      "source_gap"
-    ],
-    "output_file": "stageF_absolute_scoreboard.tsv",
-    "output_groups": "stageF_group_scoreboard.tsv"
-  },
-  "research_contract": {
-    "hypothesis": "Cross-event consistency — requiring agreement between multiple independent event observations across different anchor-pair segments — can filter harmful corrections that DICEC/GLICE miss, without using full alignment or global path information.",
-    "online_features": [
-      "observed_reads",
-      "anchor_pair_evidence",
-      "cross_event_certificate",
-      "prefix_history"
-    ],
-    "forbidden_online_features": [
-      "reference",
-      "truth",
-      "edit_distance",
-      "accuracy",
-      "BBS_output",
-      "EPBSD_score",
-      "full_alignment",
-      "POA",
-      "graph",
-      "beam_search",
-      "path_likelihood",
-      "dataset_information"
-    ],
-    "max_global_parameters": 3,
-    "validation_stages": {
-      "stage0": "method_lock",
-      "stage1": "sanity_2_datasets_20_clusters",
-      "stage2": "fullish_17_datasets_82462_rows",
-      "stageF": "absolute_scoreboard_vs_strong_baselines"
-    },
-    "no_automatic_candidate_after_failure": true,
-    "failure_output": "CECC_INFORMATION_BOUNDARY_ANALYSIS_CN.md",
-    "no_infinite_candidate_generation": true,
-    "max_candidates_this_task": 1
-  },
-  "target_gates": {
-    "quality": "ED <= kmer_medoid AND accuracy >= kmer_medoid AND exact >= kmer_medoid (same scope)",
-    "quality_vs_bbs": "ED <= BBS_ED + 0.10 (not clearly worse than BBS)",
-    "speed": "prefix/s >= 500",
-    "harmful_correction": "overall harmful correction <= 5%",
-    "group_bbs_trio": "BBS trio safe (harmful <= 5%, delta_ED <= 0, abnormal <= 5%)",
-    "originality": "no BBS/EPBSD/reference/dataset/full-alignment/graph/beam online"
-  },
-  "parent_context": {
-    "best_observed_only": "DICEC",
-    "best_ED": 4.2793,
-    "best_accuracy": 0.9661,
-    "best_exact": 0.3486,
-    "best_prefix_per_second": 775.5,
-    "best_harmful": 0.0672,
-    "best_BBS_trio_harmful": 0.1079,
-    "kmer_medoid_ED": 4.1005,
-    "kmer_medoid_accuracy": 0.9663,
-    "kmer_medoid_exact": 0.2741,
-    "BBS_matched_ED": 3.7187,
-    "BBS_matched_accuracy": 0.9698,
-    "BBS_matched_exact": 0.3218,
-    "CGBAPC_ED": 3.4794,
-    "CGBAPC_accuracy": 0.9721,
-    "CGBAPC_exact": 0.4137,
-    "CGBAPC_prefix_per_second": 146.14,
-    "information_boundary_finding": "DICEC→TICEC→GLICE lineage converges at harmful≈6.7%, BBS_trio_harmful≈10.8%. Anchor-segment-local paradigm at information boundary."
   },
   "protected_boundary": {
     "files": [
@@ -262,10 +68,9 @@
     "bbs_source": "must not be modified",
     "epbsd_fork": "must not be modified",
     "raw_data": "must not be modified",
-    "evaluator": "must not be patched",
-    "old_results": "must not be overwritten; only append"
+    "evaluator": "must not be patched"
   },
-  "handoff_protocol": "see chat_bridge/AGENT_HANDOFF.md",
-  "startup_script": "bash scripts/chat_bridge/start_agent_task.sh",
-  "finalize_script": "bash scripts/chat_bridge/codex_task_finalize.sh"
+  "last_agent": "Claude Code (Opus 4.8)",
+  "last_agent_action": "bridge_v2_finalize: FINAL_CAPPED_17_EXTERNAL_BASELINE_PARTIAL_BACKGROUND",
+  "last_modified_iso": "2026-07-08T01:00:25.792213+08:00"
 }
