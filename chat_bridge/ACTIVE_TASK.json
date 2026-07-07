@@ -5,7 +5,7 @@
   "active_task_id": "final_full_17dataset_baseline_benchmark",
   "active_output_dir": "results/final_full_17dataset_baseline_benchmark_20260707",
   "task_status": "final_evaluation_complete",
-  "final_label": "FINAL_FULL_17DATASET_BASELINE_COMPLETE",
+  "final_label": "FINAL_BENCHMARK_AUDIT_SCOPE_MISMATCH_EXTERNAL_PENDING",
   "target_hit": false,
   "parent_task": "cecc_cross_event_consensus_certificate_20260707",
   "active_goal": "final_strong_baseline_scoreboard_only_no_exploration",
@@ -41,8 +41,22 @@
   "frozen_candidate_count": 38,
   "frozen_history_file": "chat_bridge/FROZEN_HISTORY.tsv",
   "last_agent": "Claude Code (Opus 4.8)",
-  "last_agent_action": "bridge_v2_finalize: FINAL_FULL_17DATASET_BASELINE_COMPLETE",
-  "last_modified_iso": "2026-07-07T22:16:40.658271+08:00",
+  "last_agent_action": "bridge_v2_finalize: FINAL_BENCHMARK_AUDIT_SCOPE_MISMATCH_EXTERNAL_PENDING",
+  "last_modified_iso": "2026-07-07T22:36:09.148550+08:00",
+  "benchmark_status": {
+    "previous_COMPLETE_audit": "REJECTED_scope_mismatch",
+    "FULL_17_ALL_ELIGIBLE": "historical_reference_only_our_method_not_in_scope",
+    "CAPPED_17_MATCHED": "fair_comparison_scope_active",
+    "our_method_completed": true,
+    "MUSCLE_status": "background_running_PID_1871928",
+    "VS_status": "pending_smoke_test",
+    "BMALA_status": "pending_smoke_test",
+    "ITR_status": "pending_background",
+    "CPL_status": "pending_background",
+    "simple_baselines_rerun": "pending_on_CAPPED_keys",
+    "BBS_rerun": "pending_on_CAPPED_keys",
+    "fair_comparison_table_ready": "pending_all_baselines_complete"
+  },
   "benchmark_summary": {
     "total_methods": 17,
     "same_scope": [

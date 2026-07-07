@@ -4,7 +4,7 @@
   "blocking_missing": false,
   "bridge_consistency_status": "generated_pending_validation",
   "bridge_workflow_final_label": "CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT",
-  "claim_boundary": "### 可以说 (Can claim):\n- On 17 datasets same-scope, our BBS-free realtime method achieves accuracy 0.9660 (between kmer_medoid 0.9663 and BBS 0.9698)\n- Our method is 7.6× faster than BBS and 5.5× faster than CGBAPC (796 vs 105 vs 146 prefix/s)\n- Our method is BBS-free, reference-free, online-only decode\n- 10 of 17 target baselines have same-scope results; 5 external baselines and 2 MSA tools are unavailable\n\n### 不能说 (Cannot claim):\n- Cannot claim our method exceeds BBS in quality (Δacc = -0.0038)\n- Cannot claim our method exceeds CGBAPC in quality (Δacc = -0.0061)\n- Cannot claim our method outperforms MUSCLE/VS/BMALA/ITR/CPL (no same-scope results)\n- Cannot claim BBS trio harmful is solved (11.1% harmful in BBS trio rows)\n- Cannot claim final algorithm success (harmful 6.9% > 5% gate)\n- Cannot use historical 4-dataset results for same-scope comparison",
+  "claim_boundary": "### Can claim:\n- OUR_REALTIME_METHOD accuracy 0.9660 on CAPPED_17_MATCHED (82,462 rows)\n- Wall-clock runtime 103.53s, 796 prefix/s, BBS-free online decode\n- Row keys verified (SHA256: 7ac2b177...)\n- CAPPED_17_MATCHED is the defined fair comparison scope for ALL methods\n\n### Cannot claim:\n- Cannot claim speedup vs BBS/CGBAPC/kmer_medoid until they are rerun on same keys\n- Cannot claim position vs MUSCLE/VS/BMALA/ITR/CPL until they complete\n- Cannot claim FULL_17 (495K) scope completion\n- Cannot use historical 495K metrics for direct comparison with 82K scope",
   "completed_stages": [
     "missing"
   ],
@@ -17,16 +17,16 @@
     "chat_bridge/04_ACTIVE_CLAIM_BOUNDARY_CN.md",
     "chat_bridge/05_NEXT_ACTION_CN.md",
     "chat_bridge/09_SYNC_STATUS.tsv",
+    "results/final_full_17dataset_baseline_benchmark_20260707/FINAL_BENCHMARK_AUDIT_AND_COMPLETION_REPORT_CN.md",
     "results/final_full_17dataset_baseline_benchmark_20260707/FINAL_FULL_17DATASET_BASELINE_BENCHMARK_REPORT_CN.md",
     "results/final_full_17dataset_baseline_benchmark_20260707/final_artifact_manifest.tsv",
     "results/final_full_17dataset_baseline_benchmark_20260707/final_decision_matrix.tsv",
     "results/final_full_17dataset_baseline_benchmark_20260707/no_protected_files_modified.tsv",
-    "results/final_full_17dataset_baseline_benchmark_20260707/original_bbs_unchanged_audit.tsv",
-    "results/final_full_17dataset_baseline_benchmark_20260707/leakage_audit.tsv"
+    "results/final_full_17dataset_baseline_benchmark_20260707/original_bbs_unchanged_audit.tsv"
   ],
-  "final_label": "FINAL_FULL_17DATASET_BASELINE_COMPLETE",
-  "gate_decision": "FINAL_FULL_17DATASET_BASELINE_COMPLETE",
-  "large_files_skipped_count": 0,
+  "final_label": "FINAL_BENCHMARK_AUDIT_SCOPE_MISMATCH_EXTERNAL_PENDING",
+  "gate_decision": "FINAL_BENCHMARK_AUDIT_SCOPE_MISMATCH_EXTERNAL_PENDING",
+  "large_files_skipped_count": 2,
   "latest_result_requested": "results/final_full_17dataset_baseline_benchmark_20260707",
   "latest_result_used": "results/final_full_17dataset_baseline_benchmark_20260707",
   "main_metrics": {},
@@ -43,5 +43,5 @@
   "output_dir": "results/final_full_17dataset_baseline_benchmark_20260707",
   "protected_files_modified": "unknown",
   "selected_candidate": "missing",
-  "timestamp": "2026-07-07T22:16:40+08:00"
+  "timestamp": "2026-07-07T22:36:09+08:00"
 }

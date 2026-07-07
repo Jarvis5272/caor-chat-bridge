@@ -3,20 +3,18 @@
 ## 可以说
 
 - 当前结果是 metadata-only 同步快照，latest result 为 `results/final_full_17dataset_baseline_benchmark_20260707`。
-- latest final label 是 `FINAL_FULL_17DATASET_BASELINE_COMPLETE`。
-- 当前 claim boundary 是：### 可以说 (Can claim):
-- On 17 datasets same-scope, our BBS-free realtime method achieves accuracy 0.9660 (between kmer_medoid 0.9663 and BBS 0.9698)
-- Our method is 7.6× faster than BBS and 5.5× faster than CGBAPC (796 vs 105 vs 146 prefix/s)
-- Our method is BBS-free, reference-free, online-only decode
-- 10 of 17 target baselines have same-scope results; 5 external baselines and 2 MSA tools are unavailable
+- latest final label 是 `FINAL_BENCHMARK_AUDIT_SCOPE_MISMATCH_EXTERNAL_PENDING`。
+- 当前 claim boundary 是：### Can claim:
+- OUR_REALTIME_METHOD accuracy 0.9660 on CAPPED_17_MATCHED (82,462 rows)
+- Wall-clock runtime 103.53s, 796 prefix/s, BBS-free online decode
+- Row keys verified (SHA256: 7ac2b177...)
+- CAPPED_17_MATCHED is the defined fair comparison scope for ALL methods
 
-### 不能说 (Cannot claim):
-- Cannot claim our method exceeds BBS in quality (Δacc = -0.0038)
-- Cannot claim our method exceeds CGBAPC in quality (Δacc = -0.0061)
-- Cannot claim our method outperforms MUSCLE/VS/BMALA/ITR/CPL (no same-scope results)
-- Cannot claim BBS trio harmful is solved (11.1% harmful in BBS trio rows)
-- Cannot claim final algorithm success (harmful 6.9% > 5% gate)
-- Cannot use historical 4-dataset results for same-scope comparison
+### Cannot claim:
+- Cannot claim speedup vs BBS/CGBAPC/kmer_medoid until they are rerun on same keys
+- Cannot claim position vs MUSCLE/VS/BMALA/ITR/CPL until they complete
+- Cannot claim FULL_17 (495K) scope completion
+- Cannot use historical 495K metrics for direct comparison with 82K scope
 
 ## 不能说
 
