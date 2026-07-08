@@ -1,11 +1,11 @@
 {
   "_schema": "bridge_v2_active_task",
   "_version": "2.0.0",
-  "_description": "FINAL: Strong Baseline Full Benchmark. CAPPED_17_MATCHED fair comparison. 12 of 13 methods complete. ITR pending. CGBAPC/BAPC + internal candidates excluded per user instruction.",
+  "_description": "FINAL: CAPPED_17_MATCHED fair benchmark. 12 methods complete + audited. ITR background running (PID 85573). CGBAPC/BAPC + internal candidates excluded.",
   "active_task_id": "final_full_17dataset_baseline_benchmark",
   "active_output_dir": "results/final_full_17dataset_baseline_benchmark_20260707",
   "task_status": "final_evaluation_complete",
-  "final_label": "FINAL_CAPPED_17_EXTERNAL_BASELINE_PARTIAL_BACKGROUND",
+  "final_label": "FINAL_CAPPED_17_EXTERNAL_BASELINE_AUDITED_ITR_BACKGROUND",
   "target_hit": false,
   "active_frontier": [],
   "frozen_candidate_count": 38,
@@ -38,6 +38,19 @@
     "CECC",
     "all 38 Pareto wave candidates"
   ],
+  "adapter_audits": {
+    "CPL": "valid_external_baseline — standard truth-length protocol, acc=0.9972, no sequence leakage",
+    "BMALA": "completed_low_quality — parser verified, BMALA poor for short reads, acc=0.5378",
+    "VS": "valid_external_baseline — standard protocol, acc=0.9450, no leakage"
+  },
+  "ITR_background": {
+    "pid": 85573,
+    "log_path": "results/final_full_17dataset_baseline_benchmark_20260707/logs/itr_background.log",
+    "script_path": "results/final_full_17dataset_baseline_benchmark_20260707/logs/run_itr_background.py",
+    "partial_output": "CAPPED_17_ITR_raw.tsv",
+    "resume_command": "nohup python logs/run_itr_background.py >> logs/itr_background.log 2>&1 &",
+    "estimated_runtime": "2-4 hours"
+  },
   "key_results": {
     "OUR_acc": 0.966,
     "BBS_acc": 0.9688,
@@ -71,6 +84,6 @@
     "evaluator": "must not be patched"
   },
   "last_agent": "Claude Code (Opus 4.8)",
-  "last_agent_action": "bridge_v2_finalize: FINAL_CAPPED_17_EXTERNAL_BASELINE_PARTIAL_BACKGROUND",
-  "last_modified_iso": "2026-07-08T01:00:25.792213+08:00"
+  "last_agent_action": "bridge_v2_finalize: FINAL_CAPPED_17_EXTERNAL_BASELINE_AUDITED_ITR_BACKGROUND",
+  "last_modified_iso": "2026-07-08T11:36:37.675480+08:00"
 }
