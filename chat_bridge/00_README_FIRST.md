@@ -6,7 +6,7 @@
 
 ## 当前主线状态
 
-服务器显式结果为 `results/final_full_17dataset_baseline_benchmark_20260707`；当前最新 Codex label 为 `FINAL_CAPPED_17_PER_DATASET_EXTERNAL_TABLE_COMPLETE`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT`。
+服务器显式结果为 `results/final_full_17dataset_baseline_benchmark_20260707`；当前最新 Codex label 为 `FINAL_CAPPED_17_PER_DATASET_DISPLAY_BRIDGED`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT`。
 
 ## 项目状态源
 
@@ -14,7 +14,7 @@
 
 ## 最新 Codex final label
 
-`FINAL_CAPPED_17_PER_DATASET_EXTERNAL_TABLE_COMPLETE`
+`FINAL_CAPPED_17_PER_DATASET_DISPLAY_BRIDGED`
 
 ## 最新输出目录
 
