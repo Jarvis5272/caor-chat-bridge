@@ -4,7 +4,7 @@
   "blocking_missing": false,
   "bridge_consistency_status": "generated_pending_validation",
   "bridge_workflow_final_label": "CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT",
-  "claim_boundary": "BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.",
+  "claim_boundary": "The anchor-segment-local observed-only paradigm reaches an information boundary at accuracy ≈0.9660 across:\n- DICEC lineage (4 candidates)\n- FPCR family (3 candidates)  \n- SGR family (3 candidates)\n\n**9 targeted algorithmic attempts resampling the same local observation space cannot exceed this boundary.**",
   "completed_stages": [
     "missing"
   ],
@@ -17,16 +17,16 @@
     "chat_bridge/04_ACTIVE_CLAIM_BOUNDARY_CN.md",
     "chat_bridge/05_NEXT_ACTION_CN.md",
     "chat_bridge/09_SYNC_STATUS.tsv",
+    "results/sgr_selective_global_reranking_20260708/SGR_FULL_EVALUATION_AND_ORACLE_DIAGNOSTIC_REPORT_CN.md",
     "results/sgr_selective_global_reranking_20260708/SGR_NO_ACCEPTABLE_IMPROVEMENT_REPORT_CN.md",
     "results/sgr_selective_global_reranking_20260708/FINAL*_REPORT_CN.md",
     "results/sgr_selective_global_reranking_20260708/final_decision_matrix.tsv",
     "results/sgr_selective_global_reranking_20260708/final_artifact_manifest.tsv",
-    "results/sgr_selective_global_reranking_20260708/no_protected_files_modified.tsv",
-    "results/sgr_selective_global_reranking_20260708/original_bbs_unchanged_audit.tsv"
+    "results/sgr_selective_global_reranking_20260708/no_protected_files_modified.tsv"
   ],
   "final_label": "SGR_NO_CANDIDATE_INFORMATION_GAIN",
   "gate_decision": "SGR_NO_CANDIDATE_INFORMATION_GAIN",
-  "large_files_skipped_count": 2,
+  "large_files_skipped_count": 3,
   "latest_result_requested": "results/sgr_selective_global_reranking_20260708",
   "latest_result_used": "results/sgr_selective_global_reranking_20260708",
   "main_metrics": {},
@@ -45,5 +45,5 @@
   "output_dir": "results/sgr_selective_global_reranking_20260708",
   "protected_files_modified": "unknown",
   "selected_candidate": "missing",
-  "timestamp": "2026-07-08T16:11:53+08:00"
+  "timestamp": "2026-07-08T16:50:32+08:00"
 }

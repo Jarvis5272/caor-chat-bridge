@@ -16,8 +16,8 @@ latest result used	pass	results/sgr_selective_global_reranking_20260708
 latest result detection mode	explicit	False
 latest result detected	pass	results/sgr_selective_global_reranking_20260708
 files copied	pass	0 source artifact files copied; bridge files generated only
-files skipped	pass	2
-large files skipped	pass	2
+files skipped	pass	3
+large files skipped	pass	3
 missing expected files	warn	FINAL*_REPORT_CN.md, final_decision_matrix.tsv, final_artifact_manifest.tsv, no_protected_files_modified.tsv, original_bbs_unchanged_audit.tsv, leakage_audit.tsv, commands_run.sh, environment_summary.txt
 required bridge files present	pass	14/14
 package path	pass	chat_bridge_feedback_package.zip
@@ -40,9 +40,9 @@ git status summary	pass	"M AGENTS.md
 ?? experiments/bbs_baseline_eval.py
 ?? experiments/candidate_pool_selector_eval.py
 ?? experiments"
-timestamp	pass	2026-07-08T16:11:53+08:00
+timestamp	pass	2026-07-08T16:50:32+08:00
 protected files modified	warn	unknown
 original BBS source modified	warn	unknown
 generated bridge files	pass	14
 read_skipped	pass	[]
-scan_skipped	pass	"[{""path"": ""results/sgr_selective_global_reranking_20260708/SGR_conservative_raw.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 46143719}, {""path"": ""results/sgr_selective_global_reranking_20260708/SGR_balanced_raw.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 11394624}]"
+scan_skipped	pass	"[{""path"": ""results/sgr_selective_global_reranking_20260708/SGR_conservative_raw.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 46143719}, {""path"": ""results/sgr_selective_global_reranking_20260708/SGR_aggressive_raw.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 45014023}, {""path"": ""results/sgr_selective_global_reranking_20260708/SGR_balanced_raw.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 43377756}]"

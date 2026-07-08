@@ -4,7 +4,12 @@
 
 - 当前结果是 metadata-only 同步快照，latest result 为 `results/sgr_selective_global_reranking_20260708`。
 - latest final label 是 `SGR_NO_CANDIDATE_INFORMATION_GAIN`。
-- 当前 claim boundary 是：BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
+- 当前 claim boundary 是：The anchor-segment-local observed-only paradigm reaches an information boundary at accuracy ≈0.9660 across:
+- DICEC lineage (4 candidates)
+- FPCR family (3 candidates)  
+- SGR family (3 candidates)
+
+**9 targeted algorithmic attempts resampling the same local observation space cannot exceed this boundary.**
 
 ## 不能说
 

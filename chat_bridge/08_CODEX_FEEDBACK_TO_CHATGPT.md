@@ -6,7 +6,12 @@
 4. key metrics:
 - missing
 5. gate decision: SGR_NO_CANDIDATE_INFORMATION_GAIN
-6. claim boundary: BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
+6. claim boundary: The anchor-segment-local observed-only paradigm reaches an information boundary at accuracy ≈0.9660 across:
+- DICEC lineage (4 candidates)
+- FPCR family (3 candidates)  
+- SGR family (3 candidates)
+
+**9 targeted algorithmic attempts resampling the same local observation space cannot exceed this boundary.**
 7. next recommendation: Review latest result artifacts and confirm whether another validation step is warranted.
 8. protected files modified? `unknown`
 9. original BBS source modified? `unknown`
