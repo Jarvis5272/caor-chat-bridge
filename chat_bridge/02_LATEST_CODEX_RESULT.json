@@ -19,14 +19,14 @@
     "chat_bridge/09_SYNC_STATUS.tsv",
     "results/mgcs_mini_global_consensus_search_20260708/MGCS_CORRECTED_CANDIDATE_POOL_ORACLE_REPORT_CN.md",
     "results/mgcs_mini_global_consensus_search_20260708/MGCS_FINAL_CHEAP_ORACLE_REPORT_CN.md",
+    "results/mgcs_mini_global_consensus_search_20260708/MGCS_ORACLE_POTENTIAL_RERANKER_FAILURE_REPORT_CN.md",
     "results/mgcs_mini_global_consensus_search_20260708/FINAL*_REPORT_CN.md",
     "results/mgcs_mini_global_consensus_search_20260708/final_decision_matrix.tsv",
-    "results/mgcs_mini_global_consensus_search_20260708/final_artifact_manifest.tsv",
-    "results/mgcs_mini_global_consensus_search_20260708/no_protected_files_modified.tsv"
+    "results/mgcs_mini_global_consensus_search_20260708/final_artifact_manifest.tsv"
   ],
-  "final_label": "MGCS_CHEAP_ORACLE_POTENTIAL_CONTINUE_RERANKER",
-  "gate_decision": "MGCS_CHEAP_ORACLE_POTENTIAL_CONTINUE_RERANKER",
-  "large_files_skipped_count": 1,
+  "final_label": "MGCS_ORACLE_POTENTIAL_RERANKER_FAILURE",
+  "gate_decision": "MGCS_ORACLE_POTENTIAL_RERANKER_FAILURE",
+  "large_files_skipped_count": 3,
   "latest_result_requested": "results/mgcs_mini_global_consensus_search_20260708",
   "latest_result_used": "results/mgcs_mini_global_consensus_search_20260708",
   "main_metrics": {},
@@ -40,10 +40,10 @@
     "commands_run.sh",
     "environment_summary.txt"
   ],
-  "next_action": "Review latest result artifacts and confirm whether another validation step is warranted.",
+  "next_action": "Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.",
   "original_bbs_source_modified": "unknown",
   "output_dir": "results/mgcs_mini_global_consensus_search_20260708",
   "protected_files_modified": "unknown",
   "selected_candidate": "missing",
-  "timestamp": "2026-07-08T20:32:43+08:00"
+  "timestamp": "2026-07-08T21:37:30+08:00"
 }

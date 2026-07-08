@@ -2,7 +2,7 @@
 
 ## 当前建议下一步
 
-Review latest result artifacts and confirm whether another validation step is warranted.
+Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.
 
 ## 不建议做什么
 
@@ -29,11 +29,11 @@ Review latest result artifacts and confirm whether another validation step is wa
 
 ## 是否继续算法
 
-是否继续算法严格服从本页 latest result 的 gate 和 `Review latest result artifacts and confirm whether another validation step is warranted.`；不得从旧聊天附件或 frozen BAEPC 状态恢复任务。
+是否继续算法严格服从本页 latest result 的 gate 和 `Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.`；不得从旧聊天附件或 frozen BAEPC 状态恢复任务。
 
 ## 推荐给 ChatGPT/Codex 的下一步动作
 
-- 只执行 `Review latest result artifacts and confirm whether another validation step is warranted.` 指向的显式 controller action；
+- 只执行 `Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.` 指向的显式 controller action；
 - 不从 BAEPC+FEIW historical negative evidence 继续；
 - 不依赖聊天上传附件恢复项目状态；
 - 不修改 protected code / original BBS / raw data。
