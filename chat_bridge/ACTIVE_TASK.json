@@ -5,7 +5,7 @@
   "active_task_id": "final_full_17dataset_baseline_benchmark",
   "active_output_dir": "results/sgr_selective_global_reranking_20260708",
   "task_status": "final_evaluation_complete",
-  "final_label": "SGR_NO_ACCEPTABLE_IMPROVEMENT",
+  "final_label": "SGR_NO_CANDIDATE_INFORMATION_GAIN",
   "target_hit": false,
   "active_frontier": [],
   "frozen_candidate_count": 38,
@@ -84,6 +84,6 @@
     "evaluator": "must not be patched"
   },
   "last_agent": "Claude Code (Opus 4.8)",
-  "last_agent_action": "bridge_v2_finalize: SGR_NO_ACCEPTABLE_IMPROVEMENT",
-  "last_modified_iso": "2026-07-08T15:38:46.945765+08:00"
+  "last_agent_action": "bridge_v2_finalize: SGR_NO_CANDIDATE_INFORMATION_GAIN",
+  "last_modified_iso": "2026-07-08T16:11:53.395523+08:00"
 }

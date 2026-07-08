@@ -13,7 +13,7 @@ ChatGPT should first read:
 ## Current Latest Result
 
 - latest result: `results/sgr_selective_global_reranking_20260708`
-- latest final label: `SGR_NO_ACCEPTABLE_IMPROVEMENT`
+- latest final label: `SGR_NO_CANDIDATE_INFORMATION_GAIN`
 
 ## Claim Boundary
 

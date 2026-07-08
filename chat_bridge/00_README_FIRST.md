@@ -6,7 +6,7 @@
 
 ## 当前主线状态
 
-服务器显式结果为 `results/sgr_selective_global_reranking_20260708`；当前最新 Codex label 为 `SGR_NO_ACCEPTABLE_IMPROVEMENT`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT`。
+服务器显式结果为 `results/sgr_selective_global_reranking_20260708`；当前最新 Codex label 为 `SGR_NO_CANDIDATE_INFORMATION_GAIN`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT`。
 
 ## 项目状态源
 
@@ -14,7 +14,7 @@
 
 ## 最新 Codex final label
 
-`SGR_NO_ACCEPTABLE_IMPROVEMENT`
+`SGR_NO_CANDIDATE_INFORMATION_GAIN`
 
 ## 最新输出目录
 

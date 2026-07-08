@@ -1,11 +1,11 @@
 # Codex Feedback To ChatGPT
 
-1. final label: `SGR_NO_ACCEPTABLE_IMPROVEMENT`
+1. final label: `SGR_NO_CANDIDATE_INFORMATION_GAIN`
 2. output dir: `results/sgr_selective_global_reranking_20260708`
 3. completed stages: missing
 4. key metrics:
 - missing
-5. gate decision: SGR_NO_ACCEPTABLE_IMPROVEMENT
+5. gate decision: SGR_NO_CANDIDATE_INFORMATION_GAIN
 6. claim boundary: BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
 7. next recommendation: Review latest result artifacts and confirm whether another validation step is warranted.
 8. protected files modified? `unknown`

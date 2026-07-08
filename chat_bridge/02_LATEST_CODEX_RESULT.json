@@ -24,8 +24,8 @@
     "results/sgr_selective_global_reranking_20260708/no_protected_files_modified.tsv",
     "results/sgr_selective_global_reranking_20260708/original_bbs_unchanged_audit.tsv"
   ],
-  "final_label": "SGR_NO_ACCEPTABLE_IMPROVEMENT",
-  "gate_decision": "SGR_NO_ACCEPTABLE_IMPROVEMENT",
+  "final_label": "SGR_NO_CANDIDATE_INFORMATION_GAIN",
+  "gate_decision": "SGR_NO_CANDIDATE_INFORMATION_GAIN",
   "large_files_skipped_count": 2,
   "latest_result_requested": "results/sgr_selective_global_reranking_20260708",
   "latest_result_used": "results/sgr_selective_global_reranking_20260708",
@@ -45,5 +45,5 @@
   "output_dir": "results/sgr_selective_global_reranking_20260708",
   "protected_files_modified": "unknown",
   "selected_candidate": "missing",
-  "timestamp": "2026-07-08T15:38:47+08:00"
+  "timestamp": "2026-07-08T16:11:53+08:00"
 }
