@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Per-Dataset External Baseline Part1 (Datasets 1–6)</title>
+<style>
+  body { font-family: 'Segoe UI','Helvetica Neue',Arial,'Noto Sans CJK SC',sans-serif; margin:16px; background:#f0f4f8; color:#222; }
+  h2 { text-align:center; margin:12px 0 4px; font-size:18px; }
+  .subtitle { text-align:center; font-size:12px; color:#666; margin-bottom:12px; }
+  table { border-collapse:collapse; width:100%; font-size:12px; background:#fff; }
+  thead th { background:#c8d6e5; padding:6px 8px; border:1px solid #fff; font-weight:600; text-align:center; white-space:nowrap; }
+  tbody td { padding:5px 8px; border:1px solid #e8ecf0; text-align:center; }
+  .ds-cell { background:#dce6f0; font-weight:bold; text-align:center; vertical-align:middle; }
+  .method-cell { text-align:left; font-weight:500; padding-left:12px; }
+  .our-method td { background:#f0f5ff; }
+  .our-method .method-cell { font-weight:600; color:#1a5276; }
+  strong { color:#1a3a5c; }
+  .na-cell { color:#bbb; font-style:italic; }
+  .footnote { font-size:11px; color:#888; margin-top:8px; line-height:1.5; }
+</style>
+</head>
+<body>
+<h2>Per-Dataset External Baseline Comparison — Part1</h2>
+<div class="subtitle">CAPPED_17_MATCHED (82,462 rows, 17 datasets, 7 methods). Datasets 1–6 of 17. Bold=best within dataset-metric.</div>
+<table>
+<thead>
+<tr><th>数据集</th><th>算法</th><th>Exact</th><th>Accuracy</th><th>ED</th><th>Time / Cluster</th><th>Runtime</th><th>Prefix/s</th><th>Raw reads/s</th><th>Speedup vs BBS</th></tr>
+</thead>
+<tbody>
+<tr class="our-method"><td rowspan="7" class="ds-cell">binned_nanopore</td><td class="method-cell">当前方法</td><td>0.2564</td><td>0.9719</td><td>3.9340</td><td>0.007940</td><td>7.9</td><td>698.00</td><td><strong>4058.70</strong></td><td>7.03</td></tr>
+<tr><td class="method-cell">BBS</td><td>0.0973</td><td>0.9740</td><td>3.6359</td><td>0.055840</td><td>55.8</td><td>99.30</td><td>—</td><td>1.00</td></tr>
+<tr><td class="method-cell">MUSCLE</td><td>0.0460</td><td>0.9391</td><td>8.5191</td><td>0.168580</td><td>168.6</td><td>32.90</td><td>—</td><td>0.33</td></tr>
+<tr><td class="method-cell">VS</td><td>0.2102</td><td>0.9531</td><td>6.5601</td><td><strong>0.002990</strong></td><td><strong>3.0</strong></td><td><strong>1854.40</strong></td><td>—</td><td><strong>18.68</strong></td></tr>
+<tr><td class="method-cell">BMALA</td><td>0.0009</td><td>0.4685</td><td>74.4035</td><td>0.008730</td><td>8.7</td><td>634.50</td><td>—</td><td>6.40</td></tr>
+<tr><td class="method-cell">CPL</td><td><strong>0.9823</strong></td><td><strong>0.9993</strong></td><td><strong>0.1000</strong></td><td>0.333170</td><td>333.2</td><td>16.60</td><td>—</td><td>0.17</td></tr>
+<tr><td class="method-cell">ITR</td><td class="na-cell">—</td><td class="na-cell">—</td><td class="na-cell">—</td><td class="na-cell">—</td><td class="na-cell">—</td><td class="na-cell">—</td><td class="na-cell">—</td><td class="na-cell">—</td></tr>
+<tr class="our-method"><td rowspan="7" class="ds-cell">clover</td><td class="method-cell">当前方法</td><td>0.9510</td><td>0.9997</td><td>0.0522</td><td>0.010790</td><td>10.8</td><td>555.90</td><td><strong>3798.30</strong></td><td>4.03</td></tr>
+<tr><td class="method-cell">BBS</td><td>0.3780</td><td>0.9958</td><td>0.6740</td><td>0.043490</td><td>43.5</td><td>138.00</td><td>—</td><td>1.00</td></tr>
+<tr><td class="method-cell">MUSCLE</td><td>0.7272</td><td>0.9978</td><td>0.3590</td><td>0.080650</td><td>80.7</td><td>74.40</td><td>—</td><td>0.54</td></tr>
+<tr><td class="method-cell">VS</td><td>0.9507</td><td>0.9997</td><td>0.0527</td><td><strong>0.004780</strong></td><td><strong>4.8</strong></td><td><strong>1255.70</strong></td><td>—</td><td><strong>9.10</strong></td></tr>
+<tr><td class="method-cell">BMALA</td><td>0.0010</td><td>0.4539</td><td>87.3790</td><td>0.009900</td><td>9.9</td><td>606.10</td><td>—</td><td>4.39</td></tr>
+<tr><td class="method-cell">CPL</td><td><strong>1.0000</strong></td><td><strong>1.0000</strong></td><td><strong>0.0000</strong></td><td>0.462920</td><td>462.9</td><td>13.00</td><td>—</td><td>0.09</td></tr>
+<tr><td class="method-cell">ITR</td><td class="na-cell">—</td><td class="na-cell">—</td><td class="na-cell">—</td><td class="na-cell">—</td><td class="na-cell">—</td><td class="na-cell">—</td><td class="na-cell">—</td><td class="na-cell">—</td></tr>
+<tr class="our-method"><td rowspan="7" class="ds-cell">clover_clusters</td><td class="method-cell">当前方法</td><td>0.9510</td><td>0.9997</td><td>0.0522</td><td>0.010870</td><td>10.9</td><td>552.20</td><td><strong>3773.30</strong></td><td>3.89</td></tr>
+<tr><td class="method-cell">BBS</td><td>0.3780</td><td>0.9958</td><td>0.6740</td><td>0.042280</td><td>42.3</td><td>141.90</td><td>—</td><td>1.00</td></tr>
+<tr><td class="method-cell">MUSCLE</td><td>0.7272</td><td>0.9978</td><td>0.3590</td><td>0.080390</td><td>80.4</td><td>74.60</td><td>—</td><td>0.53</td></tr>
+<tr><td class="method-cell">VS</td><td>0.9507</td><td>0.9997</td><td>0.0527</td><td><strong>0.004790</strong></td><td><strong>4.8</strong></td><td><strong>1251.80</strong></td><td>—</td><td><strong>8.83</strong></td></tr>
+<tr><td class="method-cell">BMALA</td><td>0.0010</td><td>0.4539</td><td>87.3790</td><td>0.010280</td><td>10.3</td><td>583.80</td><td>—</td><td>4.11</td></tr>
+<tr><td class="method-cell">CPL</td><td><strong>1.0000</strong></td><td><strong>1.0000</strong></td><td><strong>0.0000</strong></td><td>0.460540</td><td>460.5</td><td>13.00</td><td>—</td><td>0.09</td></tr>
+<tr><td class="method-cell">ITR</td><td class="na-cell">—</td><td class="na-cell">—</td><td class="na-cell">—</td><td class="na-cell">—</td><td class="na-cell">—</td><td class="na-cell">—</td><td class="na-cell">—</td><td class="na-cell">—</td></tr>
+<tr class="our-method"><td rowspan="7" class="ds-cell">microsoft_cnr</td><td class="method-cell">当前方法</td><td>0.0956</td><td>0.9615</td><td>4.2300</td><td>0.006320</td><td>6.3</td><td>859.20</td><td><strong>4867.50</strong></td><td>7.71</td></tr>
+<tr><td class="method-cell">BBS</td><td>0.0157</td><td>0.9540</td><td>5.0580</td><td>0.048740</td><td>48.7</td><td>111.40</td><td>—</td><td>1.00</td></tr>
+<tr><td class="method-cell">MUSCLE</td><td>0.0070</td><td>0.9132</td><td>9.5471</td><td>0.157870</td><td>157.9</td><td>34.40</td><td>—</td><td>0.31</td></tr>
+<tr><td class="method-cell">VS</td><td>0.0247</td><td>0.9314</td><td>7.5413</td><td><strong>0.001940</strong></td><td><strong>1.9</strong></td><td><strong>2797.40</strong></td><td>—</td><td><strong>25.12</strong></td></tr>
+<tr><td class="method-cell">BMALA</td><td>0.0007</td><td>0.4450</td><td>61.0517</td><td>0.005910</td><td>5.9</td><td>918.30</td><td>—</td><td>8.25</td></tr>
+<tr><td class="method-cell">CPL</td><td><strong>0.9580</strong></td><td><strong>0.9991</strong></td><td><strong>0.0967</strong></td><td>0.219890</td><td>219.9</td><td>24.70</td><td>—</td><td>0.22</td></tr>
+<tr><td class="method-cell">ITR</td><td class="na-cell">—</td><td class="na-cell">—</td><td class="na-cell">—</td><td class="na-cell">—</td><td class="na-cell">—</td><td class="na-cell">—</td><td class="na-cell">—</td><td class="na-cell">—</td></tr>
+<tr class="our-method"><td rowspan="7" class="ds-cell">nbt17_id20_m2m_top500</td><td class="method-cell">当前方法</td><td>0.8692</td><td>0.9970</td><td>0.4556</td><td>0.005660</td><td>2.8</td><td>883.90</td><td><strong>3712.50</strong></td><td>5.13</td></tr>
+<tr><td class="method-cell">BBS</td><td>0.7100</td><td>0.9965</td><td>0.5260</td><td>0.029040</td><td>14.5</td><td>172.10</td><td>—</td><td>1.00</td></tr>
+<tr><td class="method-cell">MUSCLE</td><td>0.7276</td><td>0.9951</td><td>0.7344</td><td>0.077080</td><td>38.5</td><td>64.90</td><td>—</td><td>0.38</td></tr>
+<tr><td class="method-cell">VS</td><td>0.8244</td><td>0.9949</td><td>0.7576</td><td><strong>0.002820</strong></td><td><strong>1.4</strong></td><td><strong>1776.20</strong></td><td>—</td><td><strong>10.30</strong></td></tr>
+<tr><td class="method-cell">BMALA</td><td>0.0020</td><td>0.6661</td><td>50.0860</td><td>0.007620</td><td>3.8</td><td>655.30</td><td>—</td><td>3.81</td></tr>
+<tr><td class="method-cell">CPL</td><td><strong>1.0000</strong></td><td><strong>1.0000</strong></td><td><strong>0.0000</strong></td><td>0.145000</td><td>72.5</td><td>34.50</td><td>—</td><td>0.20</td></tr>
+<tr><td class="method-cell">ITR</td><td class="na-cell">—</td><td class="na-cell">—</td><td class="na-cell">—</td><td class="na-cell">—</td><td class="na-cell">—</td><td class="na-cell">—</td><td class="na-cell">—</td><td class="na-cell">—</td></tr>
+<tr class="our-method"><td rowspan="7" class="ds-cell">nbt17_id20_m2m_top5000</td><td class="method-cell">当前方法</td><td>0.8662</td><td>0.9971</td><td>0.4284</td><td>0.005690</td><td>5.7</td><td>879.20</td><td><strong>3692.60</strong></td><td>4.97</td></tr>
+<tr><td class="method-cell">BBS</td><td>0.7090</td><td>0.9963</td><td>0.5490</td><td>0.028260</td><td>28.3</td><td>176.90</td><td>—</td><td>1.00</td></tr>
+<tr><td class="method-cell">MUSCLE</td><td>0.7360</td><td>0.9955</td><td>0.6788</td><td>0.079890</td><td>79.9</td><td>62.60</td><td>—</td><td>0.35</td></tr>
+<tr><td class="method-cell">VS</td><td>0.8290</td><td>0.9954</td><td>0.6968</td><td><strong>0.002900</strong></td><td><strong>2.9</strong></td><td><strong>1722.80</strong></td><td>—</td><td><strong>9.74</strong></td></tr>
+<tr><td class="method-cell">BMALA</td><td>0.0010</td><td>0.6657</td><td>50.1520</td><td>0.007250</td><td>7.2</td><td>689.70</td><td>—</td><td>3.90</td></tr>
+<tr><td class="method-cell">CPL</td><td><strong>1.0000</strong></td><td><strong>1.0000</strong></td><td><strong>0.0000</strong></td><td>0.125060</td><td>125.1</td><td>40.00</td><td>—</td><td>0.23</td></tr>
+<tr><td class="method-cell">ITR</td><td class="na-cell">—</td><td class="na-cell">—</td><td class="na-cell">—</td><td class="na-cell">—</td><td class="na-cell">—</td><td class="na-cell">—</td><td class="na-cell">—</td><td class="na-cell">—</td></tr>
+</tbody>
+</table>
+<div class="footnote">CAPPED_17_MATCHED scope (82,462 prefix rows, prefix 1/2/3/5/10/20, file_order, same row keys). <strong>Bold</strong>=best within dataset-metric. 当前方法=OUR_REALTIME_METHOD (BBS-free, reference-free, online). ITR: failed/unusable on 15/17 datasets, excluded from best-value. Speedup vs BBS = BBS_runtime / method_runtime per dataset. Runtime = wall_clock seconds.</div>
+</body>
+</html>
