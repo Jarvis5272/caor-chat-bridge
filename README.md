@@ -12,17 +12,12 @@ ChatGPT should first read:
 
 ## Current Latest Result
 
-- latest result: `results/sgr_selective_global_reranking_20260708`
-- latest final label: `SGR_NO_CANDIDATE_INFORMATION_GAIN`
+- latest result: `results/mgcs_mini_global_consensus_search_20260708`
+- latest final label: `MGCS_NO_CANDIDATE_POOL_POTENTIAL`
 
 ## Claim Boundary
 
-The anchor-segment-local observed-only paradigm reaches an information boundary at accuracy ≈0.9660 across:
-- DICEC lineage (4 candidates)
-- FPCR family (3 candidates)  
-- SGR family (3 candidates)
-
-**9 targeted algorithmic attempts resampling the same local observation space cannot exceed this boundary.**
+BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
 
 ## Next Action
 

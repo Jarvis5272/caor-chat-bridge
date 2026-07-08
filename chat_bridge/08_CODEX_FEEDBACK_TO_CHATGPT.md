@@ -1,17 +1,12 @@
 # Codex Feedback To ChatGPT
 
-1. final label: `SGR_NO_CANDIDATE_INFORMATION_GAIN`
-2. output dir: `results/sgr_selective_global_reranking_20260708`
+1. final label: `MGCS_NO_CANDIDATE_POOL_POTENTIAL`
+2. output dir: `results/mgcs_mini_global_consensus_search_20260708`
 3. completed stages: missing
 4. key metrics:
 - missing
-5. gate decision: SGR_NO_CANDIDATE_INFORMATION_GAIN
-6. claim boundary: The anchor-segment-local observed-only paradigm reaches an information boundary at accuracy ≈0.9660 across:
-- DICEC lineage (4 candidates)
-- FPCR family (3 candidates)  
-- SGR family (3 candidates)
-
-**9 targeted algorithmic attempts resampling the same local observation space cannot exceed this boundary.**
+5. gate decision: MGCS_NO_CANDIDATE_POOL_POTENTIAL
+6. claim boundary: BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
 7. next recommendation: Review latest result artifacts and confirm whether another validation step is warranted.
 8. protected files modified? `unknown`
 9. original BBS source modified? `unknown`
