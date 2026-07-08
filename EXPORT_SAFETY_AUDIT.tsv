@@ -5,7 +5,7 @@ contains_large_files	pass	false
 contains_secret_like_files	pass	false
 contains_raw_reads	pass	false
 contains_only_bridge	pass	CHATGPT_LINK_INSTRUCTIONS_CN.md,README.md,chat_bridge,chat_bridge_feedback_package.zip,scripts
-latest_result_final_label	pass	FINAL_CAPPED_17_EXTERNAL_BASELINE_AUDITED_ITR_BACKGROUND
+latest_result_final_label	pass	FINAL_PRESENTATION_PER_DATASET_EXTERNAL_TABLE_COMPLETE
 claim_boundary_present	pass	"CGBAPC/BAPC excluded from main table — per user instruction. These are internal pipeline/intermediate algorithms, NOT external baselines. Moved to excluded_internal_methods.tsv.
 
 All 38 internal Paret"
