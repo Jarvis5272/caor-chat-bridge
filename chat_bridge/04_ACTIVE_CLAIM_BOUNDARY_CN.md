@@ -3,7 +3,7 @@
 ## 可以说
 
 - 当前结果是 metadata-only 同步快照，latest result 为 `results/mgcs_mini_global_consensus_search_20260708`。
-- latest final label 是 `MGCS_ORACLE_POTENTIAL_RERANKER_FAILURE`。
+- latest final label 是 `MGCS_LTR_ORACLE_POTENTIAL_SELECTOR_FAILURE`。
 - 当前 claim boundary 是：BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
 
 ## 不能说

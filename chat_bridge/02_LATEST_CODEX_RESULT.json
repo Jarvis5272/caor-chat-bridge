@@ -19,13 +19,13 @@
     "chat_bridge/09_SYNC_STATUS.tsv",
     "results/mgcs_mini_global_consensus_search_20260708/MGCS_CORRECTED_CANDIDATE_POOL_ORACLE_REPORT_CN.md",
     "results/mgcs_mini_global_consensus_search_20260708/MGCS_FINAL_CHEAP_ORACLE_REPORT_CN.md",
+    "results/mgcs_mini_global_consensus_search_20260708/MGCS_LTR_NO_ACCEPTABLE_SELECTOR_REPORT_CN.md",
     "results/mgcs_mini_global_consensus_search_20260708/MGCS_ORACLE_POTENTIAL_RERANKER_FAILURE_REPORT_CN.md",
     "results/mgcs_mini_global_consensus_search_20260708/FINAL*_REPORT_CN.md",
-    "results/mgcs_mini_global_consensus_search_20260708/final_decision_matrix.tsv",
-    "results/mgcs_mini_global_consensus_search_20260708/final_artifact_manifest.tsv"
+    "results/mgcs_mini_global_consensus_search_20260708/final_decision_matrix.tsv"
   ],
-  "final_label": "MGCS_ORACLE_POTENTIAL_RERANKER_FAILURE",
-  "gate_decision": "MGCS_ORACLE_POTENTIAL_RERANKER_FAILURE",
+  "final_label": "MGCS_LTR_ORACLE_POTENTIAL_SELECTOR_FAILURE",
+  "gate_decision": "MGCS_LTR_ORACLE_POTENTIAL_SELECTOR_FAILURE",
   "large_files_skipped_count": 3,
   "latest_result_requested": "results/mgcs_mini_global_consensus_search_20260708",
   "latest_result_used": "results/mgcs_mini_global_consensus_search_20260708",
@@ -45,5 +45,5 @@
   "output_dir": "results/mgcs_mini_global_consensus_search_20260708",
   "protected_files_modified": "unknown",
   "selected_candidate": "missing",
-  "timestamp": "2026-07-08T21:37:30+08:00"
+  "timestamp": "2026-07-08T22:11:48+08:00"
 }

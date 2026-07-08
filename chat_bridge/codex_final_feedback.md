@@ -1,11 +1,11 @@
 # Codex Feedback To ChatGPT
 
-1. final label: `MGCS_ORACLE_POTENTIAL_RERANKER_FAILURE`
+1. final label: `MGCS_LTR_ORACLE_POTENTIAL_SELECTOR_FAILURE`
 2. output dir: `results/mgcs_mini_global_consensus_search_20260708`
 3. completed stages: missing
 4. key metrics:
 - missing
-5. gate decision: MGCS_ORACLE_POTENTIAL_RERANKER_FAILURE
+5. gate decision: MGCS_LTR_ORACLE_POTENTIAL_SELECTOR_FAILURE
 6. claim boundary: BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
 7. next recommendation: Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.
 8. protected files modified? `unknown`

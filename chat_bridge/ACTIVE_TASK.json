@@ -5,7 +5,7 @@
   "active_task_id": "final_full_17dataset_baseline_benchmark",
   "active_output_dir": "results/mgcs_mini_global_consensus_search_20260708",
   "task_status": "final_evaluation_complete",
-  "final_label": "MGCS_ORACLE_POTENTIAL_RERANKER_FAILURE",
+  "final_label": "MGCS_LTR_ORACLE_POTENTIAL_SELECTOR_FAILURE",
   "target_hit": false,
   "active_frontier": [],
   "frozen_candidate_count": 38,
@@ -84,6 +84,6 @@
     "evaluator": "must not be patched"
   },
   "last_agent": "Claude Code (Opus 4.8)",
-  "last_agent_action": "bridge_v2_finalize: MGCS_ORACLE_POTENTIAL_RERANKER_FAILURE",
-  "last_modified_iso": "2026-07-08T21:37:30.551717+08:00"
+  "last_agent_action": "bridge_v2_finalize: MGCS_LTR_ORACLE_POTENTIAL_SELECTOR_FAILURE",
+  "last_modified_iso": "2026-07-08T22:11:48.873232+08:00"
 }
