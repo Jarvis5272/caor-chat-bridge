@@ -482,5 +482,5 @@
 <td style="padding:4px;border:1px solid #fff;color:#999;">—</td>
 </tr>
 </tbody></table>
-<p style="font-size:10px;color:#888;">CAPPED_17_MATCHED scope. Bold = best within each dataset-metric. Time/Cluster in s. ITR pending.</p>
+<p style="font-size:10px;color:#888;">CAPPED_17_MATCHED scope. Bold=best within dataset-metric. * = ITR partial (2/17 datasets). ITR failed on 15/17 datasets.</p>
 </div>

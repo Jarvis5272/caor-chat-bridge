@@ -81,7 +81,7 @@
 <td style="padding:4px;border:1px solid #fff;">0.17x</td>
 </tr>
 <tr style="background:#ffffff;">
-<td style="padding:4px;border:1px solid #fff;text-align:left;">ITR</td>
+<td style="padding:4px;border:1px solid #fff;text-align:left;">ITR*</td>
 <td style="padding:4px;border:1px solid #fff;">0.9659</td>
 <td style="padding:4px;border:1px solid #fff;">0.9992</td>
 <td style="padding:4px;border:1px solid #fff;">0.1166</td>
@@ -159,15 +159,15 @@
 <td style="padding:4px;border:1px solid #fff;">0.09x</td>
 </tr>
 <tr style="background:#ffffff;">
-<td style="padding:4px;border:1px solid #fff;text-align:left;">ITR</td>
-<td style="padding:4px;border:1px solid #fff;color:#999;">—</td>
-<td style="padding:4px;border:1px solid #fff;color:#999;">—</td>
-<td style="padding:4px;border:1px solid #fff;color:#999;">—</td>
-<td style="padding:4px;border:1px solid #fff;color:#999;">—</td>
-<td style="padding:4px;border:1px solid #fff;color:#999;">—</td>
-<td style="padding:4px;border:1px solid #fff;color:#999;">—</td>
-<td style="padding:4px;border:1px solid #fff;color:#999;">—</td>
-<td style="padding:4px;border:1px solid #fff;color:#999;">—</td>
+<td style="padding:4px;border:1px solid #fff;text-align:left;">ITR*</td>
+<td style="padding:4px;border:1px solid #fff;">—</td>
+<td style="padding:4px;border:1px solid #fff;">—</td>
+<td style="padding:4px;border:1px solid #fff;">—</td>
+<td style="padding:4px;border:1px solid #fff;">—</td>
+<td style="padding:4px;border:1px solid #fff;">— s</td>
+<td style="padding:4px;border:1px solid #fff;">—</td>
+<td style="padding:4px;border:1px solid #fff;">—</td>
+<td style="padding:4px;border:1px solid #fff;">—x</td>
 </tr>
 <tr style="background:#f7f9fc;">
 <td rowspan="7" style="vertical-align:middle;padding:4px;border:1px solid #fff;background:#dce6f0;font-weight:bold;">clover_clusters</td>
@@ -1340,5 +1340,5 @@
 <td style="padding:4px;border:1px solid #fff;color:#999;">—</td>
 </tr>
 </tbody></table>
-<p style="font-size:10px;color:#888;">CAPPED_17_MATCHED scope. Bold = best within each dataset-metric. Time/Cluster in s. ITR pending.</p>
+<p style="font-size:10px;color:#888;">CAPPED_17_MATCHED scope. Bold=best within dataset-metric. * = ITR partial (2/17 datasets). ITR failed on 15/17 datasets.</p>
 </div>

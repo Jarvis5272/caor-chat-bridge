@@ -13,7 +13,7 @@ ChatGPT should first read:
 ## Current Latest Result
 
 - latest result: `results/final_full_17dataset_baseline_benchmark_20260707`
-- latest final label: `FINAL_PRESENTATION_PER_DATASET_EXTERNAL_TABLE_COMPLETE`
+- latest final label: `FINAL_CAPPED_17_EXTERNAL_BASELINE_AUDITED_ITR_FAILED`
 
 ## Claim Boundary
 
@@ -23,7 +23,7 @@ All 38 internal Pareto exploration candidates (ACDC/DICEC/TICEC/GLICE/CECC + wav
 
 ## Next Action
 
-Review latest result artifacts and confirm whether another validation step is warranted.
+Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.
 
 ## If Linking From GitHub
 
