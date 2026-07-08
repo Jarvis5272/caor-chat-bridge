@@ -2,8 +2,8 @@
 
 ## 可以说
 
-- 当前结果是 metadata-only 同步快照，latest result 为 `results/fpcr_fast_path_consistency_reconstruction_20260708`。
-- latest final label 是 `FPCR_NO_ACCEPTABLE_IMPROVEMENT`。
+- 当前结果是 metadata-only 同步快照，latest result 为 `results/sgr_selective_global_reranking_20260708`。
+- latest final label 是 `SGR_NO_ACCEPTABLE_IMPROVEMENT`。
 - 当前 claim boundary 是：BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
 
 ## 不能说

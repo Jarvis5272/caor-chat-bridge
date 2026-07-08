@@ -2,11 +2,11 @@
 
 ## 实时故事状态
 
-最新结果目录 `results/fpcr_fast_path_consistency_reconstruction_20260708` 是当前 latest result；最新 label 是 `FPCR_NO_ACCEPTABLE_IMPROVEMENT`。
+最新结果目录 `results/sgr_selective_global_reranking_20260708` 是当前 latest result；最新 label 是 `SGR_NO_ACCEPTABLE_IMPROVEMENT`。
 
 ## clean IDS 数据状态
 
-最新结果记录的数据状态来自 `results/fpcr_fast_path_consistency_reconstruction_20260708`。若报告中的 input scope 不完整，以源 artifact 为准，不在 bridge 中编造。
+最新结果记录的数据状态来自 `results/sgr_selective_global_reranking_20260708`。若报告中的 input scope 不完整，以源 artifact 为准，不在 bridge 中编造。
 
 ## EPBSD / BBS acceleration 状态
 
@@ -14,7 +14,7 @@
 
 ## baseline-aware / independent algorithm 状态
 
-当前 active track: `missing`。根据 latest gate，当前结论是 `FPCR_NO_ACCEPTABLE_IMPROVEMENT`。
+当前 active track: `missing`。根据 latest gate，当前结论是 `SGR_NO_ACCEPTABLE_IMPROVEMENT`。
 
 BAEPC+FEIW 的 `BAEPC_FEIW_STOP_FULL_ALIGNMENT_REQUIRED` 仅是 historical frozen negative evidence；它不可 revise、不可 patch，也不属于 active frontier。
 
@@ -28,7 +28,7 @@ BAEPC+FEIW 的 `BAEPC_FEIW_STOP_FULL_ALIGNMENT_REQUIRED` 仅是 historical froze
 
 ## 当前 gate
 
-FPCR_NO_ACCEPTABLE_IMPROVEMENT
+SGR_NO_ACCEPTABLE_IMPROVEMENT
 
 ## 当前最大风险
 

@@ -12,8 +12,8 @@ ChatGPT should first read:
 
 ## Current Latest Result
 
-- latest result: `results/fpcr_fast_path_consistency_reconstruction_20260708`
-- latest final label: `FPCR_NO_ACCEPTABLE_IMPROVEMENT`
+- latest result: `results/sgr_selective_global_reranking_20260708`
+- latest final label: `SGR_NO_ACCEPTABLE_IMPROVEMENT`
 
 ## Claim Boundary
 

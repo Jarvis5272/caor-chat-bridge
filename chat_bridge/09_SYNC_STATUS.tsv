@@ -1,23 +1,23 @@
 item	status	details
-requested_latest_result	pass	results/fpcr_fast_path_consistency_reconstruction_20260708
-used_latest_result	pass	results/fpcr_fast_path_consistency_reconstruction_20260708
+requested_latest_result	pass	results/sgr_selective_global_reranking_20260708
+used_latest_result	pass	results/sgr_selective_global_reranking_20260708
 explicit_latest_result_used	yes	true
 auto_detected	no	false
 auto_detected_latest_result	no	false
-latest_final_label	pass	FPCR_NO_ACCEPTABLE_IMPROVEMENT
-latest_output_dir	pass	results/fpcr_fast_path_consistency_reconstruction_20260708
+latest_final_label	pass	SGR_NO_ACCEPTABLE_IMPROVEMENT
+latest_output_dir	pass	results/sgr_selective_global_reranking_20260708
 bridge_consistency_status	pending_validation	generated_pending_validation
 source_of_truth	pass	server_chat_bridge+server_results+github_raw_bridge
 chat_attachment_state	ignored	not_authoritative_and_not_blocking
 stale_baepc_quarantine	pass	historical_frozen_negative_evidence_only
 reason	pass	requested latest result exists and was used
-latest result requested	pass	results/fpcr_fast_path_consistency_reconstruction_20260708
-latest result used	pass	results/fpcr_fast_path_consistency_reconstruction_20260708
+latest result requested	pass	results/sgr_selective_global_reranking_20260708
+latest result used	pass	results/sgr_selective_global_reranking_20260708
 latest result detection mode	explicit	False
-latest result detected	pass	results/fpcr_fast_path_consistency_reconstruction_20260708
+latest result detected	pass	results/sgr_selective_global_reranking_20260708
 files copied	pass	0 source artifact files copied; bridge files generated only
-files skipped	pass	4
-large files skipped	pass	4
+files skipped	pass	2
+large files skipped	pass	2
 missing expected files	warn	FINAL*_REPORT_CN.md, final_decision_matrix.tsv, final_artifact_manifest.tsv, no_protected_files_modified.tsv, original_bbs_unchanged_audit.tsv, leakage_audit.tsv, commands_run.sh, environment_summary.txt
 required bridge files present	pass	14/14
 package path	pass	chat_bridge_feedback_package.zip
@@ -40,9 +40,9 @@ git status summary	pass	"M AGENTS.md
 ?? experiments/bbs_baseline_eval.py
 ?? experiments/candidate_pool_selector_eval.py
 ?? experiments"
-timestamp	pass	2026-07-08T15:02:01+08:00
+timestamp	pass	2026-07-08T15:38:47+08:00
 protected files modified	warn	unknown
 original BBS source modified	warn	unknown
 generated bridge files	pass	14
 read_skipped	pass	[]
-scan_skipped	pass	"[{""path"": ""results/fpcr_fast_path_consistency_reconstruction_20260708/FPCR_core_raw.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 55654942}, {""path"": ""results/fpcr_fast_path_consistency_reconstruction_20260708/VS_inspired_fast_seed_raw.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 55916332}, {""path"": ""results/fpcr_fast_path_consistency_reconstruction_20260708/FPCR_VS_guarded_raw.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 56247649}, {""path"": ""results/fpcr_fast_path_consistency_reconstruction_20260708/STAGE1_GAP_ANALYSIS/row_level_gap_vs_BBS_CPL_VS.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 531833}]"
+scan_skipped	pass	"[{""path"": ""results/sgr_selective_global_reranking_20260708/SGR_conservative_raw.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 46143719}, {""path"": ""results/sgr_selective_global_reranking_20260708/SGR_balanced_raw.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 11394624}]"

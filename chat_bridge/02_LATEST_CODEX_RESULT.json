@@ -17,18 +17,18 @@
     "chat_bridge/04_ACTIVE_CLAIM_BOUNDARY_CN.md",
     "chat_bridge/05_NEXT_ACTION_CN.md",
     "chat_bridge/09_SYNC_STATUS.tsv",
-    "results/fpcr_fast_path_consistency_reconstruction_20260708/FPCR_NO_ACCEPTABLE_IMPROVEMENT_REPORT_CN.md",
-    "results/fpcr_fast_path_consistency_reconstruction_20260708/FINAL*_REPORT_CN.md",
-    "results/fpcr_fast_path_consistency_reconstruction_20260708/final_decision_matrix.tsv",
-    "results/fpcr_fast_path_consistency_reconstruction_20260708/final_artifact_manifest.tsv",
-    "results/fpcr_fast_path_consistency_reconstruction_20260708/no_protected_files_modified.tsv",
-    "results/fpcr_fast_path_consistency_reconstruction_20260708/original_bbs_unchanged_audit.tsv"
+    "results/sgr_selective_global_reranking_20260708/SGR_NO_ACCEPTABLE_IMPROVEMENT_REPORT_CN.md",
+    "results/sgr_selective_global_reranking_20260708/FINAL*_REPORT_CN.md",
+    "results/sgr_selective_global_reranking_20260708/final_decision_matrix.tsv",
+    "results/sgr_selective_global_reranking_20260708/final_artifact_manifest.tsv",
+    "results/sgr_selective_global_reranking_20260708/no_protected_files_modified.tsv",
+    "results/sgr_selective_global_reranking_20260708/original_bbs_unchanged_audit.tsv"
   ],
-  "final_label": "FPCR_NO_ACCEPTABLE_IMPROVEMENT",
-  "gate_decision": "FPCR_NO_ACCEPTABLE_IMPROVEMENT",
-  "large_files_skipped_count": 4,
-  "latest_result_requested": "results/fpcr_fast_path_consistency_reconstruction_20260708",
-  "latest_result_used": "results/fpcr_fast_path_consistency_reconstruction_20260708",
+  "final_label": "SGR_NO_ACCEPTABLE_IMPROVEMENT",
+  "gate_decision": "SGR_NO_ACCEPTABLE_IMPROVEMENT",
+  "large_files_skipped_count": 2,
+  "latest_result_requested": "results/sgr_selective_global_reranking_20260708",
+  "latest_result_used": "results/sgr_selective_global_reranking_20260708",
   "main_metrics": {},
   "missing_expected_files": [
     "FINAL*_REPORT_CN.md",
@@ -42,8 +42,8 @@
   ],
   "next_action": "Review latest result artifacts and confirm whether another validation step is warranted.",
   "original_bbs_source_modified": "unknown",
-  "output_dir": "results/fpcr_fast_path_consistency_reconstruction_20260708",
+  "output_dir": "results/sgr_selective_global_reranking_20260708",
   "protected_files_modified": "unknown",
   "selected_candidate": "missing",
-  "timestamp": "2026-07-08T15:02:01+08:00"
+  "timestamp": "2026-07-08T15:38:47+08:00"
 }
