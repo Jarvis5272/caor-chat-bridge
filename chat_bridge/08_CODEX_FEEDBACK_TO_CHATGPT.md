@@ -1,11 +1,11 @@
 # Codex Feedback To ChatGPT
 
-1. final label: `FINAL_CAPPED_17_EXTERNAL_BASELINE_AUDITED_ITR_BACKGROUND`
+1. final label: `FINAL_CAPPED_17_PER_DATASET_TABLE_COMPLETE`
 2. output dir: `results/final_full_17dataset_baseline_benchmark_20260707`
 3. completed stages: missing
 4. key metrics:
 - missing
-5. gate decision: FINAL_CAPPED_17_EXTERNAL_BASELINE_AUDITED_ITR_BACKGROUND
+5. gate decision: FINAL_CAPPED_17_PER_DATASET_TABLE_COMPLETE
 6. claim boundary: CGBAPC/BAPC excluded from main table — per user instruction. These are internal pipeline/intermediate algorithms, NOT external baselines. Moved to excluded_internal_methods.tsv.
 
 All 38 internal Pareto exploration candidates (ACDC/DICEC/TICEC/GLICE/CECC + waves 10-20) excluded from main table. See FROZEN_HISTORY.tsv and excluded_internal_methods.tsv.
