@@ -26,7 +26,7 @@
   ],
   "final_label": "FINAL_CAPPED_17_EXTERNAL_BASELINE_AUDITED_ITR_BACKGROUND",
   "gate_decision": "FINAL_CAPPED_17_EXTERNAL_BASELINE_AUDITED_ITR_BACKGROUND",
-  "large_files_skipped_count": 133,
+  "large_files_skipped_count": 132,
   "latest_result_requested": "results/final_full_17dataset_baseline_benchmark_20260707",
   "latest_result_used": "results/final_full_17dataset_baseline_benchmark_20260707",
   "main_metrics": {},
@@ -43,5 +43,5 @@
   "output_dir": "results/final_full_17dataset_baseline_benchmark_20260707",
   "protected_files_modified": "unknown",
   "selected_candidate": "missing",
-  "timestamp": "2026-07-08T11:36:37+08:00"
+  "timestamp": "2026-07-08T11:53:09+08:00"
 }
