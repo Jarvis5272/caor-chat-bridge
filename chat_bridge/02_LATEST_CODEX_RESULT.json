@@ -1,10 +1,10 @@
 {
-  "artifact_manifest_path": "results/final_full_17dataset_baseline_benchmark_20260707/final_artifact_manifest.tsv",
+  "artifact_manifest_path": "missing",
   "auto_detected_latest_result": false,
   "blocking_missing": false,
   "bridge_consistency_status": "generated_pending_validation",
   "bridge_workflow_final_label": "CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT",
-  "claim_boundary": "CGBAPC/BAPC excluded from main table — per user instruction. These are internal pipeline/intermediate algorithms, NOT external baselines. Moved to excluded_internal_methods.tsv.\n\nAll 38 internal Pareto exploration candidates (ACDC/DICEC/TICEC/GLICE/CECC + waves 10-20) excluded from main table. See FROZEN_HISTORY.tsv and excluded_internal_methods.tsv.",
+  "claim_boundary": "BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.",
   "completed_stages": [
     "missing"
   ],
@@ -17,21 +17,23 @@
     "chat_bridge/04_ACTIVE_CLAIM_BOUNDARY_CN.md",
     "chat_bridge/05_NEXT_ACTION_CN.md",
     "chat_bridge/09_SYNC_STATUS.tsv",
-    "results/final_full_17dataset_baseline_benchmark_20260707/FINAL_BENCHMARK_AUDIT_AND_COMPLETION_REPORT_CN.md",
-    "results/final_full_17dataset_baseline_benchmark_20260707/FINAL_FULL_17DATASET_BASELINE_BENCHMARK_REPORT_CN.md",
-    "results/final_full_17dataset_baseline_benchmark_20260707/final_artifact_manifest.tsv",
-    "results/final_full_17dataset_baseline_benchmark_20260707/final_decision_matrix.tsv",
-    "results/final_full_17dataset_baseline_benchmark_20260707/no_protected_files_modified.tsv",
-    "results/final_full_17dataset_baseline_benchmark_20260707/original_bbs_unchanged_audit.tsv"
+    "results/fpcr_fast_path_consistency_reconstruction_20260708/FPCR_NO_ACCEPTABLE_IMPROVEMENT_REPORT_CN.md",
+    "results/fpcr_fast_path_consistency_reconstruction_20260708/FINAL*_REPORT_CN.md",
+    "results/fpcr_fast_path_consistency_reconstruction_20260708/final_decision_matrix.tsv",
+    "results/fpcr_fast_path_consistency_reconstruction_20260708/final_artifact_manifest.tsv",
+    "results/fpcr_fast_path_consistency_reconstruction_20260708/no_protected_files_modified.tsv",
+    "results/fpcr_fast_path_consistency_reconstruction_20260708/original_bbs_unchanged_audit.tsv"
   ],
-  "final_label": "FINAL_RENDERED_PRESENTATION_TABLES_FIXED_COMPLETE",
-  "gate_decision": "FINAL_RENDERED_PRESENTATION_TABLES_FIXED_COMPLETE",
-  "large_files_skipped_count": 145,
-  "latest_result_requested": "results/final_full_17dataset_baseline_benchmark_20260707",
-  "latest_result_used": "results/final_full_17dataset_baseline_benchmark_20260707",
+  "final_label": "FPCR_NO_ACCEPTABLE_IMPROVEMENT",
+  "gate_decision": "FPCR_NO_ACCEPTABLE_IMPROVEMENT",
+  "large_files_skipped_count": 4,
+  "latest_result_requested": "results/fpcr_fast_path_consistency_reconstruction_20260708",
+  "latest_result_used": "results/fpcr_fast_path_consistency_reconstruction_20260708",
   "main_metrics": {},
   "missing_expected_files": [
+    "FINAL*_REPORT_CN.md",
     "final_decision_matrix.tsv",
+    "final_artifact_manifest.tsv",
     "no_protected_files_modified.tsv",
     "original_bbs_unchanged_audit.tsv",
     "leakage_audit.tsv",
@@ -40,8 +42,8 @@
   ],
   "next_action": "Review latest result artifacts and confirm whether another validation step is warranted.",
   "original_bbs_source_modified": "unknown",
-  "output_dir": "results/final_full_17dataset_baseline_benchmark_20260707",
+  "output_dir": "results/fpcr_fast_path_consistency_reconstruction_20260708",
   "protected_files_modified": "unknown",
   "selected_candidate": "missing",
-  "timestamp": "2026-07-08T13:57:50+08:00"
+  "timestamp": "2026-07-08T15:02:01+08:00"
 }
