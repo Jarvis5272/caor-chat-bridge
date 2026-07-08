@@ -6,7 +6,7 @@
 
 ## 当前主线状态
 
-服务器显式结果为 `results/final_full_17dataset_baseline_benchmark_20260707`；当前最新 Codex label 为 `FINAL_CAPPED_17_EXTERNAL_BASELINE_AUDITED_ITR_FAILED`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT`。
+服务器显式结果为 `results/final_full_17dataset_baseline_benchmark_20260707`；当前最新 Codex label 为 `FINAL_RENDERED_PRESENTATION_TABLES_COMPLETE`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT`。
 
 ## 项目状态源
 
@@ -14,7 +14,7 @@
 
 ## 最新 Codex final label
 
-`FINAL_CAPPED_17_EXTERNAL_BASELINE_AUDITED_ITR_FAILED`
+`FINAL_RENDERED_PRESENTATION_TABLES_COMPLETE`
 
 ## 最新输出目录
 
@@ -41,7 +41,7 @@ All 38 internal Pareto exploration candidates (ACDC/DICEC/TICEC/GLICE/CECC + wav
 
 ## 当前下一步
 
-Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.
+Review latest result artifacts and confirm whether another validation step is warranted.
 
 ## protected diff 状态
 
