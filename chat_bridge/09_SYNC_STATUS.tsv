@@ -4,7 +4,7 @@ used_latest_result	pass	results/v1_turbo_realtime_speed_optimization_20260708
 explicit_latest_result_used	yes	true
 auto_detected	no	false
 auto_detected_latest_result	no	false
-latest_final_label	pass	FINAL_TURBO_NO_USEFUL_SPEEDUP_KEEP_V1
+latest_final_label	pass	V1X_NO_FEASIBLE_ENGINEERING_SPEEDUP
 latest_output_dir	pass	results/v1_turbo_realtime_speed_optimization_20260708
 bridge_consistency_status	pending_validation	generated_pending_validation
 source_of_truth	pass	server_chat_bridge+server_results+github_raw_bridge
@@ -40,7 +40,7 @@ git status summary	pass	"M AGENTS.md
 ?? experiments/bbs_baseline_eval.py
 ?? experiments/candidate_pool_selector_eval.py
 ?? experiments"
-timestamp	pass	2026-07-08T23:00:05+08:00
+timestamp	pass	2026-07-08T23:18:40+08:00
 protected files modified	warn	unknown
 original BBS source modified	warn	unknown
 generated bridge files	pass	14

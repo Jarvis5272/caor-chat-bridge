@@ -3,7 +3,7 @@
 ## 可以说
 
 - 当前结果是 metadata-only 同步快照，latest result 为 `results/v1_turbo_realtime_speed_optimization_20260708`。
-- latest final label 是 `FINAL_TURBO_NO_USEFUL_SPEEDUP_KEEP_V1`。
+- latest final label 是 `V1X_NO_FEASIBLE_ENGINEERING_SPEEDUP`。
 - 当前 claim boundary 是：BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
 
 ## 不能说

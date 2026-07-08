@@ -1,11 +1,11 @@
 # Codex Feedback To ChatGPT
 
-1. final label: `FINAL_TURBO_NO_USEFUL_SPEEDUP_KEEP_V1`
+1. final label: `V1X_NO_FEASIBLE_ENGINEERING_SPEEDUP`
 2. output dir: `results/v1_turbo_realtime_speed_optimization_20260708`
 3. completed stages: missing
 4. key metrics:
 - missing
-5. gate decision: FINAL_TURBO_NO_USEFUL_SPEEDUP_KEEP_V1
+5. gate decision: V1X_NO_FEASIBLE_ENGINEERING_SPEEDUP
 6. claim boundary: BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
 7. next recommendation: Review latest result artifacts and confirm whether another validation step is warranted.
 8. protected files modified? `unknown`

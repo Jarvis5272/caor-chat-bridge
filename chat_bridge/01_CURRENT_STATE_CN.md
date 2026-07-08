@@ -2,7 +2,7 @@
 
 ## 实时故事状态
 
-最新结果目录 `results/v1_turbo_realtime_speed_optimization_20260708` 是当前 latest result；最新 label 是 `FINAL_TURBO_NO_USEFUL_SPEEDUP_KEEP_V1`。
+最新结果目录 `results/v1_turbo_realtime_speed_optimization_20260708` 是当前 latest result；最新 label 是 `V1X_NO_FEASIBLE_ENGINEERING_SPEEDUP`。
 
 ## clean IDS 数据状态
 
@@ -14,7 +14,7 @@
 
 ## baseline-aware / independent algorithm 状态
 
-当前 active track: `missing`。根据 latest gate，当前结论是 `FINAL_TURBO_NO_USEFUL_SPEEDUP_KEEP_V1`。
+当前 active track: `missing`。根据 latest gate，当前结论是 `V1X_NO_FEASIBLE_ENGINEERING_SPEEDUP`。
 
 BAEPC+FEIW 的 `BAEPC_FEIW_STOP_FULL_ALIGNMENT_REQUIRED` 仅是 historical frozen negative evidence；它不可 revise、不可 patch，也不属于 active frontier。
 
@@ -28,7 +28,7 @@ BAEPC+FEIW 的 `BAEPC_FEIW_STOP_FULL_ALIGNMENT_REQUIRED` 仅是 historical froze
 
 ## 当前 gate
 
-FINAL_TURBO_NO_USEFUL_SPEEDUP_KEEP_V1
+V1X_NO_FEASIBLE_ENGINEERING_SPEEDUP
 
 ## 当前最大风险
 
