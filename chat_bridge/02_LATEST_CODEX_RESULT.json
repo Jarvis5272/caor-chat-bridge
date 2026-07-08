@@ -17,16 +17,16 @@
     "chat_bridge/04_ACTIVE_CLAIM_BOUNDARY_CN.md",
     "chat_bridge/05_NEXT_ACTION_CN.md",
     "chat_bridge/09_SYNC_STATUS.tsv",
+    "results/mgcs_mini_global_consensus_search_20260708/MGCS_CORRECTED_CANDIDATE_POOL_ORACLE_REPORT_CN.md",
+    "results/mgcs_mini_global_consensus_search_20260708/MGCS_FINAL_CHEAP_ORACLE_REPORT_CN.md",
     "results/mgcs_mini_global_consensus_search_20260708/FINAL*_REPORT_CN.md",
     "results/mgcs_mini_global_consensus_search_20260708/final_decision_matrix.tsv",
     "results/mgcs_mini_global_consensus_search_20260708/final_artifact_manifest.tsv",
-    "results/mgcs_mini_global_consensus_search_20260708/no_protected_files_modified.tsv",
-    "results/mgcs_mini_global_consensus_search_20260708/original_bbs_unchanged_audit.tsv",
-    "results/mgcs_mini_global_consensus_search_20260708/leakage_audit.tsv"
+    "results/mgcs_mini_global_consensus_search_20260708/no_protected_files_modified.tsv"
   ],
-  "final_label": "MGCS_NO_CANDIDATE_POOL_POTENTIAL",
-  "gate_decision": "MGCS_NO_CANDIDATE_POOL_POTENTIAL",
-  "large_files_skipped_count": 0,
+  "final_label": "MGCS_CHEAP_ORACLE_POTENTIAL_CONTINUE_RERANKER",
+  "gate_decision": "MGCS_CHEAP_ORACLE_POTENTIAL_CONTINUE_RERANKER",
+  "large_files_skipped_count": 1,
   "latest_result_requested": "results/mgcs_mini_global_consensus_search_20260708",
   "latest_result_used": "results/mgcs_mini_global_consensus_search_20260708",
   "main_metrics": {},
@@ -45,5 +45,5 @@
   "output_dir": "results/mgcs_mini_global_consensus_search_20260708",
   "protected_files_modified": "unknown",
   "selected_candidate": "missing",
-  "timestamp": "2026-07-08T18:48:22+08:00"
+  "timestamp": "2026-07-08T20:32:43+08:00"
 }

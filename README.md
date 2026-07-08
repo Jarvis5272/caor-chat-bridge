@@ -13,7 +13,7 @@ ChatGPT should first read:
 ## Current Latest Result
 
 - latest result: `results/mgcs_mini_global_consensus_search_20260708`
-- latest final label: `MGCS_NO_CANDIDATE_POOL_POTENTIAL`
+- latest final label: `MGCS_CHEAP_ORACLE_POTENTIAL_CONTINUE_RERANKER`
 
 ## Claim Boundary
 

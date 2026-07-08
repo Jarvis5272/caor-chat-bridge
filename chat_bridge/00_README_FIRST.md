@@ -6,7 +6,7 @@
 
 ## 当前主线状态
 
-服务器显式结果为 `results/mgcs_mini_global_consensus_search_20260708`；当前最新 Codex label 为 `MGCS_NO_CANDIDATE_POOL_POTENTIAL`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT`。
+服务器显式结果为 `results/mgcs_mini_global_consensus_search_20260708`；当前最新 Codex label 为 `MGCS_CHEAP_ORACLE_POTENTIAL_CONTINUE_RERANKER`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT`。
 
 ## 项目状态源
 
@@ -14,7 +14,7 @@
 
 ## 最新 Codex final label
 
-`MGCS_NO_CANDIDATE_POOL_POTENTIAL`
+`MGCS_CHEAP_ORACLE_POTENTIAL_CONTINUE_RERANKER`
 
 ## 最新输出目录
 

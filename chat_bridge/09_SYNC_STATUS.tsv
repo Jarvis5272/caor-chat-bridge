@@ -4,7 +4,7 @@ used_latest_result	pass	results/mgcs_mini_global_consensus_search_20260708
 explicit_latest_result_used	yes	true
 auto_detected	no	false
 auto_detected_latest_result	no	false
-latest_final_label	pass	MGCS_NO_CANDIDATE_POOL_POTENTIAL
+latest_final_label	pass	MGCS_CHEAP_ORACLE_POTENTIAL_CONTINUE_RERANKER
 latest_output_dir	pass	results/mgcs_mini_global_consensus_search_20260708
 bridge_consistency_status	pending_validation	generated_pending_validation
 source_of_truth	pass	server_chat_bridge+server_results+github_raw_bridge
@@ -16,8 +16,8 @@ latest result used	pass	results/mgcs_mini_global_consensus_search_20260708
 latest result detection mode	explicit	False
 latest result detected	pass	results/mgcs_mini_global_consensus_search_20260708
 files copied	pass	0 source artifact files copied; bridge files generated only
-files skipped	pass	0
-large files skipped	pass	0
+files skipped	pass	1
+large files skipped	pass	1
 missing expected files	warn	FINAL*_REPORT_CN.md, final_decision_matrix.tsv, final_artifact_manifest.tsv, no_protected_files_modified.tsv, original_bbs_unchanged_audit.tsv, leakage_audit.tsv, commands_run.sh, environment_summary.txt
 required bridge files present	pass	14/14
 package path	pass	chat_bridge_feedback_package.zip
@@ -40,9 +40,9 @@ git status summary	pass	"M AGENTS.md
 ?? experiments/bbs_baseline_eval.py
 ?? experiments/candidate_pool_selector_eval.py
 ?? experiments"
-timestamp	pass	2026-07-08T18:48:22+08:00
+timestamp	pass	2026-07-08T20:32:43+08:00
 protected files modified	warn	unknown
 original BBS source modified	warn	unknown
 generated bridge files	pass	14
 read_skipped	pass	[]
-scan_skipped	pass	[]
+scan_skipped	pass	"[{""path"": ""results/mgcs_mini_global_consensus_search_20260708/STAGE1A_FULL_CHEAP_ORACLE/mgcs_full_cheap_candidate_pool_by_row.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 7108974}]"

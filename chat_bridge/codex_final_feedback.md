@@ -1,11 +1,11 @@
 # Codex Feedback To ChatGPT
 
-1. final label: `MGCS_NO_CANDIDATE_POOL_POTENTIAL`
+1. final label: `MGCS_CHEAP_ORACLE_POTENTIAL_CONTINUE_RERANKER`
 2. output dir: `results/mgcs_mini_global_consensus_search_20260708`
 3. completed stages: missing
 4. key metrics:
 - missing
-5. gate decision: MGCS_NO_CANDIDATE_POOL_POTENTIAL
+5. gate decision: MGCS_CHEAP_ORACLE_POTENTIAL_CONTINUE_RERANKER
 6. claim boundary: BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
 7. next recommendation: Review latest result artifacts and confirm whether another validation step is warranted.
 8. protected files modified? `unknown`
