@@ -1,24 +1,24 @@
 item	status	details
-requested_latest_result	pass	results/v1_turbo_realtime_speed_optimization_20260708
-used_latest_result	pass	results/v1_turbo_realtime_speed_optimization_20260708
+requested_latest_result	pass	results/v1_full_stack_acceleration_20260708
+used_latest_result	pass	results/v1_full_stack_acceleration_20260708
 explicit_latest_result_used	yes	true
 auto_detected	no	false
 auto_detected_latest_result	no	false
-latest_final_label	pass	V1X_NO_FEASIBLE_ENGINEERING_SPEEDUP
-latest_output_dir	pass	results/v1_turbo_realtime_speed_optimization_20260708
+latest_final_label	pass	V1X_PARALLEL_FEASIBLE_BUT_NOT_EXACT_IDENTICAL
+latest_output_dir	pass	results/v1_full_stack_acceleration_20260708
 bridge_consistency_status	pending_validation	generated_pending_validation
 source_of_truth	pass	server_chat_bridge+server_results+github_raw_bridge
 chat_attachment_state	ignored	not_authoritative_and_not_blocking
 stale_baepc_quarantine	pass	historical_frozen_negative_evidence_only
 reason	pass	requested latest result exists and was used
-latest result requested	pass	results/v1_turbo_realtime_speed_optimization_20260708
-latest result used	pass	results/v1_turbo_realtime_speed_optimization_20260708
+latest result requested	pass	results/v1_full_stack_acceleration_20260708
+latest result used	pass	results/v1_full_stack_acceleration_20260708
 latest result detection mode	explicit	False
-latest result detected	pass	results/v1_turbo_realtime_speed_optimization_20260708
+latest result detected	pass	results/v1_full_stack_acceleration_20260708
 files copied	pass	0 source artifact files copied; bridge files generated only
-files skipped	pass	3
-large files skipped	pass	3
-missing expected files	warn	FINAL*_REPORT_CN.md, final_decision_matrix.tsv, final_artifact_manifest.tsv, no_protected_files_modified.tsv, original_bbs_unchanged_audit.tsv, leakage_audit.tsv, commands_run.sh, environment_summary.txt
+files skipped	pass	7
+large files skipped	pass	7
+missing expected files	warn	final_decision_matrix.tsv, final_artifact_manifest.tsv, no_protected_files_modified.tsv, original_bbs_unchanged_audit.tsv, leakage_audit.tsv, commands_run.sh, environment_summary.txt
 required bridge files present	pass	14/14
 package path	pass	chat_bridge_feedback_package.zip
 git branch	pass	release/earlystop-v0.4
@@ -40,9 +40,9 @@ git status summary	pass	"M AGENTS.md
 ?? experiments/bbs_baseline_eval.py
 ?? experiments/candidate_pool_selector_eval.py
 ?? experiments"
-timestamp	pass	2026-07-08T23:18:40+08:00
+timestamp	pass	2026-07-08T23:55:21+08:00
 protected files modified	warn	unknown
 original BBS source modified	warn	unknown
 generated bridge files	pass	14
 read_skipped	pass	[]
-scan_skipped	pass	"[{""path"": ""results/v1_turbo_realtime_speed_optimization_20260708/TURBO_exact_equivalent_raw.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 32840150}, {""path"": ""results/v1_turbo_realtime_speed_optimization_20260708/TURBO_fast_raw.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 30861613}, {""path"": ""results/v1_turbo_realtime_speed_optimization_20260708/TURBO_safe_raw.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 30861036}]"
+scan_skipped	pass	"[{""path"": ""results/v1_full_stack_acceleration_20260708/V1_PARALLEL_W1_raw.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 26217913}, {""path"": ""results/v1_full_stack_acceleration_20260708/V1_PARALLEL_W24_raw.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 26382837}, {""path"": ""results/v1_full_stack_acceleration_20260708/V1_PARALLEL_W4_raw.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 26217913}, {""path"": ""results/v1_full_stack_acceleration_20260708/V1_PARALLEL_W8_raw.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 26217913}, {""path"": ""results/v1_full_stack_acceleration_20260708/V1_PARALLEL_W16_raw.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 26382837}, {""path"": ""results/v1_full_stack_acceleration_20260708/V1_PARALLEL_W2_raw.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 26217913}, {""path"": ""results/v1_full_stack_acceleration_20260708/V1_REFERENCE_LOCK/V1_reference_hashes.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 7728165}]"

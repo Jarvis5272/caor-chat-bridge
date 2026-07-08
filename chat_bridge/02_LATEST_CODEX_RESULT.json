@@ -17,21 +17,20 @@
     "chat_bridge/04_ACTIVE_CLAIM_BOUNDARY_CN.md",
     "chat_bridge/05_NEXT_ACTION_CN.md",
     "chat_bridge/09_SYNC_STATUS.tsv",
-    "results/v1_turbo_realtime_speed_optimization_20260708/FINAL*_REPORT_CN.md",
-    "results/v1_turbo_realtime_speed_optimization_20260708/final_decision_matrix.tsv",
-    "results/v1_turbo_realtime_speed_optimization_20260708/final_artifact_manifest.tsv",
-    "results/v1_turbo_realtime_speed_optimization_20260708/no_protected_files_modified.tsv",
-    "results/v1_turbo_realtime_speed_optimization_20260708/original_bbs_unchanged_audit.tsv",
-    "results/v1_turbo_realtime_speed_optimization_20260708/leakage_audit.tsv"
+    "results/v1_full_stack_acceleration_20260708/FINAL_FULL_STACK_ACCELERATION_REPORT_CN.md",
+    "results/v1_full_stack_acceleration_20260708/final_decision_matrix.tsv",
+    "results/v1_full_stack_acceleration_20260708/final_artifact_manifest.tsv",
+    "results/v1_full_stack_acceleration_20260708/no_protected_files_modified.tsv",
+    "results/v1_full_stack_acceleration_20260708/original_bbs_unchanged_audit.tsv",
+    "results/v1_full_stack_acceleration_20260708/leakage_audit.tsv"
   ],
-  "final_label": "V1X_NO_FEASIBLE_ENGINEERING_SPEEDUP",
-  "gate_decision": "V1X_NO_FEASIBLE_ENGINEERING_SPEEDUP",
-  "large_files_skipped_count": 3,
-  "latest_result_requested": "results/v1_turbo_realtime_speed_optimization_20260708",
-  "latest_result_used": "results/v1_turbo_realtime_speed_optimization_20260708",
+  "final_label": "V1X_PARALLEL_FEASIBLE_BUT_NOT_EXACT_IDENTICAL",
+  "gate_decision": "V1X_PARALLEL_FEASIBLE_BUT_NOT_EXACT_IDENTICAL",
+  "large_files_skipped_count": 7,
+  "latest_result_requested": "results/v1_full_stack_acceleration_20260708",
+  "latest_result_used": "results/v1_full_stack_acceleration_20260708",
   "main_metrics": {},
   "missing_expected_files": [
-    "FINAL*_REPORT_CN.md",
     "final_decision_matrix.tsv",
     "final_artifact_manifest.tsv",
     "no_protected_files_modified.tsv",
@@ -42,8 +41,8 @@
   ],
   "next_action": "Review latest result artifacts and confirm whether another validation step is warranted.",
   "original_bbs_source_modified": "unknown",
-  "output_dir": "results/v1_turbo_realtime_speed_optimization_20260708",
+  "output_dir": "results/v1_full_stack_acceleration_20260708",
   "protected_files_modified": "unknown",
   "selected_candidate": "missing",
-  "timestamp": "2026-07-08T23:18:40+08:00"
+  "timestamp": "2026-07-08T23:55:21+08:00"
 }

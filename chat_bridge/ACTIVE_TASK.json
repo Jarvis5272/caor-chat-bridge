@@ -3,9 +3,9 @@
   "_version": "2.0.0",
   "_description": "FINAL: CAPPED_17_MATCHED fair benchmark. 12 methods complete + audited. ITR background running (PID 85573). CGBAPC/BAPC + internal candidates excluded.",
   "active_task_id": "final_full_17dataset_baseline_benchmark",
-  "active_output_dir": "results/v1_turbo_realtime_speed_optimization_20260708",
+  "active_output_dir": "results/v1_full_stack_acceleration_20260708",
   "task_status": "final_evaluation_complete",
-  "final_label": "V1X_NO_FEASIBLE_ENGINEERING_SPEEDUP",
+  "final_label": "V1X_PARALLEL_FEASIBLE_BUT_NOT_EXACT_IDENTICAL",
   "target_hit": false,
   "active_frontier": [],
   "frozen_candidate_count": 38,
@@ -84,6 +84,6 @@
     "evaluator": "must not be patched"
   },
   "last_agent": "Claude Code (Opus 4.8)",
-  "last_agent_action": "bridge_v2_finalize: V1X_NO_FEASIBLE_ENGINEERING_SPEEDUP",
-  "last_modified_iso": "2026-07-08T23:18:40.829922+08:00"
+  "last_agent_action": "bridge_v2_finalize: V1X_PARALLEL_FEASIBLE_BUT_NOT_EXACT_IDENTICAL",
+  "last_modified_iso": "2026-07-08T23:55:21.591683+08:00"
 }

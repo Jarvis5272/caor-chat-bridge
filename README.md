@@ -12,8 +12,8 @@ ChatGPT should first read:
 
 ## Current Latest Result
 
-- latest result: `results/v1_turbo_realtime_speed_optimization_20260708`
-- latest final label: `V1X_NO_FEASIBLE_ENGINEERING_SPEEDUP`
+- latest result: `results/v1_full_stack_acceleration_20260708`
+- latest final label: `V1X_PARALLEL_FEASIBLE_BUT_NOT_EXACT_IDENTICAL`
 
 ## Claim Boundary
 
