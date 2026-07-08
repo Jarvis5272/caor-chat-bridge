@@ -4,7 +4,7 @@ used_latest_result	pass	results/mgcs_mini_global_consensus_search_20260708
 explicit_latest_result_used	yes	true
 auto_detected	no	false
 auto_detected_latest_result	no	false
-latest_final_label	pass	MGCS_LTR_ORACLE_POTENTIAL_SELECTOR_FAILURE
+latest_final_label	pass	MGCS_ORACLE_ACCURATE_BUT_IMPRACTICAL_RUNTIME
 latest_output_dir	pass	results/mgcs_mini_global_consensus_search_20260708
 bridge_consistency_status	pending_validation	generated_pending_validation
 source_of_truth	pass	server_chat_bridge+server_results+github_raw_bridge
@@ -40,7 +40,7 @@ git status summary	pass	"M AGENTS.md
 ?? experiments/bbs_baseline_eval.py
 ?? experiments/candidate_pool_selector_eval.py
 ?? experiments"
-timestamp	pass	2026-07-08T22:11:48+08:00
+timestamp	pass	2026-07-08T22:27:50+08:00
 protected files modified	warn	unknown
 original BBS source modified	warn	unknown
 generated bridge files	pass	14

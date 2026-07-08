@@ -1,13 +1,13 @@
 # Codex Feedback To ChatGPT
 
-1. final label: `MGCS_LTR_ORACLE_POTENTIAL_SELECTOR_FAILURE`
+1. final label: `MGCS_ORACLE_ACCURATE_BUT_IMPRACTICAL_RUNTIME`
 2. output dir: `results/mgcs_mini_global_consensus_search_20260708`
 3. completed stages: missing
 4. key metrics:
 - missing
-5. gate decision: MGCS_LTR_ORACLE_POTENTIAL_SELECTOR_FAILURE
+5. gate decision: MGCS_ORACLE_ACCURATE_BUT_IMPRACTICAL_RUNTIME
 6. claim boundary: BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
-7. next recommendation: Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.
+7. next recommendation: Review latest result artifacts and confirm whether another validation step is warranted.
 8. protected files modified? `unknown`
 9. original BBS source modified? `unknown`
 10. files for review: `chat_bridge/06_FILES_FOR_REVIEW.tsv`

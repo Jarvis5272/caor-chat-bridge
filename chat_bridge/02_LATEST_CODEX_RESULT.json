@@ -24,8 +24,8 @@
     "results/mgcs_mini_global_consensus_search_20260708/FINAL*_REPORT_CN.md",
     "results/mgcs_mini_global_consensus_search_20260708/final_decision_matrix.tsv"
   ],
-  "final_label": "MGCS_LTR_ORACLE_POTENTIAL_SELECTOR_FAILURE",
-  "gate_decision": "MGCS_LTR_ORACLE_POTENTIAL_SELECTOR_FAILURE",
+  "final_label": "MGCS_ORACLE_ACCURATE_BUT_IMPRACTICAL_RUNTIME",
+  "gate_decision": "MGCS_ORACLE_ACCURATE_BUT_IMPRACTICAL_RUNTIME",
   "large_files_skipped_count": 3,
   "latest_result_requested": "results/mgcs_mini_global_consensus_search_20260708",
   "latest_result_used": "results/mgcs_mini_global_consensus_search_20260708",
@@ -40,10 +40,10 @@
     "commands_run.sh",
     "environment_summary.txt"
   ],
-  "next_action": "Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.",
+  "next_action": "Review latest result artifacts and confirm whether another validation step is warranted.",
   "original_bbs_source_modified": "unknown",
   "output_dir": "results/mgcs_mini_global_consensus_search_20260708",
   "protected_files_modified": "unknown",
   "selected_candidate": "missing",
-  "timestamp": "2026-07-08T22:11:48+08:00"
+  "timestamp": "2026-07-08T22:27:50+08:00"
 }

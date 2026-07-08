@@ -2,7 +2,7 @@
 
 ## 实时故事状态
 
-最新结果目录 `results/mgcs_mini_global_consensus_search_20260708` 是当前 latest result；最新 label 是 `MGCS_LTR_ORACLE_POTENTIAL_SELECTOR_FAILURE`。
+最新结果目录 `results/mgcs_mini_global_consensus_search_20260708` 是当前 latest result；最新 label 是 `MGCS_ORACLE_ACCURATE_BUT_IMPRACTICAL_RUNTIME`。
 
 ## clean IDS 数据状态
 
@@ -14,7 +14,7 @@
 
 ## baseline-aware / independent algorithm 状态
 
-当前 active track: `missing`。根据 latest gate，当前结论是 `MGCS_LTR_ORACLE_POTENTIAL_SELECTOR_FAILURE`。
+当前 active track: `missing`。根据 latest gate，当前结论是 `MGCS_ORACLE_ACCURATE_BUT_IMPRACTICAL_RUNTIME`。
 
 BAEPC+FEIW 的 `BAEPC_FEIW_STOP_FULL_ALIGNMENT_REQUIRED` 仅是 historical frozen negative evidence；它不可 revise、不可 patch，也不属于 active frontier。
 
@@ -28,7 +28,7 @@ BAEPC+FEIW 的 `BAEPC_FEIW_STOP_FULL_ALIGNMENT_REQUIRED` 仅是 historical froze
 
 ## 当前 gate
 
-MGCS_LTR_ORACLE_POTENTIAL_SELECTOR_FAILURE
+MGCS_ORACLE_ACCURATE_BUT_IMPRACTICAL_RUNTIME
 
 ## 当前最大风险
 

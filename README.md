@@ -13,7 +13,7 @@ ChatGPT should first read:
 ## Current Latest Result
 
 - latest result: `results/mgcs_mini_global_consensus_search_20260708`
-- latest final label: `MGCS_LTR_ORACLE_POTENTIAL_SELECTOR_FAILURE`
+- latest final label: `MGCS_ORACLE_ACCURATE_BUT_IMPRACTICAL_RUNTIME`
 
 ## Claim Boundary
 
@@ -21,7 +21,7 @@ BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confi
 
 ## Next Action
 
-Revise the sync/global-search mechanism before any small reconstruction smoke; review gate matrix and failure taxonomy.
+Review latest result artifacts and confirm whether another validation step is warranted.
 
 ## If Linking From GitHub
 
