@@ -5,7 +5,7 @@
   "active_task_id": "final_full_17dataset_baseline_benchmark",
   "active_output_dir": "results/final_full_17dataset_baseline_benchmark_20260707",
   "task_status": "final_evaluation_complete",
-  "final_label": "FINAL_CAPPED_17_PER_DATASET_TABLE_COMPLETE",
+  "final_label": "FINAL_CAPPED_17_PER_DATASET_EXTERNAL_TABLE_COMPLETE",
   "target_hit": false,
   "active_frontier": [],
   "frozen_candidate_count": 38,
@@ -84,6 +84,6 @@
     "evaluator": "must not be patched"
   },
   "last_agent": "Claude Code (Opus 4.8)",
-  "last_agent_action": "bridge_v2_finalize: FINAL_CAPPED_17_PER_DATASET_TABLE_COMPLETE",
-  "last_modified_iso": "2026-07-08T12:29:32.718008+08:00"
+  "last_agent_action": "bridge_v2_finalize: FINAL_CAPPED_17_PER_DATASET_EXTERNAL_TABLE_COMPLETE",
+  "last_modified_iso": "2026-07-08T12:40:08.873093+08:00"
 }
