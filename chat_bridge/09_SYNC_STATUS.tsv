@@ -1,20 +1,20 @@
 item	status	details
-requested_latest_result	pass	results/mgcs_mini_global_consensus_search_20260708
-used_latest_result	pass	results/mgcs_mini_global_consensus_search_20260708
+requested_latest_result	pass	results/v1_turbo_realtime_speed_optimization_20260708
+used_latest_result	pass	results/v1_turbo_realtime_speed_optimization_20260708
 explicit_latest_result_used	yes	true
 auto_detected	no	false
 auto_detected_latest_result	no	false
-latest_final_label	pass	MGCS_ORACLE_ACCURATE_BUT_IMPRACTICAL_RUNTIME
-latest_output_dir	pass	results/mgcs_mini_global_consensus_search_20260708
+latest_final_label	pass	FINAL_TURBO_NO_USEFUL_SPEEDUP_KEEP_V1
+latest_output_dir	pass	results/v1_turbo_realtime_speed_optimization_20260708
 bridge_consistency_status	pending_validation	generated_pending_validation
 source_of_truth	pass	server_chat_bridge+server_results+github_raw_bridge
 chat_attachment_state	ignored	not_authoritative_and_not_blocking
 stale_baepc_quarantine	pass	historical_frozen_negative_evidence_only
 reason	pass	requested latest result exists and was used
-latest result requested	pass	results/mgcs_mini_global_consensus_search_20260708
-latest result used	pass	results/mgcs_mini_global_consensus_search_20260708
+latest result requested	pass	results/v1_turbo_realtime_speed_optimization_20260708
+latest result used	pass	results/v1_turbo_realtime_speed_optimization_20260708
 latest result detection mode	explicit	False
-latest result detected	pass	results/mgcs_mini_global_consensus_search_20260708
+latest result detected	pass	results/v1_turbo_realtime_speed_optimization_20260708
 files copied	pass	0 source artifact files copied; bridge files generated only
 files skipped	pass	3
 large files skipped	pass	3
@@ -40,9 +40,9 @@ git status summary	pass	"M AGENTS.md
 ?? experiments/bbs_baseline_eval.py
 ?? experiments/candidate_pool_selector_eval.py
 ?? experiments"
-timestamp	pass	2026-07-08T22:27:50+08:00
+timestamp	pass	2026-07-08T23:00:05+08:00
 protected files modified	warn	unknown
 original BBS source modified	warn	unknown
 generated bridge files	pass	14
 read_skipped	pass	[]
-scan_skipped	pass	"[{""path"": ""results/mgcs_mini_global_consensus_search_20260708/STAGE1A_FULL_CHEAP_ORACLE/mgcs_full_cheap_candidate_pool_by_row.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 7108974}, {""path"": ""results/mgcs_mini_global_consensus_search_20260708/STAGE2_RERANK_RESULTS/MGCS_rerank_fast_raw.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 23061750}, {""path"": ""results/mgcs_mini_global_consensus_search_20260708/STAGE2_RERANK_RESULTS/MGCS_rerank_guarded_raw.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 24322731}]"
+scan_skipped	pass	"[{""path"": ""results/v1_turbo_realtime_speed_optimization_20260708/TURBO_exact_equivalent_raw.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 32840150}, {""path"": ""results/v1_turbo_realtime_speed_optimization_20260708/TURBO_fast_raw.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 30861613}, {""path"": ""results/v1_turbo_realtime_speed_optimization_20260708/TURBO_safe_raw.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 30861036}]"

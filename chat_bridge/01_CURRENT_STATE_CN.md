@@ -2,11 +2,11 @@
 
 ## 实时故事状态
 
-最新结果目录 `results/mgcs_mini_global_consensus_search_20260708` 是当前 latest result；最新 label 是 `MGCS_ORACLE_ACCURATE_BUT_IMPRACTICAL_RUNTIME`。
+最新结果目录 `results/v1_turbo_realtime_speed_optimization_20260708` 是当前 latest result；最新 label 是 `FINAL_TURBO_NO_USEFUL_SPEEDUP_KEEP_V1`。
 
 ## clean IDS 数据状态
 
-最新结果记录的数据状态来自 `results/mgcs_mini_global_consensus_search_20260708`。若报告中的 input scope 不完整，以源 artifact 为准，不在 bridge 中编造。
+最新结果记录的数据状态来自 `results/v1_turbo_realtime_speed_optimization_20260708`。若报告中的 input scope 不完整，以源 artifact 为准，不在 bridge 中编造。
 
 ## EPBSD / BBS acceleration 状态
 
@@ -14,7 +14,7 @@
 
 ## baseline-aware / independent algorithm 状态
 
-当前 active track: `missing`。根据 latest gate，当前结论是 `MGCS_ORACLE_ACCURATE_BUT_IMPRACTICAL_RUNTIME`。
+当前 active track: `missing`。根据 latest gate，当前结论是 `FINAL_TURBO_NO_USEFUL_SPEEDUP_KEEP_V1`。
 
 BAEPC+FEIW 的 `BAEPC_FEIW_STOP_FULL_ALIGNMENT_REQUIRED` 仅是 historical frozen negative evidence；它不可 revise、不可 patch，也不属于 active frontier。
 
@@ -28,7 +28,7 @@ BAEPC+FEIW 的 `BAEPC_FEIW_STOP_FULL_ALIGNMENT_REQUIRED` 仅是 historical froze
 
 ## 当前 gate
 
-MGCS_ORACLE_ACCURATE_BUT_IMPRACTICAL_RUNTIME
+FINAL_TURBO_NO_USEFUL_SPEEDUP_KEEP_V1
 
 ## 当前最大风险
 

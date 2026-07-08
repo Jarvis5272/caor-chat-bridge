@@ -1,11 +1,11 @@
 # Codex Feedback To ChatGPT
 
-1. final label: `MGCS_ORACLE_ACCURATE_BUT_IMPRACTICAL_RUNTIME`
-2. output dir: `results/mgcs_mini_global_consensus_search_20260708`
+1. final label: `FINAL_TURBO_NO_USEFUL_SPEEDUP_KEEP_V1`
+2. output dir: `results/v1_turbo_realtime_speed_optimization_20260708`
 3. completed stages: missing
 4. key metrics:
 - missing
-5. gate decision: MGCS_ORACLE_ACCURATE_BUT_IMPRACTICAL_RUNTIME
+5. gate decision: FINAL_TURBO_NO_USEFUL_SPEEDUP_KEEP_V1
 6. claim boundary: BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
 7. next recommendation: Review latest result artifacts and confirm whether another validation step is warranted.
 8. protected files modified? `unknown`

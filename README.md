@@ -12,8 +12,8 @@ ChatGPT should first read:
 
 ## Current Latest Result
 
-- latest result: `results/mgcs_mini_global_consensus_search_20260708`
-- latest final label: `MGCS_ORACLE_ACCURATE_BUT_IMPRACTICAL_RUNTIME`
+- latest result: `results/v1_turbo_realtime_speed_optimization_20260708`
+- latest final label: `FINAL_TURBO_NO_USEFUL_SPEEDUP_KEEP_V1`
 
 ## Claim Boundary
 

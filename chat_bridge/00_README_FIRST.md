@@ -6,7 +6,7 @@
 
 ## 当前主线状态
 
-服务器显式结果为 `results/mgcs_mini_global_consensus_search_20260708`；当前最新 Codex label 为 `MGCS_ORACLE_ACCURATE_BUT_IMPRACTICAL_RUNTIME`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT`。
+服务器显式结果为 `results/v1_turbo_realtime_speed_optimization_20260708`；当前最新 Codex label 为 `FINAL_TURBO_NO_USEFUL_SPEEDUP_KEEP_V1`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT`。
 
 ## 项目状态源
 
@@ -14,11 +14,11 @@
 
 ## 最新 Codex final label
 
-`MGCS_ORACLE_ACCURATE_BUT_IMPRACTICAL_RUNTIME`
+`FINAL_TURBO_NO_USEFUL_SPEEDUP_KEEP_V1`
 
 ## 最新输出目录
 
-`results/mgcs_mini_global_consensus_search_20260708`
+`results/v1_turbo_realtime_speed_optimization_20260708`
 
 ## ChatGPT 应先读哪些文件
 

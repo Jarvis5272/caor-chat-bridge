@@ -17,18 +17,18 @@
     "chat_bridge/04_ACTIVE_CLAIM_BOUNDARY_CN.md",
     "chat_bridge/05_NEXT_ACTION_CN.md",
     "chat_bridge/09_SYNC_STATUS.tsv",
-    "results/mgcs_mini_global_consensus_search_20260708/MGCS_CORRECTED_CANDIDATE_POOL_ORACLE_REPORT_CN.md",
-    "results/mgcs_mini_global_consensus_search_20260708/MGCS_FINAL_CHEAP_ORACLE_REPORT_CN.md",
-    "results/mgcs_mini_global_consensus_search_20260708/MGCS_LTR_NO_ACCEPTABLE_SELECTOR_REPORT_CN.md",
-    "results/mgcs_mini_global_consensus_search_20260708/MGCS_ORACLE_POTENTIAL_RERANKER_FAILURE_REPORT_CN.md",
-    "results/mgcs_mini_global_consensus_search_20260708/FINAL*_REPORT_CN.md",
-    "results/mgcs_mini_global_consensus_search_20260708/final_decision_matrix.tsv"
+    "results/v1_turbo_realtime_speed_optimization_20260708/FINAL*_REPORT_CN.md",
+    "results/v1_turbo_realtime_speed_optimization_20260708/final_decision_matrix.tsv",
+    "results/v1_turbo_realtime_speed_optimization_20260708/final_artifact_manifest.tsv",
+    "results/v1_turbo_realtime_speed_optimization_20260708/no_protected_files_modified.tsv",
+    "results/v1_turbo_realtime_speed_optimization_20260708/original_bbs_unchanged_audit.tsv",
+    "results/v1_turbo_realtime_speed_optimization_20260708/leakage_audit.tsv"
   ],
-  "final_label": "MGCS_ORACLE_ACCURATE_BUT_IMPRACTICAL_RUNTIME",
-  "gate_decision": "MGCS_ORACLE_ACCURATE_BUT_IMPRACTICAL_RUNTIME",
+  "final_label": "FINAL_TURBO_NO_USEFUL_SPEEDUP_KEEP_V1",
+  "gate_decision": "FINAL_TURBO_NO_USEFUL_SPEEDUP_KEEP_V1",
   "large_files_skipped_count": 3,
-  "latest_result_requested": "results/mgcs_mini_global_consensus_search_20260708",
-  "latest_result_used": "results/mgcs_mini_global_consensus_search_20260708",
+  "latest_result_requested": "results/v1_turbo_realtime_speed_optimization_20260708",
+  "latest_result_used": "results/v1_turbo_realtime_speed_optimization_20260708",
   "main_metrics": {},
   "missing_expected_files": [
     "FINAL*_REPORT_CN.md",
@@ -42,8 +42,8 @@
   ],
   "next_action": "Review latest result artifacts and confirm whether another validation step is warranted.",
   "original_bbs_source_modified": "unknown",
-  "output_dir": "results/mgcs_mini_global_consensus_search_20260708",
+  "output_dir": "results/v1_turbo_realtime_speed_optimization_20260708",
   "protected_files_modified": "unknown",
   "selected_candidate": "missing",
-  "timestamp": "2026-07-08T22:27:50+08:00"
+  "timestamp": "2026-07-08T23:00:05+08:00"
 }

@@ -3,9 +3,9 @@
   "_version": "2.0.0",
   "_description": "FINAL: CAPPED_17_MATCHED fair benchmark. 12 methods complete + audited. ITR background running (PID 85573). CGBAPC/BAPC + internal candidates excluded.",
   "active_task_id": "final_full_17dataset_baseline_benchmark",
-  "active_output_dir": "results/mgcs_mini_global_consensus_search_20260708",
+  "active_output_dir": "results/v1_turbo_realtime_speed_optimization_20260708",
   "task_status": "final_evaluation_complete",
-  "final_label": "MGCS_ORACLE_ACCURATE_BUT_IMPRACTICAL_RUNTIME",
+  "final_label": "FINAL_TURBO_NO_USEFUL_SPEEDUP_KEEP_V1",
   "target_hit": false,
   "active_frontier": [],
   "frozen_candidate_count": 38,
@@ -84,6 +84,6 @@
     "evaluator": "must not be patched"
   },
   "last_agent": "Claude Code (Opus 4.8)",
-  "last_agent_action": "bridge_v2_finalize: MGCS_ORACLE_ACCURATE_BUT_IMPRACTICAL_RUNTIME",
-  "last_modified_iso": "2026-07-08T22:27:50.045270+08:00"
+  "last_agent_action": "bridge_v2_finalize: FINAL_TURBO_NO_USEFUL_SPEEDUP_KEEP_V1",
+  "last_modified_iso": "2026-07-08T23:00:05.513811+08:00"
 }
