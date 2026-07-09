@@ -12,8 +12,8 @@ ChatGPT should first read:
 
 ## Current Latest Result
 
-- latest result: `results/v1_full_stack_acceleration_20260708`
-- latest final label: `V1X_PARALLEL_FEASIBLE_BUT_NOT_EXACT_IDENTICAL`
+- latest result: `results/v1_exact_parallel_deployment_20260708`
+- latest final label: `FINAL_EXACT_PARALLEL_DEPLOYMENT_RELAXED_SUCCESS`
 
 ## Claim Boundary
 

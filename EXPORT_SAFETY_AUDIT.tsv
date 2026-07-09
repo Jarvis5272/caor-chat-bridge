@@ -5,5 +5,5 @@ contains_large_files	fail	chat_bridge_feedback_package.zip
 contains_secret_like_files	pass	false
 contains_raw_reads	pass	false
 contains_only_bridge	pass	CHATGPT_LINK_INSTRUCTIONS_CN.md,README.md,chat_bridge,chat_bridge_feedback_package.zip,scripts
-latest_result_final_label	pass	V1X_PARALLEL_FEASIBLE_BUT_NOT_EXACT_IDENTICAL
+latest_result_final_label	pass	FINAL_EXACT_PARALLEL_DEPLOYMENT_RELAXED_SUCCESS
 claim_boundary_present	pass	BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
