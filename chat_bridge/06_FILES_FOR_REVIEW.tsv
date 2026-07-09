@@ -5,11 +5,11 @@ priority	path	reason_to_review	expected_content	small_enough_for_git	exists	note
 4	chat_bridge/04_ACTIVE_CLAIM_BOUNDARY_CN.md	claim audit	allowed/disallowed claims	yes	yes	generated bridge file
 5	chat_bridge/05_NEXT_ACTION_CN.md	next step	recommended next action	yes	yes	generated bridge file
 6	chat_bridge/09_SYNC_STATUS.tsv	sync audit	detected/missing/skipped status	yes	yes	generated bridge file
-7	results/v1_exact_parallel_deployment_20260708/FINAL*_REPORT_CN.md	missing expected context	FINAL*_REPORT_CN.md	unknown	no	missing; do not infer
-8	results/v1_exact_parallel_deployment_20260708/final_decision_matrix.tsv	missing expected context	final_decision_matrix.tsv	unknown	no	missing; do not infer
-9	results/v1_exact_parallel_deployment_20260708/final_artifact_manifest.tsv	missing expected context	final_artifact_manifest.tsv	unknown	no	missing; do not infer
-10	results/v1_exact_parallel_deployment_20260708/no_protected_files_modified.tsv	missing expected context	no_protected_files_modified.tsv	unknown	no	missing; do not infer
-11	results/v1_exact_parallel_deployment_20260708/original_bbs_unchanged_audit.tsv	missing expected context	original_bbs_unchanged_audit.tsv	unknown	no	missing; do not infer
-12	results/v1_exact_parallel_deployment_20260708/leakage_audit.tsv	missing expected context	leakage_audit.tsv	unknown	no	missing; do not infer
-13	results/v1_exact_parallel_deployment_20260708/commands_run.sh	missing expected context	commands_run.sh	unknown	no	missing; do not infer
-14	results/v1_exact_parallel_deployment_20260708/environment_summary.txt	missing expected context	environment_summary.txt	unknown	no	missing; do not infer
+7	results/v1_compiled_engineering_acceleration_20260709/FINAL_COMPILED_ENGINEERING_ACCELERATION_REPORT_CN.md	latest result source artifact	FINAL*_REPORT_CN.md	yes	yes	2677 bytes
+8	results/v1_compiled_engineering_acceleration_20260709/final_decision_matrix.tsv	missing expected context	final_decision_matrix.tsv	unknown	no	missing; do not infer
+9	results/v1_compiled_engineering_acceleration_20260709/final_artifact_manifest.tsv	missing expected context	final_artifact_manifest.tsv	unknown	no	missing; do not infer
+10	results/v1_compiled_engineering_acceleration_20260709/no_protected_files_modified.tsv	missing expected context	no_protected_files_modified.tsv	unknown	no	missing; do not infer
+11	results/v1_compiled_engineering_acceleration_20260709/original_bbs_unchanged_audit.tsv	missing expected context	original_bbs_unchanged_audit.tsv	unknown	no	missing; do not infer
+12	results/v1_compiled_engineering_acceleration_20260709/leakage_audit.tsv	missing expected context	leakage_audit.tsv	unknown	no	missing; do not infer
+13	results/v1_compiled_engineering_acceleration_20260709/commands_run.sh	missing expected context	commands_run.sh	unknown	no	missing; do not infer
+14	results/v1_compiled_engineering_acceleration_20260709/environment_summary.txt	missing expected context	environment_summary.txt	unknown	no	missing; do not infer

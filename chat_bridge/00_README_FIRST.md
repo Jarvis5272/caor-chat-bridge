@@ -6,7 +6,7 @@
 
 ## 当前主线状态
 
-服务器显式结果为 `results/v1_exact_parallel_deployment_20260708`；当前最新 Codex label 为 `FINAL_EXACT_PARALLEL_DEPLOYMENT_RELAXED_SUCCESS`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT`。
+服务器显式结果为 `results/v1_compiled_engineering_acceleration_20260709`；当前最新 Codex label 为 `FINAL_COMPILED_ACCELERATION_BLOCKED`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT`。
 
 ## 项目状态源
 
@@ -14,11 +14,11 @@
 
 ## 最新 Codex final label
 
-`FINAL_EXACT_PARALLEL_DEPLOYMENT_RELAXED_SUCCESS`
+`FINAL_COMPILED_ACCELERATION_BLOCKED`
 
 ## 最新输出目录
 
-`results/v1_exact_parallel_deployment_20260708`
+`results/v1_compiled_engineering_acceleration_20260709`
 
 ## ChatGPT 应先读哪些文件
 
@@ -35,7 +35,7 @@ BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confi
 
 ## 是否有 missing context
 
-`missing_expected_files=['FINAL*_REPORT_CN.md', 'final_decision_matrix.tsv', 'final_artifact_manifest.tsv', 'no_protected_files_modified.tsv', 'original_bbs_unchanged_audit.tsv', 'leakage_audit.tsv', 'commands_run.sh', 'environment_summary.txt']`。这些缺失项只作为上下文缺口记录；若 required bridge files 全部生成，则不阻塞 bridge 使用。
+`missing_expected_files=['final_decision_matrix.tsv', 'final_artifact_manifest.tsv', 'no_protected_files_modified.tsv', 'original_bbs_unchanged_audit.tsv', 'leakage_audit.tsv', 'commands_run.sh', 'environment_summary.txt']`。这些缺失项只作为上下文缺口记录；若 required bridge files 全部生成，则不阻塞 bridge 使用。
 
 ## 当前下一步
 

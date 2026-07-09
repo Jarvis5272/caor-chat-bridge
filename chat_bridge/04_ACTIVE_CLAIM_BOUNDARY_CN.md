@@ -2,8 +2,8 @@
 
 ## 可以说
 
-- 当前结果是 metadata-only 同步快照，latest result 为 `results/v1_exact_parallel_deployment_20260708`。
-- latest final label 是 `FINAL_EXACT_PARALLEL_DEPLOYMENT_RELAXED_SUCCESS`。
+- 当前结果是 metadata-only 同步快照，latest result 为 `results/v1_compiled_engineering_acceleration_20260709`。
+- latest final label 是 `FINAL_COMPILED_ACCELERATION_BLOCKED`。
 - 当前 claim boundary 是：BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
 
 ## 不能说

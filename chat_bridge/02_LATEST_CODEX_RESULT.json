@@ -17,21 +17,20 @@
     "chat_bridge/04_ACTIVE_CLAIM_BOUNDARY_CN.md",
     "chat_bridge/05_NEXT_ACTION_CN.md",
     "chat_bridge/09_SYNC_STATUS.tsv",
-    "results/v1_exact_parallel_deployment_20260708/FINAL*_REPORT_CN.md",
-    "results/v1_exact_parallel_deployment_20260708/final_decision_matrix.tsv",
-    "results/v1_exact_parallel_deployment_20260708/final_artifact_manifest.tsv",
-    "results/v1_exact_parallel_deployment_20260708/no_protected_files_modified.tsv",
-    "results/v1_exact_parallel_deployment_20260708/original_bbs_unchanged_audit.tsv",
-    "results/v1_exact_parallel_deployment_20260708/leakage_audit.tsv"
+    "results/v1_compiled_engineering_acceleration_20260709/FINAL_COMPILED_ENGINEERING_ACCELERATION_REPORT_CN.md",
+    "results/v1_compiled_engineering_acceleration_20260709/final_decision_matrix.tsv",
+    "results/v1_compiled_engineering_acceleration_20260709/final_artifact_manifest.tsv",
+    "results/v1_compiled_engineering_acceleration_20260709/no_protected_files_modified.tsv",
+    "results/v1_compiled_engineering_acceleration_20260709/original_bbs_unchanged_audit.tsv",
+    "results/v1_compiled_engineering_acceleration_20260709/leakage_audit.tsv"
   ],
-  "final_label": "FINAL_EXACT_PARALLEL_DEPLOYMENT_RELAXED_SUCCESS",
-  "gate_decision": "FINAL_EXACT_PARALLEL_DEPLOYMENT_RELAXED_SUCCESS",
-  "large_files_skipped_count": 0,
-  "latest_result_requested": "results/v1_exact_parallel_deployment_20260708",
-  "latest_result_used": "results/v1_exact_parallel_deployment_20260708",
+  "final_label": "FINAL_COMPILED_ACCELERATION_BLOCKED",
+  "gate_decision": "FINAL_COMPILED_ACCELERATION_BLOCKED",
+  "large_files_skipped_count": 1,
+  "latest_result_requested": "results/v1_compiled_engineering_acceleration_20260709",
+  "latest_result_used": "results/v1_compiled_engineering_acceleration_20260709",
   "main_metrics": {},
   "missing_expected_files": [
-    "FINAL*_REPORT_CN.md",
     "final_decision_matrix.tsv",
     "final_artifact_manifest.tsv",
     "no_protected_files_modified.tsv",
@@ -42,8 +41,8 @@
   ],
   "next_action": "Review latest result artifacts and confirm whether another validation step is warranted.",
   "original_bbs_source_modified": "unknown",
-  "output_dir": "results/v1_exact_parallel_deployment_20260708",
+  "output_dir": "results/v1_compiled_engineering_acceleration_20260709",
   "protected_files_modified": "unknown",
   "selected_candidate": "missing",
-  "timestamp": "2026-07-09T12:29:48+08:00"
+  "timestamp": "2026-07-09T12:52:58+08:00"
 }
