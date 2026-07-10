@@ -1,24 +1,24 @@
 item	status	details
-requested_latest_result	pass	results/v1_compiled_engineering_acceleration_20260709
-used_latest_result	pass	results/v1_compiled_engineering_acceleration_20260709
+requested_latest_result	pass	results/paper_restart_and_validation_20260710
+used_latest_result	pass	results/paper_restart_and_validation_20260710
 explicit_latest_result_used	yes	true
 auto_detected	no	false
 auto_detected_latest_result	no	false
-latest_final_label	pass	FINAL_COMPILED_ACCELERATION_BLOCKED
-latest_output_dir	pass	results/v1_compiled_engineering_acceleration_20260709
+latest_final_label	pass	PAPER_RESTART_VALIDATION_AND_SCALE_PLAN_READY
+latest_output_dir	pass	results/paper_restart_and_validation_20260710
 bridge_consistency_status	pending_validation	generated_pending_validation
 source_of_truth	pass	server_chat_bridge+server_results+github_raw_bridge
 chat_attachment_state	ignored	not_authoritative_and_not_blocking
 stale_baepc_quarantine	pass	historical_frozen_negative_evidence_only
 reason	pass	requested latest result exists and was used
-latest result requested	pass	results/v1_compiled_engineering_acceleration_20260709
-latest result used	pass	results/v1_compiled_engineering_acceleration_20260709
+latest result requested	pass	results/paper_restart_and_validation_20260710
+latest result used	pass	results/paper_restart_and_validation_20260710
 latest result detection mode	explicit	False
-latest result detected	pass	results/v1_compiled_engineering_acceleration_20260709
+latest result detected	pass	results/paper_restart_and_validation_20260710
 files copied	pass	0 source artifact files copied; bridge files generated only
-files skipped	pass	1
-large files skipped	pass	1
-missing expected files	warn	final_decision_matrix.tsv, final_artifact_manifest.tsv, no_protected_files_modified.tsv, original_bbs_unchanged_audit.tsv, leakage_audit.tsv, commands_run.sh, environment_summary.txt
+files skipped	pass	0
+large files skipped	pass	0
+missing expected files	warn	leakage_audit.tsv
 required bridge files present	pass	14/14
 package path	pass	chat_bridge_feedback_package.zip
 git branch	pass	release/earlystop-v0.4
@@ -30,19 +30,16 @@ git status summary	pass	"M AGENTS.md
  M PAPER_NOTES.md
  M PROJECT_CONTEXT.md
  M TASK_STATE.md
-?? chat_bridge/
-?? chat_bridge_export/
-?? chat_bridge_feedback_package.zip
-?? experiments/anchor_aware_dsbr_eval.py
-?? experiments/anchor_pool_markov_selector_eval.py
-?? experiments/anchor_rescue_opportunity.py
-?? experiments/auto_profile_realtime_eval.py
-?? experiments/bbs_baseline_eval.py
-?? experiments/candidate_pool_selector_eval.py
-?? experiments"
-timestamp	pass	2026-07-09T12:52:58+08:00
-protected files modified	warn	unknown
+?? ACOR_Realtime_Reconstruction_Progress_Report.pptx
+?? ACOR_Realtime_Reconstruction_Progress_Report_TEMPLATE_REMAKE.pptx
+?? ACOR_Realtime_Reconstruction_Progress_Report_v2.pptx
+?? ACOR_Realtime_Reconstruction_Progress_Report_v3_template_style.pptx
+?? PPT_TEMPLATE_REMAKE_CHECK_REPORT_CN.md
+?? PPT_V2_CHECK_REPORT_CN.md
+?? PPT_V3_TEMPLATE_STYLE_CHECK_RE"
+timestamp	pass	2026-07-10T22:24:13+08:00
+protected files modified	pass	no
 original BBS source modified	warn	unknown
 generated bridge files	pass	14
 read_skipped	pass	[]
-scan_skipped	pass	"[{""path"": ""results/v1_compiled_engineering_acceleration_20260709/COMPILED_GOLDEN_TEST_ROWS.tsv"", ""reason"": ""large_result_file_not_copied"", ""size"": 172666}]"
+scan_skipped	pass	[]

@@ -12,8 +12,8 @@ ChatGPT should first read:
 
 ## Current Latest Result
 
-- latest result: `results/v1_compiled_engineering_acceleration_20260709`
-- latest final label: `FINAL_COMPILED_ACCELERATION_BLOCKED`
+- latest result: `results/paper_restart_and_validation_20260710`
+- latest final label: `PAPER_RESTART_VALIDATION_AND_SCALE_PLAN_READY`
 
 ## Claim Boundary
 

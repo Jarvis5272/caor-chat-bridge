@@ -11,7 +11,13 @@ import zipfile
 from pathlib import Path
 
 
-FORBIDDEN_SUFFIXES = {".fastq", ".fq", ".fasta", ".fa", ".bam", ".sam", ".gz", ".chunk"}
+FORBIDDEN_SUFFIXES = {
+    ".fastq", ".fq", ".fasta", ".fa", ".bam", ".sam", ".gz", ".chunk",
+    # The bridge package is a state-sync artifact. Presentation images remain
+    # in results/ and should not make the public bridge mirror large.
+    ".png", ".jpg", ".jpeg", ".pdf", ".svg", ".html", ".pptx",
+}
+MAX_BRIDGE_FILE_BYTES = 1024 * 1024
 SECRET_NAME_RE = re.compile(
     r"(^|[/_.-])(secret|token|api[-_]?key|credential|password|passwd|id_rsa|id_dsa|id_ed25519|\.env)([/_.-]|$)",
     re.IGNORECASE,
@@ -19,7 +25,11 @@ SECRET_NAME_RE = re.compile(
 
 
 def is_forbidden(path: Path) -> bool:
-    return path.suffix.lower() in FORBIDDEN_SUFFIXES or bool(SECRET_NAME_RE.search(path.as_posix()))
+    return (
+        path.suffix.lower() in FORBIDDEN_SUFFIXES
+        or path.stat().st_size > MAX_BRIDGE_FILE_BYTES
+        or bool(SECRET_NAME_RE.search(path.as_posix()))
+    )
 
 
 def parse_args(argv: list[str]) -> argparse.Namespace:

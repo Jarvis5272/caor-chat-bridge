@@ -13,6 +13,8 @@ from pathlib import Path
 
 
 FORBIDDEN_SUFFIX = {".fastq", ".fq", ".fasta", ".fa", ".bam", ".sam", ".gz", ".npy", ".npz", ".pkl", ".chunk", ".chunks"}
+EXPORT_SKIP_SUFFIX = {".png", ".jpg", ".jpeg", ".pdf", ".svg", ".html", ".pptx"}
+MAX_BRIDGE_FILE_BYTES = 1024 * 1024
 SECRET_RE = re.compile(r"(^|[/_.-])(secret|token|api[-_]?key|credential|password|passwd|id_rsa|id_dsa|id_ed25519|\.env)([/_.-]|$)", re.I)
 
 
@@ -49,7 +51,18 @@ def main() -> int:
         else:
             child.unlink()
 
-    shutil.copytree(bridge, export / "chat_bridge", ignore=shutil.ignore_patterns("__pycache__", "*.pyc"))
+    def ignore_bridge_files(src: str, names: list[str]) -> set[str]:
+        ignored = {"__pycache__"}
+        src_path = Path(src)
+        for name in names:
+            path = src_path / name
+            if name.endswith(".pyc"):
+                ignored.add(name)
+            elif path.is_file() and (path.suffix.lower() in EXPORT_SKIP_SUFFIX or path.stat().st_size > MAX_BRIDGE_FILE_BYTES):
+                ignored.add(name)
+        return ignored
+
+    shutil.copytree(bridge, export / "chat_bridge", ignore=ignore_bridge_files)
     shutil.copy2(package, export / package.name)
     (export / "scripts").mkdir(parents=True, exist_ok=True)
     shutil.copytree(scripts, export / "scripts" / "chat_bridge", ignore=shutil.ignore_patterns("__pycache__", "*.pyc"))

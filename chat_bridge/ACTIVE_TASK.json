@@ -2,10 +2,10 @@
   "_schema": "bridge_v2_active_task",
   "_version": "2.0.0",
   "_description": "FINAL: CAPPED_17_MATCHED fair benchmark. 12 methods complete + audited. ITR background running (PID 85573). CGBAPC/BAPC + internal candidates excluded.",
-  "active_task_id": "final_full_17dataset_baseline_benchmark",
-  "active_output_dir": "results/v1_compiled_engineering_acceleration_20260709",
-  "task_status": "final_evaluation_complete",
-  "final_label": "FINAL_COMPILED_ACCELERATION_BLOCKED",
+  "active_task_id": "paper_restart_and_validation_20260710",
+  "active_output_dir": "results/paper_restart_and_validation_20260710",
+  "task_status": "paper_planning_complete",
+  "final_label": "PAPER_RESTART_VALIDATION_AND_SCALE_PLAN_READY",
   "target_hit": false,
   "active_frontier": [],
   "frozen_candidate_count": 38,
@@ -83,7 +83,7 @@
     "raw_data": "must not be modified",
     "evaluator": "must not be patched"
   },
-  "last_agent": "Claude Code (Opus 4.8)",
-  "last_agent_action": "bridge_v2_finalize: FINAL_COMPILED_ACCELERATION_BLOCKED",
-  "last_modified_iso": "2026-07-09T12:52:58.432212+08:00"
+  "last_agent": "Codex",
+  "last_agent_action": "bridge_v2_finalize: PAPER_RESTART_VALIDATION_AND_SCALE_PLAN_READY",
+  "last_modified_iso": "2026-07-10T22:24:13.180804+08:00"
 }

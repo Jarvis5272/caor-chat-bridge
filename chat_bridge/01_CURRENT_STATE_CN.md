@@ -2,19 +2,19 @@
 
 ## 实时故事状态
 
-最新结果目录 `results/v1_compiled_engineering_acceleration_20260709` 是当前 latest result；最新 label 是 `FINAL_COMPILED_ACCELERATION_BLOCKED`。
+最新结果目录 `results/paper_restart_and_validation_20260710` 是当前 latest result；最新 label 是 `PAPER_RESTART_VALIDATION_AND_SCALE_PLAN_READY`。
 
 ## clean IDS 数据状态
 
-最新结果记录的数据状态来自 `results/v1_compiled_engineering_acceleration_20260709`。若报告中的 input scope 不完整，以源 artifact 为准，不在 bridge 中编造。
+最新结果记录的数据状态来自 `results/paper_restart_and_validation_20260710`。若报告中的 input scope 不完整，以源 artifact 为准，不在 bridge 中编造。
 
 ## EPBSD / BBS acceleration 状态
 
-当前 bridge 只同步状态，不新增 EPBSD/BBS acceleration 实验。latest audit: protected=`unknown`, original_bbs=`unknown`。
+当前 bridge 只同步状态，不新增 EPBSD/BBS acceleration 实验。latest audit: protected=`no`, original_bbs=`unknown`。
 
 ## baseline-aware / independent algorithm 状态
 
-当前 active track: `missing`。根据 latest gate，当前结论是 `FINAL_COMPILED_ACCELERATION_BLOCKED`。
+当前 active track: `missing`。根据 latest gate，当前结论是 `PAPER_RESTART_VALIDATION_AND_SCALE_PLAN_READY`。
 
 BAEPC+FEIW 的 `BAEPC_FEIW_STOP_FULL_ALIGNMENT_REQUIRED` 仅是 historical frozen negative evidence；它不可 revise、不可 patch，也不属于 active frontier。
 
@@ -28,7 +28,7 @@ BAEPC+FEIW 的 `BAEPC_FEIW_STOP_FULL_ALIGNMENT_REQUIRED` 仅是 historical froze
 
 ## 当前 gate
 
-FINAL_COMPILED_ACCELERATION_BLOCKED
+PAPER_RESTART_VALIDATION_AND_SCALE_PLAN_READY
 
 ## 当前最大风险
 
