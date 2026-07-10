@@ -18,7 +18,7 @@ latest result detected	pass	results/paper_restart_and_validation_20260710
 files copied	pass	0 source artifact files copied; bridge files generated only
 files skipped	pass	0
 large files skipped	pass	0
-missing expected files	warn	leakage_audit.tsv
+missing expected files	pass	0
 required bridge files present	pass	14/14
 package path	pass	chat_bridge_feedback_package.zip
 git branch	pass	release/earlystop-v0.4
@@ -37,7 +37,7 @@ git status summary	pass	"M AGENTS.md
 ?? PPT_TEMPLATE_REMAKE_CHECK_REPORT_CN.md
 ?? PPT_V2_CHECK_REPORT_CN.md
 ?? PPT_V3_TEMPLATE_STYLE_CHECK_RE"
-timestamp	pass	2026-07-10T22:24:13+08:00
+timestamp	pass	2026-07-10T22:29:20+08:00
 protected files modified	pass	no
 original BBS source modified	warn	unknown
 generated bridge files	pass	14

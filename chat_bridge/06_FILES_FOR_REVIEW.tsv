@@ -7,8 +7,8 @@ priority	path	reason_to_review	expected_content	small_enough_for_git	exists	note
 6	chat_bridge/09_SYNC_STATUS.tsv	sync audit	detected/missing/skipped status	yes	yes	generated bridge file
 7	results/paper_restart_and_validation_20260710/FINAL_PAPER_RESTART_VALIDATION_AND_SCALE_PLAN_REPORT_CN.md	latest result source artifact	FINAL*_REPORT_CN.md	yes	yes	3307 bytes
 8	results/paper_restart_and_validation_20260710/final_decision_matrix.tsv	latest result source artifact	final_decision_matrix.tsv	yes	yes	789 bytes
-9	results/paper_restart_and_validation_20260710/final_artifact_manifest.tsv	latest result source artifact	final_artifact_manifest.tsv	yes	yes	2455 bytes
+9	results/paper_restart_and_validation_20260710/final_artifact_manifest.tsv	latest result source artifact	final_artifact_manifest.tsv	yes	yes	2646 bytes
 10	results/paper_restart_and_validation_20260710/no_protected_files_modified.tsv	latest result source artifact	no_protected_files_modified.tsv	yes	yes	944 bytes
 11	results/paper_restart_and_validation_20260710/original_bbs_unchanged_audit.tsv	latest result source artifact	original_bbs_unchanged_audit.tsv	yes	yes	119 bytes
-12	results/paper_restart_and_validation_20260710/environment_summary.txt	latest result source artifact	environment_summary.txt	yes	yes	361 bytes
-13	results/paper_restart_and_validation_20260710/leakage_audit.tsv	missing expected context	leakage_audit.tsv	unknown	no	missing; do not infer
+12	results/paper_restart_and_validation_20260710/leakage_audit.tsv	latest result source artifact	leakage_audit.tsv	yes	yes	516 bytes
+13	results/paper_restart_and_validation_20260710/environment_summary.txt	latest result source artifact	environment_summary.txt	yes	yes	361 bytes
