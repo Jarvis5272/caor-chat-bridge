@@ -16,6 +16,15 @@ bridge_remote_url="git@github-caor-chat-bridge:Jarvis5272/caor-chat-bridge.git"
 bridge_branch="main"
 raw_base="https://raw.githubusercontent.com/Jarvis5272/caor-chat-bridge/main"
 
+if [[ -f chat_bridge/bridge_remote.env ]]; then
+  set -a
+  # shellcheck disable=SC1091
+  source chat_bridge/bridge_remote.env
+  set +a
+  bridge_remote_url="${BRIDGE_REMOTE_URL:-$bridge_remote_url}"
+  bridge_branch="${BRIDGE_BRANCH:-$bridge_branch}"
+fi
+
 if [[ ! -d "$latest_result" ]]; then
   echo "bridge_failed_missing_required: explicit latest result not found: $latest_result" >&2
   exit 2
@@ -70,7 +79,11 @@ echo "bridge status: commit and push export"
   else
     echo "No export changes to commit."
   fi
-  git push -u origin "$bridge_branch"
+  if [[ -n "${BRIDGE_GIT_SSH_COMMAND:-}" ]]; then
+    GIT_SSH_COMMAND="$BRIDGE_GIT_SSH_COMMAND" git push -u origin "$bridge_branch"
+  else
+    git push -u origin "$bridge_branch"
+  fi
 )
 
 echo "bridge status: raw validation"
