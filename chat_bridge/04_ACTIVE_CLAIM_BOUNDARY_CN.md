@@ -2,8 +2,8 @@
 
 ## 可以说
 
-- 当前结果是 metadata-only 同步快照，latest result 为 `results/paper_restart_and_validation_20260710`。
-- latest final label 是 `PAPER_RESTART_VALIDATION_AND_SCALE_PLAN_READY`。
+- 当前结果是 metadata-only 同步快照，latest result 为 `results/current_project_source_refresh_20260710`。
+- latest final label 是 `CURRENT_PROJECT_SOURCE_REFRESH_AND_UPLOAD_PACKAGE_READY`。
 - 当前 claim boundary 是：BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
 
 ## 不能说

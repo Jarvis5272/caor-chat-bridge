@@ -6,7 +6,7 @@
 
 ## 当前主线状态
 
-服务器显式结果为 `results/paper_restart_and_validation_20260710`；当前最新 Codex label 为 `PAPER_RESTART_VALIDATION_AND_SCALE_PLAN_READY`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED`。
+服务器显式结果为 `results/current_project_source_refresh_20260710`；当前最新 Codex label 为 `CURRENT_PROJECT_SOURCE_REFRESH_AND_UPLOAD_PACKAGE_READY`。当前 bridge 初始化状态为 `CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT`。
 
 ## 项目状态源
 
@@ -14,11 +14,11 @@
 
 ## 最新 Codex final label
 
-`PAPER_RESTART_VALIDATION_AND_SCALE_PLAN_READY`
+`CURRENT_PROJECT_SOURCE_REFRESH_AND_UPLOAD_PACKAGE_READY`
 
 ## 最新输出目录
 
-`results/paper_restart_and_validation_20260710`
+`results/current_project_source_refresh_20260710`
 
 ## ChatGPT 应先读哪些文件
 
@@ -35,7 +35,7 @@ BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confi
 
 ## 是否有 missing context
 
-`missing_expected_files=[]`。这些缺失项只作为上下文缺口记录；若 required bridge files 全部生成，则不阻塞 bridge 使用。
+`missing_expected_files=['FINAL*_REPORT_CN.md', 'leakage_audit.tsv']`。这些缺失项只作为上下文缺口记录；若 required bridge files 全部生成，则不阻塞 bridge 使用。
 
 ## 当前下一步
 
@@ -47,4 +47,4 @@ Review latest result artifacts and confirm whether another validation step is wa
 
 ## original BBS source 状态
 
-`original_bbs_source_modified=unknown`。本 bridge 任务未写入 `../bbs-src` 或 BBS source。
+`original_bbs_source_modified=no`。本 bridge 任务未写入 `../bbs-src` 或 BBS source。

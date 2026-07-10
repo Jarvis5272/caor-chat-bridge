@@ -156,3 +156,17 @@ If two agents produce conflicting ACTIVE_TASK.json states:
 - ❌ Claiming bridge success when raw validation fails.
 - ❌ Starting a new candidate without checking FROZEN_HISTORY.tsv for duplicates.
 - ❌ Restoring BAEPC or other historical frozen evidence as active.
+
+---
+
+## Migration Event: Current Project Source Refresh (2026-07-10)
+
+- Final label: `CURRENT_PROJECT_SOURCE_REFRESH_AND_UPLOAD_PACKAGE_READY`
+- Output dir: `results/current_project_source_refresh_20260710`
+- Old STWC project files retired from active ChatGPT Project source package.
+- Archive dir: `archive/legacy_stwc_project_context_20260710`
+- New upload source dir: `results/current_project_source_refresh_20260710/UPLOAD_TO_CHATGPT_PROJECT`
+- New upload zip: `results/current_project_source_refresh_20260710/CURRENT_PROJECT_SOURCE_UPLOAD_PACKAGE_20260710.zip`
+- Bridge mirror: `chat_bridge/current_project_source_latest/`
+- Next task: run P0 result cross-validation before locking paper numbers or starting full-source large runs.
+

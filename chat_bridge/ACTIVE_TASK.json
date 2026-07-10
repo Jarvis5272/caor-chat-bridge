@@ -2,10 +2,10 @@
   "_schema": "bridge_v2_active_task",
   "_version": "2.0.0",
   "_description": "FINAL: CAPPED_17_MATCHED fair benchmark. 12 methods complete + audited. ITR background running (PID 85573). CGBAPC/BAPC + internal candidates excluded.",
-  "active_task_id": "paper_restart_and_validation_20260710",
-  "active_output_dir": "results/paper_restart_and_validation_20260710",
-  "task_status": "paper_planning_complete",
-  "final_label": "PAPER_RESTART_VALIDATION_AND_SCALE_PLAN_READY",
+  "active_task_id": "current_project_source_refresh_20260710",
+  "active_output_dir": "results/current_project_source_refresh_20260710",
+  "task_status": "source_refresh_package_complete",
+  "final_label": "CURRENT_PROJECT_SOURCE_REFRESH_AND_UPLOAD_PACKAGE_READY",
   "target_hit": false,
   "active_frontier": [],
   "frozen_candidate_count": 38,
@@ -84,6 +84,7 @@
     "evaluator": "must not be patched"
   },
   "last_agent": "Codex",
-  "last_agent_action": "bridge_v2_finalize: PAPER_RESTART_VALIDATION_AND_SCALE_PLAN_READY",
-  "last_modified_iso": "2026-07-10T22:24:13.180804+08:00"
+  "last_agent_action": "bridge_v2_finalize: CURRENT_PROJECT_SOURCE_REFRESH_AND_UPLOAD_PACKAGE_READY",
+  "last_modified_iso": "2026-07-10T23:02:41.329262+08:00",
+  "active_goal": "project_source_refresh_and_upload_package"
 }

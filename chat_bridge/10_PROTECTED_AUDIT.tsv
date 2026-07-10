@@ -1,7 +1,7 @@
 protected_path	modified	status	notes
-experiments/streaming_slim_generalization_eval.py	no		this task generated files only under results/paper_restart_and_validation_20260710 and bridge finalize may update chat_bridge
-src/pipeline/sparse_viterbi_dbg.py	no		this task generated files only under results/paper_restart_and_validation_20260710 and bridge finalize may update chat_bridge
-src/pipeline/	no		this task generated files only under results/paper_restart_and_validation_20260710 and bridge finalize may update chat_bridge
-baseline/	no		this task generated files only under results/paper_restart_and_validation_20260710 and bridge finalize may update chat_bridge
-external_baselines/	no		this task generated files only under results/paper_restart_and_validation_20260710 and bridge finalize may update chat_bridge
-frozen/	no		this task generated files only under results/paper_restart_and_validation_20260710 and bridge finalize may update chat_bridge
+experiments/streaming_slim_generalization_eval.py	no	not_touched	
+src/pipeline/sparse_viterbi_dbg.py	no	not_touched	
+src/pipeline/	no	not_touched	
+baseline/	no	not_touched	
+external_baselines/	no	not_touched	
+frozen/	no	not_touched	
