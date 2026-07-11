@@ -341,6 +341,8 @@ Cannot use yet:
 - Verified: `{str(remote_sync['verified']).lower()}`
 - Transport: `{remote_sync['transport']}`
 - Commit: `{remote_sync['commit']}`
+- Automatic retry: user-level timer every 10 minutes while `verified=false`; no repeated commit after verification.
+- Fallback zip: disaster recovery only, not the normal per-task workflow.
 - This document marker: `{marker}`
 """
 

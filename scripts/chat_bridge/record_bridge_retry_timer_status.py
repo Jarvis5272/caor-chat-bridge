@@ -21,7 +21,7 @@ def command(*args: str) -> tuple[int, str]:
 def main() -> int:
     enabled_rc, enabled = command("is-enabled", UNIT)
     active_rc, active = command("is-active", UNIT)
-    next_rc, next_value = command("show", UNIT, "--property=NextElapseUSecRealtime", "--value")
+    next_rc, next_value = command("list-timers", UNIT, "--all", "--no-legend", "--no-pager")
     last_rc, last_value = command("show", UNIT, "--property=LastTriggerUSec", "--value")
     rows = [
         {"item": "installed", "status": "pass" if enabled_rc == 0 else "fail", "details": enabled or "unknown"},
