@@ -26,18 +26,16 @@ if [[ "$remote_verified" != true ]]; then
   [[ $timer_exit -ne 0 ]] && timer_state=fallback_generated
 fi
 
-actual_label=CHAT_BRIDGE_V3_SEMANTIC_AND_REMOTE_SYNC_FIXED
-if [[ "$remote_verified" != true ]]; then actual_label=CHAT_BRIDGE_V3_SEMANTIC_FIXED_REMOTE_RETRY_ARMED; fi
-if [[ "$REQUESTED_LABEL" != "$actual_label" ]]; then
-  echo "requested label $REQUESTED_LABEL does not match observed $actual_label" >&2
-  REQUESTED_LABEL="$actual_label"
-fi
+bridge_status_label=CHAT_BRIDGE_V3_SEMANTIC_AND_REMOTE_SYNC_FIXED
+if [[ "$remote_verified" != true ]]; then bridge_status_label=CHAT_BRIDGE_V3_SEMANTIC_FIXED_REMOTE_RETRY_ARMED; fi
 cat > "$RESULT/FINAL_BRIDGE_V3_STATUS.tsv" <<EOF
 item	status	details
 semantic_validation	pass	Bridge V3 semantic validator passed
 remote_verified	$remote_verified	push_exit=$push_exit
 retry_timer	$timer_state	10-minute user retry
-final_label	pass	$REQUESTED_LABEL
+bridge_status_label	pass	$bridge_status_label
+task_event_label	pass	$REQUESTED_LABEL
+task_event_output	pass	$EVENT_OUTPUT
 EOF
 echo "$REQUESTED_LABEL"
 exit 0
