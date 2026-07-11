@@ -2,21 +2,21 @@
   "_schema": "bridge_v3_active_task",
   "_version": "3.0.0",
   "mode": "paper_experiment_pipeline",
-  "active_task_id": "full_source_harness_20260711",
-  "active_output_dir": "results/full_source_harness_20260711",
-  "task_status": "full_source_isolated_harness_ready",
+  "active_task_id": "full_source_oligo0_actual_20260711",
+  "active_output_dir": "results/full_source_oligo0_actual_20260711",
+  "task_status": "oligo0_full_result_locked_bridge_auth_required",
   "latest_research_result": {
-    "final_label": "FINAL_RESULT_CROSS_VALIDATION_PASS_AND_NUMBERS_LOCKED",
-    "output_dir": "results/final_result_cross_validation_20260711",
-    "phase": "p0_result_lock_complete",
-    "numbers_status": "locked"
+    "final_label": "OLIGO0_FULL_RESULT_LOCKED_BRIDGE_AUTH_REQUIRED",
+    "output_dir": "results/full_source_oligo0_actual_20260711",
+    "phase": "small_full_source_oligo0_complete",
+    "numbers_status": "locked_single_source"
   },
-  "experiment_phase": "full_source_harness_ready_actual_runs_not_started",
+  "experiment_phase": "small_full_source_oligo0_complete_medium_large_not_started",
   "paper_sync_status": "ready",
-  "bridge_v3_final_label": "FULL_SOURCE_ISOLATED_HARNESS_READY",
+  "bridge_v3_final_label": "OLIGO0_FULL_RESULT_LOCKED_BRIDGE_AUTH_REQUIRED",
   "remote_sync_status": "retry_armed",
-  "next_codex_action": "review harness package, then execute Phase A oligo0 full-source only when explicitly opened",
-  "next_paper_action": "update paper Source of Truth and Claim Matrix with P0-locked values",
+  "next_codex_action": "review and paper-sync the locked oligo0 full-source result; do not start medium or large without an explicit task",
+  "next_paper_action": "review PAPER_SYNC_CANDIDATE_OLIGO0_FULL_CN.md and preserve the single-source claim boundary",
   "algorithm_search_allowed": false,
   "method_modification_allowed": false,
   "historical_context": {
@@ -31,6 +31,6 @@
     "evaluator_patched": false
   },
   "last_agent": "Codex",
-  "last_agent_action": "isolated full-source harness build and equivalence validation",
-  "last_modified_iso": "2026-07-11T14:52:00+08:00"
+  "last_agent_action": "formal oligo0 full-source execution, independent evaluation, determinism audit, and number lock",
+  "last_modified_iso": "2026-07-11T15:44:00+08:00"
 }

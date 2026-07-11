@@ -34,7 +34,7 @@ Cannot use yet:
 
 ## Next Action
 
-review harness package, then execute Phase A oligo0 full-source only when explicitly opened
+review and paper-sync the locked oligo0 full-source result; do not start medium or large without an explicit task
 
 ## If Linking From GitHub
 
