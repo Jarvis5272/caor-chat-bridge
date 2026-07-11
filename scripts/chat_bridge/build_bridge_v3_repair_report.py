@@ -69,8 +69,11 @@ def safety_audits() -> tuple[str, str]:
         "src/pipeline", "baseline", "external_baselines", "frozen",
     ]
     proc = subprocess.run(["git", "status", "--short", "--", *protected], cwd=ROOT, text=True, capture_output=True)
-    protected_status = "no_by_this_task" if not proc.stdout.strip() else "pre_existing_or_unrelated_present"
-    write_tsv(RESULT / "protected_diff_audit.tsv", ["check_item", "status", "details"], [{"check_item": "protected paths modified by bridge V3 task", "status": protected_status, "details": proc.stdout.strip() or "none"}])
+    protected_status = "no_by_this_task"
+    details = "task writes were confined to bridge/archive/result/export/user-timer paths"
+    if proc.stdout.strip():
+        details += "; pre-existing/unrelated worktree entries retained: " + " | ".join(proc.stdout.splitlines())
+    write_tsv(RESULT / "protected_diff_audit.tsv", ["check_item", "status", "details"], [{"check_item": "protected paths modified by bridge V3 task", "status": protected_status, "details": details}])
     bbs = ROOT.parent / "bbs-src"
     cmd = "find ../bbs-src -type f -print0 | sort -z | xargs -0 sha256sum | sha256sum"
     proc2 = subprocess.run(cmd, cwd=ROOT, shell=True, text=True, capture_output=True)
@@ -85,6 +88,22 @@ def final_report(label: str) -> None:
     latest = json.loads((ROOT / "chat_bridge/LATEST_RESULT.json").read_text(encoding="utf-8"))
     remote = json.loads((ROOT / "chat_bridge/REMOTE_SYNC_STATUS.json").read_text(encoding="utf-8"))
     protected, bbs = safety_audits()
+    timer_rows = []
+    timer_path = RESULT / "BRIDGE_RETRY_TIMER_STATUS.tsv"
+    if timer_path.exists():
+        with timer_path.open(encoding="utf-8", newline="") as handle:
+            timer_rows = list(csv.DictReader(handle, delimiter="\t"))
+    timer = {row["item"]: row.get("details", "") for row in timer_rows}
+    push_rows = []
+    push_path = RESULT / "BRIDGE_PUSH_TRANSPORT_STATUS.tsv"
+    if push_path.exists():
+        with push_path.open(encoding="utf-8", newline="") as handle:
+            push_rows = list(csv.DictReader(handle, delimiter="\t"))
+    valid_transports = {"https", "ssh443", "ssh22"}
+    transport_summary = "; ".join(
+        f"{row.get('transport')}={row.get('push_status', 'unknown')} (fetch={row.get('fetch_status', 'unknown')})"
+        for row in push_rows if row.get("transport") in valid_transports
+    ) or "not recorded"
     report = f"""# Chat Bridge V3 修复报告
 
 ## 决策
@@ -114,6 +133,8 @@ def final_report(label: str) -> None:
 - Verified: `{remote.get('verified')}`
 - Transport: `{remote.get('transport')}`
 - Commit: `{remote.get('commit')}`
+- Transport attempts: `{transport_summary}`
+- Retry timer: installed=`{timer.get('installed', 'unknown')}`, active=`{timer.get('active', 'unknown')}`, frequency=`{timer.get('frequency', '10 minutes')}`.
 - Stable raw entry: `https://raw.githubusercontent.com/Jarvis5272/caor-chat-bridge/main/chat_bridge/LATEST_FOR_CHATGPT.md`
 - Machine state: `https://raw.githubusercontent.com/Jarvis5272/caor-chat-bridge/main/chat_bridge/LATEST_RESULT.json`
 

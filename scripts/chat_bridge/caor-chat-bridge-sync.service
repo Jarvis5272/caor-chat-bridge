@@ -6,6 +6,7 @@ Wants=network-online.target
 [Service]
 Type=oneshot
 WorkingDirectory=/home/hanlinxuan/research/ACOR-online-reconstruction
+Environment=PATH=/home/hanlinxuan/miniconda3/bin:/usr/local/bin:/usr/bin:/bin
 ExecStart=/bin/bash /home/hanlinxuan/research/ACOR-online-reconstruction/scripts/chat_bridge/retry_remote_sync.sh
 Nice=10
 

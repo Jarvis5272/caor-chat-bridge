@@ -1,15 +1,12 @@
-priority	path	reason_to_review	expected_content	small_enough_for_git	exists	notes
-1	chat_bridge/00_README_FIRST.md	entry point	current bridge overview	yes	yes	generated bridge file
-2	chat_bridge/01_CURRENT_STATE_CN.md	state summary	CN project state	yes	yes	generated bridge file
-3	chat_bridge/02_LATEST_CODEX_RESULT.json	machine-readable state	latest result fields	yes	yes	generated bridge file
-4	chat_bridge/04_ACTIVE_CLAIM_BOUNDARY_CN.md	claim audit	allowed/disallowed claims	yes	yes	generated bridge file
-5	chat_bridge/05_NEXT_ACTION_CN.md	next step	recommended next action	yes	yes	generated bridge file
-6	chat_bridge/09_SYNC_STATUS.tsv	sync audit	detected/missing/skipped status	yes	yes	generated bridge file
-7	results/final_result_cross_validation_20260711/FINAL_RESULT_CROSS_VALIDATION_REPORT_CN.md	latest result source artifact	FINAL*_REPORT_CN.md	yes	yes	1825 bytes
-8	results/final_result_cross_validation_20260711/MANUAL_INSPECTION_REPORT_CN.md	latest result source artifact	*REPORT_CN.md	yes	yes	652 bytes
-9	results/final_result_cross_validation_20260711/final_decision_matrix.tsv	latest result source artifact	final_decision_matrix.tsv	yes	yes	2027 bytes
-10	results/final_result_cross_validation_20260711/final_artifact_manifest.tsv	latest result source artifact	final_artifact_manifest.tsv	no	yes	76801 bytes
-11	results/final_result_cross_validation_20260711/no_protected_files_modified.tsv	latest result source artifact	no_protected_files_modified.tsv	yes	yes	631 bytes
-12	results/final_result_cross_validation_20260711/original_bbs_unchanged_audit.tsv	latest result source artifact	original_bbs_unchanged_audit.tsv	yes	yes	274 bytes
-13	results/final_result_cross_validation_20260711/environment_summary.txt	latest result source artifact	environment_summary.txt	yes	yes	475 bytes
-14	results/final_result_cross_validation_20260711/leakage_audit.tsv	missing expected context	leakage_audit.tsv	unknown	no	missing; do not infer
+priority	artifact_role	path	reason_to_review	exists	sha256	status	notes
+1	number_lock	results/final_result_cross_validation_20260711/FINAL_RESULT_LOCK_V1.tsv	Bridge V3 role pointer	yes	d6a32e60d575256109ce50238ef5ab339253f133794c81143d7e4efa3f8f588a	pass	resolved by final manifest and alias patterns; server-local results are not exported
+2	paper_number_lock	results/final_result_cross_validation_20260711/PAPER_NUMBER_LOCK_CN.md	Bridge V3 role pointer	yes	30306e5fe8faee29ebb0016b8b3be144131a8396f0535433f5c5b7473a562b96	pass	resolved by final manifest and alias patterns; server-local results are not exported
+3	final_report	results/final_result_cross_validation_20260711/FINAL_RESULT_CROSS_VALIDATION_REPORT_CN.md	Bridge V3 role pointer	yes	d41a1db6234a637c780829f3c535ecb0d1c6c1b8fa53ae06e610f013a808790a	pass	resolved by final manifest and alias patterns; server-local results are not exported
+4	paper_sync_candidate	results/final_result_cross_validation_20260711/PAPER_SYNC_CANDIDATE_P0_CN.md	Bridge V3 role pointer	yes	80511b5b114d5ce8945b4734dc88a051ddd55b32f661d62a9d8c0b3dd1917e8e	pass	resolved by final manifest and alias patterns; server-local results are not exported
+5	runtime_repeats	results/final_result_cross_validation_20260711/RUNTIME_REPEATABILITY.tsv	Bridge V3 role pointer	yes	05c2c51189e056a53ba8ae05a71cede4837332e6d81ffbfdf30966bdaa0ac995	pass	resolved by final manifest and alias patterns; server-local results are not exported
+6	claim_recheck	results/final_result_cross_validation_20260711/CURRENT_CLAIM_RECHECK.tsv	Bridge V3 role pointer	yes	a06ee2245af51f19ce2c4c5e56707a4908fad26dd5e08af9d8f661d04acd3961	pass	resolved by final manifest and alias patterns; server-local results are not exported
+7	no_leakage_report	results/final_result_cross_validation_20260711/NO_LEAKAGE_AUDIT_CN.md	Bridge V3 role pointer	yes	d2f8bda56a331d0bb4d4c01d57600459ed8e97eabb756f2ab646339c6718bd99	pass	resolved by final manifest and alias patterns; server-local results are not exported
+8	artifact_manifest	results/final_result_cross_validation_20260711/final_artifact_manifest.tsv	Bridge V3 role pointer	yes	8b8ffd926b15e8cc1e9823b4c2c7721b4ffffa2fa592be937767065be0292b57	pass	resolved by final manifest and alias patterns; server-local results are not exported
+9	chatgpt_entry	chat_bridge/LATEST_FOR_CHATGPT.md	Bridge V3 role pointer	generated	generated_after_write	pass	resolved by final manifest and alias patterns; server-local results are not exported
+10	machine_state	chat_bridge/LATEST_RESULT.json	Bridge V3 role pointer	generated	generated_after_write	pass	resolved by final manifest and alias patterns; server-local results are not exported
+11	paper_sync	chat_bridge/PAPER_SYNC_LATEST.md	Bridge V3 role pointer	generated	generated_after_write	pass	resolved by final manifest and alias patterns; server-local results are not exported

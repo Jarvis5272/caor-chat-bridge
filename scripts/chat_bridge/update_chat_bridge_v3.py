@@ -448,6 +448,51 @@ Normal workflow uses the raw entry. `chat_bridge_feedback_package.zip` is disast
 
 Historical compatibility: `FROZEN_HISTORY.tsv` remains immutable evidence, but candidate/frontier state no longer controls the paper experiment pipeline.
 """
+    feedback = f"""# Codex Feedback to ChatGPT - Bridge V3
+
+- Latest research label: `{EXPECTED_LABEL}`
+- Latest research output: `{EXPECTED_OUTPUT}`
+- Current mode: `paper_experiment_pipeline`
+- P0 status: completed; numbers locked.
+- Semantic validation: required before every V3 export.
+- Remote status: `{remote_sync['status']}`; verified=`{str(remote_sync['verified']).lower()}`; transport=`{remote_sync['transport']}`.
+- Stable entry: `{RAW_BASE}/chat_bridge/LATEST_FOR_CHATGPT.md`
+- Normal workflow: read the stable raw entry; the zip is disaster recovery only.
+- Next Codex action: prepare the isolated full-source harness; this bridge task starts no experiment.
+"""
+    open_questions = """# Open Questions
+
+- When should the isolated full-source harness preparation task be opened?
+- Which same-boundary external baselines must be rerun before speedup claims are restored?
+- What order should full-source, sensitivity, ablation, and confidence calibration follow after harness audit?
+- Historical candidate search is closed and does not control these decisions.
+"""
+    review_rows = []
+    for priority, row in enumerate(pointer_rows, start=1):
+        review_rows.append({
+            "priority": priority,
+            "artifact_role": row["artifact_role"],
+            "path": row["local_path"],
+            "reason_to_review": "Bridge V3 role pointer",
+            "exists": row["exists"],
+            "sha256": row["sha256"],
+            "status": row["status"],
+            "notes": "resolved by final manifest and alias patterns; server-local results are not exported",
+        })
+    ledger_rows = [{
+        "timestamp": timestamp,
+        "mode": "paper_experiment_pipeline",
+        "final_label": EXPECTED_LABEL,
+        "output_dir": EXPECTED_OUTPUT,
+        "phase": "p0_result_lock_complete",
+        "numbers_status": "locked",
+        "paper_sync_status": "ready",
+        "remote_sync_status": remote_sync["status"],
+        "claim_boundary": "P0 scope/quality/current-method runtime/determinism/no-leakage locked; old runtime/speedup retired",
+        "protected_files_modified": "no_by_bridge_task",
+        "original_bbs_source_modified": "no_by_bridge_task",
+        "notes": "V2 candidate-search ledger archived at archive/chat_bridge_pre_v3_repair_20260711",
+    }]
     sync_rows = [
         {"item": "schema", "status": "pass", "details": "caor_bridge_v3"},
         {"item": "mode", "status": "pass", "details": "paper_experiment_pipeline"},
@@ -470,7 +515,11 @@ Historical compatibility: `FROZEN_HISTORY.tsv` remains immutable evidence, but c
     (out / "02_LATEST_CODEX_RESULT.json").write_text(json.dumps(latest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     (out / "04_ACTIVE_CLAIM_BOUNDARY_CN.md").write_text(claim_md, encoding="utf-8")
     (out / "05_NEXT_ACTION_CN.md").write_text(next_md, encoding="utf-8")
+    write_tsv(out / "06_FILES_FOR_REVIEW.tsv", review_rows)
+    (out / "08_CODEX_FEEDBACK_TO_CHATGPT.md").write_text(feedback, encoding="utf-8")
+    (out / "12_OPEN_QUESTIONS_CN.md").write_text(open_questions, encoding="utf-8")
     (out / "13_BRIDGE_USAGE_CN.md").write_text(usage, encoding="utf-8")
+    write_tsv(out / "03_RUN_LEDGER.tsv", ledger_rows)
     write_tsv(out / "09_SYNC_STATUS.tsv", sync_rows)
     if audit_out and not (audit_out / "BRIDGE_ARTIFACT_ROLE_MAPPING.tsv").exists():
         write_tsv(audit_out / "BRIDGE_ARTIFACT_ROLE_MAPPING.tsv", mapping)

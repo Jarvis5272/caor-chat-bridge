@@ -18,6 +18,7 @@ STALE = [
     '"selected_candidate": "missing"',
     '"completed_stages": [\n    "missing"',
     "CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT",
+    "results/final_result_cross_validation_20260711/leakage_audit.tsv\tmissing expected context",
 ]
 
 
@@ -33,7 +34,7 @@ def main() -> int:
     state = json.loads((bridge / "LATEST_RESULT.json").read_text(encoding="utf-8"))
     entry = (bridge / "LATEST_FOR_CHATGPT.md").read_text(encoding="utf-8")
     paper = (bridge / "PAPER_SYNC_LATEST.md").read_text(encoding="utf-8")
-    active_files = ["LATEST_FOR_CHATGPT.md", "LATEST_RESULT.json", "PAPER_SYNC_LATEST.md", "00_README_FIRST.md", "01_CURRENT_STATE_CN.md", "02_LATEST_CODEX_RESULT.json", "04_ACTIVE_CLAIM_BOUNDARY_CN.md", "05_NEXT_ACTION_CN.md", "13_BRIDGE_USAGE_CN.md"]
+    active_files = ["LATEST_FOR_CHATGPT.md", "LATEST_RESULT.json", "PAPER_SYNC_LATEST.md", "00_README_FIRST.md", "01_CURRENT_STATE_CN.md", "02_LATEST_CODEX_RESULT.json", "03_RUN_LEDGER.tsv", "04_ACTIVE_CLAIM_BOUNDARY_CN.md", "05_NEXT_ACTION_CN.md", "06_FILES_FOR_REVIEW.tsv", "08_CODEX_FEEDBACK_TO_CHATGPT.md", "12_OPEN_QUESTIONS_CN.md", "13_BRIDGE_USAGE_CN.md"]
     rows = []
     def check(item, ok, expected, observed, notes=""):
         rows.append({"check_item": item, "status": "pass" if ok else "fail", "expected": expected, "observed": observed, "notes": notes})

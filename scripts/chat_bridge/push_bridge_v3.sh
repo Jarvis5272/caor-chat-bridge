@@ -26,7 +26,7 @@ if ! git -C "$EXPORT" diff --cached --quiet; then
 fi
 
 sanitize_error() {
-  tr '\n' ' ' < "$1" | sed -E 's#(https?://)[^/@ ]+@#\1<redacted>@#g' | cut -c1-500
+  tr '\r\n\t' '   ' < "$1" | sed -E 's#(https?://)[^/@ ]+@#\1<redacted>@#g' | cut -c1-500
 }
 
 reconcile_and_push() {

@@ -1,6 +1,6 @@
 # Open Questions
 
-- `results/final_result_cross_validation_20260711` 的 latest gate 是否已经穷尽 active queue，还是仍要求显式 resume？
-- 若当前 frontier 失败，是否存在机制上真正不同且仍满足 no-BBS/no-global-path 边界的 operator family？
-- strong-baseline、BBS trio、projected、source-gap 和 safety gates 是否全部有 same-scope 证据？
-- 任何后续任务都必须以服务器 controller state 为准；聊天附件状态不进入问题列表。
+- When should the isolated full-source harness preparation task be opened?
+- Which same-boundary external baselines must be rerun before speedup claims are restored?
+- What order should full-source, sensitivity, ablation, and confidence calibration follow after harness audit?
+- Historical candidate search is closed and does not control these decisions.
