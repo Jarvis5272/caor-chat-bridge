@@ -79,7 +79,7 @@
     ]
   },
   "paper_sync_status": "ready",
-  "next_codex_action": "stop automatic runtime reruns; review whether a dedicated benchmark host or numactl-capable environment is available; do not start large automatically",
+  "next_codex_action": "review split quality/runtime locks; do not start baselines or further runtime reruns automatically",
   "next_paper_action": "update the paper Source of Truth and Claim Matrix with P0-locked numbers and retire old runtime/speedup claims",
   "artifact_pointers": [
     {
@@ -153,7 +153,7 @@
     "purpose": "historical evidence only"
   },
   "bridge_event": {
-    "output_dir": "results/full_source_365_dishes_runtime_stability_20260711",
-    "final_label": "NCOMMS19_365_DISHES_RUNTIME_STABILITY_BLOCKED"
+    "output_dir": "results/full_source_binned_nanopore_actual_20260711",
+    "final_label": "MEDIUM_QUALITY_LOCKED_LARGE_QUALITY_LOCKED_RUNTIME_ENVIRONMENT_BLOCKED"
   }
 }

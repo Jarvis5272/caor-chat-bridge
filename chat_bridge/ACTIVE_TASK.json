@@ -2,21 +2,21 @@
   "_schema": "bridge_v3_active_task",
   "_version": "3.0.0",
   "mode": "paper_experiment_pipeline",
-  "active_task_id": "full_source_365_dishes_runtime_stability_20260711",
-  "active_output_dir": "results/full_source_365_dishes_runtime_stability_20260711",
-  "task_status": "ncomms19_365_dishes_runtime_stability_blocked_after_controlled_retest",
+  "active_task_id": "full_source_binned_nanopore_actual_20260711",
+  "active_output_dir": "results/full_source_binned_nanopore_actual_20260711",
+  "task_status": "medium_large_quality_locked_runtime_environment_blocked",
   "latest_research_result": {
-    "final_label": "NCOMMS19_365_DISHES_RUNTIME_STABILITY_BLOCKED",
-    "output_dir": "results/full_source_365_dishes_runtime_stability_20260711",
-    "phase": "medium_controlled_runtime_retest_complete_stability_blocked",
-    "numbers_status": "not_locked_runtime_repeatability_gate_failed"
+    "final_label": "MEDIUM_QUALITY_LOCKED_LARGE_QUALITY_LOCKED_RUNTIME_ENVIRONMENT_BLOCKED",
+    "output_dir": "results/full_source_binned_nanopore_actual_20260711",
+    "phase": "medium_and_large_quality_semantic_locked_runtime_split_status",
+    "numbers_status": "quality_locked_runtime_environment_blocked"
   },
-  "experiment_phase": "small_locked_medium_v2_runtime_stability_blocked_large_not_started",
-  "paper_sync_status": "not_ready_medium_runtime_blocker",
-  "bridge_v3_final_label": "NCOMMS19_365_DISHES_RUNTIME_STABILITY_BLOCKED",
+  "experiment_phase": "small_medium_large_quality_complete_runtime_protocols_split",
+  "paper_sync_status": "ready_quality_only_runtime_blocked",
+  "bridge_v3_final_label": "MEDIUM_QUALITY_LOCKED_LARGE_QUALITY_LOCKED_RUNTIME_ENVIRONMENT_BLOCKED",
   "remote_sync_status": "retry_armed",
-  "next_codex_action": "stop automatic runtime reruns; review whether a dedicated benchmark host or numactl-capable environment is available; do not start large automatically",
-  "next_paper_action": "do not sync 365 Dishes runtime as locked; retain quality/identity as audited but medium result remains blocked",
+  "next_codex_action": "review split quality/runtime locks; do not start baselines or further runtime reruns automatically",
+  "next_paper_action": "sync medium and large quality/semantic results only; exclude environment-blocked runtime from speed tables",
   "algorithm_search_allowed": false,
   "method_modification_allowed": false,
   "historical_context": {
@@ -31,6 +31,6 @@
     "evaluator_patched": false
   },
   "last_agent": "Codex",
-  "last_agent_action": "controlled Protocol V2 runtime retest with affinity, warm-up, quiet gates, and balanced 15-run matrix; stability gate still failed",
-  "last_modified_iso": "2026-07-11T19:55:00+08:00"
+  "last_agent_action": "created 365 Dishes quality-only lock and completed Binned Nanopore full quality evaluation; large runtime environment-blocked",
+  "last_modified_iso": "2026-07-11T21:27:00+08:00"
 }

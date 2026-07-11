@@ -34,7 +34,7 @@ Cannot use yet:
 
 ## Next Action
 
-stop automatic runtime reruns; review whether a dedicated benchmark host or numactl-capable environment is available; do not start large automatically
+review split quality/runtime locks; do not start baselines or further runtime reruns automatically
 
 ## If Linking From GitHub
 
