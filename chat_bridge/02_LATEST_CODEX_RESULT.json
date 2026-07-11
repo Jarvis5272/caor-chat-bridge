@@ -153,7 +153,7 @@
     "purpose": "historical evidence only"
   },
   "bridge_event": {
-    "output_dir": "results/full_source_binned_nanopore_actual_20260711",
-    "final_label": "MEDIUM_QUALITY_LOCKED_LARGE_QUALITY_LOCKED_RUNTIME_ENVIRONMENT_BLOCKED"
+    "output_dir": "results/capped17_unified_baseline_lock_20260711",
+    "final_label": "CAPPED17_CORE_BASELINES_LOCKED_LONG_BASELINES_BACKGROUND"
   }
 }
