@@ -154,6 +154,8 @@ def manifest() -> None:
         paths.extend(p for p in base.rglob("*") if p.is_file())
     rows = []
     for path in sorted(set(paths)):
+        if path == RESULT / "BRIDGE_V3_FILE_MANIFEST.tsv":
+            continue
         rows.append({"path": str(path.relative_to(ROOT)), "size_bytes": path.stat().st_size, "sha256": digest(path), "role": "result" if RESULT in path.parents else ("bridge" if ROOT / "chat_bridge" in path.parents else "script"), "status": "present"})
     write_tsv(RESULT / "BRIDGE_V3_FILE_MANIFEST.tsv", ["path", "size_bytes", "sha256", "role", "status"], rows)
 
