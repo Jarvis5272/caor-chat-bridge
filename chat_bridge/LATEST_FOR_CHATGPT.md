@@ -10,7 +10,7 @@ Commit marker: `caor-bridge-v3-20260711T133549+0800-d6a32e60d575`
 - Latest research final label: `FINAL_RESULT_CROSS_VALIDATION_PASS_AND_NUMBERS_LOCKED`
 - Latest research output: `results/final_result_cross_validation_20260711`
 - Phase: `P0 completed, numbers locked`
-- Latest task event: `NCOMMS19_365_DISHES_FULL_RESULT_BLOCKED` at `results/full_source_365_dishes_actual_20260711`.
+- Latest task event: `NCOMMS19_365_DISHES_RUNTIME_STABILITY_BLOCKED` at `results/full_source_365_dishes_runtime_stability_20260711`.
 
 ## Locked scope and quality
 
@@ -58,7 +58,7 @@ Cannot use yet:
 
 ## Next actions
 
-- Codex: review the 365 Dishes runtime-CV blocker and design a bounded runtime-stability rerun only if explicitly approved; do not start large automatically.
+- Codex: stop automatic runtime reruns; review whether a dedicated benchmark host or numactl-capable environment is available; do not start large automatically.
 - Paper Project: update Source of Truth and Claim Matrix using the locked P0 values; remove old runtime and speedup claims.
 
 ## Key pointers

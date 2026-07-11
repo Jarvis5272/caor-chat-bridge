@@ -2,21 +2,21 @@
   "_schema": "bridge_v3_active_task",
   "_version": "3.0.0",
   "mode": "paper_experiment_pipeline",
-  "active_task_id": "full_source_365_dishes_actual_20260711",
-  "active_output_dir": "results/full_source_365_dishes_actual_20260711",
-  "task_status": "ncomms19_365_dishes_full_result_blocked_runtime_cv",
+  "active_task_id": "full_source_365_dishes_runtime_stability_20260711",
+  "active_output_dir": "results/full_source_365_dishes_runtime_stability_20260711",
+  "task_status": "ncomms19_365_dishes_runtime_stability_blocked_after_controlled_retest",
   "latest_research_result": {
-    "final_label": "NCOMMS19_365_DISHES_FULL_RESULT_BLOCKED",
-    "output_dir": "results/full_source_365_dishes_actual_20260711",
-    "phase": "medium_full_source_quality_identity_pass_runtime_cv_blocked",
+    "final_label": "NCOMMS19_365_DISHES_RUNTIME_STABILITY_BLOCKED",
+    "output_dir": "results/full_source_365_dishes_runtime_stability_20260711",
+    "phase": "medium_controlled_runtime_retest_complete_stability_blocked",
     "numbers_status": "not_locked_runtime_repeatability_gate_failed"
   },
-  "experiment_phase": "small_locked_medium_runtime_blocked_large_not_started",
+  "experiment_phase": "small_locked_medium_v2_runtime_stability_blocked_large_not_started",
   "paper_sync_status": "not_ready_medium_runtime_blocker",
-  "bridge_v3_final_label": "NCOMMS19_365_DISHES_FULL_RESULT_BLOCKED",
+  "bridge_v3_final_label": "NCOMMS19_365_DISHES_RUNTIME_STABILITY_BLOCKED",
   "remote_sync_status": "retry_armed",
-  "next_codex_action": "review the 365 Dishes runtime-CV blocker and design a bounded runtime-stability rerun only if explicitly approved; do not start large automatically",
-  "next_paper_action": "do not sync 365 Dishes numbers as locked; oligo0 remains the only locked full-source result",
+  "next_codex_action": "stop automatic runtime reruns; review whether a dedicated benchmark host or numactl-capable environment is available; do not start large automatically",
+  "next_paper_action": "do not sync 365 Dishes runtime as locked; retain quality/identity as audited but medium result remains blocked",
   "algorithm_search_allowed": false,
   "method_modification_allowed": false,
   "historical_context": {
@@ -31,6 +31,6 @@
     "evaluator_patched": false
   },
   "last_agent": "Codex",
-  "last_agent_action": "formal 365 Dishes full-source execution; quality and identity passed, runtime repeatability gate failed",
-  "last_modified_iso": "2026-07-11T18:12:00+08:00"
+  "last_agent_action": "controlled Protocol V2 runtime retest with affinity, warm-up, quiet gates, and balanced 15-run matrix; stability gate still failed",
+  "last_modified_iso": "2026-07-11T19:55:00+08:00"
 }

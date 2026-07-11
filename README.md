@@ -34,7 +34,7 @@ Cannot use yet:
 
 ## Next Action
 
-review the 365 Dishes runtime-CV blocker and design a bounded runtime-stability rerun only if explicitly approved; do not start large automatically
+stop automatic runtime reruns; review whether a dedicated benchmark host or numactl-capable environment is available; do not start large automatically
 
 ## If Linking From GitHub
 
