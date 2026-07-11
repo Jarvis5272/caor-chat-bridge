@@ -1,12 +1,12 @@
 {
   "_schema": "bridge_v2_active_task",
   "_version": "2.0.0",
-  "_description": "FINAL: CAPPED_17_MATCHED fair benchmark. 12 methods complete + audited. ITR background running (PID 85573). CGBAPC/BAPC + internal candidates excluded.",
-  "active_task_id": "current_project_source_refresh_20260710",
-  "active_output_dir": "results/current_project_source_refresh_20260710",
-  "task_status": "source_refresh_package_complete",
-  "final_label": "CURRENT_PROJECT_SOURCE_REFRESH_AND_UPLOAD_PACKAGE_READY",
-  "target_hit": false,
+  "_description": "P0 independent cross-validation complete. CAPPED_17_MATCHED quality, determinism, no-leakage, and revised complete-sequence runtime numbers are locked; old provisional runtimes are retired.",
+  "active_task_id": "final_result_cross_validation_20260711",
+  "active_output_dir": "results/final_result_cross_validation_20260711",
+  "task_status": "result_cross_validation_complete_numbers_locked",
+  "final_label": "FINAL_RESULT_CROSS_VALIDATION_PASS_AND_NUMBERS_LOCKED",
+  "target_hit": true,
   "active_frontier": [],
   "frozen_candidate_count": 38,
   "frozen_history_file": "chat_bridge/FROZEN_HISTORY.tsv",
@@ -52,7 +52,18 @@
     "estimated_runtime": "2-4 hours"
   },
   "key_results": {
-    "OUR_acc": 0.966,
+    "OUR_acc": 0.9660489546082001,
+    "OUR_mean_ED": 4.280116902330771,
+    "OUR_exact": 0.34847566151681986,
+    "CAPPED_17_MATCHED_rows": 82462,
+    "CAPPED_17_MATCHED_cluster_pairs": 16000,
+    "prefix_read_uses": 428322,
+    "runtime_w1_median_complete_sequence_seconds": 90.13,
+    "runtime_w8_median_complete_sequence_seconds": 15.02,
+    "runtime_w16_median_complete_sequence_seconds": 9.23,
+    "old_provisional_runtime_retired": "63.3/9.6/5.3 seconds",
+    "output_identity": "100% across 9 reruns and formal Python output",
+    "no_leakage_audit": "pass",
     "BBS_acc": 0.9688,
     "CPL_acc": 0.9972,
     "VS_acc": 0.945,
@@ -64,7 +75,6 @@
     "OUR_vs_CPL_delta_acc": -0.0312,
     "CPL_best_overall_accuracy": 0.9972,
     "CPL_best_exact": 0.917,
-    "OUR_exact": 0.3485,
     "BBS_exact": 0.2461,
     "CPL_exact": 0.917,
     "row_key_sha256": "7ac2b177a2b5a42d4f1f882610cbb384caa024bd6c60d36944beb57832b8596d"
@@ -84,7 +94,7 @@
     "evaluator": "must not be patched"
   },
   "last_agent": "Codex",
-  "last_agent_action": "bridge_v2_finalize: CURRENT_PROJECT_SOURCE_REFRESH_AND_UPLOAD_PACKAGE_READY",
-  "last_modified_iso": "2026-07-10T23:19:52.710855+08:00",
-  "active_goal": "project_source_refresh_and_upload_package"
+  "last_agent_action": "bridge_v2_finalize: FINAL_RESULT_CROSS_VALIDATION_PASS_AND_NUMBERS_LOCKED",
+  "last_modified_iso": "2026-07-11T12:38:57.654854+08:00",
+  "active_goal": "paper_p0_result_lock_complete_prepare_isolated_full_source_harness"
 }

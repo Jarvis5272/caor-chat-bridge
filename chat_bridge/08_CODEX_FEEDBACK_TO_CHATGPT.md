@@ -1,14 +1,17 @@
-# Codex Final Feedback (Bridge V2)
+# Codex Feedback To ChatGPT
 
-1. final label: CURRENT_PROJECT_SOURCE_REFRESH_AND_UPLOAD_PACKAGE_READY
-2. output dir: results/current_project_source_refresh_20260710
-3. bridge status: local_bridge_ready_remote_push_blocked
-4. bridge v2 consistency: pass
-5. local bridge validation: pass; see chat_bridge/BRIDGE_LOCAL_VALIDATION.tsv
-6. raw README link: https://raw.githubusercontent.com/Jarvis5272/caor-chat-bridge/main/chat_bridge/00_README_FIRST.md
-7. raw README status: not updated in this environment; SSH to github.com:22 and ssh.github.com:443 timed out
-8. fallback package: chat_bridge_feedback_package.zip
-9. source upload package: results/current_project_source_refresh_20260710/CURRENT_PROJECT_SOURCE_UPLOAD_PACKAGE_20260710.zip
-10. protected files modified?: no_by_this_task
-11. original BBS source modified?: no
-12. message to ChatGPT: If raw link is stale, upload chat_bridge_feedback_package.zip or the project source upload zip and start from 00_README_FIRST.md / 00_README_AND_PROJECT_INSTRUCTIONS_PASTE_FIRST.md.
+1. final label: `FINAL_RESULT_CROSS_VALIDATION_PASS_AND_NUMBERS_LOCKED`
+2. output dir: `results/final_result_cross_validation_20260711`
+3. completed stages: missing
+4. key metrics:
+- missing
+5. gate decision: FINAL_RESULT_CROSS_VALIDATION_PASS_AND_NUMBERS_LOCKED
+6. claim boundary: BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
+7. next recommendation: Review latest result artifacts and confirm whether another validation step is warranted.
+8. protected files modified? `no`
+9. original BBS source modified? `no`
+10. files for review: `chat_bridge/06_FILES_FOR_REVIEW.tsv`
+11. missing context: `['leakage_audit.tsv']`
+12. package expected: `chat_bridge_feedback_package.zip`
+13. raw README link: `https://raw.githubusercontent.com/Jarvis5272/caor-chat-bridge/main/chat_bridge/00_README_FIRST.md`
+14. transactional raw validation: `required by bridge_after_run.sh`

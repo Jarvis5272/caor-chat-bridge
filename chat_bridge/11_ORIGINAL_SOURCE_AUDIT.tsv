@@ -1,2 +1,2 @@
 source_path	modified	status	notes
-../bbs-src	no	not_touched	This task did not read/write original BBS source beyond boundary audit intent.
+/home/hanlinxuan/research/bbs-src	no	pass	read-only boundary

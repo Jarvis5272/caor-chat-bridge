@@ -1,9 +1,9 @@
 {
-  "artifact_manifest_path": "results/current_project_source_refresh_20260710/final_artifact_manifest.tsv",
+  "artifact_manifest_path": "results/final_result_cross_validation_20260711/final_artifact_manifest.tsv",
   "auto_detected_latest_result": false,
   "blocking_missing": false,
   "bridge_consistency_status": "generated_pending_validation",
-  "bridge_workflow_final_label": "CHAT_BRIDGE_WORKFLOW_INITIALIZED",
+  "bridge_workflow_final_label": "CHAT_BRIDGE_WORKFLOW_INITIALIZED_WITH_MISSING_CONTEXT",
   "claim_boundary": "BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.",
   "completed_stages": [
     "missing"
@@ -17,24 +17,26 @@
     "chat_bridge/04_ACTIVE_CLAIM_BOUNDARY_CN.md",
     "chat_bridge/05_NEXT_ACTION_CN.md",
     "chat_bridge/09_SYNC_STATUS.tsv",
-    "results/current_project_source_refresh_20260710/FINAL_CURRENT_PROJECT_SOURCE_REFRESH_REPORT_CN.md",
-    "results/current_project_source_refresh_20260710/final_decision_matrix.tsv",
-    "results/current_project_source_refresh_20260710/final_artifact_manifest.tsv",
-    "results/current_project_source_refresh_20260710/no_protected_files_modified.tsv",
-    "results/current_project_source_refresh_20260710/original_bbs_unchanged_audit.tsv",
-    "results/current_project_source_refresh_20260710/leakage_audit.tsv"
+    "results/final_result_cross_validation_20260711/FINAL_RESULT_CROSS_VALIDATION_REPORT_CN.md",
+    "results/final_result_cross_validation_20260711/MANUAL_INSPECTION_REPORT_CN.md",
+    "results/final_result_cross_validation_20260711/final_decision_matrix.tsv",
+    "results/final_result_cross_validation_20260711/final_artifact_manifest.tsv",
+    "results/final_result_cross_validation_20260711/no_protected_files_modified.tsv",
+    "results/final_result_cross_validation_20260711/original_bbs_unchanged_audit.tsv"
   ],
-  "final_label": "CURRENT_PROJECT_SOURCE_REFRESH_AND_UPLOAD_PACKAGE_READY",
-  "gate_decision": "CURRENT_PROJECT_SOURCE_REFRESH_AND_UPLOAD_PACKAGE_READY",
-  "large_files_skipped_count": 0,
-  "latest_result_requested": "results/current_project_source_refresh_20260710",
-  "latest_result_used": "results/current_project_source_refresh_20260710",
+  "final_label": "FINAL_RESULT_CROSS_VALIDATION_PASS_AND_NUMBERS_LOCKED",
+  "gate_decision": "FINAL_RESULT_CROSS_VALIDATION_PASS_AND_NUMBERS_LOCKED",
+  "large_files_skipped_count": 189,
+  "latest_result_requested": "results/final_result_cross_validation_20260711",
+  "latest_result_used": "results/final_result_cross_validation_20260711",
   "main_metrics": {},
-  "missing_expected_files": [],
+  "missing_expected_files": [
+    "leakage_audit.tsv"
+  ],
   "next_action": "Review latest result artifacts and confirm whether another validation step is warranted.",
   "original_bbs_source_modified": "no",
-  "output_dir": "results/current_project_source_refresh_20260710",
+  "output_dir": "results/final_result_cross_validation_20260711",
   "protected_files_modified": "no",
   "selected_candidate": "missing",
-  "timestamp": "2026-07-10T23:19:52+08:00"
+  "timestamp": "2026-07-11T12:38:57+08:00"
 }

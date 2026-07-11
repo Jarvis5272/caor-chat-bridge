@@ -12,8 +12,8 @@ ChatGPT should first read:
 
 ## Current Latest Result
 
-- latest result: `results/current_project_source_refresh_20260710`
-- latest final label: `CURRENT_PROJECT_SOURCE_REFRESH_AND_UPLOAD_PACKAGE_READY`
+- latest result: `results/final_result_cross_validation_20260711`
+- latest final label: `FINAL_RESULT_CROSS_VALIDATION_PASS_AND_NUMBERS_LOCKED`
 
 ## Claim Boundary
 

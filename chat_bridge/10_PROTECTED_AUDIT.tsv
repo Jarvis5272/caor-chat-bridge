@@ -1,7 +1,6 @@
 protected_path	modified	status	notes
-experiments/streaming_slim_generalization_eval.py	no	not_touched	
-src/pipeline/sparse_viterbi_dbg.py	no	not_touched	
-src/pipeline/	no	not_touched	
-baseline/	no	not_touched	
-external_baselines/	no	not_touched	
-frozen/	no	not_touched	
+experiments/streaming_slim_generalization_eval.py	no	no_by_this_task	no write operation targeted this path
+src/pipeline/	no	no_by_this_task	read-only/non-target
+baseline/	no	no_by_this_task	not accessed for modification
+external_baselines/	no	no_by_this_task	hidden in dynamic sandbox, not modified
+frozen/	no	no_by_this_task	not modified
