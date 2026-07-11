@@ -4,7 +4,7 @@
   "mode": "paper_experiment_pipeline",
   "active_task_id": "chat_bridge_v3_repair_20260711",
   "active_output_dir": "results/chat_bridge_v3_repair_20260711",
-  "task_status": "bridge_v3_repair_in_progress",
+  "task_status": "bridge_v3_semantic_fixed_remote_retry_armed",
   "latest_research_result": {
     "final_label": "FINAL_RESULT_CROSS_VALIDATION_PASS_AND_NUMBERS_LOCKED",
     "output_dir": "results/final_result_cross_validation_20260711",
@@ -13,6 +13,8 @@
   },
   "experiment_phase": "p0_completed_prepare_full_source_harness",
   "paper_sync_status": "ready",
+  "bridge_v3_final_label": "CHAT_BRIDGE_V3_SEMANTIC_FIXED_REMOTE_RETRY_ARMED",
+  "remote_sync_status": "retry_armed",
   "next_codex_action": "prepare isolated full-source harness after Bridge V3 repair; do not start experiments in the bridge repair task",
   "next_paper_action": "update paper Source of Truth and Claim Matrix with P0-locked values",
   "algorithm_search_allowed": false,
@@ -30,6 +32,5 @@
   },
   "last_agent": "Codex",
   "last_agent_action": "Bridge V3 semantic and remote-sync repair",
-  "last_modified_iso": "2026-07-11T13:00:00+08:00"
+  "last_modified_iso": "2026-07-11T13:49:00+08:00"
 }
-

@@ -245,6 +245,11 @@ def main() -> int:
         "full-source scalability",
         "parameter sensitivity, ablation, confidence calibration, or new large-scale results",
     ]
+    previous_event = previous_latest.get("bridge_event", {}) if isinstance(previous_latest.get("bridge_event"), dict) else {}
+    bridge_event = {
+        "output_dir": args.bridge_event_output or previous_event.get("output_dir", "none"),
+        "final_label": args.bridge_event_label or previous_event.get("final_label", "none"),
+    }
     latest = {
         "schema": "caor_bridge_v3",
         "mode": "paper_experiment_pipeline",
@@ -269,7 +274,7 @@ def main() -> int:
         "source_git_commit": source_commit,
         "locked_artifact_sha256": lock_sha,
         "historical_context": {"frozen_history": "chat_bridge/FROZEN_HISTORY.tsv", "controls_current_pipeline": False, "purpose": "historical evidence only"},
-        "bridge_event": {"output_dir": args.bridge_event_output or "none", "final_label": args.bridge_event_label or "none"},
+        "bridge_event": bridge_event,
     }
 
     latest_md = f"""# ACOR Latest for ChatGPT

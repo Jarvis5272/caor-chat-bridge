@@ -69,7 +69,7 @@ Cannot use yet:
 
 ## Remote sync
 
-- Status: `pending`
+- Status: `retry_armed`
 - Verified: `false`
 - Transport: `none`
 - Commit: `pending`
