@@ -5,7 +5,7 @@
 - Current mode: `paper_experiment_pipeline`
 - P0 status: completed; numbers locked.
 - Semantic validation: required before every V3 export.
-- Remote status: `retry_armed`; verified=`false`; transport=`none`.
+- Remote status: `verified`; verified=`true`; transport=`ssh443`.
 - Stable entry: `https://raw.githubusercontent.com/Jarvis5272/caor-chat-bridge/main/chat_bridge/LATEST_FOR_CHATGPT.md`
 - Normal workflow: read the stable raw entry; the zip is disaster recovery only.
 - Next Codex action: stop automatic runtime reruns; review whether a dedicated benchmark host or numactl-capable environment is available; do not start large automatically.
