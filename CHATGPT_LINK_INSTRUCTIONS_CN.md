@@ -5,7 +5,7 @@
 Give ChatGPT this raw URL pattern:
 
 ```text
-https://raw.githubusercontent.com/<USER>/<REPO>/main/chat_bridge/00_README_FIRST.md
+https://raw.githubusercontent.com/<USER>/<REPO>/main/chat_bridge/LATEST_FOR_CHATGPT.md
 ```
 
 ## If not pushed
@@ -19,7 +19,7 @@ chat_bridge_feedback_package.zip
 Then tell ChatGPT:
 
 ```text
-请读取这个 chat_bridge package，并基于 00_README_FIRST.md 更新项目状态。
+请读取这个 chat_bridge package，并基于 LATEST_FOR_CHATGPT.md 更新项目状态。
 ```
 
 ## Important boundary

@@ -1,0 +1,13 @@
+[Unit]
+Description=Retry ACOR Chat Bridge V3 remote synchronization
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/home/hanlinxuan/research/ACOR-online-reconstruction
+ExecStart=/bin/bash /home/hanlinxuan/research/ACOR-online-reconstruction/scripts/chat_bridge/retry_remote_sync.sh
+Nice=10
+
+[Install]
+WantedBy=default.target

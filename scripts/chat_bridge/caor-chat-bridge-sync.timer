@@ -1,0 +1,11 @@
+[Unit]
+Description=Check ACOR Chat Bridge V3 remote sync every 10 minutes
+
+[Timer]
+OnBootSec=2min
+OnUnitActiveSec=10min
+Persistent=true
+AccuracySec=30s
+
+[Install]
+WantedBy=timers.target

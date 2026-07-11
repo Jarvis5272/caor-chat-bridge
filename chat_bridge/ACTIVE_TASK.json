@@ -1,100 +1,35 @@
 {
-  "_schema": "bridge_v2_active_task",
-  "_version": "2.0.0",
-  "_description": "P0 independent cross-validation complete. CAPPED_17_MATCHED quality, determinism, no-leakage, and revised complete-sequence runtime numbers are locked; old provisional runtimes are retired.",
-  "active_task_id": "final_result_cross_validation_20260711",
-  "active_output_dir": "results/final_result_cross_validation_20260711",
-  "task_status": "result_cross_validation_complete_numbers_locked",
-  "final_label": "FINAL_RESULT_CROSS_VALIDATION_PASS_AND_NUMBERS_LOCKED",
-  "target_hit": true,
-  "active_frontier": [],
-  "frozen_candidate_count": 38,
-  "frozen_history_file": "chat_bridge/FROZEN_HISTORY.tsv",
+  "_schema": "bridge_v3_active_task",
+  "_version": "3.0.0",
+  "mode": "paper_experiment_pipeline",
+  "active_task_id": "chat_bridge_v3_repair_20260711",
+  "active_output_dir": "results/chat_bridge_v3_repair_20260711",
+  "task_status": "bridge_v3_repair_in_progress",
+  "latest_research_result": {
+    "final_label": "FINAL_RESULT_CROSS_VALIDATION_PASS_AND_NUMBERS_LOCKED",
+    "output_dir": "results/final_result_cross_validation_20260711",
+    "phase": "p0_result_lock_complete",
+    "numbers_status": "locked"
+  },
+  "experiment_phase": "p0_completed_prepare_full_source_harness",
+  "paper_sync_status": "ready",
+  "next_codex_action": "prepare isolated full-source harness after Bridge V3 repair; do not start experiments in the bridge repair task",
+  "next_paper_action": "update paper Source of Truth and Claim Matrix with P0-locked values",
   "algorithm_search_allowed": false,
-  "benchmark_completed": [
-    "OUR_REALTIME_METHOD",
-    "BBS",
-    "CPL",
-    "kmer_medoid",
-    "first_read",
-    "sampled_medoid",
-    "VS (VSEARCH)",
-    "MUSCLE",
-    "BMALA",
-    "conservative_majority",
-    "simple_alignment_consensus",
-    "medoid_consensus_hybrid"
-  ],
-  "benchmark_pending": [
-    "ITR"
-  ],
-  "benchmark_excluded_internal": [
-    "CGBAPC",
-    "BAPC",
-    "ACDC",
-    "DICEC",
-    "TICEC",
-    "GLICE",
-    "CECC",
-    "all 38 Pareto wave candidates"
-  ],
-  "adapter_audits": {
-    "CPL": "valid_external_baseline — standard truth-length protocol, acc=0.9972, no sequence leakage",
-    "BMALA": "completed_low_quality — parser verified, BMALA poor for short reads, acc=0.5378",
-    "VS": "valid_external_baseline — standard protocol, acc=0.9450, no leakage"
-  },
-  "ITR_background": {
-    "pid": 85573,
-    "log_path": "results/final_full_17dataset_baseline_benchmark_20260707/logs/itr_background.log",
-    "script_path": "results/final_full_17dataset_baseline_benchmark_20260707/logs/run_itr_background.py",
-    "partial_output": "CAPPED_17_ITR_raw.tsv",
-    "resume_command": "nohup python logs/run_itr_background.py >> logs/itr_background.log 2>&1 &",
-    "estimated_runtime": "2-4 hours"
-  },
-  "key_results": {
-    "OUR_acc": 0.9660489546082001,
-    "OUR_mean_ED": 4.280116902330771,
-    "OUR_exact": 0.34847566151681986,
-    "CAPPED_17_MATCHED_rows": 82462,
-    "CAPPED_17_MATCHED_cluster_pairs": 16000,
-    "prefix_read_uses": 428322,
-    "runtime_w1_median_complete_sequence_seconds": 90.13,
-    "runtime_w8_median_complete_sequence_seconds": 15.02,
-    "runtime_w16_median_complete_sequence_seconds": 9.23,
-    "old_provisional_runtime_retired": "63.3/9.6/5.3 seconds",
-    "output_identity": "100% across 9 reruns and formal Python output",
-    "no_leakage_audit": "pass",
-    "BBS_acc": 0.9688,
-    "CPL_acc": 0.9972,
-    "VS_acc": 0.945,
-    "BMALA_acc": 0.5378,
-    "MUSCLE_acc": 0.9292,
-    "OUR_vs_BBS_delta_acc": -0.0028,
-    "OUR_vs_BBS_speedup": 6.6,
-    "OUR_vs_CPL_speedup": 36.2,
-    "OUR_vs_CPL_delta_acc": -0.0312,
-    "CPL_best_overall_accuracy": 0.9972,
-    "CPL_best_exact": 0.917,
-    "BBS_exact": 0.2461,
-    "CPL_exact": 0.917,
-    "row_key_sha256": "7ac2b177a2b5a42d4f1f882610cbb384caa024bd6c60d36944beb57832b8596d"
+  "method_modification_allowed": false,
+  "historical_context": {
+    "frozen_history_file": "chat_bridge/FROZEN_HISTORY.tsv",
+    "frozen_candidate_count": 38,
+    "controls_current_pipeline": false
   },
   "protected_boundary": {
-    "files": [
-      "experiments/streaming_slim_generalization_eval.py",
-      "src/pipeline/sparse_viterbi_dbg.py",
-      "src/pipeline/",
-      "baseline/",
-      "external_baselines/",
-      "frozen/"
-    ],
-    "bbs_source": "must not be modified",
-    "epbsd_fork": "must not be modified",
-    "raw_data": "must not be modified",
-    "evaluator": "must not be patched"
+    "protected_code_modified": false,
+    "original_bbs_source_modified": false,
+    "raw_data_modified": false,
+    "evaluator_patched": false
   },
   "last_agent": "Codex",
-  "last_agent_action": "bridge_v2_finalize: FINAL_RESULT_CROSS_VALIDATION_PASS_AND_NUMBERS_LOCKED",
-  "last_modified_iso": "2026-07-11T12:38:57.654854+08:00",
-  "active_goal": "paper_p0_result_lock_complete_prepare_isolated_full_source_harness"
+  "last_agent_action": "Bridge V3 semantic and remote-sync repair",
+  "last_modified_iso": "2026-07-11T13:00:00+08:00"
 }
+

@@ -58,6 +58,8 @@ def main() -> int:
             path = src_path / name
             if name.endswith(".pyc"):
                 ignored.add(name)
+            elif name.endswith(".env"):
+                ignored.add(name)
             elif path.is_file() and (path.suffix.lower() in EXPORT_SKIP_SUFFIX or path.stat().st_size > MAX_BRIDGE_FILE_BYTES):
                 ignored.add(name)
         return ignored
@@ -67,11 +69,20 @@ def main() -> int:
     (export / "scripts").mkdir(parents=True, exist_ok=True)
     shutil.copytree(scripts, export / "scripts" / "chat_bridge", ignore=shutil.ignore_patterns("__pycache__", "*.pyc"))
 
-    latest = json.loads((bridge / "02_LATEST_CODEX_RESULT.json").read_text(encoding="utf-8"))
+    latest_path = bridge / "LATEST_RESULT.json"
+    if not latest_path.exists():
+        latest_path = bridge / "02_LATEST_CODEX_RESULT.json"
+    latest = json.loads(latest_path.read_text(encoding="utf-8"))
     label = latest.get("final_label", "missing")
     latest_dir = latest.get("output_dir", "missing")
     claim = latest.get("claim_boundary", "missing")
-    next_action = latest.get("next_action", "missing")
+    next_action = latest.get("next_codex_action", latest.get("next_action", "missing"))
+    if isinstance(claim, dict):
+        can_use = "\n".join(f"- {item}" for item in claim.get("can_use", [])) or "- missing"
+        cannot_use = "\n".join(f"- {item}" for item in claim.get("cannot_use_yet", [])) or "- missing"
+        claim_text = f"Can use:\n{can_use}\n\nCannot use yet:\n{cannot_use}"
+    else:
+        claim_text = str(claim)
 
     (export / "README.md").write_text(
         f"""# ChatGPT-Codex Bridge Mirror
@@ -93,7 +104,7 @@ ChatGPT should first read:
 
 ## Claim Boundary
 
-{claim}
+{claim_text}
 
 ## Next Action
 
@@ -103,13 +114,13 @@ ChatGPT should first read:
 
 If this mirror is pushed to a public GitHub repository, give ChatGPT the raw link:
 
-`https://raw.githubusercontent.com/<USER>/<REPO>/main/chat_bridge/00_README_FIRST.md`
+`https://raw.githubusercontent.com/<USER>/<REPO>/main/chat_bridge/LATEST_FOR_CHATGPT.md`
 
 ## If Uploading Directly
 
 Upload `chat_bridge_feedback_package.zip` and tell ChatGPT:
 
-Please read this chat_bridge package and update project state from `00_README_FIRST.md`.
+Please read this chat_bridge package and update project state from `LATEST_FOR_CHATGPT.md`.
 """,
         encoding="utf-8",
     )
@@ -122,7 +133,7 @@ Please read this chat_bridge package and update project state from `00_README_FI
 Give ChatGPT this raw URL pattern:
 
 ```text
-https://raw.githubusercontent.com/<USER>/<REPO>/main/chat_bridge/00_README_FIRST.md
+https://raw.githubusercontent.com/<USER>/<REPO>/main/chat_bridge/LATEST_FOR_CHATGPT.md
 ```
 
 ## If not pushed
@@ -136,7 +147,7 @@ chat_bridge_feedback_package.zip
 Then tell ChatGPT:
 
 ```text
-请读取这个 chat_bridge package，并基于 00_README_FIRST.md 更新项目状态。
+请读取这个 chat_bridge package，并基于 LATEST_FOR_CHATGPT.md 更新项目状态。
 ```
 
 ## Important boundary
@@ -174,7 +185,7 @@ This bridge package is a project-state mirror only. It is not a benchmark result
         {"check_item": "contains_raw_reads", "status": "pass" if not raw else "fail", "details": ",".join(raw) if raw else "false"},
         {"check_item": "contains_only_bridge", "status": "pass" if top <= allowed_top else "fail", "details": ",".join(sorted(top))},
         {"check_item": "latest_result_final_label", "status": "pass", "details": label},
-        {"check_item": "claim_boundary_present", "status": "pass" if claim != "missing" else "warn", "details": claim[:200]},
+        {"check_item": "claim_boundary_present", "status": "pass" if claim != "missing" else "warn", "details": claim_text[:200]},
     ]
     write_tsv(export / "EXPORT_SAFETY_AUDIT.tsv", audit, ["check_item", "status", "details"])
 

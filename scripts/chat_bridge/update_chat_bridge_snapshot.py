@@ -1049,9 +1049,24 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
 
 def main(argv: list[str]) -> int:
     args = parse_args(argv)
-    summary = build_snapshot(args)
-    print(json_dump(summary), end="")
-    return 0
+    # Bridge V3 compatibility wrapper. The legacy parser remains below for
+    # historical reproducibility, but it no longer generates active files.
+    # Current paper-pipeline state is always built from locked P0 artifacts.
+    v3 = Path(__file__).with_name("update_chat_bridge_v3.py")
+    command = [
+        sys.executable,
+        str(v3),
+        "--locked-result",
+        "results/final_result_cross_validation_20260711",
+        "--out",
+        args.out,
+    ]
+    if args.latest_result:
+        command.extend(["--bridge-event-output", args.latest_result])
+    if args.final_label_override:
+        command.extend(["--bridge-event-label", args.final_label_override])
+    proc = subprocess.run(command, check=False)
+    return proc.returncode
 
 
 if __name__ == "__main__":

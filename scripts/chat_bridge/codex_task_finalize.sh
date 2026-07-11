@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+exec bash "$(dirname "$0")/codex_task_finalize_v3.sh" "$@"
 set -euo pipefail
 
 # ============================================================================

@@ -17,20 +17,33 @@ ChatGPT should first read:
 
 ## Claim Boundary
 
-BBS-free sync dry-run only. No reconstruction benchmark-quality claim; low-confidence/refusal is not decoder success.
+Can use:
+- locked CAPPED_17_MATCHED scope
+- locked Accuracy / Exact / Mean ED
+- locked end-to-end current-method runtime and Prefix/s
+- 100% determinism across 9 reruns and workers
+- no-leakage PASS
+- online prefix-only protocol
+
+Cannot use yet:
+- retired 63.3 / 9.6 / 5.3 runtime
+- old speedup values
+- baseline speedup not rerun under the same end-to-end boundary
+- full-source scalability
+- parameter sensitivity, ablation, confidence calibration, or new large-scale results
 
 ## Next Action
 
-Review latest result artifacts and confirm whether another validation step is warranted.
+prepare isolated full-source harness; do not start the full-source experiment in the bridge repair task
 
 ## If Linking From GitHub
 
 If this mirror is pushed to a public GitHub repository, give ChatGPT the raw link:
 
-`https://raw.githubusercontent.com/<USER>/<REPO>/main/chat_bridge/00_README_FIRST.md`
+`https://raw.githubusercontent.com/<USER>/<REPO>/main/chat_bridge/LATEST_FOR_CHATGPT.md`
 
 ## If Uploading Directly
 
 Upload `chat_bridge_feedback_package.zip` and tell ChatGPT:
 
-Please read this chat_bridge package and update project state from `00_README_FIRST.md`.
+Please read this chat_bridge package and update project state from `LATEST_FOR_CHATGPT.md`.
