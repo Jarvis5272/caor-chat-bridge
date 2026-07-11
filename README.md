@@ -34,7 +34,7 @@ Cannot use yet:
 
 ## Next Action
 
-review and paper-sync the locked oligo0 full-source result; do not start medium or large without an explicit task
+review the 365 Dishes runtime-CV blocker and design a bounded runtime-stability rerun only if explicitly approved; do not start large automatically
 
 ## If Linking From GitHub
 

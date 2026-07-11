@@ -2,21 +2,21 @@
   "_schema": "bridge_v3_active_task",
   "_version": "3.0.0",
   "mode": "paper_experiment_pipeline",
-  "active_task_id": "full_source_oligo0_actual_20260711",
-  "active_output_dir": "results/full_source_oligo0_actual_20260711",
-  "task_status": "oligo0_full_result_locked_bridge_auth_required",
+  "active_task_id": "full_source_365_dishes_actual_20260711",
+  "active_output_dir": "results/full_source_365_dishes_actual_20260711",
+  "task_status": "ncomms19_365_dishes_full_result_blocked_runtime_cv",
   "latest_research_result": {
-    "final_label": "OLIGO0_FULL_RESULT_LOCKED_BRIDGE_AUTH_REQUIRED",
-    "output_dir": "results/full_source_oligo0_actual_20260711",
-    "phase": "small_full_source_oligo0_complete",
-    "numbers_status": "locked_single_source"
+    "final_label": "NCOMMS19_365_DISHES_FULL_RESULT_BLOCKED",
+    "output_dir": "results/full_source_365_dishes_actual_20260711",
+    "phase": "medium_full_source_quality_identity_pass_runtime_cv_blocked",
+    "numbers_status": "not_locked_runtime_repeatability_gate_failed"
   },
-  "experiment_phase": "small_full_source_oligo0_complete_medium_large_not_started",
-  "paper_sync_status": "ready",
-  "bridge_v3_final_label": "OLIGO0_FULL_RESULT_LOCKED_BRIDGE_AUTH_REQUIRED",
+  "experiment_phase": "small_locked_medium_runtime_blocked_large_not_started",
+  "paper_sync_status": "not_ready_medium_runtime_blocker",
+  "bridge_v3_final_label": "NCOMMS19_365_DISHES_FULL_RESULT_BLOCKED",
   "remote_sync_status": "retry_armed",
-  "next_codex_action": "review and paper-sync the locked oligo0 full-source result; do not start medium or large without an explicit task",
-  "next_paper_action": "review PAPER_SYNC_CANDIDATE_OLIGO0_FULL_CN.md and preserve the single-source claim boundary",
+  "next_codex_action": "review the 365 Dishes runtime-CV blocker and design a bounded runtime-stability rerun only if explicitly approved; do not start large automatically",
+  "next_paper_action": "do not sync 365 Dishes numbers as locked; oligo0 remains the only locked full-source result",
   "algorithm_search_allowed": false,
   "method_modification_allowed": false,
   "historical_context": {
@@ -31,6 +31,6 @@
     "evaluator_patched": false
   },
   "last_agent": "Codex",
-  "last_agent_action": "formal oligo0 full-source execution, independent evaluation, determinism audit, and number lock",
-  "last_modified_iso": "2026-07-11T15:44:00+08:00"
+  "last_agent_action": "formal 365 Dishes full-source execution; quality and identity passed, runtime repeatability gate failed",
+  "last_modified_iso": "2026-07-11T18:12:00+08:00"
 }
