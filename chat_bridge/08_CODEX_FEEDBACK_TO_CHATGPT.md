@@ -8,4 +8,4 @@
 - Remote status: `retry_armed`; verified=`false`; transport=`none`.
 - Stable entry: `https://raw.githubusercontent.com/Jarvis5272/caor-chat-bridge/main/chat_bridge/LATEST_FOR_CHATGPT.md`
 - Normal workflow: read the stable raw entry; the zip is disaster recovery only.
-- Next Codex action: prepare the isolated full-source harness; this bridge task starts no experiment.
+- Next Codex action: review harness package, then execute Phase A oligo0 full-source only when explicitly opened.

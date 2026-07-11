@@ -250,6 +250,17 @@ def main() -> int:
         "output_dir": args.bridge_event_output or previous_event.get("output_dir", "none"),
         "final_label": args.bridge_event_label or previous_event.get("final_label", "none"),
     }
+    active_task = {}
+    active_task_path = out / "ACTIVE_TASK.json"
+    if active_task_path.exists():
+        try:
+            active_task = json.loads(active_task_path.read_text(encoding="utf-8"))
+        except Exception:
+            active_task = {}
+    next_codex_action = active_task.get(
+        "next_codex_action",
+        "prepare isolated full-source harness; do not start the full-source experiment in the bridge repair task",
+    )
     latest = {
         "schema": "caor_bridge_v3",
         "mode": "paper_experiment_pipeline",
@@ -265,7 +276,7 @@ def main() -> int:
         "retired_numbers": {"runtime_seconds": {"worker_1": 63.3, "worker_8": 9.6, "worker_16": 5.3}, "status": "retired_do_not_use"},
         "claim_boundary": {"can_use": claim_can, "cannot_use_yet": claim_cannot},
         "paper_sync_status": "ready",
-        "next_codex_action": "prepare isolated full-source harness; do not start the full-source experiment in the bridge repair task",
+        "next_codex_action": next_codex_action,
         "next_paper_action": "update the paper Source of Truth and Claim Matrix with P0-locked numbers and retire old runtime/speedup claims",
         "artifact_pointers": artifact_pointers,
         "remote_sync": remote_sync,
@@ -289,6 +300,7 @@ Commit marker: `{marker}`
 - Latest research final label: `{EXPECTED_LABEL}`
 - Latest research output: `{EXPECTED_OUTPUT}`
 - Phase: `P0 completed, numbers locked`
+- Latest task event: `{bridge_event['final_label']}` at `{bridge_event['output_dir']}`.
 
 ## Locked scope and quality
 
@@ -325,7 +337,7 @@ Cannot use yet:
 
 ## Next actions
 
-- Codex: prepare an isolated full-source harness. This bridge repair task starts no experiment.
+- Codex: {next_codex_action}.
 - Paper Project: update Source of Truth and Claim Matrix using the locked P0 values; remove old runtime and speedup claims.
 
 ## Key pointers
@@ -418,14 +430,14 @@ Historical candidate/frozen records are evidence only and do not control the act
 - Latest research result: `{EXPECTED_OUTPUT}`.
 - Final label: `{EXPECTED_LABEL}`.
 - Numbers: locked under the complete-sequence end-to-end boundary.
-- Next Codex action: prepare an isolated full-source harness; no experiment is started by this bridge task.
+- Next Codex action: {next_codex_action}.
 - Paper action: synchronize P0 locked values and retire old runtime/speedup claims.
 - Historical candidate search controls current state: `no`.
 """
     claim_md = "# Active Claim Boundary\n\n## Can use\n\n" + "".join(f"- {x}.\n" for x in claim_can) + "\n## Cannot use yet\n\n" + "".join(f"- {x}.\n" for x in claim_cannot)
     next_md = """# Next Action
 
-Codex next: prepare the isolated full-source harness without changing the frozen method or starting the experiment in this bridge repair task.
+Codex next: {next_codex_action}.
 
 Paper next: update Source of Truth and Claim Matrix from `PAPER_SYNC_LATEST.md`.
 
@@ -460,7 +472,7 @@ Historical compatibility: `FROZEN_HISTORY.tsv` remains immutable evidence, but c
 - Remote status: `{remote_sync['status']}`; verified=`{str(remote_sync['verified']).lower()}`; transport=`{remote_sync['transport']}`.
 - Stable entry: `{RAW_BASE}/chat_bridge/LATEST_FOR_CHATGPT.md`
 - Normal workflow: read the stable raw entry; the zip is disaster recovery only.
-- Next Codex action: prepare the isolated full-source harness; this bridge task starts no experiment.
+- Next Codex action: {next_codex_action}.
 """
     open_questions = """# Open Questions
 

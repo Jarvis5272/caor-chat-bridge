@@ -2,20 +2,20 @@
   "_schema": "bridge_v3_active_task",
   "_version": "3.0.0",
   "mode": "paper_experiment_pipeline",
-  "active_task_id": "chat_bridge_v3_repair_20260711",
-  "active_output_dir": "results/chat_bridge_v3_repair_20260711",
-  "task_status": "bridge_v3_semantic_fixed_remote_retry_armed",
+  "active_task_id": "full_source_harness_20260711",
+  "active_output_dir": "results/full_source_harness_20260711",
+  "task_status": "full_source_isolated_harness_ready",
   "latest_research_result": {
     "final_label": "FINAL_RESULT_CROSS_VALIDATION_PASS_AND_NUMBERS_LOCKED",
     "output_dir": "results/final_result_cross_validation_20260711",
     "phase": "p0_result_lock_complete",
     "numbers_status": "locked"
   },
-  "experiment_phase": "p0_completed_prepare_full_source_harness",
+  "experiment_phase": "full_source_harness_ready_actual_runs_not_started",
   "paper_sync_status": "ready",
-  "bridge_v3_final_label": "CHAT_BRIDGE_V3_SEMANTIC_FIXED_REMOTE_RETRY_ARMED",
+  "bridge_v3_final_label": "FULL_SOURCE_ISOLATED_HARNESS_READY",
   "remote_sync_status": "retry_armed",
-  "next_codex_action": "prepare isolated full-source harness after Bridge V3 repair; do not start experiments in the bridge repair task",
+  "next_codex_action": "review harness package, then execute Phase A oligo0 full-source only when explicitly opened",
   "next_paper_action": "update paper Source of Truth and Claim Matrix with P0-locked values",
   "algorithm_search_allowed": false,
   "method_modification_allowed": false,
@@ -31,6 +31,6 @@
     "evaluator_patched": false
   },
   "last_agent": "Codex",
-  "last_agent_action": "Bridge V3 semantic and remote-sync repair",
-  "last_modified_iso": "2026-07-11T13:49:00+08:00"
+  "last_agent_action": "isolated full-source harness build and equivalence validation",
+  "last_modified_iso": "2026-07-11T14:52:00+08:00"
 }

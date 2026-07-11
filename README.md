@@ -34,7 +34,7 @@ Cannot use yet:
 
 ## Next Action
 
-prepare isolated full-source harness; do not start the full-source experiment in the bridge repair task
+review harness package, then execute Phase A oligo0 full-source only when explicitly opened
 
 ## If Linking From GitHub
 

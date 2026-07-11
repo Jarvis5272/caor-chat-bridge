@@ -32,6 +32,7 @@ def args() -> argparse.Namespace:
 def main() -> int:
     a = args(); bridge = Path(a.bridge); out = Path(a.out)
     state = json.loads((bridge / "LATEST_RESULT.json").read_text(encoding="utf-8"))
+    active_task = json.loads((bridge / "ACTIVE_TASK.json").read_text(encoding="utf-8"))
     entry = (bridge / "LATEST_FOR_CHATGPT.md").read_text(encoding="utf-8")
     paper = (bridge / "PAPER_SYNC_LATEST.md").read_text(encoding="utf-8")
     active_files = ["LATEST_FOR_CHATGPT.md", "LATEST_RESULT.json", "PAPER_SYNC_LATEST.md", "00_README_FIRST.md", "01_CURRENT_STATE_CN.md", "02_LATEST_CODEX_RESULT.json", "03_RUN_LEDGER.tsv", "04_ACTIVE_CLAIM_BOUNDARY_CN.md", "05_NEXT_ACTION_CN.md", "06_FILES_FOR_REVIEW.tsv", "08_CODEX_FEEDBACK_TO_CHATGPT.md", "12_OPEN_QUESTIONS_CN.md", "13_BRIDGE_USAGE_CN.md"]
@@ -57,7 +58,7 @@ def main() -> int:
     check("no_leakage", state.get("no_leakage",{}).get("status") == "pass", "pass", state.get("no_leakage",{}).get("status"))
     check("paper_sync_status", state.get("paper_sync_status") == "ready", "ready", state.get("paper_sync_status"))
     next_action=state.get("next_codex_action","")
-    check("next_codex_action", "prepare isolated full-source harness" in next_action, "prepare isolated full-source harness", next_action)
+    check("next_codex_action", next_action == active_task.get("next_codex_action"), active_task.get("next_codex_action"), next_action)
     check("entry_under_30kb", len(entry.encode()) < 30*1024, "<30720", len(entry.encode()))
     check("paper_sync_p0_pass", "P0 independent cross-validation passed" in paper, "P0 pass", "present" if "P0 independent cross-validation passed" in paper else "missing")
     for name in active_files:

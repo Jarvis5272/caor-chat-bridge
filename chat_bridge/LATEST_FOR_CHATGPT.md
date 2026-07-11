@@ -10,6 +10,7 @@ Commit marker: `caor-bridge-v3-20260711T133549+0800-d6a32e60d575`
 - Latest research final label: `FINAL_RESULT_CROSS_VALIDATION_PASS_AND_NUMBERS_LOCKED`
 - Latest research output: `results/final_result_cross_validation_20260711`
 - Phase: `P0 completed, numbers locked`
+- Latest task event: `FULL_SOURCE_ISOLATED_HARNESS_READY` at `results/full_source_harness_20260711`.
 
 ## Locked scope and quality
 
@@ -57,7 +58,7 @@ Cannot use yet:
 
 ## Next actions
 
-- Codex: prepare an isolated full-source harness. This bridge repair task starts no experiment.
+- Codex: review harness package, then execute Phase A oligo0 full-source only when explicitly opened.
 - Paper Project: update Source of Truth and Claim Matrix using the locked P0 values; remove old runtime and speedup claims.
 
 ## Key pointers
