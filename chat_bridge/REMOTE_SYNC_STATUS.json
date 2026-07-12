@@ -4,9 +4,9 @@
   "transport": "ssh443",
   "remote_url": "https://github.com/Jarvis5272/caor-chat-bridge",
   "branch": "main",
-  "commit": "0295e784edaa545bf192e17378b231d9069ccce6",
+  "commit": "b61dd2df5a9d9be08a8cd6d9d2983c0949f007ba",
   "commit_marker": "caor-bridge-v3-20260711T133549+0800-d6a32e60d575",
   "generated_timestamp": "2026-07-11T13:35:49+08:00",
-  "last_attempt": "2026-07-12T10:42:48+08:00",
+  "last_attempt": "2026-07-12T11:06:12+08:00",
   "last_error": ""
 }
