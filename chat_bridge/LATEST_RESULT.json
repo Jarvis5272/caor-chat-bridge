@@ -154,6 +154,6 @@
   },
   "bridge_event": {
     "output_dir": "results/capped17_unified_baseline_lock_20260711",
-    "final_label": "CPL_QUALITY_REFERENCE_COMPLETE"
+    "final_label": "CAPPED17_ALL_BASELINE_QUALITY_LOCKED_RUNTIME_PARTIAL"
   }
 }
