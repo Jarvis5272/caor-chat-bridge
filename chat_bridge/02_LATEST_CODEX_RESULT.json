@@ -154,6 +154,6 @@
   },
   "bridge_event": {
     "output_dir": "results/capped17_unified_baseline_lock_20260711",
-    "final_label": "MUSCLE_RUNTIME_STAGE_COMPLETE"
+    "final_label": "CPL_QUALITY_REFERENCE_COMPLETE"
   }
 }
