@@ -132,16 +132,16 @@
     }
   ],
   "remote_sync": {
-    "status": "verified",
-    "verified": true,
-    "transport": "ssh443",
+    "status": "retry_armed",
+    "verified": false,
+    "transport": "none",
     "remote_url": "https://github.com/Jarvis5272/caor-chat-bridge",
     "branch": "main",
-    "commit": "43e400f367ce605bcba7fcf5b126132cea647b2d",
+    "commit": "pending",
     "commit_marker": "caor-bridge-v3-20260711T133549+0800-d6a32e60d575",
     "generated_timestamp": "2026-07-11T13:35:49+08:00",
-    "last_attempt": "2026-07-13T12:08:13+08:00",
-    "last_error": ""
+    "last_attempt": "2026-07-13T12:18:46+08:00",
+    "last_error": "https\tno\tskipped\tskipped\tskipped\tskipped\tcredential_not_configured;ssh443\tyes\tfail\tskipped\tskipped\tskipped\tssh: Could not resolve hostname ssh.github.com: Temporary failure in name resolution  fatal: Could not read from remote repository.  Please make sure you have the correct access rights and the repository exists. ;ssh22\tyes\tfail\tskipped\tskipped\tskipped\tssh: Could not resolve hostname github.com: Temporary failure in name resolution  fatal: Co"
   },
   "generated_timestamp": "2026-07-11T13:35:49+08:00",
   "commit_marker": "caor-bridge-v3-20260711T133549+0800-d6a32e60d575",
