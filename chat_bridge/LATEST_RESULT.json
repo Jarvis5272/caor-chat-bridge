@@ -153,7 +153,7 @@
     "purpose": "historical evidence only"
   },
   "bridge_event": {
-    "output_dir": "results/capped17_unified_baseline_lock_20260711",
-    "final_label": "CAPPED17_ALL_BASELINE_QUALITY_LOCKED_RUNTIME_PARTIAL"
+    "output_dir": "results/capped17_cpl_variability_audit_20260713",
+    "final_label": "CAPPED17_CPL_VARIABILITY_AUDITED_BASELINE_ARTIFACTS_FINALIZED"
   }
 }

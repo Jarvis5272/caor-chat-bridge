@@ -10,7 +10,7 @@ Commit marker: `caor-bridge-v3-20260711T133549+0800-d6a32e60d575`
 - Latest research final label: `FINAL_RESULT_CROSS_VALIDATION_PASS_AND_NUMBERS_LOCKED`
 - Latest research output: `results/final_result_cross_validation_20260711`
 - Phase: `P0 completed, numbers locked`
-- Latest task event: `CAPPED17_ALL_BASELINE_QUALITY_LOCKED_RUNTIME_PARTIAL` at `results/capped17_unified_baseline_lock_20260711`.
+- Latest task event: `CAPPED17_CPL_VARIABILITY_AUDITED_BASELINE_ARTIFACTS_FINALIZED` at `results/capped17_cpl_variability_audit_20260713`.
 
 ## Locked scope and quality
 
