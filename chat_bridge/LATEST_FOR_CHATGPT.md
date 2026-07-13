@@ -10,7 +10,7 @@ Commit marker: `caor-bridge-v3-20260711T133549+0800-d6a32e60d575`
 - Latest research final label: `FINAL_RESULT_CROSS_VALIDATION_PASS_AND_NUMBERS_LOCKED`
 - Latest research output: `results/final_result_cross_validation_20260711`
 - Phase: `P0 completed, numbers locked`
-- Latest task event: `CURRENT_METHOD_CORE_ABLATION_COMPLETE` at `results/current_method_ablation_20260713`.
+- Latest task event: `CURRENT_METHOD_ABLATION_VALIDATED_GUARD_ROLES_RESOLVED` at `results/current_method_ablation_20260713`.
 
 ## Locked scope and quality
 

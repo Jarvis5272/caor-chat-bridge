@@ -154,6 +154,6 @@
   },
   "bridge_event": {
     "output_dir": "results/current_method_ablation_20260713",
-    "final_label": "CURRENT_METHOD_CORE_ABLATION_COMPLETE"
+    "final_label": "CURRENT_METHOD_ABLATION_VALIDATED_GUARD_ROLES_RESOLVED"
   }
 }
