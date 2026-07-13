@@ -154,6 +154,6 @@
   },
   "bridge_event": {
     "output_dir": "results/paper_v4_1_provenance_and_source_audit_20260713",
-    "final_label": "PAPER_V4_1_PROVENANCE_READY_SOURCE_AUDIT_PENDING"
+    "final_label": "PAPER_V4_1_PROVENANCE_AND_SOURCE_SUPPORT_READY"
   }
 }
