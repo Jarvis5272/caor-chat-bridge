@@ -153,7 +153,7 @@
     "purpose": "historical evidence only"
   },
   "bridge_event": {
-    "output_dir": "results/current_method_ablation_20260713",
-    "final_label": "CURRENT_METHOD_ABLATION_VALIDATED_GUARD_ROLES_RESOLVED"
+    "output_dir": "results/current_method_method_spec_and_sensitivity_design_20260713",
+    "final_label": "CURRENT_METHOD_SPEC_AND_PARAMETER_SENSITIVITY_DESIGN_READY"
   }
 }
