@@ -153,7 +153,7 @@
     "purpose": "historical evidence only"
   },
   "bridge_event": {
-    "output_dir": "results/paper_v4_1_provenance_and_source_audit_20260713",
-    "final_label": "PAPER_V4_1_FINAL_HANDOFF_PACKAGE_REBUILT_AND_VERIFIED"
+    "output_dir": "results/paper_v4_3_anonymous_provenance_closure_20260714",
+    "final_label": "PAPER_V4_3_INPUT_MISSING_OR_HASH_MISMATCH"
   }
 }
