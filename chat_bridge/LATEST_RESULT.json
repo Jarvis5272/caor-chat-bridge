@@ -153,7 +153,7 @@
     "purpose": "historical evidence only"
   },
   "bridge_event": {
-    "output_dir": "results/paper_v4_3_authoritative_provenance_closure_20260714",
-    "final_label": "PAPER_V4_4_CRITICAL_LINEAGE_GAPS_REMAIN"
+    "output_dir": "results/paper_v4_4_manual_provenance_questionnaire_20260714",
+    "final_label": "PAPER_V4_4_MANUAL_PROVENANCE_QUESTIONNAIRE_READY"
   }
 }
