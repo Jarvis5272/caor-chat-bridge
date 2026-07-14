@@ -153,7 +153,7 @@
     "purpose": "historical evidence only"
   },
   "bridge_event": {
-    "output_dir": "results/public_full_source_candidate_audit_20260714",
-    "final_label": "PUBLIC_FULL_SOURCE_CORE_F5_READY_OPTIONAL_SOURCES_PENDING"
+    "output_dir": "results/public_full_f5_admissibility_20260714",
+    "final_label": "PUBLIC_FULL_F4_V1_READY_NBT17_REJECTED"
   }
 }
