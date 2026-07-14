@@ -153,7 +153,7 @@
     "purpose": "historical evidence only"
   },
   "bridge_event": {
-    "output_dir": "results/paper_v4_4_source_adjudication_and_full_contingency_20260714",
-    "final_label": "PAPER_V4_4_CLOVER_VERIFIED_UPLOADED_EXCLUSION_RECOMMENDED"
+    "output_dir": "results/public_full_source_candidate_audit_20260714",
+    "final_label": "PUBLIC_FULL_SOURCE_CORE_F5_READY_OPTIONAL_SOURCES_PENDING"
   }
 }
