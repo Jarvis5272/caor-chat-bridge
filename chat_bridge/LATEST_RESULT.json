@@ -154,6 +154,6 @@
   },
   "bridge_event": {
     "output_dir": "results/overnight_f4_then_trellisbma_20260714",
-    "final_label": "OVERNIGHT_F4_LOCKED_TRELLISBMA_SMOKE_BLOCKED"
+    "final_label": "OVERNIGHT_F4_LOCKED_TRELLISBMA_FORMAL_BLOCKED"
   }
 }
