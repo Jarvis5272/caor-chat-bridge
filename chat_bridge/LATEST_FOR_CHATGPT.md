@@ -10,7 +10,19 @@ Commit marker: `caor-bridge-v3-20260711T133549+0800-d6a32e60d575`
 - Latest research final label: `FINAL_RESULT_CROSS_VALIDATION_PASS_AND_NUMBERS_LOCKED`
 - Latest research output: `results/final_result_cross_validation_20260711`
 - Phase: `P0 completed, numbers locked`
-- Latest task event: `OVERNIGHT_F4_LOCKED_TRELLISBMA_QUALITY_LOCKED_RUNTIME_PARTIAL` at `results/overnight_f4_then_trellisbma_20260714`.
+- Latest task event: `BIOINFORMATICS_METHOD_HARDENING_PARTIAL_WITH_BLOCKERS` at `results/bioinformatics_current_method_hardening_presync_20260726`.
+
+## Current task-event handoff
+
+The historical P0/CAPPED_17 snapshot below is retained for audit compatibility.
+It does not override the current F5 freeze or the current hardening event.
+
+- Completed-evidence summary: `https://raw.githubusercontent.com/Jarvis5272/caor-chat-bridge/main/chat_bridge/CURRENT_TASK_EVENT_SUMMARY_CN.md`
+- Evidence index: `https://raw.githubusercontent.com/Jarvis5272/caor-chat-bridge/main/chat_bridge/CURRENT_TASK_EVENT_EVIDENCE_INDEX.tsv`
+- Timing-pending boundary: `https://raw.githubusercontent.com/Jarvis5272/caor-chat-bridge/main/chat_bridge/CURRENT_TASK_EVENT_PENDING_BOUNDARY.tsv`
+- Paper-line sync candidate: `https://raw.githubusercontent.com/Jarvis5272/caor-chat-bridge/main/chat_bridge/CURRENT_TASK_EVENT_PAPER_SYNC_CN.md`
+- Machine status: `https://raw.githubusercontent.com/Jarvis5272/caor-chat-bridge/main/chat_bridge/CURRENT_TASK_EVENT_STATUS.tsv`
+- Downloadable feedback package: `https://raw.githubusercontent.com/Jarvis5272/caor-chat-bridge/main/chat_bridge/CURRENT_TASK_EVENT_FEEDBACK_PACKAGE.zip`
 
 ## Locked scope and quality
 

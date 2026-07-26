@@ -25,4 +25,13 @@ P0 independent cross-validation passed. Quality, determinism, no-leakage, and cu
 
 Update the paper Source of Truth and Claim Matrix. Writing may use P0-locked values, while full-source, ablation, sensitivity, and calibration remain pending.
 
+## Current task-event paper handoff
+
+For current manuscript work, use
+`https://raw.githubusercontent.com/Jarvis5272/caor-chat-bridge/main/chat_bridge/CURRENT_TASK_EVENT_PAPER_SYNC_CN.md` and
+`https://raw.githubusercontent.com/Jarvis5272/caor-chat-bridge/main/chat_bridge/CURRENT_TASK_EVENT_SUMMARY_CN.md`.
+The P0/CAPPED_17 material above is historical audited evidence and must not
+override the final F5 freeze or the current hardening evidence. Current timing
+closure remains pending and must stay as a placeholder.
+
 Generated `2026-07-11T13:35:49+08:00`; marker `caor-bridge-v3-20260711T133549+0800-d6a32e60d575`.

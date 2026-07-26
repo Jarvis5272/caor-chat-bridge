@@ -7,5 +7,7 @@
 - Semantic validation: required before every V3 export.
 - Remote status: `verified`; verified=`true`; transport=`ssh22`.
 - Stable entry: `https://raw.githubusercontent.com/Jarvis5272/caor-chat-bridge/main/chat_bridge/LATEST_FOR_CHATGPT.md`
+- Current task-event paper sync: `https://raw.githubusercontent.com/Jarvis5272/caor-chat-bridge/main/chat_bridge/CURRENT_TASK_EVENT_PAPER_SYNC_CN.md`
+- Current task-event feedback package: `https://raw.githubusercontent.com/Jarvis5272/caor-chat-bridge/main/chat_bridge/CURRENT_TASK_EVENT_FEEDBACK_PACKAGE.zip`
 - Normal workflow: read the stable raw entry; the zip is disaster recovery only.
 - Next Codex action: review split quality/runtime locks; do not start baselines or further runtime reruns automatically.

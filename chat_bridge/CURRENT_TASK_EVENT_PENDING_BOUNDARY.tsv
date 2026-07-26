@@ -1,0 +1,6 @@
+item	current_status	allowed_use	forbidden_use	next_gate
+Current_P1_five_repeat	pending	not available	do not substitute prior or diagnostic runtime	resource gate then 5/5 identity and CV check
+Current_P8_five_repeat	pending	not available	do not substitute prior or diagnostic runtime	resource gate then 5/5 identity and CV check
+Current_P16_five_repeat	pending	not available	do not substitute prior or diagnostic runtime	resource gate then 5/5 identity and CV check
+Current_P32_five_repeat	pending	reference 57.249 s may be mentioned only as nonlocked planning context	do not report 57.249 s as locked	resource gate then 5/5 identity and CV check
+timing_lock	pending	leave paper placeholder	do not calculate new scaling or throughput claims	four worker cells locked or accurately marked environment-blocked

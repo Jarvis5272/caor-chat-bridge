@@ -153,7 +153,39 @@
     "purpose": "historical evidence only"
   },
   "bridge_event": {
-    "output_dir": "results/overnight_f4_then_trellisbma_20260714",
-    "final_label": "OVERNIGHT_F4_LOCKED_TRELLISBMA_QUALITY_LOCKED_RUNTIME_PARTIAL"
+    "output_dir": "results/bioinformatics_current_method_hardening_presync_20260726",
+    "final_label": "BIOINFORMATICS_METHOD_HARDENING_PARTIAL_WITH_BLOCKERS",
+    "handoff": {
+      "summary": {
+        "path": "chat_bridge/CURRENT_TASK_EVENT_SUMMARY_CN.md",
+        "raw_url": "https://raw.githubusercontent.com/Jarvis5272/caor-chat-bridge/main/chat_bridge/CURRENT_TASK_EVENT_SUMMARY_CN.md",
+        "available": true
+      },
+      "evidence_index": {
+        "path": "chat_bridge/CURRENT_TASK_EVENT_EVIDENCE_INDEX.tsv",
+        "raw_url": "https://raw.githubusercontent.com/Jarvis5272/caor-chat-bridge/main/chat_bridge/CURRENT_TASK_EVENT_EVIDENCE_INDEX.tsv",
+        "available": true
+      },
+      "pending_boundary": {
+        "path": "chat_bridge/CURRENT_TASK_EVENT_PENDING_BOUNDARY.tsv",
+        "raw_url": "https://raw.githubusercontent.com/Jarvis5272/caor-chat-bridge/main/chat_bridge/CURRENT_TASK_EVENT_PENDING_BOUNDARY.tsv",
+        "available": true
+      },
+      "paper_sync": {
+        "path": "chat_bridge/CURRENT_TASK_EVENT_PAPER_SYNC_CN.md",
+        "raw_url": "https://raw.githubusercontent.com/Jarvis5272/caor-chat-bridge/main/chat_bridge/CURRENT_TASK_EVENT_PAPER_SYNC_CN.md",
+        "available": true
+      },
+      "status": {
+        "path": "chat_bridge/CURRENT_TASK_EVENT_STATUS.tsv",
+        "raw_url": "https://raw.githubusercontent.com/Jarvis5272/caor-chat-bridge/main/chat_bridge/CURRENT_TASK_EVENT_STATUS.tsv",
+        "available": true
+      },
+      "feedback_package": {
+        "path": "chat_bridge/CURRENT_TASK_EVENT_FEEDBACK_PACKAGE.zip",
+        "raw_url": "https://raw.githubusercontent.com/Jarvis5272/caor-chat-bridge/main/chat_bridge/CURRENT_TASK_EVENT_FEEDBACK_PACKAGE.zip",
+        "available": true
+      }
+    }
   }
 }

@@ -1,0 +1,10 @@
+item	status	details
+presync_label	ready	BIOINFORMATICS_METHOD_HARDENING_EVIDENCE_PRESYNC_TIMING_PENDING
+completed_evidence	ready	authority scope equivalence ablation sensitivity read_order bootstrap failure_strata full_F5_confirmation
+global_baseline_evidence	ready	F5 79/79 tasks; global 101 cells and 303 runs
+timing_closure	pending	P1/P8/P16/P32 x5 waiting for resource gate
+paper_source_modified	No	sync candidate only
+algorithm_modified	No	frozen
+baseline_modified	No	frozen
+evaluator_modified	No	frozen
+new_experiments_started_by_presync	No	metadata and packaging only

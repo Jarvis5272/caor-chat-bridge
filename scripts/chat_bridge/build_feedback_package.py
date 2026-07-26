@@ -18,6 +18,7 @@ FORBIDDEN_SUFFIXES = {
     ".png", ".jpg", ".jpeg", ".pdf", ".svg", ".html", ".pptx",
 }
 MAX_BRIDGE_FILE_BYTES = 1024 * 1024
+EXCLUDED_BRIDGE_DIRS = {"exports"}
 SECRET_NAME_RE = re.compile(
     r"(^|[/_.-])(secret|token|api[-_]?key|credential|password|passwd|id_rsa|id_dsa|id_ed25519|\.env)([/_.-]|$)",
     re.IGNORECASE,
@@ -62,6 +63,10 @@ def main(argv: list[str]) -> int:
     skipped: list[str] = []
     for path in sorted(bridge.rglob("*")):
         if not path.is_file():
+            continue
+        bridge_rel = path.relative_to(bridge)
+        if any(part in EXCLUDED_BRIDGE_DIRS for part in bridge_rel.parts[:-1]):
+            skipped.append(path.as_posix())
             continue
         if path.resolve() == out:
             skipped.append(path.as_posix())

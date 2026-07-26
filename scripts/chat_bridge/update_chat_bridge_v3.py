@@ -250,6 +250,23 @@ def main() -> int:
         "output_dir": args.bridge_event_output or previous_event.get("output_dir", "none"),
         "final_label": args.bridge_event_label or previous_event.get("final_label", "none"),
     }
+    event_handoff_files = {
+        "summary": "CURRENT_TASK_EVENT_SUMMARY_CN.md",
+        "evidence_index": "CURRENT_TASK_EVENT_EVIDENCE_INDEX.tsv",
+        "pending_boundary": "CURRENT_TASK_EVENT_PENDING_BOUNDARY.tsv",
+        "paper_sync": "CURRENT_TASK_EVENT_PAPER_SYNC_CN.md",
+        "status": "CURRENT_TASK_EVENT_STATUS.tsv",
+        "feedback_package": "CURRENT_TASK_EVENT_FEEDBACK_PACKAGE.zip",
+    }
+    event_handoff = {
+        role: {
+            "path": f"chat_bridge/{name}",
+            "raw_url": f"{RAW_BASE}/chat_bridge/{name}",
+            "available": (out / name).exists(),
+        }
+        for role, name in event_handoff_files.items()
+    }
+    bridge_event["handoff"] = event_handoff
     active_task = {}
     active_task_path = out / "ACTIVE_TASK.json"
     if active_task_path.exists():
@@ -301,6 +318,18 @@ Commit marker: `{marker}`
 - Latest research output: `{EXPECTED_OUTPUT}`
 - Phase: `P0 completed, numbers locked`
 - Latest task event: `{bridge_event['final_label']}` at `{bridge_event['output_dir']}`.
+
+## Current task-event handoff
+
+The historical P0/CAPPED_17 snapshot below is retained for audit compatibility.
+It does not override the current F5 freeze or the current hardening event.
+
+- Completed-evidence summary: `{event_handoff['summary']['raw_url']}`
+- Evidence index: `{event_handoff['evidence_index']['raw_url']}`
+- Timing-pending boundary: `{event_handoff['pending_boundary']['raw_url']}`
+- Paper-line sync candidate: `{event_handoff['paper_sync']['raw_url']}`
+- Machine status: `{event_handoff['status']['raw_url']}`
+- Downloadable feedback package: `{event_handoff['feedback_package']['raw_url']}`
 
 ## Locked scope and quality
 
@@ -384,6 +413,15 @@ P0 independent cross-validation passed. Quality, determinism, no-leakage, and cu
 ## Next paper action
 
 Update the paper Source of Truth and Claim Matrix. Writing may use P0-locked values, while full-source, ablation, sensitivity, and calibration remain pending.
+
+## Current task-event paper handoff
+
+For current manuscript work, use
+`{event_handoff['paper_sync']['raw_url']}` and
+`{event_handoff['summary']['raw_url']}`.
+The P0/CAPPED_17 material above is historical audited evidence and must not
+override the final F5 freeze or the current hardening evidence. Current timing
+closure remains pending and must stay as a placeholder.
 
 Generated `{timestamp}`; marker `{marker}`.
 """
@@ -471,6 +509,8 @@ Historical compatibility: `FROZEN_HISTORY.tsv` remains immutable evidence, but c
 - Semantic validation: required before every V3 export.
 - Remote status: `{remote_sync['status']}`; verified=`{str(remote_sync['verified']).lower()}`; transport=`{remote_sync['transport']}`.
 - Stable entry: `{RAW_BASE}/chat_bridge/LATEST_FOR_CHATGPT.md`
+- Current task-event paper sync: `{event_handoff['paper_sync']['raw_url']}`
+- Current task-event feedback package: `{event_handoff['feedback_package']['raw_url']}`
 - Normal workflow: read the stable raw entry; the zip is disaster recovery only.
 - Next Codex action: {next_codex_action}.
 """
