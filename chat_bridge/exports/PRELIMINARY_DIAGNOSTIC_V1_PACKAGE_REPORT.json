@@ -1,0 +1,12 @@
+{
+  "label": "PRELIMINARY_DIAGNOSTIC_V1_NOT_READY_FOR_PAPER_LOCK",
+  "package": "results/bioinformatics_method_selection_v2_20260726/paper_sync/PRELIMINARY_DIAGNOSTIC_V1_PACKAGE.zip",
+  "sha256": "453215fac7e347cca1dd3f03f3d321bdb27fb3612cfdc20a1d4318c667ba52a9",
+  "bridge_export": "chat_bridge/exports/PRELIMINARY_DIAGNOSTIC_V1_PACKAGE.zip",
+  "files": 22,
+  "results_3_8_status": "pending",
+  "results_3_9_status": "pending",
+  "fig5_status": "pending",
+  "manuscript_modified": false,
+  "baseline_runs_started": false
+}
