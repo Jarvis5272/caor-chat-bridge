@@ -10,7 +10,7 @@ Commit marker: `caor-bridge-v3-20260711T133549+0800-d6a32e60d575`
 - Latest research final label: `FINAL_RESULT_CROSS_VALIDATION_PASS_AND_NUMBERS_LOCKED`
 - Latest research output: `results/final_result_cross_validation_20260711`
 - Phase: `P0 completed, numbers locked`
-- Latest task event: `BIOINFORMATICS_FINAL_REMAINING_EXPERIMENTS_PARTIAL_WITH_REASON` at `results/bioinformatics_final_remaining_experiments_20260728`.
+- Latest task event: `FINAL_MATCHED_WORKER_TIMING_COMPLETE` at `results/bioinformatics_final_remaining_experiments_20260728/paper_sync/PAPER_SYNC_MATCHED_WORKER_TIMING.zip`.
 
 ## Current task-event handoff
 
@@ -82,10 +82,10 @@ Cannot use yet:
 
 ## Remote sync
 
-- Status: `verified`
-- Verified: `true`
-- Transport: `ssh443`
-- Commit: `8a556106d5013f7ab8c0c8983985937545581a9b`
+- Status: `retry_armed`
+- Verified: `false`
+- Transport: `none`
+- Commit: `pending`
 - Automatic retry: user-level timer every 10 minutes while `verified=false`; no repeated commit after verification.
 - Fallback zip: disaster recovery only, not the normal per-task workflow.
 - This document marker: `caor-bridge-v3-20260711T133549+0800-d6a32e60d575`
