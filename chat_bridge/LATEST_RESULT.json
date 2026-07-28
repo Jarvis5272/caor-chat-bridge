@@ -153,8 +153,8 @@
     "purpose": "historical evidence only"
   },
   "bridge_event": {
-    "output_dir": "results/bioinformatics_final_remaining_experiments_20260728/paper_sync/PAPER_SYNC_PREFIX_FINAL_CHECKPOINT.zip",
-    "final_label": "PREFIX_FINAL_WORKLOAD_COMPARISON_COMPLETE",
+    "output_dir": "results/bioinformatics_final_remaining_experiments_20260728",
+    "final_label": "BIOINFORMATICS_FINAL_REMAINING_EXPERIMENTS_PARTIAL_WITH_REASON",
     "handoff": {
       "summary": {
         "path": "chat_bridge/CURRENT_TASK_EVENT_SUMMARY_CN.md",
