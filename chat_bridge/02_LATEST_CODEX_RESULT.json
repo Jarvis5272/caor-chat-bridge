@@ -137,10 +137,10 @@
     "transport": "ssh22",
     "remote_url": "https://github.com/Jarvis5272/caor-chat-bridge",
     "branch": "main",
-    "commit": "1f7fa0c2d1b89fc0c811f38b1cbbcf44174281d2",
+    "commit": "91b94a382d54c5872c4b1b6ca2715a6cf1dc79dd",
     "commit_marker": "caor-bridge-v3-20260711T133549+0800-d6a32e60d575",
     "generated_timestamp": "2026-07-11T13:35:49+08:00",
-    "last_attempt": "2026-07-28T13:37:40+08:00",
+    "last_attempt": "2026-07-28T13:51:00+08:00",
     "last_error": ""
   },
   "generated_timestamp": "2026-07-11T13:35:49+08:00",
@@ -153,8 +153,8 @@
     "purpose": "historical evidence only"
   },
   "bridge_event": {
-    "output_dir": "results/bioinformatics_final_remaining_experiments_20260728/paper_sync/PAPER_SYNC_MATCHED_WORKER_TIMING.zip",
-    "final_label": "FINAL_MATCHED_WORKER_TIMING_COMPLETE",
+    "output_dir": "results/bioinformatics_final_remaining_experiments_20260728/paper_sync/PAPER_SYNC_PREFIX_FINAL_CHECKPOINT.zip",
+    "final_label": "PREFIX_FINAL_WORKLOAD_COMPARISON_COMPLETE",
     "handoff": {
       "summary": {
         "path": "chat_bridge/CURRENT_TASK_EVENT_SUMMARY_CN.md",
