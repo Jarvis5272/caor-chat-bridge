@@ -154,7 +154,7 @@
   },
   "bridge_event": {
     "output_dir": "results/bioinformatics_final_remaining_experiments_20260728",
-    "final_label": "BIOINFORMATICS_FINAL_REMAINING_EXPERIMENTS_BLOCKED_AT_PREFLIGHT",
+    "final_label": "BIOINFORMATICS_FINAL_REMAINING_EXPERIMENTS_PARTIAL_WITH_REASON",
     "handoff": {
       "summary": {
         "path": "chat_bridge/CURRENT_TASK_EVENT_SUMMARY_CN.md",
