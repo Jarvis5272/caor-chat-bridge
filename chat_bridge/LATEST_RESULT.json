@@ -153,8 +153,8 @@
     "purpose": "historical evidence only"
   },
   "bridge_event": {
-    "output_dir": "results/bioinformatics_current_method_hardening_presync_20260726",
-    "final_label": "BIOINFORMATICS_METHOD_HARDENING_PARTIAL_WITH_BLOCKERS",
+    "output_dir": "results/bioinformatics_final_remaining_experiments_20260728",
+    "final_label": "BIOINFORMATICS_FINAL_REMAINING_EXPERIMENTS_BLOCKED_AT_PREFLIGHT",
     "handoff": {
       "summary": {
         "path": "chat_bridge/CURRENT_TASK_EVENT_SUMMARY_CN.md",

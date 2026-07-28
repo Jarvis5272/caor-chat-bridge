@@ -10,7 +10,7 @@ Commit marker: `caor-bridge-v3-20260711T133549+0800-d6a32e60d575`
 - Latest research final label: `FINAL_RESULT_CROSS_VALIDATION_PASS_AND_NUMBERS_LOCKED`
 - Latest research output: `results/final_result_cross_validation_20260711`
 - Phase: `P0 completed, numbers locked`
-- Latest task event: `BIOINFORMATICS_METHOD_HARDENING_PARTIAL_WITH_BLOCKERS` at `results/bioinformatics_current_method_hardening_presync_20260726`.
+- Latest task event: `BIOINFORMATICS_FINAL_REMAINING_EXPERIMENTS_BLOCKED_AT_PREFLIGHT` at `results/bioinformatics_final_remaining_experiments_20260728`.
 
 ## Current task-event handoff
 
