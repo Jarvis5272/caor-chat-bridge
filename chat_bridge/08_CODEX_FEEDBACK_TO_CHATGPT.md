@@ -5,7 +5,7 @@
 - Current mode: `paper_experiment_pipeline`
 - P0 status: completed; numbers locked.
 - Semantic validation: required before every V3 export.
-- Remote status: `retry_armed`; verified=`false`; transport=`none`.
+- Remote status: `verified`; verified=`true`; transport=`ssh22`.
 - Stable entry: `https://raw.githubusercontent.com/Jarvis5272/caor-chat-bridge/main/chat_bridge/LATEST_FOR_CHATGPT.md`
 - Current task-event paper sync: `https://raw.githubusercontent.com/Jarvis5272/caor-chat-bridge/main/chat_bridge/CURRENT_TASK_EVENT_PAPER_SYNC_CN.md`
 - Current task-event feedback package: `https://raw.githubusercontent.com/Jarvis5272/caor-chat-bridge/main/chat_bridge/CURRENT_TASK_EVENT_FEEDBACK_PACKAGE.zip`
