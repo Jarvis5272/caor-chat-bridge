@@ -82,10 +82,10 @@ Cannot use yet:
 
 ## Remote sync
 
-- Status: `verified`
-- Verified: `true`
-- Transport: `ssh443`
-- Commit: `a7e4f4645315d3b75d092cb28d7bfb62e0d496f7`
+- Status: `retry_armed`
+- Verified: `false`
+- Transport: `none`
+- Commit: `pending`
 - Automatic retry: user-level timer every 10 minutes while `verified=false`; no repeated commit after verification.
 - Fallback zip: disaster recovery only, not the normal per-task workflow.
 - This document marker: `caor-bridge-v3-20260711T133549+0800-d6a32e60d575`
