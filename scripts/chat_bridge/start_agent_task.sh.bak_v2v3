@@ -52,9 +52,9 @@ echo "Time:  $(date -Iseconds)"
 
 ACTIVE_OUTPUT_DIR="$(python3 -c "import json;print(json.load(open('$ACTIVE_TASK'))['active_output_dir'])")"
 TASK_STATUS="$(python3 -c "import json;print(json.load(open('$ACTIVE_TASK'))['task_status'])")"
-FINAL_LABEL="$(python3 -c "import json;d=json.load(open('$ACTIVE_TASK'));print(d.get('final_label') or d.get('bridge_v3_final_label') or d.get('latest_research_result',{}).get('final_label',''))")"
-FROZEN_COUNT="$(python3 -c "import json;d=json.load(open('$ACTIVE_TASK'));print(d.get('frozen_candidate_count') or d.get('historical_context',{}).get('frozen_candidate_count','0'))")"
-ACTIVE_FRONTIER="$(python3 -c "import json;d=json.load(open('$ACTIVE_TASK'));print(d.get('active_frontier') or 'NONE')")"
+FINAL_LABEL="$(python3 -c "import json;print(json.load(open('$ACTIVE_TASK'))['final_label'])")"
+FROZEN_COUNT="$(python3 -c "import json;print(json.load(open('$ACTIVE_TASK'))['frozen_candidate_count'])")"
+ACTIVE_FRONTIER="$(python3 -c "import json;print(json.load(open('$ACTIVE_TASK'))['active_frontier'])")"
 LAST_AGENT="$(python3 -c "import json;print(json.load(open('$ACTIVE_TASK'))['last_agent'])")"
 
 echo ""
