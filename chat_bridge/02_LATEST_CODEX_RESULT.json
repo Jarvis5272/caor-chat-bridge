@@ -132,16 +132,16 @@
     }
   ],
   "remote_sync": {
-    "status": "verified",
-    "verified": true,
-    "transport": "ssh443",
+    "status": "retry_armed",
+    "verified": false,
+    "transport": "none",
     "remote_url": "https://github.com/Jarvis5272/caor-chat-bridge",
     "branch": "main",
-    "commit": "828471a7afa9b73ecc55a50bc2a32189fe0161ed",
+    "commit": "pending",
     "commit_marker": "caor-bridge-v3-20260711T133549+0800-d6a32e60d575",
     "generated_timestamp": "2026-07-11T13:35:49+08:00",
-    "last_attempt": "2026-08-11T15:42:31+08:00",
-    "last_error": ""
+    "last_attempt": "2026-08-11T15:56:07+08:00",
+    "last_error": "https\tno\tskipped\tskipped\tskipped\tskipped\tcredential_not_configured;ssh443\tyes\tpass\tfast_forward_push_safe\tpass\tfail\tFrom ssh://ssh.github.com:443/Jarvis5272/caor-chat-bridge  * branch              main       -> FETCH_HEAD  * [new branch]        main       -> origin/main To ssh://ssh.github.com:443/Jarvis5272/caor-chat-bridge.git    733ed727..19596cd4  main -> main Branch 'main' set up to track remote branch 'main' from 'origin'. {   \"checks\": 2, "
   },
   "generated_timestamp": "2026-07-11T13:35:49+08:00",
   "commit_marker": "caor-bridge-v3-20260711T133549+0800-d6a32e60d575",
