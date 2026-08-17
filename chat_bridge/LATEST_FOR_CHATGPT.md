@@ -84,8 +84,8 @@ Cannot use yet:
 
 - Status: `verified`
 - Verified: `true`
-- Transport: `ssh443`
-- Commit: `6368f431fae801738cd644afb58e4cae2ac4d9a1`
+- Transport: `ssh22`
+- Commit: `b53f79f481c1d391751e646b10e375298091fb36`
 - Automatic retry: user-level timer every 10 minutes while `verified=false`; no repeated commit after verification.
 - Fallback zip: disaster recovery only, not the normal per-task workflow.
 - This document marker: `caor-bridge-v3-20260711T133549+0800-d6a32e60d575`
